@@ -18,7 +18,7 @@
         "beschreibung": ""
       }
     ],
-    "googlecar": true,
+    "googlecar": [],
     "bollards": [
       {
         "bild": "",
@@ -106,7 +106,7 @@
         "beschreibung": ""
       }
     ],
-    "googlecar": true,
+    "googlecar": [],
     "bollards": [
       {
         "bild": "",
@@ -145,7 +145,7 @@
         "beschreibung": ""
       }
     ],
-    "googlecar": true,
+    "googlecar": [],
     "bollards": [
       {
         "bild": "",
@@ -184,7 +184,7 @@
         "beschreibung": ""
       }
     ],
-    "googlecar": true,
+    "googlecar": [],
     "bollards": [
       {
         "bild": "",
@@ -223,7 +223,7 @@
         "beschreibung": ""
       }
     ],
-    "googlecar": true,
+    "googlecar": [],
     "bollards": [
       {
         "bild": "",
@@ -262,7 +262,7 @@
         "beschreibung": ""
       }
     ],
-    "googlecar": true,
+    "googlecar": [],
     "bollards": [
       {
         "bild": "",
@@ -301,7 +301,7 @@
         "beschreibung": "Spanisch"
       }
     ],
-    "googlecar": true,
+    "googlecar": [],
     "bollards": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/mexico/mx_bollard.png",

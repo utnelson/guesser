@@ -39,29 +39,39 @@
     ]
   },
   "Ukraine": {
-    "kontinent": "",
+    "kontinent": "Kyrillisch",
     "land": {
-      "domain": "",
-      "flagge": ""
+      "domain": ".ua",
+      "flagge": "https://de.plonkit.net/images/resize/900/80/ukraine/0_summary_ukraine.png"
     },
-    "verkehr": "",
+    "verkehr": "Rechts",
     "plates": [
       {
-        "bild": "",
-        "beschreibung": ""
+        "bild": "https://de.plonkit.net/images/resize/600/80/ukraine/Ukraine_License_Plate.png",
+        "beschreibung": "blue and yellow strip on the left"
       }
     ],
     "sprache": [
       {
-        "bild": "",
-        "beschreibung": ""
+        "bild": "https://de.plonkit.net/images/resize/600/80/ukraine/Ukrainian_language.png",
+        "beschreibung": "These letters are unique to Ukrainian, compared to Russian: Є є (not to be confused with Э э in Russian and Belarusian.) Ґ ґ І і Ї ї"
       }
     ],
-    "googlecar": true,
+    "googlecar": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/ukraine/Red_car.png",
+        "beschreibung": "colours of the Ukrainian flag"
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/ukraine/Other_Ukraine_cars.png",
+        "beschreibung": "colours of the Ukrainian flag"
+      }
+
+    ],
     "bollards": [
       {
-        "bild": "",
-        "beschreibung": ""
+        "bild": "https://de.plonkit.net/images/resize/600/80/ukraine/Flag_colours.png",
+        "beschreibung": "colours of the Ukrainian flag"
       }
     ],
     "poles": [

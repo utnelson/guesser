@@ -18,10 +18,812 @@
         "beschreibung": ""
       }
     ],
-    "googlecar": [],
+    "googlecar": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
     "bollards": [
       {
         "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "poles": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "taxi": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ]
+  },
+  "Uruguay": {
+    "kontinent": "Südamerika",
+    "land": {
+      "domain": ".uy",
+      "flagge": "https://de.plonkit.net/images/resize/900/80/uruguay/0_you_are_a_guy.png"
+    },
+    "verkehr": "Rechts",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/uruguay/Uruguay_License_Plate.png",
+        "beschreibung": ""
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "googlecar": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/uruguay/Bollards_and_barriers.png",
+        "beschreibung": ""
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/uruguay/Trident_pole.png",
+        "beschreibung": "Similar trident poles can be found in the neighbouring Brazilian state of Rio Grande do Sul."
+      },
+            {
+        "bild": "https://de.plonkit.net/images/resize/600/80/uruguay/Other_Uruguay_poles.png",
+        "beschreibung": ""
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "taxi": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ]
+  },
+  "Argentinia": {
+    "kontinent": "Südamerika",
+    "land": {
+      "domain": ".ar",
+      "flagge": "https://de.plonkit.net/images/resize/900/80/argentina/transparent-ar_summary_2026.png"
+    },
+    "verkehr": "",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/argentina/Argentina_License_Plate.png",
+        "beschreibung": "The black dot can only be found on Argentinian licence plates, while the blue bar can be found in Brazil as well."
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "googlecar": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "bollards": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/argentina/Argentina_concrete_poles.png",
+        "beschreibung": "Similar doubled concrete poles can occasionally be found throughout Bolivia."
+      },
+            {
+        "bild": "https://de.plonkit.net/images/resize/600/80/argentina/Argentina_wooden_poles.png",
+        "beschreibung": "Wooden A-frame poles in South America are only found in Argentina."
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "taxi": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ]
+  },
+  "Chile": {
+    "kontinent": "Südamerika",
+    "land": {
+      "domain": ".cl",
+      "flagge": "https://de.plonkit.net/images/resize/900/80/chile/0_summary_cl_2025.png"
+    },
+    "verkehr": "Rechts",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/chile/Chile_License_Plate.png",
+        "beschreibung": "Orange plates can also be seen in Ecuador. Brazilian commercial plates are red, but can look similar in some lighting."
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "googlecar": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/chile/bollard.png",
+        "beschreibung": ""
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/chile/temporary_bollards.png",
+        "beschreibung": "you may sometimes find this orange, temporary bollard, with two white stripes at the top."
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/chile/pole.png",
+        "beschreibung": "Chile uses square concrete poles with an indent on both sides."
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "taxi": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ]
+  },
+  "Peru": {
+    "kontinent": "Südamerika",
+    "land": {
+      "domain": ".pe",
+      "flagge": "https://de.plonkit.net/images/resize/900/80/peru/transparent-pe_summary_2026.png"
+    },
+    "verkehr": "Rechts",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/peru/Peru_License_Plate.png",
+        "beschreibung": "NOTE: Within South America, yellow licence plates are only found in Peru, Colombia and rarely, Chile."
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "googlecar": [
+      {
+        "bild": ""
+      }
+    ],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/peru/1.bollard.png",
+        "beschreibung": "Bollards in Peru are painted red or yellow, and the country mainly uses a variety of triangular-shaped concrete bollards. Occasionally you will also spot other designs, such as these circular concrete variants."
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/peru/Peru_poles.png",
+        "beschreibung": "NOTE: Horizontal concrete bars are also found in Argentina."
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ]
+  },
+  "Bolivia": {
+    "kontinent": "Südamerika",
+    "land": {
+      "domain": ".bo",
+      "flagge": "https://de.plonkit.net/images/resize/900/80/bolivia/0_Copy_of_Copy_of_Copy_of_Copy_of_Copy_of_Infographic__284_29.png"
+    },
+    "verkehr": "",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/bolivia/1_licenceplate.png",
+        "beschreibung": ""
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "googlecar": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/bolivia/1_googlecar.png",
+        "beschreibung": "In Latin America, white cars with no antenna can also be found in Peru and Chile."
+      }
+    ],
+    "bollards": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/bolivia/1_poles.png",
+        "beschreibung": ""
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/bolivia/1_scuffedpole.png"
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ]
+  },
+  "Brazil": {
+    "kontinent": "Südamerika",
+    "land": {
+      "domain": ".br",
+      "flagge": "https://de.plonkit.net/images/resize/900/80/brazil/0_Brazil_Summary_Graphic.png"
+    },
+    "verkehr": "Rechts",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/brazil/Brazil_License_Plate.png",
+        "beschreibung": ""
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/brazil/Portuguese.png",
+        "beschreibung": "Portuguese"
+      }
+    ],
+    "googlecar": [
+      {
+        "bild": ""
+      }
+    ],
+    "bollards": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/brazil/ladders.png",
+        "beschreibung": "Paraguay uses similar poles."
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ]
+  },
+  "Ecuador": {
+    "kontinent": "Südamerika",
+    "land": {
+      "domain": ".ec",
+      "flagge": "https://de.plonkit.net/images/resize/900/80/ecuador/transparent-ecuador_summary_new.png"
+    },
+    "verkehr": "Rechts",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/ecuador/Ecuador_License_Plate.png",
+        "beschreibung": ""
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "googlecar": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/ecuador/ec_antenna.png",
+        "beschreibung": "Gen 3 NOTE: Mexico, Brazil and Colombia can also have this same short antenna."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/ecuador/Screenshot__281151_29.png",
+        "beschreibung": "Gen 4 NOTE: The pickup truck in Panama has an antenna on the front."
+      }
+    ],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/ecuador/Bollards-EC.png",
+        "beschreibung": "A round bollard with two red stripes, A flat bollard with two red reflectors on black."
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/ecuador/Ecua_poles.png",
+        "beschreibung": "Most poles in Ecuador are round and made of concrete. These poles are fairly generic and not all that useful to identify the country."
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ]
+  },
+  "Colombia": {
+    "kontinent": "Südamerika",
+    "land": {
+      "domain": ".co",
+      "flagge": "https://de.plonkit.net/images/resize/900/80/colombia/transparent-co_summary_2026.png"
+    },
+    "verkehr": "",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/colombia/Colombia_License_Plate.png",
+        "beschreibung": ""
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "googlecar": [
+      {
+        "bild": ""
+      }
+    ],
+    "bollards": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/colombia/Copy_of_Copy_of_Copy_of_Copy_of_Copy_of_Untitled.png",
+        "beschreibung": "It is the only country in the Americas, apart from Mexico and Ecuador, where octagonal poles can be found."
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ]
+  },
+  "Lesotho": {
+    "kontinent": "Afrika",
+    "land": {
+      "domain": ".ls",
+      "flagge": "https://de.plonkit.net/images/resize/900/80/lesotho/0_summary_lesotho.png"
+    },
+    "verkehr": "",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/lesotho/Lesotho_License_Plate.png",
+        "beschreibung": ""
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "googlecar": [
+      {
+        "bild": ""
+      }
+    ],
+    "bollards": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "poles": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ]
+  },
+  "Eswatini": {
+    "kontinent": "Afrika",
+    "land": {
+      "domain": ".sz",
+      "flagge": "https://de.plonkit.net/images/resize/900/80/eswatini/0_Copy_of_Copy_of_Infographic__284_29.png"
+    },
+    "verkehr": "Links",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/eswatini/Eswatini_License_Plate.png",
+        "beschreibung": "These may look similar to certain South African plates. Make sure to refer to other clues before guessing."
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "googlecar": [
+      {
+        "bild": ""
+      }
+    ],
+    "bollards": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "poles": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ]
+  },
+  "Südafrika": {
+    "kontinent": "Afrika",
+    "land": {
+      "domain": ".za",
+      "flagge": "https://de.plonkit.net/images/resize/900/80/south-africa/0_summary_281_29.png"
+    },
+    "verkehr": "Links",
+    "plates": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "googlecar": [
+      {
+        "bild": ""
+      }
+    ],
+    "bollards": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "poles": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ]
+  },
+  "Botswana": {
+    "kontinent": "Afrika",
+    "land": {
+      "domain": ".bw",
+      "flagge": "https://de.plonkit.net/images/resize/900/80/botswana/0_Copy_of_Infographic__284_29.png"
+    },
+    "verkehr": "Links",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/botswana/Botswana_License_Plate.png",
+        "beschreibung": "Botswana and Namibia are the only countries in southern Africa where yellow rear plates are predominantly found."
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "googlecar": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/botswana/Botswana_car.png",
+        "beschreibung": "Within Africa, this car can also be found in South Africa, Lesotho and Eswatini."
+      }
+    ],
+    "bollards": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "poles": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/botswana/signpost.png",
+        "beschreibung": "black and yellow"
+      }
+    ]
+  },
+  "Rwanda": {
+    "kontinent": "Afrika",
+    "land": {
+      "domain": ".rw",
+      "flagge": "https://de.plonkit.net/images/resize/900/80/rwanda/0_summary_rwanda.png"
+    },
+    "verkehr": "Rechts",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/rwanda/Rwanda_License_Plate.png",
+        "beschreibung": ""
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "googlecar": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/rwanda/RwandanTrio.png"
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/rwanda/Big_blur.png",
+        "beschreibung": "Occasionally, the Google car will be covered entirely by a big blur."
+      }
+    ],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/rwanda/Rwandan_Bollards.png",
+        "beschreibung": "Rwanda uses multiple different red and white cylindrical bollards."
+      }
+    ],
+    "poles": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ]
+  },
+  "Uganda": {
+    "kontinent": "Afrika",
+    "land": {
+      "domain": ".ug",
+      "flagge": "https://de.plonkit.net/images/resize/900/80/uganda/0_Summary_Graphic.png"
+    },
+    "verkehr": "Links",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/uganda/Uganda_License_Plate.png",
+        "beschreibung": ""
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "googlecar": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/800/80/uganda/Kampala_Car_3.png",
+        "beschreibung": "Kampala"
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/uganda/ug_npcar.png",
+        "beschreibung": "National Parks"
+      }
+    ],
+    "bollards": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "poles": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ]
+  },
+  "Nigeria": {
+    "kontinent": "",
+    "land": {
+      "domain": ".ng",
+      "flagge": "https://de.plonkit.net/images/resize/900/80/nigeria/0_summary_ng.png"
+    },
+    "verkehr": "Right",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/nigeria/0HpTmNo.png",
+        "beschreibung": "Nigeria uses short licence plates that appear somewhat green through the blur."
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "googlecar": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/nigeria/qjpxa6d.png"
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/nigeria/JtDpCOs.png"
+      }
+    ],
+    "bollards": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/nigeria/P1Kv8TE.png",
+        "beschreibung": "Most Nigerian poles are made of concrete, have indents with a few horizontal supports, and are similar to the ones used in Brazil, but do not have holes through them."
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ]
+  },
+  "Ghana": {
+    "kontinent": "Afrika",
+    "land": {
+      "domain": ".gh",
+      "flagge": "https://de.plonkit.net/images/resize/900/80/ghana/0_Ghana_summary.png"
+    },
+    "verkehr": "Rechts",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/ghana/Ghana_License_Plate.png",
+        "beschreibung": ""
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "googlecar": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/ghana/Ghana_car.png"
+      }
+    ],
+    "bollards": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/ghana/Ghana_Poles.png",
+        "beschreibung": ""
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ]
+  },
+  "Senegal": {
+    "kontinent": "Afrika",
+    "land": {
+      "domain": ".sn",
+      "flagge": "https://de.plonkit.net/images/resize/900/80/senegal/0_summary_senegal.png"
+    },
+    "verkehr": "",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/senegal/senegal_plates.png",
+        "beschreibung": "Senegal is the only African country to use fully blue licence plates. A newer version exists in Generation 4 which looks like the standard European licence plate which is white with a blue strip on the left."
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/senegal/fr_language.png",
+        "beschreibung": "French"
+      }
+    ],
+    "googlecar": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/senegal/image.png",
+        "beschreibung": "The car may sometimes be fully blurred. Make sure to look at the landscape or other clues in the absence of car meta."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/senegal/gen_3.png",
+        "beschreibung": "This specific Google Car with the right side mirror visible is unique to Senegal. Roof racks and rifts however can be seen in various other countries."
+      }
+    ],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/senegal/image__281_29.png",
         "beschreibung": ""
       }
     ],
@@ -91,28 +893,32 @@
     ]
   },
   "Mongolei": {
-    "kontinent": "",
+    "kontinent": "Kyrillisch",
     "land": {
-      "domain": "",
-      "flagge": ""
+      "domain": ".mn",
+      "flagge": "https://de.plonkit.net/images/resize/900/80/mongolia/0_mn.png"
     },
-    "verkehr": "",
+    "verkehr": "Rechts",
     "plates": [
       {
-        "bild": "",
+        "bild": "https://de.plonkit.net/images/resize/600/80/mongolia/1._licenceplate.jpeg",
         "beschreibung": ""
       }
     ],
     "sprache": [
       {
-        "bild": "",
+        "bild": "https://de.plonkit.net/images/resize/600/80/mongolia/1._language.png",
         "beschreibung": ""
       }
     ],
-    "googlecar": [],
+    "googlecar": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/mongolia/1._cars.png"
+      }
+    ],
     "bollards": [
       {
-        "bild": "",
+        "bild": "https://de.plonkit.net/images/resize/600/80/mongolia/1._bollard.png",
         "beschreibung": ""
       }
     ],

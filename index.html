@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoGuessr Helfer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>GeoGuessr Helfer</h1>
+        
+        <!-- Filterbereich -->
+        <div class="filters">
+            <label for="verkehr">Verkehr:</label>
+            <select id="verkehr" onchange="filterLänder()">
+                <option value="">Alle</option>
+                <option value="Rechts">Rechtsverkehr</option>
+                <option value="Links">Linksverkehr</option>
+            </select>
+
+            <label for="googlecar">Google Car:</label>
+            <select id="googlecar" onchange="filterLänder()">
+                <option value="">Alle</option>
+                <option value="true">Ja</option>
+                <option value="false">Nein</option>
+            </select>
+        </div>
+
+        <!-- Tabelle mit den Ländern -->
+        <table id="countryTable">
+            <thead>
+                <tr>
+                    <th>Land</th>
+                    <th>Flagge</th>
+                    <th>Sprache</th>
+                    <th>Verkehr</th>
+                    <th>Google Car</th>
+                    <th>Bollards</th>
+                    <th>Schilder</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Dynamisch befüllte Länder werden hier angezeigt -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

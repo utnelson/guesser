@@ -31,15 +31,16 @@ async function filterLänder() {
   const filteredCountries = Object.entries(data).filter(([land, details]) => {
     let matches = true;
 
+    if (inputLand) {
+      const landMatch = land.toLowerCase().startsWith(inputLand);
+      const domainMatch = (details.land.domain || "")
+        .toLowerCase()
+        .includes(inputLand);
 
-if (inputLand) {
-  const landMatch = land.toLowerCase().startsWith(inputLand);
-  const domainMatch = (details.land.domain || "").toLowerCase().startsWith(inputLand);
-
-  if (!landMatch && !domainMatch) {
-    matches = false;
-  }
-}
+      if (!landMatch && !domainMatch) {
+        matches = false;
+      }
+    }
 
     if (kontinent && details.kontinent !== kontinent) {
       matches = false;

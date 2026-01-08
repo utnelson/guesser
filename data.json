@@ -1,40 +1,40 @@
 {
-  "USA": {
-    "kontinent": "Amerika",
+  "Mexiko": {
+    "kontinent": "Südamerika",
     "land": {
-      "name": "USA",
-      "flagge": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg"
+      "domain": ".mx",
+      "flagge": "https://de.plonkit.net/images/resize/900/80/mexico/transparent-mx_summary_2026.png"
     },
-    "verkehr": "Links",
+    "verkehr": "Rechts",
     "plates": [
       {
-        "bild": "https://de.plonkit.net/images/resize/600/80/brazil/Brazil_License_Plate.png",
-        "beschreibung": "Plates"
+        "bild": "https://de.plonkit.net/images/resize/600/80/mexico/mx_licenceplate.png",
+        "beschreibung": "Mexico uses short licence plates with a large variety of designs. Front plates are required."
       }
     ],
     "sprache": [
       {
-        "bild": "https://de.plonkit.net/images/resize/600/80/brazil/Brazil_License_Plate.png",
-        "beschreibung": "Plates"
+        "bild": "",
+        "beschreibung": "Spanisch"
       }
     ],
     "googlecar": true,
     "bollards": [
       {
-        "bild": "https://example.com/usa-bollard.jpg",
-        "beschreibung": "USA-Bollard"
+        "bild": "https://de.plonkit.net/images/resize/600/80/mexico/mx_bollard.png",
+        "beschreibung": "These small, cylindrical white bollards with a black base are unique to Mexico. A yellow reflector can sometimes be seen, as well as a flat version."
       }
     ],
     "poles": [
       {
-        "bild": "https://example.com/usa-bollard.jpg",
-        "beschreibung": "USA-Bollard"
+        "bild": "https://de.plonkit.net/images/resize/600/80/mexico/mx_octopole.png",
+        "beschreibung": "Most utility poles in Mexico are made of concrete and have an octagonal shape. There will often be engravings on the side. NOTE: Octagonal poles are also common in Colombia."
       }
     ],
     "schilder": [
       {
-        "bild": "https://example.com/usa-sign.jpg",
-        "beschreibung": "Stoppschild USA"
+        "bild": "https://de.plonkit.net/images/resize/600/80/mexico/mx_alto.png",
+        "beschreibung": "Mexico uses the word “ALTO” on stop signs."
       }
     ]
   }

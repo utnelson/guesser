@@ -85,7 +85,7 @@
         "bild": "https://de.plonkit.net/images/resize/600/80/uruguay/Trident_pole.png",
         "beschreibung": "Similar trident poles can be found in the neighbouring Brazilian state of Rio Grande do Sul."
       },
-            {
+      {
         "bild": "https://de.plonkit.net/images/resize/600/80/uruguay/Other_Uruguay_poles.png",
         "beschreibung": ""
       }
@@ -139,7 +139,7 @@
         "bild": "https://de.plonkit.net/images/resize/600/80/argentina/Argentina_concrete_poles.png",
         "beschreibung": "Similar doubled concrete poles can occasionally be found throughout Bolivia."
       },
-            {
+      {
         "bild": "https://de.plonkit.net/images/resize/600/80/argentina/Argentina_wooden_poles.png",
         "beschreibung": "Wooden A-frame poles in South America are only found in Argentina."
       }
@@ -252,7 +252,8 @@
         "bild": "",
         "beschreibung": ""
       }
-    ]
+    ],
+    "taxi": []
   },
   "Bolivia": {
     "kontinent": "Südamerika",
@@ -299,7 +300,8 @@
         "bild": "",
         "beschreibung": ""
       }
-    ]
+    ],
+    "taxi": []
   },
   "Brazil": {
     "kontinent": "Südamerika",
@@ -342,7 +344,8 @@
         "bild": "",
         "beschreibung": ""
       }
-    ]
+    ],
+    "taxi": []
   },
   "Ecuador": {
     "kontinent": "Südamerika",
@@ -390,7 +393,8 @@
         "bild": "",
         "beschreibung": ""
       }
-    ]
+    ],
+    "taxi": []
   },
   "Colombia": {
     "kontinent": "Südamerika",
@@ -434,7 +438,8 @@
         "bild": "",
         "beschreibung": ""
       }
-    ]
+    ],
+    "taxi": []
   },
   "Lesotho": {
     "kontinent": "Afrika",
@@ -478,7 +483,8 @@
         "bild": "",
         "beschreibung": ""
       }
-    ]
+    ],
+    "taxi": []
   },
   "Eswatini": {
     "kontinent": "Afrika",
@@ -522,7 +528,8 @@
         "bild": "",
         "beschreibung": ""
       }
-    ]
+    ],
+    "taxi": []
   },
   "Südafrika": {
     "kontinent": "Afrika",
@@ -566,7 +573,8 @@
         "bild": "",
         "beschreibung": ""
       }
-    ]
+    ],
+    "taxi": []
   },
   "Botswana": {
     "kontinent": "Afrika",
@@ -610,7 +618,8 @@
         "bild": "https://de.plonkit.net/images/resize/600/80/botswana/signpost.png",
         "beschreibung": "black and yellow"
       }
-    ]
+    ],
+    "taxi": []
   },
   "Rwanda": {
     "kontinent": "Afrika",
@@ -657,7 +666,8 @@
         "bild": "",
         "beschreibung": ""
       }
-    ]
+    ],
+    "taxi": []
   },
   "Uganda": {
     "kontinent": "Afrika",
@@ -705,7 +715,8 @@
         "bild": "",
         "beschreibung": ""
       }
-    ]
+    ],
+    "taxi": []
   },
   "Nigeria": {
     "kontinent": "",
@@ -751,7 +762,8 @@
         "bild": "",
         "beschreibung": ""
       }
-    ]
+    ],
+    "taxi": []
   },
   "Ghana": {
     "kontinent": "Afrika",
@@ -794,7 +806,8 @@
         "bild": "",
         "beschreibung": ""
       }
-    ]
+    ],
+    "taxi": []
   },
   "Senegal": {
     "kontinent": "Afrika",
@@ -842,7 +855,8 @@
         "bild": "",
         "beschreibung": ""
       }
-    ]
+    ],
+    "taxi": []
   },
   "Ukraine": {
     "kontinent": "Kyrillisch",
@@ -894,7 +908,8 @@
         "bild": "https://de.plonkit.net/images/resize/600/80/ukraine/ua_misto.png",
         "beschreibung": "The Ukrainian word for city is місто (misto), abbreviated м. (m.)."
       }
-    ]
+    ],
+    "taxi": []
   },
   "Mongolei": {
     "kontinent": "Kyrillisch",
@@ -937,7 +952,8 @@
         "bild": "",
         "beschreibung": ""
       }
-    ]
+    ],
+    "taxi": []
   },
   "Kyrgyzstan": {
     "kontinent": "Kyrillisch",
@@ -981,7 +997,8 @@
         "bild": "",
         "beschreibung": ""
       }
-    ]
+    ],
+    "taxi": []
   },
   "Kaszachstan": {
     "kontinent": "Kyrillisch",
@@ -1024,7 +1041,8 @@
         "bild": "",
         "beschreibung": ""
       }
-    ]
+    ],
+    "taxi": []
   },
   "Russland": {
     "kontinent": "Kyrillisch",
@@ -1067,7 +1085,8 @@
         "bild": "https://de.plonkit.net/images/resize/600/80/russia/gorod.png",
         "beschreibung": "The Russian word for city is город (gorod), abbreviated г. (g.)"
       }
-    ]
+    ],
+    "taxi": []
   },
   "Bulgarien": {
     "kontinent": "Kyrillisch",
@@ -1106,7 +1125,8 @@
         "bild": "https://de.plonkit.net/images/resize/600/80/bulgaria/Street_sign.png",
         "beschreibung": "The Bulgarian word for street is улица (ulitsa), sometimes abbreviated ул. (ul.)."
       }
-    ]
+    ],
+    "taxi": []
   },
   "Mexiko": {
     "kontinent": "Südamerika",
@@ -1145,6 +1165,7 @@
         "bild": "https://de.plonkit.net/images/resize/600/80/mexico/mx_alto.png",
         "beschreibung": "Mexico uses the word “ALTO” on stop signs."
       }
-    ]
+    ],
+    "taxi": []
   }
 }

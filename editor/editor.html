@@ -3,78 +3,208 @@
 <head>
 <meta charset="UTF-8">
 <title>Country Form Editor</title>
+
 <style>
+:root {
+  --bg: #f5f7fa;
+  --card: #ffffff;
+  --border: #e5e7eb;
+  --primary: #2563eb;
+  --text: #111827;
+  --muted: #6b7280;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: system-ui, sans-serif;
   margin: 0;
-  display: grid;
-  grid-template-columns: 240px 1fr 1fr;
+  font-family: Inter, system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
-aside {
-  border-right: 1px solid #ccc;
-  padding: 10px;
-  overflow-y: auto;
+
+/* ===== TOPBAR ===== */
+.topbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  background: var(--card);
+  border-bottom: 1px solid var(--border);
 }
-main, section {
-  padding: 15px;
-  overflow-y: auto;
+
+.topbar input[type=file] {
+  display: none;
 }
-button, input[type=file] {
-  margin: 4px 0;
-  padding: 6px 10px;
-  width: 100%;
+
+.topbar button,
+.country-tab {
+  border: 1px solid var(--border);
+  background: white;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 13px;
+  white-space: nowrap;
 }
-fieldset {
-  border: 1px solid #ccc;
-  margin-bottom: 12px;
+
+.topbar button:hover,
+.country-tab:hover {
+  background: #f0f4ff;
 }
-legend {
-  font-weight: bold;
+
+.country-tab.active {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
 }
-.row {
-  display: grid;
-  grid-template-columns: 120px 1fr;
+
+.country-list {
+  display: flex;
   gap: 6px;
-  margin-bottom: 6px;
+  overflow-x: auto;
+  padding-left: 10px;
 }
-.array-item {
-  border: 1px dashed #aaa;
-  padding: 6px;
-  margin-bottom: 6px;
+
+/* ===== MAIN LAYOUT ===== */
+.container {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 14px;
+  padding: 14px;
+  overflow: hidden;
 }
-.preview-img {
-  max-width: 100%;
-  max-height: 120px;
-  display: block;
-  margin: 6px 0;
-  border: 1px solid #ccc;
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 14px;
+  overflow-y: auto;
 }
-pre {
-  background: #f6f6f6;
-  padding: 10px;
+
+/* ===== FORM ===== */
+h2 {
+  margin-top: 0;
+}
+
+fieldset {
+  border: none;
+  margin-bottom: 16px;
+}
+
+legend {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+
+label {
   font-size: 12px;
+  color: var(--muted);
+}
+
+input {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+.array-item {
+  border: 1px dashed var(--border);
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.preview-img {
+  width: 100%;
+  max-height: 140px;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-top: 6px;
+  border: 1px solid var(--border);
+}
+
+/* ===== BUTTONS ===== */
+.btn {
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 10px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.btn.secondary {
+  background: white;
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+
+.btn.danger {
+  background: #ef4444;
+}
+
+.btn.small {
+  font-size: 12px;
+  padding: 4px 8px;
+}
+
+/* ===== PREVIEW ===== */
+pre {
+  font-size: 12px;
+  background: #f9fafb;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 10px;
   overflow-x: auto;
 }
 </style>
 </head>
+
 <body>
 
-<aside>
-  <input type="file" accept=".json" onchange="loadJSON(event)">
-  <button onclick="addCountry()">➕ Neues Land</button>
-  <hr>
-  <div id="countryList"></div>
-  <hr>
-  <button onclick="download()">💾 JSON Download</button>
-</aside>
+<!-- TOPBAR -->
+<div class="topbar">
+  <label class="btn secondary">
+    📂 Laden
+    <input type="file" accept=".json" onchange="loadJSON(event)">
+  </label>
 
-<main id="editor"></main>
+  <button class="btn secondary" onclick="addCountry()">➕ Land</button>
+  <button class="btn" onclick="download()">💾 Export</button>
 
-<section>
-  <h3>Live Vorschau</h3>
-  <pre id="jsonPreview"></pre>
-</section>
+  <div class="country-list" id="countryList"></div>
+</div>
+
+<!-- MAIN -->
+<div class="container">
+  <div class="card" id="editor"></div>
+  <div class="card">
+    <h3>Live Vorschau</h3>
+    <pre id="jsonPreview"></pre>
+  </div>
+</div>
 
 <script>
 /* ===== TEMPLATE ===== */

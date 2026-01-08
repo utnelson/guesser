@@ -12,7 +12,12 @@
         "beschreibung": "Plates"
       }
     ],
-    "sprache": "Englisch",
+    "sprache": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/brazil/Brazil_License_Plate.png",
+        "beschreibung": "Plates"
+      }
+    ],
     "googlecar": true,
     "bollards": [
       {

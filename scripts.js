@@ -1,38 +1,18 @@
-// Hier wird die Datenstruktur geladen und die Filterung der Länder durchgeführt
+// Funktion zum Laden der Daten aus der JSON-Datei
+async function loadData() {
+    const response = await fetch('data.json');
+    const data = await response.json();
+    return data;
+}
 
-// Beispiel-Datenstruktur (normalerweise in einer separaten Datei gespeichert)
-const data = {
-    "USA": {
-        "flagge": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg",
-        "sprache": "Englisch",
-        "verkehr": "Rechts",
-        "googlecar": true,
-        "bollards": [
-            { "bild": "https://example.com/usa-bollard.jpg", "beschreibung": "USA-Bollard" }
-        ],
-        "schilder": [
-            { "bild": "https://example.com/usa-sign.jpg", "beschreibung": "Stoppschild USA" }
-        ]
-    },
-    "Deutschland": {
-        "flagge": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Flag_of_Germany.svg",
-        "sprache": "Deutsch",
-        "verkehr": "Rechts",
-        "googlecar": true,
-        "bollards": [
-            { "bild": "https://example.com/de-bollard.jpg", "beschreibung": "Deutscher Bollard" }
-        ],
-        "schilder": [
-            { "bild": "https://example.com/de-sign.jpg", "beschreibung": "Vorfahrt gewähren" }
-        ]
-    }
-};
-
-// Funktion zum Laden und Filtern der Länder
-function filterLänder() {
+// Funktion zum Filtern und Anzeigen der Länder
+async function filterLänder() {
     const verkehr = document.getElementById('verkehr').value;
     const googlecar = document.getElementById('googlecar').value;
-    
+
+    // Lade die Daten
+    const data = await loadData();
+
     const filteredCountries = Object.entries(data).filter(([land, details]) => {
         let matches = true;
 

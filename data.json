@@ -60,13 +60,12 @@
     "googlecar": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/ukraine/Red_car.png",
-        "beschreibung": "colours of the Ukrainian flag"
+        "beschreibung": ""
       },
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/ukraine/Other_Ukraine_cars.png",
-        "beschreibung": "colours of the Ukrainian flag"
+        "beschreibung": ""
       }
-
     ],
     "bollards": [
       {
@@ -82,8 +81,12 @@
     ],
     "schilder": [
       {
-        "bild": "",
-        "beschreibung": ""
+        "bild": "https://de.plonkit.net/images/resize/600/80/ukraine/Vulitsa.png",
+        "beschreibung": "The Ukrainian word for street is вулиця (vulytsya), abbreviated вул. (vul.)."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/ukraine/ua_misto.png",
+        "beschreibung": "The Ukrainian word for city is місто (misto), abbreviated м. (m.)."
       }
     ]
   },
@@ -126,17 +129,17 @@
       }
     ]
   },
-  "Kirgistan": {
-    "kontinent": "",
+  "Kyrgyzstan": {
+    "kontinent": "Kyrillisch",
     "land": {
-      "domain": "",
-      "flagge": ""
+      "domain": ".kg",
+      "flagge": "https://de.plonkit.net/images/resize/900/80/kyrgyzstan/0_summary_kyrgyzstan.png"
     },
     "verkehr": "",
     "plates": [
       {
-        "bild": "",
-        "beschreibung": ""
+        "bild": "https://de.plonkit.net/images/resize/600/80/kyrgyzstan/Kyrgyzstan_License_Plate.png",
+        "beschreibung": "Licence plates with red strips can sometimes be seen in Albania and very rarely in the UAE."
       }
     ],
     "sprache": [
@@ -145,7 +148,12 @@
         "beschreibung": ""
       }
     ],
-    "googlecar": [],
+    "googlecar": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/kyrgyzstan/Please_dont_guess_Guatemala.png",
+        "beschreibung": "Kyrgyzstan can be recognised from the silver car and four bars that are visible. All coverage is Generation 3."
+      }
+    ],
     "bollards": [
       {
         "bild": "",
@@ -166,29 +174,33 @@
     ]
   },
   "Kaszachstan": {
-    "kontinent": "",
+    "kontinent": "Kyrillisch",
     "land": {
-      "domain": "",
-      "flagge": ""
+      "domain": ".kz",
+      "flagge": "https://de.plonkit.net/images/resize/900/80/kazakhstan/0_1.png"
     },
-    "verkehr": "",
+    "verkehr": "Rechts",
     "plates": [
       {
-        "bild": "",
+        "bild": "https://de.plonkit.net/images/resize/600/80/kazakhstan/2.png",
         "beschreibung": ""
       }
     ],
     "sprache": [
       {
-        "bild": "",
-        "beschreibung": ""
+        "bild": "https://de.plonkit.net/images/resize/600/80/kazakhstan/kz_language.png",
+        "beschreibung": "Kazakhstan uses both Cyrillic and Latin alphabets."
       }
     ],
-    "googlecar": [],
+    "googlecar": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/kazakhstan/3.png"
+      }
+    ],
     "bollards": [
       {
-        "bild": "",
-        "beschreibung": ""
+        "bild": "https://de.plonkit.net/images/resize/600/80/kazakhstan/7.png",
+        "beschreibung": "Notably, the bollards seemingly consisting of two thin bollards attached at a 90° angle are unique to Kazakhstan."
       }
     ],
     "poles": [
@@ -205,28 +217,28 @@
     ]
   },
   "Russland": {
-    "kontinent": "",
+    "kontinent": "Kyrillisch",
     "land": {
-      "domain": "",
-      "flagge": ""
+      "domain": ".ru",
+      "flagge": "https://de.plonkit.net/images/resize/900/80/russia/0_summary.png"
     },
-    "verkehr": "",
+    "verkehr": "Rechts",
     "plates": [
       {
-        "bild": "",
+        "bild": "https://de.plonkit.net/images/resize/600/80/russia/licenceplate.png",
         "beschreibung": ""
       }
     ],
     "sprache": [
       {
-        "bild": "",
-        "beschreibung": ""
+        "bild": "https://de.plonkit.net/images/resize/600/80/russia/cyrillic.png",
+        "beschreibung": "The Russian language uses the Cyrillic script, and contains the special letters Ы, Э, Ё and Ъ."
       }
     ],
     "googlecar": [],
     "bollards": [
       {
-        "bild": "",
+        "bild": "https://de.plonkit.net/images/resize/600/80/russia/bollards.png",
         "beschreibung": ""
       }
     ],
@@ -238,47 +250,51 @@
     ],
     "schilder": [
       {
-        "bild": "",
-        "beschreibung": ""
+        "bild": "https://de.plonkit.net/images/resize/600/80/russia/ulitsa.png",
+        "beschreibung": "The Russian word for street is улица (ulitsa), sometimes abbreviated ул. (ul.)."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/russia/gorod.png",
+        "beschreibung": "The Russian word for city is город (gorod), abbreviated г. (g.)"
       }
     ]
   },
   "Bulgarien": {
-    "kontinent": "",
+    "kontinent": "Kyrillisch",
     "land": {
-      "domain": "",
-      "flagge": ""
+      "domain": ".bg",
+      "flagge": "https://de.plonkit.net/images/resize/900/80/bulgaria/transparent-bg_summary_2026.png"
     },
-    "verkehr": "",
+    "verkehr": "Rechts",
     "plates": [
       {
-        "bild": "",
+        "bild": "https://de.plonkit.net/images/resize/600/80/bulgaria/Registation_plates.png",
         "beschreibung": ""
       }
     ],
     "sprache": [
       {
-        "bild": "",
+        "bild": "https://de.plonkit.net/images/resize/600/80/bulgaria/bg_language.png",
         "beschreibung": ""
       }
     ],
     "googlecar": [],
     "bollards": [
       {
-        "bild": "",
-        "beschreibung": ""
+        "bild": "https://de.plonkit.net/images/resize/600/80/bulgaria/Bollard.png",
+        "beschreibung": "Bollards are generally fairly rare in Bulgaria."
       }
     ],
     "poles": [
       {
-        "bild": "",
-        "beschreibung": ""
+        "bild": "https://de.plonkit.net/images/resize/600/80/bulgaria/Pole_material_and_shape.png",
+        "beschreibung": "Most utility poles in Bulgaria are cylindrical and made of concrete."
       }
     ],
     "schilder": [
       {
-        "bild": "",
-        "beschreibung": ""
+        "bild": "https://de.plonkit.net/images/resize/600/80/bulgaria/Street_sign.png",
+        "beschreibung": "The Bulgarian word for street is улица (ulitsa), sometimes abbreviated ул. (ul.)."
       }
     ]
   },

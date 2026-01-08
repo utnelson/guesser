@@ -1,26 +1,36 @@
 {
   "USA": {
-    "flagge": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg",
-    "sprache": "Englisch",
+    "kontinent": "Amerika",
+    "land": {
+      "name": "USA",
+      "flagge": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg"
+    },
     "verkehr": "Links",
+    "plates": [
+      {
+        "bild": "https://example.com/usa-bollard.jpg",
+        "beschreibung": "USA-Bollard"
+      }
+    ],
+    "sprache": "Englisch",
     "googlecar": true,
     "bollards": [
-      { "bild": "https://example.com/usa-bollard.jpg", "beschreibung": "USA-Bollard" }
+      {
+        "bild": "https://example.com/usa-bollard.jpg",
+        "beschreibung": "USA-Bollard"
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://example.com/usa-bollard.jpg",
+        "beschreibung": "USA-Bollard"
+      }
     ],
     "schilder": [
-      { "bild": "https://example.com/usa-sign.jpg", "beschreibung": "Stoppschild USA" }
-    ]
-  },
-  "Deutschland": {
-    "flagge": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Flag_of_Germany.svg",
-    "sprache": "Deutsch",
-    "verkehr": "Rechts",
-    "googlecar": true,
-    "bollards": [
-      { "bild": "https://example.com/de-bollard.jpg", "beschreibung": "Deutscher Bollard" }
-    ],
-    "schilder": [
-      { "bild": "https://example.com/de-sign.jpg", "beschreibung": "Vorfahrt gewähren" }
+      {
+        "bild": "https://example.com/usa-sign.jpg",
+        "beschreibung": "Stoppschild USA"
+      }
     ]
   }
 }

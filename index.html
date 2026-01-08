@@ -32,7 +32,9 @@
 
                 <!-- Filterzeile -->
                 <tr class="filter-row">
-                    <th></th>
+                    <th>
+                        <input id="land" oninput="filterLänder()" type="text">
+                    </th>
                     <th>
                         <select id="kontinent" onchange="filterLänder()">
                             <option value="">Alle</option>

@@ -25,10 +25,21 @@ async function filterLänder() {
   const data = await loadData();
   const verkehr = document.getElementById("verkehr").value;
   const kontinent = document.getElementById("kontinent").value;
+  const inputLand = document.getElementById("land").value.trim().toLowerCase();
 
   // Filtere die Länder nach den ausgewählten Kriterien
   const filteredCountries = Object.entries(data).filter(([land, details]) => {
     let matches = true;
+
+
+if (inputLand) {
+  const landMatch = land.toLowerCase().startsWith(inputLand);
+  const domainMatch = (details.land.domain || "").toLowerCase().startsWith(inputLand);
+
+  if (!landMatch && !domainMatch) {
+    matches = false;
+  }
+}
 
     if (kontinent && details.kontinent !== kontinent) {
       matches = false;

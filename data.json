@@ -2,7 +2,7 @@
   "USA": {
     "flagge": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg",
     "sprache": "Englisch",
-    "verkehr": "Rechts",
+    "verkehr": "Links",
     "googlecar": true,
     "bollards": [
       { "bild": "https://example.com/usa-bollard.jpg", "beschreibung": "USA-Bollard" }

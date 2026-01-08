@@ -1,18 +1,30 @@
-// Funktion zum Laden der Daten aus der JSON-Datei
+// Modal-Elemente
+const modal = document.getElementById('imageModal');
+const modalImage = document.getElementById('modalImage');
+const caption = document.getElementById('caption');
+const closeModal = document.getElementById('closeModal');
+
+// Funktion zum Laden der Daten aus der `data.json`-Datei
 async function loadData() {
-    const response = await fetch('data.json');
-    const data = await response.json();
-    return data;
+    try {
+        const response = await fetch('data.json');
+        if (!response.ok) {
+            throw new Error('Netzwerkantwort war nicht ok');
+        }
+        const data = await response.json();
+        return data;
+    } catch (error) {
+        console.error('Fehler beim Laden der Daten:', error);
+    }
 }
 
-// Funktion zum Filtern und Anzeigen der Länder
+// Funktion zum Anzeigen der Länder und Filter
 async function filterLänder() {
+    const data = await loadData();
     const verkehr = document.getElementById('verkehr').value;
     const googlecar = document.getElementById('googlecar').value;
 
-    // Lade die Daten
-    const data = await loadData();
-
+    // Filtere die Länder nach den ausgewählten Kriterien
     const filteredCountries = Object.entries(data).filter(([land, details]) => {
         let matches = true;
 
@@ -35,16 +47,44 @@ async function filterLänder() {
         const row = document.createElement('tr');
         row.innerHTML = `
             <td>${land}</td>
-            <td><img src="${details.flagge}" alt="${land} Flagge"></td>
+            <td><img src="${details.flagge}" alt="${land} Flagge" class="thumbnail"></td>
             <td>${details.sprache}</td>
             <td>${details.verkehr}</td>
             <td>${details.googlecar ? 'Ja' : 'Nein'}</td>
-            <td>${details.bollards.map(b => `<img src="${b.bild}" alt="${b.beschreibung}"><br>${b.beschreibung}`).join('')}</td>
-            <td>${details.schilder.map(s => `<img src="${s.bild}" alt="${s.beschreibung}"><br>${s.beschreibung}`).join('')}</td>
+            <td>${details.bollards.map(b => `<img src="${b.bild}" alt="${b.beschreibung}" class="thumbnail" data-caption="${b.beschreibung}">`).join('')}</td>
+            <td>${details.schilder.map(s => `<img src="${s.bild}" alt="${s.beschreibung}" class="thumbnail" data-caption="${s.beschreibung}">`).join('')}</td>
         `;
         tbody.appendChild(row);
     });
+
+    // Event-Listener für die Bilder
+    document.querySelectorAll('.thumbnail').forEach(img => {
+        img.addEventListener('click', (e) => {
+            const src = e.target.src;
+            const captionText = e.target.getAttribute('data-caption');
+            openModal(src, captionText);
+        });
+    });
 }
+
+// Funktion zum Öffnen des Modals
+function openModal(src, captionText) {
+    modal.style.display = 'block';
+    modalImage.src = src;
+    caption.textContent = captionText;
+}
+
+// Event-Listener zum Schließen des Modals
+closeModal.addEventListener('click', () => {
+    modal.style.display = 'none';
+});
+
+// Schließen des Modals, wenn außerhalb des Bildes geklickt wird
+window.addEventListener('click', (event) => {
+    if (event.target === modal) {
+        modal.style.display = 'none';
+    }
+});
 
 // Initiales Laden der Länder ohne Filter
 filterLänder();

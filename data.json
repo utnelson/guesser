@@ -1,4 +1,277 @@
 {
+  "Land": {
+    "kontinent": "",
+    "land": {
+      "domain": "",
+      "flagge": ""
+    },
+    "verkehr": "",
+    "plates": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "googlecar": true,
+    "bollards": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "poles": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ]
+  },
+  "Ukraine": {
+    "kontinent": "",
+    "land": {
+      "domain": "",
+      "flagge": ""
+    },
+    "verkehr": "",
+    "plates": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "googlecar": true,
+    "bollards": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "poles": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ]
+  },
+  "Mongolei": {
+    "kontinent": "",
+    "land": {
+      "domain": "",
+      "flagge": ""
+    },
+    "verkehr": "",
+    "plates": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "googlecar": true,
+    "bollards": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "poles": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ]
+  },
+  "Kirgistan": {
+    "kontinent": "",
+    "land": {
+      "domain": "",
+      "flagge": ""
+    },
+    "verkehr": "",
+    "plates": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "googlecar": true,
+    "bollards": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "poles": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ]
+  },
+  "Kaszachstan": {
+    "kontinent": "",
+    "land": {
+      "domain": "",
+      "flagge": ""
+    },
+    "verkehr": "",
+    "plates": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "googlecar": true,
+    "bollards": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "poles": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ]
+  },
+  "Russland": {
+    "kontinent": "",
+    "land": {
+      "domain": "",
+      "flagge": ""
+    },
+    "verkehr": "",
+    "plates": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "googlecar": true,
+    "bollards": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "poles": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ]
+  },
+  "Bulgarien": {
+    "kontinent": "",
+    "land": {
+      "domain": "",
+      "flagge": ""
+    },
+    "verkehr": "",
+    "plates": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "googlecar": true,
+    "bollards": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "poles": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "",
+        "beschreibung": ""
+      }
+    ]
+  },
   "Mexiko": {
     "kontinent": "Südamerika",
     "land": {

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Country Form Editor</title>
+<style>
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 240px 1fr 1fr;
+  height: 100vh;
+}
+aside {
+  border-right: 1px solid #ccc;
+  padding: 10px;
+  overflow-y: auto;
+}
+main, section {
+  padding: 15px;
+  overflow-y: auto;
+}
+button, input[type=file] {
+  margin: 4px 0;
+  padding: 6px 10px;
+  width: 100%;
+}
+fieldset {
+  border: 1px solid #ccc;
+  margin-bottom: 12px;
+}
+legend {
+  font-weight: bold;
+}
+.row {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 6px;
+  margin-bottom: 6px;
+}
+.array-item {
+  border: 1px dashed #aaa;
+  padding: 6px;
+  margin-bottom: 6px;
+}
+.preview-img {
+  max-width: 100%;
+  max-height: 120px;
+  display: block;
+  margin: 6px 0;
+  border: 1px solid #ccc;
+}
+pre {
+  background: #f6f6f6;
+  padding: 10px;
+  font-size: 12px;
+  overflow-x: auto;
+}
+</style>
+</head>
+<body>
+
+<aside>
+  <input type="file" accept=".json" onchange="loadJSON(event)">
+  <button onclick="addCountry()">➕ Neues Land</button>
+  <hr>
+  <div id="countryList"></div>
+  <hr>
+  <button onclick="download()">💾 JSON Download</button>
+</aside>
+
+<main id="editor"></main>
+
+<section>
+  <h3>Live Vorschau</h3>
+  <pre id="jsonPreview"></pre>
+</section>
+
+<script>
+/* ===== TEMPLATE ===== */
+const TEMPLATE = {
+  kontinent: "",
+  land: { domain: "", flagge: "" },
+  verkehr: "",
+  plates: [],
+  sprache: [],
+  googlecar: [],
+  bollards: [],
+  poles: [],
+  schilder: [],
+  taxi: []
+};
+
+const MEDIA_KEYS = [
+  "plates","sprache","googlecar",
+  "bollards","poles","schilder","taxi"
+];
+
+let data = {};
+let current = null;
+
+/* ===== IMPORT ===== */
+function loadJSON(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+
+  const reader = new FileReader();
+  reader.onload = e => {
+    try {
+      const parsed = JSON.parse(e.target.result);
+      data = normalizeAll(parsed);
+      current = Object.keys(data)[0];
+      renderList();
+      renderEditor();
+    } catch {
+      alert("Ungültige JSON-Datei");
+    }
+  };
+  reader.readAsText(file);
+}
+
+/* ===== NORMALIZE ===== */
+function normalizeAll(obj) {
+  const out = {};
+  for (const key in obj) {
+    out[key] = normalizeCountry(obj[key]);
+  }
+  return out;
+}
+
+function normalizeCountry(c) {
+  const result = structuredClone(TEMPLATE);
+  result.kontinent = c.kontinent || "";
+  result.verkehr = c.verkehr || "";
+  result.land = {
+    domain: c.land?.domain || "",
+    flagge: c.land?.flagge || ""
+  };
+  MEDIA_KEYS.forEach(k => {
+    result[k] = Array.isArray(c[k]) ? c[k] : [];
+  });
+  return result;
+}
+
+/* ===== LIST ===== */
+function renderList() {
+  countryList.innerHTML = "";
+  Object.keys(data).forEach(c => {
+    const btn = document.createElement("button");
+    btn.textContent = c;
+    btn.onclick = () => {
+      current = c;
+      renderEditor();
+    };
+    countryList.appendChild(btn);
+  });
+}
+
+/* ===== ADD ===== */
+function addCountry() {
+  const name = prompt("Name des Landes:");
+  if (!name || data[name]) return;
+  data[name] = structuredClone(TEMPLATE);
+  renderList();
+  current = name;
+  renderEditor();
+}
+
+/* ===== EDITOR ===== */
+function renderEditor() {
+  if (!current) return;
+  const c = data[current];
+  editor.innerHTML = `<h2>${current}</h2>`;
+
+  input("kontinent", c);
+  input("verkehr", c);
+
+  editor.appendChild(section("Land", () => {
+    input("domain", c.land, true);
+    input("flagge", c.land, true, true);
+  }));
+
+  MEDIA_KEYS.forEach(key => {
+    editor.appendChild(section(key, () => renderArray(c[key])));
+  });
+
+  updatePreview();
+}
+
+function input(key, obj, nested, isImage) {
+  const row = document.createElement("div");
+  row.className = "row";
+  row.innerHTML = `<label>${key}</label>`;
+  const inp = document.createElement("input");
+  inp.value = obj[key];
+  inp.oninput = e => {
+    obj[key] = e.target.value;
+    updatePreview();
+    if (isImage) img.src = obj[key];
+  };
+  row.appendChild(inp);
+  editor.appendChild(row);
+
+  if (isImage) {
+    const img = document.createElement("img");
+    img.className = "preview-img";
+    img.src = obj[key];
+    img.onerror = () => img.src = "";
+    editor.appendChild(img);
+  }
+}
+
+function section(title, fn) {
+  const fs = document.createElement("fieldset");
+  fs.innerHTML = `<legend>${title}</legend>`;
+  const div = document.createElement("div");
+  fs.appendChild(div);
+  const old = editor;
+  editor = div;
+  fn();
+  editor = old;
+  return fs;
+}
+
+function renderArray(arr) {
+  arr.forEach((item, i) => {
+    const box = document.createElement("div");
+    box.className = "array-item";
+
+    ["bild","beschreibung"].forEach(f => {
+      const row = document.createElement("div");
+      row.className = "row";
+      row.innerHTML = `<label>${f}</label>`;
+      const inp = document.createElement("input");
+      inp.value = item[f] || "";
+      inp.oninput = e => {
+        item[f] = e.target.value;
+        updatePreview();
+        if (f === "bild") img.src = item[f];
+      };
+      row.appendChild(inp);
+      box.appendChild(row);
+
+      if (f === "bild") {
+        var img = document.createElement("img");
+        img.className = "preview-img";
+        img.src = item[f] || "";
+        img.onerror = () => img.src = "";
+        box.appendChild(img);
+      }
+    });
+
+    const del = document.createElement("button");
+    del.textContent = "🗑 Entfernen";
+    del.onclick = () => {
+      arr.splice(i,1);
+      renderEditor();
+    };
+    box.appendChild(del);
+    editor.appendChild(box);
+  });
+
+  const add = document.createElement("button");
+  add.textContent = "➕ Eintrag hinzufügen";
+  add.onclick = () => {
+    arr.push({ bild:"", beschreibung:"" });
+    renderEditor();
+  };
+  editor.appendChild(add);
+}
+
+/* ===== PREVIEW ===== */
+function updatePreview() {
+  jsonPreview.textContent = JSON.stringify(data[current], null, 2);
+}
+
+/* ===== EXPORT ===== */
+function download() {
+  const blob = new Blob([JSON.stringify(data, null, 2)], {
+    type: "application/json"
+  });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "data.json";
+  a.click();
+}
+</script>
+
+</body>
+</html>

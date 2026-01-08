@@ -55,6 +55,8 @@ async function filterLänder() {
             <td>${details.bollards.map(b => `<img src="${b.bild}" alt="${b.beschreibung}" class="thumbnail" data-caption="${b.beschreibung}">`).join('')}</td>
             <td>${details.poles.map(s => `<img src="${s.bild}" alt="${s.beschreibung}" class="thumbnail" data-caption="${s.beschreibung}">`).join('')}</td>
             <td>${details.schilder.map(s => `<img src="${s.bild}" alt="${s.beschreibung}" class="thumbnail" data-caption="${s.beschreibung}">`).join('')}</td>
+            <td>${details.taxi.map(s => `<img src="${s.bild}" alt="${s.beschreibung}" class="thumbnail" data-caption="${s.beschreibung}">`).join('')}</td>
+           
         `;
         tbody.appendChild(row);
     });

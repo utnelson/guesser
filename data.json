@@ -109,7 +109,7 @@
       "domain": ".ar",
       "flagge": "https://de.plonkit.net/images/resize/900/80/argentina/transparent-ar_summary_2026.png"
     },
-    "verkehr": "",
+    "verkehr": "Rechts",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/argentina/Argentina_License_Plate.png",
@@ -260,7 +260,7 @@
       "domain": ".bo",
       "flagge": "https://de.plonkit.net/images/resize/900/80/bolivia/0_Copy_of_Copy_of_Copy_of_Copy_of_Copy_of_Infographic__284_29.png"
     },
-    "verkehr": "",
+    "verkehr": "Rechts",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/bolivia/1_licenceplate.png",
@@ -398,7 +398,7 @@
       "domain": ".co",
       "flagge": "https://de.plonkit.net/images/resize/900/80/colombia/transparent-co_summary_2026.png"
     },
-    "verkehr": "",
+    "verkehr": "Rechts",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/colombia/Colombia_License_Plate.png",
@@ -441,7 +441,7 @@
       "domain": ".ls",
       "flagge": "https://de.plonkit.net/images/resize/900/80/lesotho/0_summary_lesotho.png"
     },
-    "verkehr": "",
+    "verkehr": "Rechts",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/lesotho/Lesotho_License_Plate.png",
@@ -709,7 +709,7 @@
       "domain": ".ng",
       "flagge": "https://de.plonkit.net/images/resize/900/80/nigeria/0_summary_ng.png"
     },
-    "verkehr": "Right",
+    "verkehr": "Rechts",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/nigeria/0HpTmNo.png",
@@ -798,7 +798,7 @@
       "domain": ".sn",
       "flagge": "https://de.plonkit.net/images/resize/900/80/senegal/0_summary_senegal.png"
     },
-    "verkehr": "",
+    "verkehr": "Rechts",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/senegal/senegal_plates.png",
@@ -941,7 +941,7 @@
       "domain": ".kg",
       "flagge": "https://de.plonkit.net/images/resize/900/80/kyrgyzstan/0_summary_kyrgyzstan.png"
     },
-    "verkehr": "",
+    "verkehr": "Rechts",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/kyrgyzstan/Kyrgyzstan_License_Plate.png",

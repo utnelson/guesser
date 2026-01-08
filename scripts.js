@@ -7,7 +7,7 @@ const closeModal = document.getElementById('closeModal');
 // Funktion zum Laden der Daten aus der `data.json`-Datei
 async function loadData() {
     try {
-        const response = await fetch('data.json');
+        const response = await fetch('https://raw.githubusercontent.com/utnelson/guesser/refs/heads/main/data.json');
         if (!response.ok) {
             throw new Error('Netzwerkantwort war nicht ok');
         }
@@ -22,17 +22,17 @@ async function loadData() {
 async function filterLänder() {
     const data = await loadData();
     const verkehr = document.getElementById('verkehr').value;
-    const googlecar = document.getElementById('googlecar').value;
+    const kontinent = document.getElementById("kontinent").value;
 
     // Filtere die Länder nach den ausgewählten Kriterien
     const filteredCountries = Object.entries(data).filter(([land, details]) => {
         let matches = true;
 
-        if (verkehr && details.verkehr !== verkehr) {
+        if (kontinent && details.kontinent !== kontinent) {
             matches = false;
         }
 
-        if (googlecar !== "" && String(details.googlecar) !== googlecar) {
+        if (verkehr && details.verkehr !== verkehr) {
             matches = false;
         }
 
@@ -46,12 +46,14 @@ async function filterLänder() {
     filteredCountries.forEach(([land, details]) => {
         const row = document.createElement('tr');
         row.innerHTML = `
-            <td>${land}</td>
-            <td><img src="${details.flagge}" alt="${land} Flagge" class="thumbnail"></td>
-            <td>${details.sprache}</td>
+            <td>${land}<img src="${details.land.flagge}" alt="${land} Flagge" class="thumbnail"></td>
+            <td>${details.kontinent}</td>
             <td>${details.verkehr}</td>
-            <td>${details.googlecar ? 'Ja' : 'Nein'}</td>
+            <td>${details.plates.map(b => `<img src="${b.bild}" alt="${b.beschreibung}" class="thumbnail" data-caption="${b.beschreibung}">`).join('')}</td>
+            <td>${details.sprache.map(b => `<img src="${b.bild}" alt="${b.beschreibung}" class="thumbnail" data-caption="${b.beschreibung}">`).join('')}</td>
+            <td>${details.googlecar.map(b => `<img src="${b.bild}" alt="${b.beschreibung}" class="thumbnail" data-caption="${b.beschreibung}">`).join('')}</td>
             <td>${details.bollards.map(b => `<img src="${b.bild}" alt="${b.beschreibung}" class="thumbnail" data-caption="${b.beschreibung}">`).join('')}</td>
+            <td>${details.poles.map(s => `<img src="${s.bild}" alt="${s.beschreibung}" class="thumbnail" data-caption="${s.beschreibung}">`).join('')}</td>
             <td>${details.schilder.map(s => `<img src="${s.bild}" alt="${s.beschreibung}" class="thumbnail" data-caption="${s.beschreibung}">`).join('')}</td>
         `;
         tbody.appendChild(row);

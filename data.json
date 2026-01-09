@@ -49,12 +49,7 @@
       }
     ],
     "sprache": [],
-    "googlecar": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "googlecar": [],
     "bollards": [],
     "streets": [],
     "poles": [
@@ -784,12 +779,7 @@
         "beschreibung": "Mexico uses short licence plates with a large variety of designs. Front plates are required."
       }
     ],
-    "sprache": [
-      {
-        "bild": "",
-        "beschreibung": "Spanisch"
-      }
-    ],
+    "sprache": [],
     "googlecar": [],
     "bollards": [
       {

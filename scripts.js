@@ -121,7 +121,7 @@ async function filterLänder() {
       <td class="border border-gray-300 px-4 py-2">
         ${land}
         <img src="${details.land.flagge}" 
-             class="w-36 h-24 object-cover rounded cursor-pointer transform transition-transform duration-200 hover:scale-110"
+             class="w-36 h-24 object-contain rounded cursor-pointer transform transition-transform duration-200 hover:scale-110"
              data-caption="${land}" />
       </td>
       <td class="border border-gray-300 px-4 py-2">${details.kontinent}</td>
@@ -129,49 +129,49 @@ async function filterLänder() {
       <td class="border border-gray-300 px-4 py-2">
         ${details.plates.map(
           (b) => `<img src="${b.bild}" 
-                      class="w-36 h-24 object-cover rounded cursor-pointer transform transition-transform duration-200 hover:scale-110"
+                      class="w-36 h-24 object-contain rounded cursor-pointer transform transition-transform duration-200 hover:scale-110"
                       data-caption="${b.beschreibung}" />`
         ).join("")}
       </td>
       <td class="border border-gray-300 px-4 py-2">
         ${details.sprache.map(
           (b) => `<img src="${b.bild}" 
-                      class="w-36 h-24 object-cover rounded cursor-pointer transform transition-transform duration-200 hover:scale-110"
+                      class="w-36 h-24 object-contain rounded cursor-pointer transform transition-transform duration-200 hover:scale-110"
                       data-caption="${b.beschreibung}" />`
         ).join("")}
       </td>
       <td class="border border-gray-300 px-4 py-2">
         ${details.googlecar.map(
           (b) => `<img src="${b.bild}" 
-                      class="w-36 h-24 object-cover rounded cursor-pointer transform transition-transform duration-200 hover:scale-110"
+                      class="w-36 h-24 object-contain rounded cursor-pointer transform transition-transform duration-200 hover:scale-110"
                       data-caption="${b.beschreibung}" />`
         ).join("")}
       </td>
       <td class="border border-gray-300 px-4 py-2">
         ${details.bollards.map(
           (b) => `<img src="${b.bild}" 
-                      class="w-36 h-24 object-cover rounded cursor-pointer transform transition-transform duration-200 hover:scale-110"
+                      class="w-36 h-24 object-contain rounded cursor-pointer transform transition-transform duration-200 hover:scale-110"
                       data-caption="${b.beschreibung}" />`
         ).join("")}
       </td>
       <td class="border border-gray-300 px-4 py-2">
         ${details.poles.map(
           (s) => `<img src="${s.bild}" 
-                      class="w-36 h-24 object-cover rounded cursor-pointer transform transition-transform duration-200 hover:scale-110"
+                      class="w-36 h-24 object-contain rounded cursor-pointer transform transition-transform duration-200 hover:scale-110"
                       data-caption="${s.beschreibung}" />`
         ).join("")}
       </td>
       <td class="border border-gray-300 px-4 py-2">
         ${details.schilder.map(
           (s) => `<img src="${s.bild}" 
-                      class="w-36 h-24 object-cover rounded cursor-pointer transform transition-transform duration-200 hover:scale-110"
+                      class="w-36 h-24 object-contain rounded cursor-pointer transform transition-transform duration-200 hover:scale-110"
                       data-caption="${s.beschreibung}" />`
         ).join("")}
       </td>
       <td class="border border-gray-300 px-4 py-2">
         ${(details.taxi ?? []).map(
           (s) => `<img src="${s.bild}" 
-                      class="w-36 h-24 object-cover rounded cursor-pointer transform transition-transform duration-200 hover:scale-110"
+                      class="w-36 h-24 object-contain rounded cursor-pointer transform transition-transform duration-200 hover:scale-110"
                       data-caption="${s.beschreibung}" />`
         ).join("")}
       </td>
@@ -181,7 +181,7 @@ async function filterLänder() {
   });
 
   // ===============================
-  // Modal-Events
+  // Modal-Events für alle Bilder
   // ===============================
   document.querySelectorAll("img[data-caption]").forEach((img) => {
     img.addEventListener("click", (e) => {
@@ -194,13 +194,13 @@ async function filterLänder() {
 // Modal-Funktion (Tailwind hidden)
 // ===============================
 function openModal(src, captionText) {
-  modal.classList.remove("hidden");   // Tailwind: sichtbar machen
+  modal.classList.remove("hidden");      // Tailwind sichtbar
   modalImage.src = src;
   caption.textContent = captionText || "";
 }
 
 closeModal.addEventListener("click", () => {
-  modal.classList.add("hidden");      // Tailwind: wieder verstecken
+  modal.classList.add("hidden");         // Tailwind wieder verstecken
 });
 
 window.addEventListener("click", (event) => {

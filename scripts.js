@@ -7,59 +7,63 @@ const caption = document.getElementById("caption");
 const closeModal = document.getElementById("closeModal");
 
 // ===============================
-// Aktive Filter (Buttons)
+// Aktive Filter
 // ===============================
 let activeKontinent = null;
 let activeVerkehr = null;
+let activePlates = null;
+let activeGooglecar = null;
 
 // ===============================
-// Kontinent-Buttons (Toggle)
+// Helper: Toggle Button Gruppe
 // ===============================
-document.querySelectorAll(".kontinent-btn").forEach((btn) => {
-  btn.addEventListener("click", () => {
-    const kontinent = btn.dataset.kontinent;
+function setupToggleButtons(selector, getter, setter) {
+  document.querySelectorAll(selector).forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const value = getter(btn);
 
-    if (activeKontinent === kontinent) {
-      activeKontinent = null;
-      btn.classList.remove("bg-blue-600", "text-white");
-      btn.classList.add("bg-gray-200");
-    } else {
-      activeKontinent = kontinent;
-      document.querySelectorAll(".kontinent-btn").forEach((b) => {
-        b.classList.remove("bg-blue-600", "text-white");
-        b.classList.add("bg-gray-200");
-      });
-      btn.classList.add("bg-blue-600", "text-white");
-      btn.classList.remove("bg-gray-200");
-    }
+      if (setter.get() === value) {
+        // DEAKTIVIEREN
+        setter.set(null);
+        btn.classList.remove("border-2", "border-red-600");
+        btn.classList.add("border", "border-gray-300");
+      } else {
+        // AKTIVIEREN
+        setter.set(value);
+        document.querySelectorAll(selector).forEach((b) => {
+          b.classList.remove("border-2", "border-red-600");
+          b.classList.add("border", "border-gray-300");
+        });
+        btn.classList.add("border-2", "border-red-600");
+        btn.classList.remove("border-gray-300");
+      }
 
-    filterLänder();
+      filterLänder();
+    });
   });
+}
+
+// ===============================
+// Filter-Buttons initialisieren
+// ===============================
+setupToggleButtons(".kontinent-btn", (btn) => btn.dataset.kontinent, {
+  get: () => activeKontinent,
+  set: (v) => (activeKontinent = v),
 });
 
-// ===============================
-// Verkehr-Buttons (Toggle)
-// ===============================
-document.querySelectorAll(".verkehr-btn").forEach((btn) => {
-  btn.addEventListener("click", () => {
-    const verkehr = btn.dataset.verkehr;
+setupToggleButtons(".verkehr-btn", (btn) => btn.dataset.verkehr, {
+  get: () => activeVerkehr,
+  set: (v) => (activeVerkehr = v),
+});
 
-    if (activeVerkehr === verkehr) {
-      activeVerkehr = null;
-      btn.classList.remove("bg-blue-600", "text-white");
-      btn.classList.add("bg-gray-200");
-    } else {
-      activeVerkehr = verkehr;
-      document.querySelectorAll(".verkehr-btn").forEach((b) => {
-        b.classList.remove("bg-blue-600", "text-white");
-        b.classList.add("bg-gray-200");
-      });
-      btn.classList.add("bg-blue-600", "text-white");
-      btn.classList.remove("bg-gray-200");
-    }
+setupToggleButtons(".plates-btn", (btn) => btn.dataset.plates, {
+  get: () => activePlates,
+  set: (v) => (activePlates = v),
+});
 
-    filterLänder();
-  });
+setupToggleButtons(".googlecar-btn", (btn) => btn.dataset.googlecar, {
+  get: () => activeGooglecar,
+  set: (v) => (activeGooglecar = v),
 });
 
 // ===============================
@@ -78,6 +82,33 @@ async function loadData() {
 }
 
 // ===============================
+// Filter reset
+// ===============================
+function resetAllFilters() {
+  // Filter-States zurücksetzen
+  activeKontinent = null;
+  activeVerkehr = null;
+  activePlates = null;
+  activeGooglecar = null;
+
+  // Textfeld leeren
+  document.getElementById("land").value = "";
+
+  // Alle Toggle-Buttons zurücksetzen
+  document
+    .querySelectorAll(
+      ".kontinent-btn, .verkehr-btn, .plates-btn, .googlecar-btn"
+    )
+    .forEach((btn) => {
+      btn.classList.remove("border-2", "border-red-600");
+      btn.classList.add("border", "border-gray-300");
+    });
+
+  // Tabelle neu rendern
+  filterLänder();
+}
+
+// ===============================
 // Länder filtern & anzeigen
 // ===============================
 async function filterLänder() {
@@ -85,30 +116,47 @@ async function filterLänder() {
   if (!data) return;
 
   const inputLand = document.getElementById("land").value.trim().toLowerCase();
-  const kontinent = activeKontinent;
-  const verkehr = activeVerkehr;
 
   const filteredCountries = Object.entries(data).filter(([land, details]) => {
     let matches = true;
 
-    // Land-Filter
+    // Land / Domain
     if (inputLand) {
       const landMatch = land.toLowerCase().startsWith(inputLand);
-      const domainMatch = (details.land.domain || "").toLowerCase().includes(inputLand);
+      const domainMatch = (details.land.domain || "")
+        .toLowerCase()
+        .includes(inputLand);
       if (!landMatch && !domainMatch) matches = false;
     }
 
-    // Kontinent-Filter
-    if (kontinent && details.kontinent !== kontinent) matches = false;
+    // Kontinent
+    if (activeKontinent && details.kontinent !== activeKontinent)
+      matches = false;
 
-    // Verkehr-Filter
-    if (verkehr && details.verkehr !== verkehr) matches = false;
+    // Verkehr
+    if (activeVerkehr && details.verkehr !== activeVerkehr) matches = false;
+
+    // Plates
+    if (activePlates) {
+      const hasPlate = (details.plates || []).some((p) =>
+        p.beschreibung?.toLowerCase().includes(activePlates.toLowerCase())
+      );
+      if (!hasPlate) matches = false;
+    }
+
+    // Googlecar
+    if (activeGooglecar) {
+      const hasCar = (details.googlecar || []).some((g) =>
+        g.beschreibung?.toLowerCase().includes(activeGooglecar.toLowerCase())
+      );
+      if (!hasCar) matches = false;
+    }
 
     return matches;
   });
 
   // ===============================
-  // Tabelle befüllen
+  // Tabelle füllen
   // ===============================
   const tbody = document.querySelector("#countryTable tbody");
   tbody.innerHTML = "";
@@ -118,98 +166,103 @@ async function filterLänder() {
     row.classList.add("hover:bg-gray-100");
 
     row.innerHTML = `
-      <td class="border border-gray-300 px-4 py-2">
+      <td class="border px-4 py-2">
         ${land}
-        <img src="${details.land.flagge}" 
-             class="w-36 h-24 object-contain rounded cursor-pointer transform transition-transform duration-200 hover:scale-110"
-             data-caption="${land}" />
+        <img src="${
+          details.land.flagge
+        }" class="w-36 h-24 object-contain rounded cursor-pointer" data-caption="${land}">
       </td>
-      <td class="border border-gray-300 px-4 py-2">${details.kontinent}</td>
-      <td class="border border-gray-300 px-4 py-2">${details.verkehr}</td>
-      <td class="border border-gray-300 px-4 py-2">
-        ${details.plates.map(
-          (b) => `<img src="${b.bild}" 
-                      class="w-36 h-24 object-contain rounded cursor-pointer transform transition-transform duration-200 hover:scale-110"
-                      data-caption="${b.beschreibung}" />`
-        ).join("")}
+      <td class="border px-4 py-2">${details.kontinent}</td>
+      <td class="border px-4 py-2">${details.verkehr}</td>
+      <td class="border px-4 py-2">
+        ${(details.plates || [])
+          .map(
+            (p) =>
+              `<img src="${p.bild}" class="w-36 h-24 object-contain rounded cursor-pointer" data-caption="${p.beschreibung}">`
+          )
+          .join("")}
       </td>
-      <td class="border border-gray-300 px-4 py-2">
-        ${details.sprache.map(
-          (b) => `<img src="${b.bild}" 
-                      class="w-36 h-24 object-contain rounded cursor-pointer transform transition-transform duration-200 hover:scale-110"
-                      data-caption="${b.beschreibung}" />`
-        ).join("")}
+      <td class="border px-4 py-2">
+        ${(details.sprache || [])
+          .map(
+            (s) =>
+              `<img src="${s.bild}" class="w-36 h-24 object-contain rounded cursor-pointer" data-caption="${s.beschreibung}">`
+          )
+          .join("")}
       </td>
-      <td class="border border-gray-300 px-4 py-2">
-        ${details.googlecar.map(
-          (b) => `<img src="${b.bild}" 
-                      class="w-36 h-24 object-contain rounded cursor-pointer transform transition-transform duration-200 hover:scale-110"
-                      data-caption="${b.beschreibung}" />`
-        ).join("")}
+      <td class="border px-4 py-2">
+        ${(details.googlecar || [])
+          .map(
+            (g) =>
+              `<img src="${g.bild}" class="w-36 h-24 object-contain rounded cursor-pointer" data-caption="${g.beschreibung}">`
+          )
+          .join("")}
       </td>
-      <td class="border border-gray-300 px-4 py-2">
-        ${details.bollards.map(
-          (b) => `<img src="${b.bild}" 
-                      class="w-36 h-24 object-contain rounded cursor-pointer transform transition-transform duration-200 hover:scale-110"
-                      data-caption="${b.beschreibung}" />`
-        ).join("")}
+      <td class="border px-4 py-2">
+        ${(details.bollards || [])
+          .map(
+            (b) =>
+              `<img src="${b.bild}" class="w-36 h-24 object-contain rounded cursor-pointer" data-caption="${b.beschreibung}">`
+          )
+          .join("")}
       </td>
-      <td class="border border-gray-300 px-4 py-2">
-        ${details.poles.map(
-          (s) => `<img src="${s.bild}" 
-                      class="w-36 h-24 object-contain rounded cursor-pointer transform transition-transform duration-200 hover:scale-110"
-                      data-caption="${s.beschreibung}" />`
-        ).join("")}
+      <td class="border px-4 py-2">
+        ${(details.poles || [])
+          .map(
+            (p) =>
+              `<img src="${p.bild}" class="w-36 h-24 object-contain rounded cursor-pointer" data-caption="${p.beschreibung}">`
+          )
+          .join("")}
       </td>
-      <td class="border border-gray-300 px-4 py-2">
-        ${details.schilder.map(
-          (s) => `<img src="${s.bild}" 
-                      class="w-36 h-24 object-contain rounded cursor-pointer transform transition-transform duration-200 hover:scale-110"
-                      data-caption="${s.beschreibung}" />`
-        ).join("")}
+      <td class="border px-4 py-2">
+        ${(details.schilder || [])
+          .map(
+            (s) =>
+              `<img src="${s.bild}" class="w-36 h-24 object-contain rounded cursor-pointer" data-caption="${s.beschreibung}">`
+          )
+          .join("")}
       </td>
-      <td class="border border-gray-300 px-4 py-2">
-        ${(details.taxi ?? []).map(
-          (s) => `<img src="${s.bild}" 
-                      class="w-36 h-24 object-contain rounded cursor-pointer transform transition-transform duration-200 hover:scale-110"
-                      data-caption="${s.beschreibung}" />`
-        ).join("")}
+      <td class="border px-4 py-2">
+        ${(details.taxi || [])
+          .map(
+            (t) =>
+              `<img src="${t.bild}" class="w-36 h-24 object-contain rounded cursor-pointer" data-caption="${t.beschreibung}">`
+          )
+          .join("")}
       </td>
     `;
 
     tbody.appendChild(row);
   });
 
-  // ===============================
-  // Modal-Events für alle Bilder
-  // ===============================
   document.querySelectorAll("img[data-caption]").forEach((img) => {
-    img.addEventListener("click", (e) => {
-      openModal(e.target.src, e.target.getAttribute("data-caption"));
+    img.addEventListener("click", () => {
+      openModal(img.src, img.dataset.caption);
     });
   });
 }
 
 // ===============================
-// Modal-Funktion (Tailwind hidden)
+// Modal
 // ===============================
-function openModal(src, captionText) {
-  modal.classList.remove("hidden");      // Tailwind sichtbar
+function openModal(src, text) {
+  modal.classList.remove("hidden");
   modalImage.src = src;
-  caption.textContent = captionText || "";
+  caption.textContent = text || "";
 }
 
 closeModal.addEventListener("click", () => {
-  modal.classList.add("hidden");         // Tailwind wieder verstecken
+  modal.classList.add("hidden");
 });
 
-window.addEventListener("click", (event) => {
-  if (event.target === modal) {
-    modal.classList.add("hidden");
-  }
+window.addEventListener("click", (e) => {
+  if (e.target === modal) modal.classList.add("hidden");
 });
 
 // ===============================
-// Initial laden
+// Initial
 // ===============================
 filterLänder();
+document
+  .getElementById("resetFilters")
+  .addEventListener("click", resetAllFilters);

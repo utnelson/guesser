@@ -393,7 +393,8 @@
     "sprache": [],
     "googlecar": [
       {
-        "bild": "https://de.plonkit.net/images/resize/600/80/rwanda/RwandanTrio.png"
+        "bild": "https://de.plonkit.net/images/resize/600/80/rwanda/RwandanTrio.png",
+        "beschreibung": "pickup"
       },
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/rwanda/Big_blur.png",
@@ -459,7 +460,8 @@
     "sprache": [],
     "googlecar": [
       {
-        "bild": "https://de.plonkit.net/images/resize/600/80/nigeria/qjpxa6d.png"
+        "bild": "https://de.plonkit.net/images/resize/600/80/nigeria/qjpxa6d.png",
+        "beschreibung": "followcar"
       },
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/nigeria/JtDpCOs.png"
@@ -530,7 +532,7 @@
     "googlecar": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/senegal/image.png",
-        "beschreibung": "The car may sometimes be fully blurred. Make sure to look at the landscape or other clues in the absence of car meta."
+        "beschreibung": "The car may sometimes be fully blurred. Make sure to look at the landscape or other clues in the absence of car meta. pickup"
       },
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/senegal/gen_3.png",
@@ -1855,7 +1857,12 @@
     "verkehr": "",
     "plates": [],
     "sprache": [],
-    "googlecar": [],
+    "googlecar": [
+      {
+        "bild": "https://paulplay-storage-1.fra1.digitaloceanspaces.com/geometas/03fdfb7a-efed-489d-9a99-1230192108d4.jpg",
+        "beschreibung": "pickup, snorkel"
+      }
+    ],
     "bollards": [],
     "streets": [],
     "poles": [],

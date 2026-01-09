@@ -30,6 +30,7 @@
         "beschreibung": ""
       }
     ],
+    "streets": [],
     "poles": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/uruguay/Trident_pole.png",
@@ -51,7 +52,8 @@
         "bild": "",
         "beschreibung": ""
       }
-    ]
+    ],
+    "architcture": []
   },
   "Argentinia": {
     "kontinent": "Südamerika",
@@ -84,6 +86,7 @@
         "beschreibung": ""
       }
     ],
+    "streets": [],
     "poles": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/argentina/Argentina_concrete_poles.png",
@@ -105,7 +108,8 @@
         "bild": "",
         "beschreibung": ""
       }
-    ]
+    ],
+    "architcture": []
   },
   "Chile": {
     "kontinent": "Südamerika",
@@ -142,6 +146,7 @@
         "beschreibung": "you may sometimes find this orange, temporary bollard, with two white stripes at the top."
       }
     ],
+    "streets": [],
     "poles": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/chile/pole.png",
@@ -159,7 +164,8 @@
         "bild": "",
         "beschreibung": ""
       }
-    ]
+    ],
+    "architcture": []
   },
   "Peru": {
     "kontinent": "Südamerika",
@@ -191,6 +197,7 @@
         "beschreibung": "Bollards in Peru are painted red or yellow, and the country mainly uses a variety of triangular-shaped concrete bollards. Occasionally you will also spot other designs, such as these circular concrete variants."
       }
     ],
+    "streets": [],
     "poles": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/peru/Peru_poles.png",
@@ -203,7 +210,8 @@
         "beschreibung": ""
       }
     ],
-    "taxi": []
+    "taxi": [],
+    "architcture": []
   },
   "Bolivia": {
     "kontinent": "Südamerika",
@@ -236,6 +244,7 @@
         "beschreibung": ""
       }
     ],
+    "streets": [],
     "poles": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/bolivia/1_poles.png",
@@ -251,7 +260,8 @@
         "beschreibung": ""
       }
     ],
-    "taxi": []
+    "taxi": [],
+    "architcture": []
   },
   "Brazil": {
     "kontinent": "Südamerika",
@@ -283,6 +293,7 @@
         "beschreibung": ""
       }
     ],
+    "streets": [],
     "poles": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/brazil/ladders.png",
@@ -295,7 +306,8 @@
         "beschreibung": ""
       }
     ],
-    "taxi": []
+    "taxi": [],
+    "architcture": []
   },
   "Ecuador": {
     "kontinent": "Südamerika",
@@ -332,6 +344,7 @@
         "beschreibung": "A round bollard with two red stripes, A flat bollard with two red reflectors on black."
       }
     ],
+    "streets": [],
     "poles": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/ecuador/Ecua_poles.png",
@@ -344,7 +357,8 @@
         "beschreibung": ""
       }
     ],
-    "taxi": []
+    "taxi": [],
+    "architcture": []
   },
   "Colombia": {
     "kontinent": "Südamerika",
@@ -377,6 +391,7 @@
         "beschreibung": ""
       }
     ],
+    "streets": [],
     "poles": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/colombia/Copy_of_Copy_of_Copy_of_Copy_of_Copy_of_Untitled.png",
@@ -389,7 +404,8 @@
         "beschreibung": ""
       }
     ],
-    "taxi": []
+    "taxi": [],
+    "architcture": []
   },
   "Lesotho": {
     "kontinent": "Afrika",
@@ -422,6 +438,7 @@
         "beschreibung": ""
       }
     ],
+    "streets": [],
     "poles": [
       {
         "bild": "",
@@ -434,7 +451,8 @@
         "beschreibung": ""
       }
     ],
-    "taxi": []
+    "taxi": [],
+    "architcture": []
   },
   "Eswatini": {
     "kontinent": "Afrika",
@@ -467,6 +485,7 @@
         "beschreibung": ""
       }
     ],
+    "streets": [],
     "poles": [
       {
         "bild": "",
@@ -479,7 +498,8 @@
         "beschreibung": ""
       }
     ],
-    "taxi": []
+    "taxi": [],
+    "architcture": []
   },
   "Südafrika": {
     "kontinent": "Afrika",
@@ -512,6 +532,7 @@
         "beschreibung": ""
       }
     ],
+    "streets": [],
     "poles": [
       {
         "bild": "",
@@ -524,7 +545,8 @@
         "beschreibung": ""
       }
     ],
-    "taxi": []
+    "taxi": [],
+    "architcture": []
   },
   "Botswana": {
     "kontinent": "Afrika",
@@ -557,6 +579,7 @@
         "beschreibung": ""
       }
     ],
+    "streets": [],
     "poles": [
       {
         "bild": "",
@@ -569,7 +592,8 @@
         "beschreibung": "black and yellow"
       }
     ],
-    "taxi": []
+    "taxi": [],
+    "architcture": []
   },
   "Rwanda": {
     "kontinent": "Afrika",
@@ -605,6 +629,7 @@
         "beschreibung": "Rwanda uses multiple different red and white cylindrical bollards."
       }
     ],
+    "streets": [],
     "poles": [
       {
         "bild": "",
@@ -617,7 +642,8 @@
         "beschreibung": ""
       }
     ],
-    "taxi": []
+    "taxi": [],
+    "architcture": []
   },
   "Uganda": {
     "kontinent": "Afrika",
@@ -654,6 +680,7 @@
         "beschreibung": ""
       }
     ],
+    "streets": [],
     "poles": [
       {
         "bild": "",
@@ -666,7 +693,8 @@
         "beschreibung": ""
       }
     ],
-    "taxi": []
+    "taxi": [],
+    "architcture": []
   },
   "Nigeria": {
     "kontinent": "",
@@ -701,6 +729,7 @@
         "beschreibung": ""
       }
     ],
+    "streets": [],
     "poles": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/nigeria/P1Kv8TE.png",
@@ -713,7 +742,8 @@
         "beschreibung": ""
       }
     ],
-    "taxi": []
+    "taxi": [],
+    "architcture": []
   },
   "Ghana": {
     "kontinent": "Afrika",
@@ -745,6 +775,7 @@
         "beschreibung": ""
       }
     ],
+    "streets": [],
     "poles": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/ghana/Ghana_Poles.png",
@@ -757,7 +788,8 @@
         "beschreibung": ""
       }
     ],
-    "taxi": []
+    "taxi": [],
+    "architcture": []
   },
   "Senegal": {
     "kontinent": "Afrika",
@@ -794,6 +826,7 @@
         "beschreibung": ""
       }
     ],
+    "streets": [],
     "poles": [
       {
         "bild": "",
@@ -806,7 +839,8 @@
         "beschreibung": ""
       }
     ],
-    "taxi": []
+    "taxi": [],
+    "architcture": []
   },
   "Ukraine": {
     "kontinent": "Kyrillisch",
@@ -843,6 +877,7 @@
         "beschreibung": "colours of the Ukrainian flag"
       }
     ],
+    "streets": [],
     "poles": [
       {
         "bild": "",
@@ -859,7 +894,8 @@
         "beschreibung": "The Ukrainian word for city is місто (misto), abbreviated м. (m.)."
       }
     ],
-    "taxi": []
+    "taxi": [],
+    "architcture": []
   },
   "Mongolei": {
     "kontinent": "Kyrillisch",
@@ -891,6 +927,7 @@
         "beschreibung": ""
       }
     ],
+    "streets": [],
     "poles": [
       {
         "bild": "",
@@ -903,7 +940,8 @@
         "beschreibung": ""
       }
     ],
-    "taxi": []
+    "taxi": [],
+    "architcture": []
   },
   "Kyrgyzstan": {
     "kontinent": "Kyrillisch",
@@ -936,6 +974,7 @@
         "beschreibung": ""
       }
     ],
+    "streets": [],
     "poles": [
       {
         "bild": "",
@@ -948,7 +987,8 @@
         "beschreibung": ""
       }
     ],
-    "taxi": []
+    "taxi": [],
+    "architcture": []
   },
   "Kaszachstan": {
     "kontinent": "Kyrillisch",
@@ -980,6 +1020,7 @@
         "beschreibung": "Notably, the bollards seemingly consisting of two thin bollards attached at a 90° angle are unique to Kazakhstan."
       }
     ],
+    "streets": [],
     "poles": [
       {
         "bild": "",
@@ -992,7 +1033,8 @@
         "beschreibung": ""
       }
     ],
-    "taxi": []
+    "taxi": [],
+    "architcture": []
   },
   "Russland": {
     "kontinent": "Kyrillisch",
@@ -1020,6 +1062,7 @@
         "beschreibung": ""
       }
     ],
+    "streets": [],
     "poles": [
       {
         "bild": "",
@@ -1036,7 +1079,8 @@
         "beschreibung": "The Russian word for city is город (gorod), abbreviated г. (g.)"
       }
     ],
-    "taxi": []
+    "taxi": [],
+    "architcture": []
   },
   "Bulgarien": {
     "kontinent": "Kyrillisch",
@@ -1064,6 +1108,7 @@
         "beschreibung": "Bollards are generally fairly rare in Bulgaria."
       }
     ],
+    "streets": [],
     "poles": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/bulgaria/Pole_material_and_shape.png",
@@ -1076,7 +1121,8 @@
         "beschreibung": "The Bulgarian word for street is улица (ulitsa), sometimes abbreviated ул. (ul.)."
       }
     ],
-    "taxi": []
+    "taxi": [],
+    "architcture": []
   },
   "Mexiko": {
     "kontinent": "Südamerika",
@@ -1104,6 +1150,7 @@
         "beschreibung": "These small, cylindrical white bollards with a black base are unique to Mexico. A yellow reflector can sometimes be seen, as well as a flat version."
       }
     ],
+    "streets": [],
     "poles": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/mexico/mx_octopole.png",
@@ -1116,6 +1163,405 @@
         "beschreibung": "Mexico uses the word “ALTO” on stop signs."
       }
     ],
-    "taxi": []
+    "taxi": [],
+    "architcture": []
+  },
+  "Guatemala": {
+    "kontinent": "Südamerika",
+    "land": {
+      "domain": ".gt",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Guatemala.jpg"
+    },
+    "verkehr": "Rechts",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/guatemala/gt_licenceplate.png",
+        "beschreibung": "Guatemala has short licence plates, which when blurred will typically have either a blue tinge, or a hint of green on the left side."
+      }
+    ],
+    "sprache": [],
+    "googlecar": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/guatemala/gt_googlecar.png",
+        "beschreibung": "NOTE: The only other tropical country with a similar car is Laos."
+      }
+    ],
+    "bollards": [],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/guatemala/gt_roadlines.png",
+        "beschreibung": "Similarly to Mexico, Guatemalan roads generally have solid white outer lines with a single yellow middle line. Road lines in Guatemala are generally significantly thinner than in Mexico."
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/guatemala/gt_polepaint.png",
+        "beschreibung": "In Guatemala you will very commonly see poles painted with either pink, green or a combination of the two."
+      }
+    ],
+    "schilder": [],
+    "taxi": [],
+    "architcture": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/guatemala/gt_architecture.png",
+        "beschreibung": "Guatemalan architecture mainly consists of pastel painted stone houses, commonly with rusted sheet metal roofs. It is also somewhat common for buildings to be made out of exposed white brick."
+      }
+    ]
+  },
+  "Costa Rica": {
+    "kontinent": "Südamerika",
+    "land": {
+      "domain": ".cr",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Costa-Rica.jpg"
+    },
+    "verkehr": "Rechts",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/costa-rica/cr_licenceplate.png",
+        "beschreibung": " Costa Rican licence plates are typically short and white, with blue text, giving it a light blue tint through the blur."
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/costa-rica/es_language.png",
+        "beschreibung": "Spanish"
+      }
+    ],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/costa-rica/cr_pole.png",
+        "beschreibung": "Utility poles are typically round and made of concrete."
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/costa-rica/cr_alto.png",
+        "beschreibung": "Like Mexico and Guatemala, Costa Rican stop signs feature the word “ALTO”."
+      }
+    ],
+    "taxi": [],
+    "architcture": []
+  },
+  "Panama": {
+    "kontinent": "Südamerika",
+    "land": {
+      "domain": ".pa",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Panama.jpg"
+    },
+    "verkehr": "Rechts",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/panama/2.png",
+        "beschreibung": "Front plates are not required in Panama."
+      }
+    ],
+    "sprache": [],
+    "googlecar": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/panama/3.png",
+        "beschreibung": "Panama features a large white pickup truck which can either be fully visible or mostly blurred. There is always a short black antenna attached to the front of the car. Beware that the antenna can sometimes be blurred."
+      }
+    ],
+    "bollards": [],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/panama/7.png",
+        "beschreibung": "Panama features a diverse set of road lines, but the most common combination is solid outer white with an inner yellow line. However, those are not unique to Panama. Within Latin America, solid outer white lines with no middle line are almost unique to Panama."
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/panama/8.png",
+        "beschreibung": "Panama uses a wide variety of poles, but the most common type is a round concrete pole, with a varying amount of insulators. Poles can also be wooden or metallic. They often have plates attached to them. Blue, white, or red numbers are commonly painted on them as well."
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/panama/10.png",
+        "beschreibung": "Panama uses the Spanish word “ALTO” on stop signs."
+      }
+    ],
+    "taxi": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/panama/9.png",
+        "beschreibung": "Yellow taxis with a chequerboard patterned horizontal stripe are a common sight in Panama. The licence plate will be drawn on the side, containing the city name and a regional code."
+      }
+    ],
+    "architcture": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/panama/6.png",
+        "beschreibung": "Panamanian architecture often reflects Spanish colonial influences, featuring vibrant colours, and some ornate detailing. The most common type of building has painted concrete or sometimes brick walls with red metal sheets or tiles for a roof. Many windows have bars on them for security."
+      }
+    ]
+  },
+  "India": {
+    "kontinent": "Asien",
+    "land": {
+      "domain": ".in",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Indien.jpg"
+    },
+    "verkehr": "Links",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/india/in_licenceplates.png",
+        "beschreibung": "Indian licence plates are typically fairly long, with the most common design being white. Commercial vehicles typically use yellow plates, while electric vehicles use green."
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/india/in_scripts.png",
+        "beschreibung": " A wide variety of scripts can be found in India. Most of them can be used to narrow down the region."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/india/in_english.png",
+        "beschreibung": "English is also an official language in India and can be seen on a lot of signage."
+      }
+    ],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/india/in_pole.png",
+        "beschreibung": "NOTE: Indian poles will almost always be made of concrete or metal. Wooden poles are extremely uncommon."
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/india/ingen4_blackandwhitesignposts.png",
+        "beschreibung": "NOTE: Bangladesh and Sri Lanka also have black and white signposts."
+      }
+    ],
+    "taxi": [],
+    "architcture": []
+  },
+  "Bangladesch": {
+    "kontinent": "Asien",
+    "land": {
+      "domain": ".bd",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Bangladesch.jpg"
+    },
+    "verkehr": "Links",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/bangladesh/Bangladesh_License_Plate.png",
+        "beschreibung": "NOTE: The turquoise plate can only be found in Bangladesh."
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/bangladesh/bd_language.png",
+        "beschreibung": "The Bengali script features a continuous horizontal line at the top of each word."
+      }
+    ],
+    "googlecar": [],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/bangladesh/bollard.png",
+        "beschreibung": "NOTE: They can also be found in a square form instead of a circular form."
+      }
+    ],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/bangladesh/treealleys.png",
+        "beschreibung": " Streets in Bangladesh are often lined by trees, which sometimes have white paint on the bottom of their trunks."
+      }
+    ],
+    "poles": [],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/bangladesh/signpost.png",
+        "beschreibung": "NOTE: Within Asia, these posts are also found in Sri Lanka, Bhutan, India and Malaysia. Make sure to check other clues before guessing."
+      }
+    ],
+    "taxi": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/bangladesh/Rickshaw.png",
+        "beschreibung": "Rickshaws are frequently found all around Bangladesh, especially the green auto rickshaws."
+      }
+    ],
+    "architcture": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/bangladesh/Tin_roofs.png",
+        "beschreibung": "NOTE: Due to the humid climate, many countries in South and Southeast Asia use tin roofs."
+      }
+    ]
+  },
+  "Thailand": {
+    "kontinent": "Asien",
+    "land": {
+      "domain": ".th",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Thailand.jpg"
+    },
+    "verkehr": "Links",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/thailand/Thailand_License_Plate.png",
+        "beschreibung": "NOTE: Within Southeast Asia, yellow commercial plates are only found in Thailand. Be careful, however, as Laos uses yellow licence plates for regular vehicles."
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/thailand/th_language.png",
+        "beschreibung": "Thai script is compact and in many fonts has tiny circles within most letters.  NOTE: The Cambodian (Khmer) script often has longer lines and more accents underneath the lettering, as opposed to the Thai script. The Lao script looks similar to the Thai script. Make sure to check the driving side before guessing."
+      }
+    ],
+    "googlecar": [],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/thailand/2022-12-22_41.png",
+        "beschreibung": "The Thai bollard is square shaped with a pointed top, and has black-and-white stripes.  NOTE: In Southeast Asia, these bollards are also found in Cambodia, Laos and Indonesia."
+      }
+    ],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/thailand/th_concrete_roads.webp",
+        "beschreibung": "Concrete roads are common in Thailand. They often have a large square shaped pattern.  NOTE: In Southeast Asia, these can also be found commonly in the Philippines, and less commonly in Indonesia."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/thailand/2022-12-22_42.png",
+        "beschreibung": "Thailand has yellow middle lines. These middle lines are either solid or dashed lines.  NOTE: Malaysia only has white middle lines."
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/thailand/th_square_poles.webp",
+        "beschreibung": " Thai poles are square and have small holes running vertically up the pole.  NOTE: You will see similar poles in Sri Lanka, Cambodia and Laos. Make sure to look for other clues before guessing."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/thailand/Street_Light_Markings.png",
+        "beschreibung": "Street light poles have red-and-black or black-and-white stripes on the bottom."
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/thailand/round.png",
+        "beschreibung": "Signposts in Thailand are square and bulky in shape, usually white, and often have the bottom painted black. NOTE: In Southeast Asia, this design is unique to Thailand."
+      }
+    ],
+    "taxi": [],
+    "architcture": []
+  },
+  "Cambodia": {
+    "kontinent": "Asien",
+    "land": {
+      "domain": ".kh",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Kambodscha.jpg"
+    },
+    "verkehr": "Rechts",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/cambodia/Cambodia_License_Plate.png",
+        "beschreibung": "Licence plates are white with blue letters. The blue sheen of the letters can be hard to see through the blur, and the plates might appear as plain white.  Plates on government vehicles are green."
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/cambodia/Khmer.png",
+        "beschreibung": "Khmer is the official language of Cambodia. It has its own unique script, which is very distinct and recognizable. In most fonts, letters have an intricate, curvy look."
+      }
+    ],
+    "googlecar": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/cambodia/Cambodia_cars_large.png",
+        "beschreibung": " On the Generation 3 coverage you can find two different Google cars:  A car with a short, stubby antenna. The antenna has three ridges. It can sometimes be hard to tell if the antenna has ridges.  A white car with stripes and no antenna. There is a white stripe on the left, and a yellow stripe on the right. The stripes are sometimes poorly visible.  The car is not always as visible as shown in the example images.  NOTE: This specific striped white car is unique to Cambodia. Make sure not to mix it up with the Bangladeshi striped car, which looks slightly different.  The Latin American countries of Mexico, Colombia, Ecuador and Brazil also have cars with similar short antennas. However, these have a diagonally coiled ridge, instead of Cambodia’s three ridges."
+      }
+    ],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/cambodia/Bollards.png",
+        "beschreibung": "Cambodia has a variety of different bollards. The most common ones are:  A stone bollard with red-and-white stripes.  A stone bollard with a red top and a white base, usually with a reflector in the red part."
+      }
+    ],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/cambodia/Road_lines.png",
+        "beschreibung": "Roads have dashed or solid yellow middle road lines. Outer road lines are somewhat rare, but when present, they are solid white.  NOTE: Thailand uses similar road lines."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/cambodia/Unpaved_roads.png",
+        "beschreibung": "Many roads are unpaved. Usually, only main roads and roads in and near urban areas are paved."
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/cambodia/Cambodia_poles.png",
+        "beschreibung": "Two types of poles are common:  Concrete ladder poles (so named because the indents and ridges resemble a ladder).  Round concrete poles with small holes.  Rarely, you might see simple wooden poles.  NOTE: The same type of round concrete pole is also common in Vietnam."
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/cambodia/Cambodian_beer_brands.png",
+        "beschreibung": "You will see a lot of advertisements for the beer brands Angkor, Anchor, and the very creatively named Cambodia Beer."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/cambodia/Cambodian_Peoples_Party.png",
+        "beschreibung": "Throughout the country, you can find distinct blue signs from the Cambodian People’s Party (CPP).  These signs occasionally feature the likenesses of major party politicians: usually three men side by side."
+      }
+    ],
+    "taxi": [],
+    "architcture": []
+  },
+  "Vietnam": {
+    "kontinent": "Asien",
+    "land": {
+      "domain": ".vn",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Vietnam.jpg"
+    },
+    "verkehr": "Rechts",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/vietnam/vietnam_plate2.png",
+        "beschreibung": " Vietnamese licence plates are white with black lettering. Both long and short versions are in use."
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/vietnam/vn_language.png",
+        "beschreibung": "The Vietnamese language uses a modified version of the Latin script, but with a far larger number of diacritics than any other script found on Street View. Words are generally somewhat short, typically consisting of a single syllable."
+      }
+    ],
+    "googlecar": [],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/vietnam/vn_bollard.png",
+        "beschreibung": "The most common bollard type is a small square concrete bollard that is painted white with a red top"
+      }
+    ],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/vietnam/vn_yellowmiddleline.png",
+        "beschreibung": "While multiple different types of road lines, both white and yellow, can be found in Vietnam, unusually short yellow middle dashes are particularly common and distinct."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/vietnam/vn_concreteroad.png",
+        "beschreibung": "Minor roads made of concrete blocks are very common in Vietnam.  NOTE: This is also common in both the Philippines and Thailand, and to a lesser extent in Indonesia."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/vietnam/vn_concretebarriers.png",
+        "beschreibung": "Red and white striped concrete safety barriers are somewhat common on mountain roads."
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/vietnam/vn_holeypoles.png",
+        "beschreibung": "Vietnam often has round concrete poles with indents and small pin holes near the top.  NOTE: The same type of pole is also common in Cambodia."
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/vietnam/vn_signpost.png",
+        "beschreibung": "The posts of road signs are usually painted with a red and white stripe pattern."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/vietnam/vn_roadsigncolour.png",
+        "beschreibung": " Road signs have a yellow-orange background. Within southeast Asia, this is unique."
+      }
+    ],
+    "taxi": [],
+    "architcture": []
   }
 }

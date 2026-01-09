@@ -51,7 +51,12 @@
     "sprache": [],
     "googlecar": [],
     "bollards": [],
-    "streets": [],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/argentina/Argentina_roadlines.png",
+        "beschreibung": "Road lines in Argentina are mainly dashed white, double yellow or a mix in between."
+      }
+    ],
     "poles": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/argentina/Argentina_concrete_poles.png",
@@ -62,8 +67,18 @@
         "beschreibung": "Wooden A-frame poles in South America are only found in Argentina."
       }
     ],
-    "schilder": [],
-    "taxi": [],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/argentina/kmmarker.png",
+        "beschreibung": "Argentinian kilometre markers are typically white with a black strip displaying the road number at the top.  NOTE: The markers on national highways are indicated with RN, while RP indicates a provincial highway. National highways will be labelled white on the map, while provincial highways will be labelled green."
+      }
+    ],
+    "taxi": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/argentina/Argentina_Taxi_Map_v5.png",
+        "beschreibung": ""
+      }
+    ],
     "architcture": []
   },
   "Chile": {
@@ -429,7 +444,7 @@
     "architcture": []
   },
   "Nigeria": {
-    "kontinent": "",
+    "kontinent": "Afrika",
     "land": {
       "domain": ".ng",
       "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Nigeria.jpg"
@@ -1259,17 +1274,50 @@
   "Island": {
     "kontinent": "Nordisch",
     "land": {
-      "domain": "",
+      "domain": ".is",
       "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Island.jpg"
     },
-    "verkehr": "",
-    "plates": [],
-    "sprache": [],
-    "googlecar": [],
-    "bollards": [],
+    "verkehr": "Rechts",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/iceland/k7XBOxn.png",
+        "beschreibung": " Icelandic licence plates are fully white with blue characters. Unlike most of Europe, the plates do not feature a blue strip on the left.  It can be hard to see the blue of the characters through the blur of the plates."
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/iceland/is_language.png",
+        "beschreibung": "The Icelandic language contains a couple of unique letters. These are some of the most recognizable ones: ð þ and æ. Vowels can have the following accents: á é í ó ö ú ý. The uppercase version of ð is Ð.  NOTE: ð is also found in the Faroese language. æ is found in Danish, Norwegian and Faroese."
+      }
+    ],
+    "googlecar": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/iceland/Iceland_cars.png",
+        "beschreibung": "The Generation 4 coverage was captured with red and white pickup trucks, which have been well blurred."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/iceland/Iceland_antenna.png",
+        "beschreibung": "The Generation 3 Google car in Iceland is a white car with a long antenna."
+      }
+    ],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/iceland/Iceland_Bollard.jpg",
+        "beschreibung": " Iceland has unique yellow bollards with a white reflector. These bollards are extremely common and can be found throughout the country on almost every section of rural road."
+      }
+    ],
     "streets": [],
     "poles": [],
-    "schilder": [],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/iceland/Screenshot__281164_29.png",
+        "beschreibung": " Icelandic pedestrian signs feature four stripes and often have a slight yellow tint.  NOTE: Iceland is the only European country that uses pedestrian signs with a yellow background."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/iceland/Screenshot__281168_29.png",
+        "beschreibung": " Just like Sweden and Finland, Icelandic signs feature a yellow background."
+      }
+    ],
     "taxi": [],
     "architcture": []
   },
@@ -1279,14 +1327,56 @@
       "domain": "",
       "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Norwegen.jpg"
     },
-    "verkehr": "",
-    "plates": [],
-    "sprache": [],
+    "verkehr": "Rechts",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/norway/no_licenceplate.png",
+        "beschreibung": " Norway has long white licence plates with the standard European strip on the left.  Commercial plates are green. These are often seen on vans.  NOTE: Within Europe, green licence plates are most commonly seen in Norway, but can also be found on electric vehicles in several other countries."
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/norway/no_language.png",
+        "beschreibung": "The Norwegian language contains the special letters Æ, Ø and Å.  NOTE: The special letters found in Norwegian can also be found in some of the other Northern Germanic languages:  Danish uses Æ, Ø and Å.  Swedish uses Å, but not Æ or Ø. Norwegian also uses more E’s than Swedish, while Swedish uses more A’s instead. Norwegian uses “kk” where Swedish uses “ck”.  Icelandic uses Æ, but not Ø or Å.  Finnish uses Å, although it is viewed as a Swedish letter."
+      }
+    ],
     "googlecar": [],
-    "bollards": [],
-    "streets": [],
-    "poles": [],
-    "schilder": [],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/norway/no_bollard.png",
+        "beschreibung": "Norway uses thin, curved rectangular bollards with the reflector inside of a black parallelogram."
+      }
+    ],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/norway/no_roadlines.png",
+        "beschreibung": "Smaller Norwegian roads typically have long dashed white outer lines, while larger roads have solid outer lines and yellow middle lines. The yellow lines have a distinct tinge of orange.  NOTE: Sweden only has white road lines, and the dashes on outer lines are shorter than in Norway. Finnish outer road lines are always solid, and middle lines can be yellow or white."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/norway/no_roadlinepattern.png",
+        "beschreibung": "Road lines will often be made up of small dots of paint."
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/norway/no_poles.png",
+        "beschreibung": " Norwegian poles are normally wooden and often have a small black metal cap on the top.  NOTE: This metal cap is also common in both Sweden and Finland."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/norway/no_lamp.png",
+        "beschreibung": ""
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/norway/no_pedestriansign.png",
+        "beschreibung": "Norwegian pedestrian signs typically have four stripes and a very simply drawn person. Note however, that there is a version with five stripes and a version where the person is more detailed and wearing a hat.  NOTE: While Finnish pedestrian signs have five stripes, Swedish pedestrian signs have four stripes. However, the person on Swedish signs is detailed, but without a hat."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/norway/no_directionalsigns.png",
+        "beschreibung": " Norwegian directional signs are yellow with a black border. You will commonly see the road number displayed, either in a green box for European highways and major roads, or in a white box, for smaller roads."
+      }
+    ],
     "taxi": [],
     "architcture": []
   },
@@ -1297,13 +1387,64 @@
       "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Schweden.jpg"
     },
     "verkehr": "",
-    "plates": [],
-    "sprache": [],
-    "googlecar": [],
-    "bollards": [],
-    "streets": [],
-    "poles": [],
-    "schilder": [],
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/sweden/Sweden_License_Plate.png",
+        "beschreibung": "Swedish licence plates are long, white, and have the standard blue EU strip on the left side. Licence plates on taxis have a yellow background instead of white."
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/sweden/spr_C3_A5k.png",
+        "beschreibung": "Swedish is a North Germanic language that is closely related to Danish and Norwegian. The Swedish alphabet contains the special letters Å, Ä and Ö.  NOTE: The special letters found in Swedish can also be found in some of the other Northern Germanic languages:  Danish uses Å, but not Ä or Ö.  Norwegian uses Å, but not Ä or Ö.  Icelandic uses Ö, but not Å or Ä.  Finnish uses Ä and Ö. Å is also used, but is treated as Swedish. Finnish words are typically longer and often use double vowels, which are very rare in Swedish."
+      }
+    ],
+    "googlecar": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/sweden/vitbil.png",
+        "beschreibung": "A white street view car with a long antenna is featured on a lot of Generation 3 coverage.  NOTE: A similar car is found on all road coverage in Iceland and is also somewhat common in Finland. While it exists in both Norway and Denmark, it is extremely rare in both."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/sweden/gen4bil.png",
+        "beschreibung": "Generation 4 coverage in Sweden features three Street View cars: a red, a white, and a blue car. Each of the cars can be seen with or without a visible antenna.  NOTE: Only the blue car is found in Norway, Finland and Denmark."
+      }
+    ],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/sweden/pollare.png",
+        "beschreibung": "Swedish bollards are black-and-white, typically with a grey reflector. Reflectors by intersections are commonly orange instead. They can be either wedge-shaped, round, or thin and curved."
+      }
+    ],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/sweden/vaglinje_liten.png",
+        "beschreibung": "On smaller roads, the outer road lines are white and dashed. They are distinctly shorter than the Norwegian dashed lines. In contrast to Norway and Finland, all road lines are white."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/sweden/vaglinje_motorvag.png",
+        "beschreibung": " The outer road lines on highways look solid from a distance, but are typically divided into small sections with a unique pattern, which is different from the solid lines in Finland and Norway. Road lines in Denmark can have a similar pattern, however the individual sections should be rectangular."
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/sweden/elstolpe.png",
+        "beschreibung": " Swedish utility poles are usually wooden and can have a variety of poletops. There is commonly a small black metal cap on the very top, which is only found in Nordic countries.  NOTE: Norway and Finland also use primarily wooden poles."
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/sweden/herrg_C3_A5rman.png",
+        "beschreibung": "Swedish pedestrian signs have four stripes. There is notably a version featuring a female silhouette.  NOTE: Finnish and Danish pedestrian signs have five stripes. Norwegian pedestrian signs usually have four stripes, but can also have five."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/sweden/vagskyltar.png",
+        "beschreibung": "Swedish road signs have a red border and a yellow background.  NOTE: Finnish road signs have a thin yellow border outside the red one."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/sweden/vagnamn.png",
+        "beschreibung": "Swedish street names most commonly use the suffixes “vägen” and “gatan”. They are often shortened into “v” and “g” respectively on street signs. Street names can also use “väg” or “gata” as a separate word in a street name. Additionally, the suffix “gränd” can be found near city centres.  NOTE: Norway uses veien or vei, gate or gaten, and gata attached to the rest of the street name, rather than as a separate word. Denmark uses vej and gade."
+      }
+    ],
     "taxi": [],
     "architcture": []
   },
@@ -1314,15 +1455,62 @@
       "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Finnland.jpg"
     },
     "verkehr": "",
-    "plates": [],
-    "sprache": [],
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/finland/Finland_License_Plate.png",
+        "beschreibung": "eu"
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/finland/fi_language.png",
+        "beschreibung": "The Finnish language is not related to most other European languages, so it has a very unique look. It has a lot of long words and double vowels. The Finnish alphabet includes the letters ä and ö.  NOTE: Estonian is closely related to Finnish, so it can look similar. Estonian uses the letters õ and ü, which are not used in Finnish."
+      }
+    ],
     "googlecar": [],
-    "bollards": [],
-    "streets": [],
-    "poles": [],
-    "schilder": [],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/finland/Untitled_design6.png",
+        "beschreibung": "Finland has long black-and-white bollards with a rectangular, white reflector on the front and two dots on the back. They can be either round or thin and curved. The black strip is typically diagonal.  NOTE: They can look somewhat similar to bollards found in other Northern European countries. This infographic shows the differences."
+      }
+    ],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/finland/2022-12-21__2813_29.png",
+        "beschreibung": "Where present, outer road lines will always be solid white lines.  NOTE: Unlike Sweden and Norway, Finland does not use dashed outside lines. The only exception to this are the Åland Islands in southwest Finland, which do use dashes."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/finland/Finland_road_lines_comp_2.png",
+        "beschreibung": "Finland has several different types of middle road lines, including:  white dashes, with or without a solid white line next to it  solid yellow with white dashes  double yellow.  Yellow lines are being phased out and are increasingly rare in newer coverage.  NOTE: Sweden never has yellow middle lines. Norway has middle lines that have a distinct orange tint."
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/finland/Finland_poles.png",
+        "beschreibung": "Lamps attached to wooden poles in Finland are normally mounted to the top of the pole with a double bolting.  NOTE: Within Scandinavia, Sweden also uses double bolting. However, in Sweden the lamps are mounted further down and the lamp arms are usually not straight."
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/finland/Finland_street_sign.png",
+        "beschreibung": "Most Finnish street names end in “tie” or “katu.” These are the Finnish words for road and street. Street signs most commonly have a white background with black text.  NOTE: You may find roads ending in “polku” and “kuja”."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/finland/Finland_yellow_sign_background.png",
+        "beschreibung": "Finnish road signs have a yellow background.  NOTE: Signs in Sweden and Iceland also have yellow backgrounds. Norway, however, has signs with a white background."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/finland/FInland_Pedestrian_Signs.png",
+        "beschreibung": "Finnish pedestrian signs have 5 stripes.  NOTE: Pedestrian signs in Sweden and Norway usually have 4 stripes. In rare cases, you can find 5 stripes in Norway."
+      }
+    ],
     "taxi": [],
-    "architcture": []
+    "architcture": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/finland/Finnish_supermarkets.png",
+        "beschreibung": ""
+      }
+    ]
   },
   "Japan": {
     "kontinent": "Asien",
@@ -1564,17 +1752,63 @@
   "Estland": {
     "kontinent": "Europa",
     "land": {
-      "domain": "",
+      "domain": ".ee",
       "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Estland.jpg"
     },
-    "verkehr": "",
-    "plates": [],
-    "sprache": [],
+    "verkehr": "Rechts",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/estonia/Estonia_License_Plate.png",
+        "beschreibung": ""
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/estonia/Estonian_language.png",
+        "beschreibung": "Estonian belongs to the Finnic languages, a branch of the Uralic language family. It is closely related to Finnish.  Within the Baltic languages, the following letters are unique to Estonian:  Vowels with umlauts (two dots): Ä Ö Ü.  Õ with a tilde.  NOTE: Latvian and Lithuanian are both Indo-European languages that are not related to Estonian, and therefore look very different."
+      }
+    ],
     "googlecar": [],
-    "bollards": [],
-    "streets": [],
-    "poles": [],
-    "schilder": [],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/estonia/Estonian_bollards.png",
+        "beschreibung": " Estonian bollards have a round, baton-like shape.  They have a rectangular reflector on the front and two circular reflectors on the back. The reflectors can be white or orange.  NOTE: Latvian and Lithuanian bollards look different.  This infographic shows the main similarities and differences between the bollards of the Baltic and Nordic countries."
+      }
+    ],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/estonia/Road_lines.png",
+        "beschreibung": "Outer road lines sometimes consist of short dashes.  NOTE: Lithuania also sometimes has short dashes.  In addition, Sweden primarily uses short dashes as outer road lines."
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/estonia/Wooden_pole.png",
+        "beschreibung": "Estonia uses a variety of different poles and poletops. Of the three Baltic countries, it has the least consistent utility poles.  Round wooden poles are the most common, sometimes with diagonal supports."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/estonia/Concrete_pole.png",
+        "beschreibung": ""
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/estonia/Trident.png",
+        "beschreibung": ""
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/estonia/Estonian_Signs.png",
+        "beschreibung": "Each Baltic country has a slightly different border for its warning and speed signs.  Estonian signs have a thin red border, with no white outline around it (the red border extends all the way to the edge of the sign)."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/estonia/Pedestrian_sign_Estonia.png",
+        "beschreibung": "Estonian pedestrian signs have 3 stripes. The shape of the pedestrian has a relatively high level of detail, detailing shoes and an attached head.  NOTE: Lithuanian signs also have 3 stripes, but the pedestrian looks less detailed.  Latvian pedestrian signs have 5 stripes."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/estonia/Tee_street_sign.png",
+        "beschreibung": "The Estonian words for street and road are tänav and tee, respectively. These words are unique to Estonian. Tänav is often abbreviated as ‘tn’.  Many streets, especially in urban areas, have a simple name that completely lacks the tänav and or tee suffix.  NOTE: The Finnish suffix -tie, meaning street, can look similar."
+      }
+    ],
     "taxi": [],
     "architcture": []
   },

@@ -277,16 +277,22 @@ function normalizeCountry(c) {
 /* ===== LIST ===== */
 function renderList() {
   countryList.innerHTML = "";
-  Object.keys(data).forEach(c => {
-    const btn = document.createElement("button");
-    btn.textContent = c;
-    btn.onclick = () => {
-      current = c;
-      renderEditor();
-    };
-    countryList.appendChild(btn);
-  });
+
+  Object.keys(data)
+    .sort((a, b) => a.localeCompare(b, "de", { sensitivity: "base" }))
+    .forEach(c => {
+      const btn = document.createElement("button");
+      btn.textContent = c;
+      btn.className = "country-tab" + (c === current ? " active" : "");
+      btn.onclick = () => {
+        current = c;
+        renderEditor();
+        renderList(); // active-State neu setzen
+      };
+      countryList.appendChild(btn);
+    });
 }
+
 
 /* ===== ADD ===== */
 function addCountry() {

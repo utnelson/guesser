@@ -1,146 +1,215 @@
+// ===============================
 // Modal-Elemente
+// ===============================
 const modal = document.getElementById("imageModal");
 const modalImage = document.getElementById("modalImage");
 const caption = document.getElementById("caption");
 const closeModal = document.getElementById("closeModal");
 
-// Funktion zum Laden der Daten aus der `data.json`-Datei
+// ===============================
+// Aktive Filter (Buttons)
+// ===============================
+let activeKontinent = null;
+let activeVerkehr = null;
+
+// ===============================
+// Kontinent-Buttons (Toggle)
+// ===============================
+document.querySelectorAll(".kontinent-btn").forEach((btn) => {
+  btn.addEventListener("click", () => {
+    const kontinent = btn.dataset.kontinent;
+
+    if (activeKontinent === kontinent) {
+      activeKontinent = null;
+      btn.classList.remove("bg-blue-600", "text-white");
+      btn.classList.add("bg-gray-200");
+    } else {
+      activeKontinent = kontinent;
+      document.querySelectorAll(".kontinent-btn").forEach((b) => {
+        b.classList.remove("bg-blue-600", "text-white");
+        b.classList.add("bg-gray-200");
+      });
+      btn.classList.add("bg-blue-600", "text-white");
+      btn.classList.remove("bg-gray-200");
+    }
+
+    filterLänder();
+  });
+});
+
+// ===============================
+// Verkehr-Buttons (Toggle)
+// ===============================
+document.querySelectorAll(".verkehr-btn").forEach((btn) => {
+  btn.addEventListener("click", () => {
+    const verkehr = btn.dataset.verkehr;
+
+    if (activeVerkehr === verkehr) {
+      activeVerkehr = null;
+      btn.classList.remove("bg-blue-600", "text-white");
+      btn.classList.add("bg-gray-200");
+    } else {
+      activeVerkehr = verkehr;
+      document.querySelectorAll(".verkehr-btn").forEach((b) => {
+        b.classList.remove("bg-blue-600", "text-white");
+        b.classList.add("bg-gray-200");
+      });
+      btn.classList.add("bg-blue-600", "text-white");
+      btn.classList.remove("bg-gray-200");
+    }
+
+    filterLänder();
+  });
+});
+
+// ===============================
+// Daten laden
+// ===============================
 async function loadData() {
   try {
     const response = await fetch(
       "https://raw.githubusercontent.com/utnelson/guesser/refs/heads/main/data.json"
     );
-    if (!response.ok) {
-      throw new Error("Netzwerkantwort war nicht ok");
-    }
-    const data = await response.json();
-    return data;
+    if (!response.ok) throw new Error("Netzwerkfehler");
+    return await response.json();
   } catch (error) {
     console.error("Fehler beim Laden der Daten:", error);
   }
 }
 
-// Funktion zum Anzeigen der Länder und Filter
+// ===============================
+// Länder filtern & anzeigen
+// ===============================
 async function filterLänder() {
   const data = await loadData();
-  const verkehr = document.getElementById("verkehr").value;
-  const kontinent = document.getElementById("kontinent").value;
-  const inputLand = document.getElementById("land").value.trim().toLowerCase();
+  if (!data) return;
 
-  // Filtere die Länder nach den ausgewählten Kriterien
+  const inputLand = document.getElementById("land").value.trim().toLowerCase();
+  const kontinent = activeKontinent;
+  const verkehr = activeVerkehr;
+
   const filteredCountries = Object.entries(data).filter(([land, details]) => {
     let matches = true;
 
+    // Land-Filter
     if (inputLand) {
       const landMatch = land.toLowerCase().startsWith(inputLand);
-      const domainMatch = (details.land.domain || "")
-        .toLowerCase()
-        .includes(inputLand);
-
-      if (!landMatch && !domainMatch) {
-        matches = false;
-      }
+      const domainMatch = (details.land.domain || "").toLowerCase().includes(inputLand);
+      if (!landMatch && !domainMatch) matches = false;
     }
 
-    if (kontinent && details.kontinent !== kontinent) {
-      matches = false;
-    }
+    // Kontinent-Filter
+    if (kontinent && details.kontinent !== kontinent) matches = false;
 
-    if (verkehr && details.verkehr !== verkehr) {
-      matches = false;
-    }
+    // Verkehr-Filter
+    if (verkehr && details.verkehr !== verkehr) matches = false;
 
     return matches;
   });
 
-  // Tabelle mit den gefilterten Ländern befüllen
+  // ===============================
+  // Tabelle befüllen
+  // ===============================
   const tbody = document.querySelector("#countryTable tbody");
-  tbody.innerHTML = ""; // Zuerst die Tabelle leeren
+  tbody.innerHTML = "";
 
   filteredCountries.forEach(([land, details]) => {
     const row = document.createElement("tr");
+    row.classList.add("hover:bg-gray-100");
+
     row.innerHTML = `
-            <td>${land}<img src="${
-      details.land.flagge
-    }" alt="${land} Flagge" class="thumbnail"></td>
-            <td>${details.kontinent}</td>
-            <td>${details.verkehr}</td>
-            <td>${details.plates
-              .map(
-                (b) =>
-                  `<img src="${b.bild}" alt="${b.beschreibung}" class="thumbnail" data-caption="${b.beschreibung}">`
-              )
-              .join("")}</td>
-            <td>${details.sprache
-              .map(
-                (b) =>
-                  `<img src="${b.bild}" alt="${b.beschreibung}" class="thumbnail" data-caption="${b.beschreibung}">`
-              )
-              .join("")}</td>
-            <td>${details.googlecar
-              .map(
-                (b) =>
-                  `<img src="${b.bild}" alt="${b.beschreibung}" class="thumbnail" data-caption="${b.beschreibung}">`
-              )
-              .join("")}</td>
-            <td>${details.bollards
-              .map(
-                (b) =>
-                  `<img src="${b.bild}" alt="${b.beschreibung}" class="thumbnail" data-caption="${b.beschreibung}">`
-              )
-              .join("")}</td>
-            <td>${details.poles
-              .map(
-                (s) =>
-                  `<img src="${s.bild}" alt="${s.beschreibung}" class="thumbnail" data-caption="${s.beschreibung}">`
-              )
-              .join("")}</td>
-            <td>${details.schilder
-              .map(
-                (s) =>
-                  `<img src="${s.bild}" alt="${s.beschreibung}" class="thumbnail" data-caption="${s.beschreibung}">`
-              )
-              .join("")}</td>
-            <td>${(details.taxi ?? [])
-              .map(
-                (s) => `
-        <img src="${s.bild}" alt="${s.beschreibung}" class="thumbnail" data-caption="${s.beschreibung}">
-    `
-              )
-              .join("")}</td>
-           
-        `;
+      <td class="border border-gray-300 px-4 py-2">
+        ${land}
+        <img src="${details.land.flagge}" 
+             class="w-36 h-24 object-cover rounded cursor-pointer transform transition-transform duration-200 hover:scale-110"
+             data-caption="${land}" />
+      </td>
+      <td class="border border-gray-300 px-4 py-2">${details.kontinent}</td>
+      <td class="border border-gray-300 px-4 py-2">${details.verkehr}</td>
+      <td class="border border-gray-300 px-4 py-2">
+        ${details.plates.map(
+          (b) => `<img src="${b.bild}" 
+                      class="w-36 h-24 object-cover rounded cursor-pointer transform transition-transform duration-200 hover:scale-110"
+                      data-caption="${b.beschreibung}" />`
+        ).join("")}
+      </td>
+      <td class="border border-gray-300 px-4 py-2">
+        ${details.sprache.map(
+          (b) => `<img src="${b.bild}" 
+                      class="w-36 h-24 object-cover rounded cursor-pointer transform transition-transform duration-200 hover:scale-110"
+                      data-caption="${b.beschreibung}" />`
+        ).join("")}
+      </td>
+      <td class="border border-gray-300 px-4 py-2">
+        ${details.googlecar.map(
+          (b) => `<img src="${b.bild}" 
+                      class="w-36 h-24 object-cover rounded cursor-pointer transform transition-transform duration-200 hover:scale-110"
+                      data-caption="${b.beschreibung}" />`
+        ).join("")}
+      </td>
+      <td class="border border-gray-300 px-4 py-2">
+        ${details.bollards.map(
+          (b) => `<img src="${b.bild}" 
+                      class="w-36 h-24 object-cover rounded cursor-pointer transform transition-transform duration-200 hover:scale-110"
+                      data-caption="${b.beschreibung}" />`
+        ).join("")}
+      </td>
+      <td class="border border-gray-300 px-4 py-2">
+        ${details.poles.map(
+          (s) => `<img src="${s.bild}" 
+                      class="w-36 h-24 object-cover rounded cursor-pointer transform transition-transform duration-200 hover:scale-110"
+                      data-caption="${s.beschreibung}" />`
+        ).join("")}
+      </td>
+      <td class="border border-gray-300 px-4 py-2">
+        ${details.schilder.map(
+          (s) => `<img src="${s.bild}" 
+                      class="w-36 h-24 object-cover rounded cursor-pointer transform transition-transform duration-200 hover:scale-110"
+                      data-caption="${s.beschreibung}" />`
+        ).join("")}
+      </td>
+      <td class="border border-gray-300 px-4 py-2">
+        ${(details.taxi ?? []).map(
+          (s) => `<img src="${s.bild}" 
+                      class="w-36 h-24 object-cover rounded cursor-pointer transform transition-transform duration-200 hover:scale-110"
+                      data-caption="${s.beschreibung}" />`
+        ).join("")}
+      </td>
+    `;
+
     tbody.appendChild(row);
   });
 
-  // Event-Listener für die Bilder
-  document.querySelectorAll(".thumbnail").forEach((img) => {
+  // ===============================
+  // Modal-Events
+  // ===============================
+  document.querySelectorAll("img[data-caption]").forEach((img) => {
     img.addEventListener("click", (e) => {
-      const src = e.target.src;
-      const captionText = e.target.getAttribute("data-caption");
-      openModal(src, captionText);
+      openModal(e.target.src, e.target.getAttribute("data-caption"));
     });
   });
 }
 
-// Funktion zum Öffnen des Modals
+// ===============================
+// Modal-Funktion (Tailwind hidden)
+// ===============================
 function openModal(src, captionText) {
-  modal.style.display = "block";
+  modal.classList.remove("hidden");   // Tailwind: sichtbar machen
   modalImage.src = src;
-  caption.textContent = captionText;
+  caption.textContent = captionText || "";
 }
 
-// Event-Listener zum Schließen des Modals
 closeModal.addEventListener("click", () => {
-  modal.style.display = "none";
+  modal.classList.add("hidden");      // Tailwind: wieder verstecken
 });
 
-// Schließen des Modals, wenn außerhalb des Bildes geklickt wird
 window.addEventListener("click", (event) => {
   if (event.target === modal) {
-    modal.style.display = "none";
+    modal.classList.add("hidden");
   }
 });
 
-// Initiales Laden der Länder ohne Filter
+// ===============================
+// Initial laden
+// ===============================
 filterLänder();

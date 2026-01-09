@@ -12,18 +12,8 @@
         "beschreibung": ""
       }
     ],
-    "sprache": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
-    "googlecar": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "sprache": [],
+    "googlecar": [],
     "bollards": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/uruguay/Bollards_and_barriers.png",
@@ -41,18 +31,8 @@
         "beschreibung": ""
       }
     ],
-    "schilder": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
-    "taxi": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "schilder": [],
+    "taxi": [],
     "architcture": []
   },
   "Argentinia": {
@@ -68,24 +48,14 @@
         "beschreibung": "The black dot can only be found on Argentinian licence plates, while the blue bar can be found in Brazil as well."
       }
     ],
-    "sprache": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "sprache": [],
     "googlecar": [
       {
         "bild": "",
         "beschreibung": ""
       }
     ],
-    "bollards": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "bollards": [],
     "streets": [],
     "poles": [
       {
@@ -97,18 +67,8 @@
         "beschreibung": "Wooden A-frame poles in South America are only found in Argentina."
       }
     ],
-    "schilder": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
-    "taxi": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "schilder": [],
+    "taxi": [],
     "architcture": []
   },
   "Chile": {
@@ -124,18 +84,8 @@
         "beschreibung": "Orange plates can also be seen in Ecuador. Brazilian commercial plates are red, but can look similar in some lighting."
       }
     ],
-    "sprache": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
-    "googlecar": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "sprache": [],
+    "googlecar": [],
     "bollards": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/chile/bollard.png",
@@ -153,18 +103,8 @@
         "beschreibung": "Chile uses square concrete poles with an indent on both sides."
       }
     ],
-    "schilder": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
-    "taxi": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "schilder": [],
+    "taxi": [],
     "architcture": []
   },
   "Peru": {
@@ -180,17 +120,8 @@
         "beschreibung": "NOTE: Within South America, yellow licence plates are only found in Peru, Colombia and rarely, Chile."
       }
     ],
-    "sprache": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
-    "googlecar": [
-      {
-        "bild": ""
-      }
-    ],
+    "sprache": [],
+    "googlecar": [],
     "bollards": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/peru/1.bollard.png",
@@ -204,12 +135,7 @@
         "beschreibung": "NOTE: Horizontal concrete bars are also found in Argentina."
       }
     ],
-    "schilder": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "schilder": [],
     "taxi": [],
     "architcture": []
   },
@@ -226,24 +152,14 @@
         "beschreibung": ""
       }
     ],
-    "sprache": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "sprache": [],
     "googlecar": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/bolivia/1_googlecar.png",
         "beschreibung": "In Latin America, white cars with no antenna can also be found in Peru and Chile."
       }
     ],
-    "bollards": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "bollards": [],
     "streets": [],
     "poles": [
       {
@@ -254,12 +170,7 @@
         "bild": "https://de.plonkit.net/images/resize/600/80/bolivia/1_scuffedpole.png"
       }
     ],
-    "schilder": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "schilder": [],
     "taxi": [],
     "architcture": []
   },
@@ -282,17 +193,8 @@
         "beschreibung": "Portuguese"
       }
     ],
-    "googlecar": [
-      {
-        "bild": ""
-      }
-    ],
-    "bollards": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "googlecar": [],
+    "bollards": [],
     "streets": [],
     "poles": [
       {
@@ -300,12 +202,7 @@
         "beschreibung": "Paraguay uses similar poles."
       }
     ],
-    "schilder": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "schilder": [],
     "taxi": [],
     "architcture": []
   },
@@ -322,12 +219,7 @@
         "beschreibung": ""
       }
     ],
-    "sprache": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "sprache": [],
     "googlecar": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/ecuador/ec_antenna.png",
@@ -351,12 +243,7 @@
         "beschreibung": "Most poles in Ecuador are round and made of concrete. These poles are fairly generic and not all that useful to identify the country."
       }
     ],
-    "schilder": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "schilder": [],
     "taxi": [],
     "architcture": []
   },
@@ -373,24 +260,9 @@
         "beschreibung": ""
       }
     ],
-    "sprache": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
-    "googlecar": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
-    "bollards": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
     "streets": [],
     "poles": [
       {
@@ -398,12 +270,7 @@
         "beschreibung": "It is the only country in the Americas, apart from Mexico and Ecuador, where octagonal poles can be found."
       }
     ],
-    "schilder": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "schilder": [],
     "taxi": [],
     "architcture": []
   },
@@ -420,37 +287,12 @@
         "beschreibung": ""
       }
     ],
-    "sprache": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
-    "googlecar": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
-    "bollards": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
     "streets": [],
-    "poles": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
-    "schilder": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "poles": [],
+    "schilder": [],
     "taxi": [],
     "architcture": []
   },
@@ -467,37 +309,12 @@
         "beschreibung": "These may look similar to certain South African plates. Make sure to refer to other clues before guessing."
       }
     ],
-    "sprache": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
-    "googlecar": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
-    "bollards": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
     "streets": [],
-    "poles": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
-    "schilder": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "poles": [],
+    "schilder": [],
     "taxi": [],
     "architcture": []
   },
@@ -508,43 +325,13 @@
       "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Suedafrika.jpg"
     },
     "verkehr": "Links",
-    "plates": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
-    "sprache": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
-    "googlecar": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
-    "bollards": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
     "streets": [],
-    "poles": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
-    "schilder": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "poles": [],
+    "schilder": [],
     "taxi": [],
     "architcture": []
   },
@@ -561,31 +348,16 @@
         "beschreibung": "Botswana and Namibia are the only countries in southern Africa where yellow rear plates are predominantly found."
       }
     ],
-    "sprache": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "sprache": [],
     "googlecar": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/botswana/Botswana_car.png",
         "beschreibung": "Within Africa, this car can also be found in South Africa, Lesotho and Eswatini."
       }
     ],
-    "bollards": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "bollards": [],
     "streets": [],
-    "poles": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "poles": [],
     "schilder": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/botswana/signpost.png",
@@ -608,12 +380,7 @@
         "beschreibung": ""
       }
     ],
-    "sprache": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "sprache": [],
     "googlecar": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/rwanda/RwandanTrio.png"
@@ -630,18 +397,8 @@
       }
     ],
     "streets": [],
-    "poles": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
-    "schilder": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "poles": [],
+    "schilder": [],
     "taxi": [],
     "architcture": []
   },
@@ -658,12 +415,7 @@
         "beschreibung": ""
       }
     ],
-    "sprache": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "sprache": [],
     "googlecar": [
       {
         "bild": "https://de.plonkit.net/images/resize/800/80/uganda/Kampala_Car_3.png",
@@ -674,25 +426,10 @@
         "beschreibung": "National Parks"
       }
     ],
-    "bollards": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "bollards": [],
     "streets": [],
-    "poles": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
-    "schilder": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "poles": [],
+    "schilder": [],
     "taxi": [],
     "architcture": []
   },
@@ -709,12 +446,7 @@
         "beschreibung": "Nigeria uses short licence plates that appear somewhat green through the blur."
       }
     ],
-    "sprache": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "sprache": [],
     "googlecar": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/nigeria/qjpxa6d.png"
@@ -723,12 +455,7 @@
         "bild": "https://de.plonkit.net/images/resize/600/80/nigeria/JtDpCOs.png"
       }
     ],
-    "bollards": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "bollards": [],
     "streets": [],
     "poles": [
       {
@@ -736,12 +463,7 @@
         "beschreibung": "Most Nigerian poles are made of concrete, have indents with a few horizontal supports, and are similar to the ones used in Brazil, but do not have holes through them."
       }
     ],
-    "schilder": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "schilder": [],
     "taxi": [],
     "architcture": []
   },
@@ -758,23 +480,13 @@
         "beschreibung": ""
       }
     ],
-    "sprache": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "sprache": [],
     "googlecar": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/ghana/Ghana_car.png"
       }
     ],
-    "bollards": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "bollards": [],
     "streets": [],
     "poles": [
       {
@@ -782,12 +494,7 @@
         "beschreibung": ""
       }
     ],
-    "schilder": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "schilder": [],
     "taxi": [],
     "architcture": []
   },
@@ -827,18 +534,8 @@
       }
     ],
     "streets": [],
-    "poles": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
-    "schilder": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "poles": [],
+    "schilder": [],
     "taxi": [],
     "architcture": []
   },
@@ -878,12 +575,7 @@
       }
     ],
     "streets": [],
-    "poles": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "poles": [],
     "schilder": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/ukraine/Vulitsa.png",
@@ -928,18 +620,8 @@
       }
     ],
     "streets": [],
-    "poles": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
-    "schilder": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "poles": [],
+    "schilder": [],
     "taxi": [],
     "architcture": []
   },
@@ -956,37 +638,17 @@
         "beschreibung": "Licence plates with red strips can sometimes be seen in Albania and very rarely in the UAE."
       }
     ],
-    "sprache": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "sprache": [],
     "googlecar": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/kyrgyzstan/Please_dont_guess_Guatemala.png",
         "beschreibung": "Kyrgyzstan can be recognised from the silver car and four bars that are visible. All coverage is Generation 3."
       }
     ],
-    "bollards": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "bollards": [],
     "streets": [],
-    "poles": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
-    "schilder": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "poles": [],
+    "schilder": [],
     "taxi": [],
     "architcture": []
   },
@@ -1021,18 +683,8 @@
       }
     ],
     "streets": [],
-    "poles": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
-    "schilder": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "poles": [],
+    "schilder": [],
     "taxi": [],
     "architcture": []
   },
@@ -1063,12 +715,7 @@
       }
     ],
     "streets": [],
-    "poles": [
-      {
-        "bild": "",
-        "beschreibung": ""
-      }
-    ],
+    "poles": [],
     "schilder": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/russia/ulitsa.png",

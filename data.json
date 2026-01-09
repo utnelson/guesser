@@ -1567,17 +1567,55 @@
   "Indonesia": {
     "kontinent": "Asien",
     "land": {
-      "domain": "",
+      "domain": ".id",
       "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Indonesien.jpg"
     },
-    "verkehr": "",
-    "plates": [],
-    "sprache": [],
+    "verkehr": "Links",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/indonesia/Indonesia_License_Plate.png",
+        "beschreibung": "Indonesian licence plates are black with white letters. The letters usually appear as three white sections through the blur.  Commercial vehicles use yellow licence plates.  Plates in newer coverage can be white too.  NOTE: Malaysian licence plates are also black, but generally have two white sections."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/indonesia/Front_License_Plate_on_Motorcycle.png",
+        "beschreibung": "Motorcycles in Indonesia have front licence plates, as opposed to other south-east Asian countries which do not."
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/indonesia/Indonesian_language.png",
+        "beschreibung": " Indonesian can look very similar to Malaysian, however Indonesian has been influenced by Dutch, and Malaysian by English. These small changes in spelling may help differentiate the two.  An example is the word television in English, which translates to ‘televisi’ in Indonesian, similar to the Dutch word ‘televisie.’ In Malaysian, it translates to ‘televisyen’, more similar to English."
+      }
+    ],
     "googlecar": [],
-    "bollards": [],
-    "streets": [],
-    "poles": [],
-    "schilder": [],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/indonesia/Dont_guess_Thailand_or_UK.png",
+        "beschreibung": "Indonesia commonly uses these black-and-white square or circular bollards, as well as these yellow-and-black ones, which can also have a red reflector. Other designs can also be found.  NOTE: UK-style bollards are mostly found in Kalimantan."
+      }
+    ],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/indonesia/image.png",
+        "beschreibung": "Indonesia uses white or yellow centre lines. Outer lines will always be white. The centre lines will be solid or dashed.  In Generation 3 coverage, yellow centre lines are more rare, as Indonesia only recently started using this colour for its road lines.  NOTE: Malaysian road lines are always all white."
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/indonesia/Copy_of_IndoPoles_copy.png",
+        "beschreibung": "Poles in Indonesia are typically round and made out of either steel or concrete. Many of the steel poles are painted black, and also feature the Indonesian flag colours on them. The pole tops are usually either even or uneven, depending on the region.  You can learn more about regional poles in the region-guessing section."
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/indonesia/Cigarette_ads.png",
+        "beschreibung": "Cigarette ads can be found all over Indonesia, usually with a black or red colour scheme and around a price of 18,000 Rp. Keep an eye out for illustrated graphic pictures, and the word ‘PERINGATAN’."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/indonesia/round__281_29.png",
+        "beschreibung": "You can find these rows of red and white banners all around Indonesia. Sometimes, more colourful flags can be found."
+      }
+    ],
     "taxi": [],
     "architcture": []
   },
@@ -1822,17 +1860,50 @@
   "Ungarn": {
     "kontinent": "Europa",
     "land": {
-      "domain": "",
+      "domain": ".hu",
       "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Ungarn.jpg"
     },
-    "verkehr": "",
-    "plates": [],
-    "sprache": [],
+    "verkehr": "Rechts",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/hungary/Hungary_License_Plate.png",
+        "beschreibung": ""
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/hungary/hu_language.png",
+        "beschreibung": "The Hungarian language has a unique look, with a very large number of acute accents, umlauts over o’s, and long words. The letters \"Ő\" and \"Ű\", with double acute accents, are unique to the language.  NOTE: Hungarian is also spoken in some parts of neighbouring countries: notably there are large Hungarian-speaking communities in central Romania and southern Slovakia."
+      }
+    ],
     "googlecar": [],
-    "bollards": [],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/hungary/hu_bollard.png",
+        "beschreibung": "Hungarian bollards are black-and-white, wedge-shaped, and typically have a red reflector at the front, and a white reflector at the back. Blue reflectors are also somewhat common.  NOTE: Croatian bollards are very similar. They do, however, typically have the reflector closer to the top, and appear somewhat thinner than in Hungary."
+      }
+    ],
     "streets": [],
-    "poles": [],
-    "schilder": [],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/hungary/hu_pole.png",
+        "beschreibung": "The most common type of utility pole in Hungary is a concrete holey pole, with relatively thin holes going all the way down to the ground. Wooden poles are also somewhat common.  NOTE: In eastern Europe, Poland and Romania also commonly use holey poles. Polish holey poles typically do not have holes down by the ground, and tend to be relatively thin. Romanian holey poles normally either have much wider, or much taller holes."
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/hungary/hu_chevron.png",
+        "beschreibung": ""
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/hungary/hu_streetnames.png",
+        "beschreibung": "Hungarian street names typically end with the word “utca”. The word “út” is also used for bigger roads. These two words are unique to Hungarian, and translate to “street.”"
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/hungary/hu_pedestriansign.png",
+        "beschreibung": "Hungarian pedestrian crossing signs have five stripes. The person is wearing a belt. There is also a second, less common, type with four stripes and the person holding a bag.  The belt is located noticeably low on the person’s body, almost as if the person is sagging his pants. This is unique to Hungary.  NOTE: Among neighbouring countries, Croatia and Slovakia also have five stripes and a belt."
+      }
+    ],
     "taxi": [],
     "architcture": []
   },
@@ -1892,6 +1963,891 @@
     "land": {
       "domain": "",
       "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Tschechien.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Kenia": {
+    "kontinent": "Afrika",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Kenia.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Tunesien": {
+    "kontinent": "Afrika",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Tunesien.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Sri Lanka": {
+    "kontinent": "Asien",
+    "land": {
+      "domain": ".lk",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Sri-Lanka.jpg"
+    },
+    "verkehr": "Links",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/sri-lanka/Sri_Lanka_License_Plate.png",
+        "beschreibung": " Vehicles in Sri Lanka have long white front plates and short yellow rear plates."
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/sri-lanka/Sri_Lanka_scripts.png",
+        "beschreibung": " In Sri Lanka, you will see two scripts: Sinhala and Tamil. You will also sometimes see English, written in Latin script.  Sinhala is most common, and can be found throughout the entire country. It has a very curvy, ‘rounded’ look.  Tamil is more regionally limited. It has straighter lines. For an exact distribution, see the region-guessing section.  NOTE: Sinhala is unique to Sri Lanka. However, Tamil can also be found in the Indian state of Tamil Nadu."
+      }
+    ],
+    "googlecar": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/sri-lanka/Gen_3_car2.png",
+        "beschreibung": " In most Generation 3 coverage, you will be able to see the front of the Google car partially through the blur: it is visible as blue-white-red patches, reminiscent of the French flag. The red patch is usually most visually distinct.  NOTE: This car is unique to Sri Lanka. Coverage in Ghana has a similar front of the car visible, but this coverage also has a roof rack."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/sri-lanka/Gen_4_coverage.png",
+        "beschreibung": "All Generation 4 coverage is low-cam. This means that the camera on the Google car is intentionally set up lower than in most other countries. This can be recognized in two ways:  The car blur is significantly bigger. Generally, the bigger car blur is the most consistent way to recognize low-cam.  Roads look wider and objects around you are seen from a lower angle.  Note that Sri Lanka’s Generation 3 coverage is made with a normal height camera!  NOTE: All coverage in Japan and Switzerland is low-cam. However, landscape should be sufficient to tell these apart from Sri Lanka."
+      }
+    ],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/sri-lanka/Bollard.png",
+        "beschreibung": " These short, wide stone bollards are unique to Sri Lanka. They have a tapered shape, with a black base and a white top."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/sri-lanka/Screenshot__28246_29.png",
+        "beschreibung": "Tall, white concrete waystones with an indented section near the bottom containing a yellow road number, are unique to Sri Lanka."
+      }
+    ],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/sri-lanka/Outside_line_no_middle_line.png",
+        "beschreibung": "Rural roads often have outside lines, but no middle lines. In the absence of other clues, this can sometimes be a way to decide a tough 50-50.  NOTE: Most small roads lack road lines entirely."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/sri-lanka/Tropical_landscape.png",
+        "beschreibung": "Many parts of Sri Lanka have reddish soil."
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/sri-lanka/Utility_poles.png",
+        "beschreibung": "Sri Lanka typically uses concrete utility poles. Two pole types are common and distinctive:  Square poles with small pinholes in the sides. These pinholes are limited to the top part of the pole.  Poles with large see-through holes in the lower half of the pole (“holey poles“). These poles are unique to Sri Lanka.  NOTE: The square poles with small pinholes can look very similar to those found in Thailand. However, in Thailand the pinholes extend all the way to the bottom of the pole."
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/sri-lanka/Signpost.png",
+        "beschreibung": "Sri Lanka commonly uses black and white striped signposts.  NOTE: Within South and Southeast Asia, such signposts are also found in Bangladesh, India and Malaysia."
+      }
+    ],
+    "taxi": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/sri-lanka/Tukuk2.png",
+        "beschreibung": "This style of tuktuk is common in Sri Lanka: it has a bulky shape and a black roof. They are usually coloured green, yellow or red, though other colours appear as well."
+      }
+    ],
+    "architcture": []
+  },
+  "Malaysia": {
+    "kontinent": "Asien",
+    "land": {
+      "domain": ".my",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Malaysia.jpg"
+    },
+    "verkehr": "Links",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/malaysia/Malaysia_License_Plate.png",
+        "beschreibung": " Malaysian licence plates are black and generally have two white sections. These are visible even when blurred.  NOTE: Indonesian licence plates are also black, but they will have three white sections."
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/malaysia/my_language.png",
+        "beschreibung": "The Malay language uses the Latin script. It is very closely related to Indonesian. These two languages are practically indistinguishable for people who do not speak either."
+      }
+    ],
+    "googlecar": [],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/malaysia/Untitled_design__2823_29.png",
+        "beschreibung": "Malaysian bollards will often have the colours black, white, grey and red. Here are three examples of typical Malaysian bollards.  NOTE: There can be multiple varieties of these bollards, but the layout is mostly the same."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/malaysia/Untitled_design__2830_29.png",
+        "beschreibung": " Malaysian kilometre markers have a unique white-and-blue colour scheme. Note that the hexagon shields are often visible."
+      }
+    ],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/malaysia/Road_lines.png",
+        "beschreibung": "Malaysia frequently uses double white centre lines on its two-lane roads. It is the only Southeast Asian country to do so."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/malaysia/yellow_road_markings.png",
+        "beschreibung": " These thick yellow bars are also almost exclusive to Malaysia.  NOTE: You can very rarely see similar patterns in Hong Kong and the United Kingdom."
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/malaysia/Untitled_design__2825_29.png",
+        "beschreibung": "Electricity poles in Malaysia often have black or white stickers on them.  Sometimes you will also find red-and-white or red-and-blue stripes below the black sticker."
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/malaysia/Untitled_design__2824_29.png",
+        "beschreibung": "BERHENTI stop signs and BERI LALUAN yield signs are both unique to Malaysia."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/malaysia/signpost.png",
+        "beschreibung": "Signposts in Malaysia almost always have black-and-white stripes.  NOTE: Within Asia, these posts are also found in Sri Lanka, Bhutan and Bangladesh. Make sure to check other clues before guessing."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/malaysia/directionalsign.png",
+        "beschreibung": "This is a typical Malaysian directional sign. Hexagonal yellow highway shields are unique to Malaysia."
+      }
+    ],
+    "taxi": [],
+    "architcture": []
+  },
+  "Philippinen": {
+    "kontinent": "Asien",
+    "land": {
+      "domain": ".ph",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Philippinen.jpg"
+    },
+    "verkehr": "Rechts",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/philippines/1_licenceplate.png",
+        "beschreibung": "Standard white licence plates with black text are used for passenger vehicles. You can also find many that are privately issued, which are recognizable due to their green tint."
+      }
+    ],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/philippines/1_kmstone.png",
+        "beschreibung": "These tall, square yellow road stones are unique to the Philippines."
+      }
+    ],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/philippines/1_concreteroad.png",
+        "beschreibung": "Concrete roads are extremely common in the Philippines.  NOTE: Thailand also has a lot of concrete roads."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/philippines/1_roadline.png",
+        "beschreibung": "Middle road lines in the Philippines can be either yellow or white. In particular, you will often see combined yellow and white middle lines, which is not common in any other East Asian country.  Yellow road lines commonly have a distinct orange tint."
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/philippines/1_octopole.png",
+        "beschreibung": " Octagonal metal poles are quite common in the Philippines.  NOTE: They can sometimes be found in Bangladesh and some parts of Malaysia as well."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/philippines/1_poleinsulator.png",
+        "beschreibung": "You will often see a single insulator at the top of a vertical bar which is attached to the side of a utility pole."
+      }
+    ],
+    "schilder": [],
+    "taxi": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/philippines/1_tuktuk.png",
+        "beschreibung": ""
+      }
+    ],
+    "architcture": []
+  },
+  "Laos": {
+    "kontinent": "Asien",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Laos.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Buthan": {
+    "kontinent": "Asien",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Bhutan.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Jordanien": {
+    "kontinent": "Asien",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Jordanien.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Israel": {
+    "kontinent": "Asien",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Israel.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Singapur": {
+    "kontinent": "Asien",
+    "land": {
+      "domain": ".sg",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Singapur.jpg"
+    },
+    "verkehr": "Links",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/singapore/Singapore_License_Plate.png",
+        "beschreibung": "Most Singaporean licence plates are black, with white text. Occasionally, you will be able to see the British style white-and-yellow plates and very rarely red plates.  NOTE: Neighbouring Malaysia and Indonesia also use black plates with white text. However, the letters will usually be divided into two or three sections - this is not the case for Singaporean plates."
+      }
+    ],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/singapore/roadwarnings.png",
+        "beschreibung": ""
+      }
+    ],
+    "poles": [],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/singapore/streetsign.png",
+        "beschreibung": "All street name signs in Singapore follow this unique format. They are green, with rounded edges and a distinct white font."
+      }
+    ],
+    "taxi": [],
+    "architcture": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/singapore/landscape.png",
+        "beschreibung": "Singapore is a highly developed city-state, characterised by an overall cleanliness and orderliness.  Main roads are often divided, and commonly feature black-and-white curbs and double yellow outside lines. You will often see tall apartment blocks nearby.  NOTE: In many cases, this “general look” is all you need to easily identify Singapore. Nevertheless, we have listed some more specific tips below."
+      }
+    ]
+  },
+  "Südkorea": {
+    "kontinent": "Asien",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Suedkorea.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Australien": {
+    "kontinent": "Ozeanien",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Australien.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Neuseeland": {
+    "kontinent": "Ozeanien",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Neuseeland.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "USA": {
+    "kontinent": "Amerika",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_USA.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Kanada": {
+    "kontinent": "Amerika",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Kanada.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Dominikanische Republik": {
+    "kontinent": "Südamerika",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Dominikanische-Republik.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Puerto Rico": {
+    "kontinent": "Südamerika",
+    "land": {
+      "domain": "",
+      "flagge": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag_of_Puerto_Rico.svg/1280px-Flag_of_Puerto_Rico.svg.png"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Deutschland": {
+    "kontinent": "Europa",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Deutschland.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Österreich": {
+    "kontinent": "Europa",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Oesterreich.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Oman": {
+    "kontinent": "Asien",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Oman.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Arabische Emirate": {
+    "kontinent": "Asien",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Ver-Arab-Emirate.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Schweiz": {
+    "kontinent": "Europa",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Schweiz.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Frankreich": {
+    "kontinent": "Europa",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Frankreich.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Spanien": {
+    "kontinent": "Europa",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Spanien.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Portugal": {
+    "kontinent": "Europa",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Portugal.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Italien": {
+    "kontinent": "Europa",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Italien.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Niederlande": {
+    "kontinent": "Europa",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Niederlande.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Luxemburg": {
+    "kontinent": "Europa",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Luxemburg.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Irland": {
+    "kontinent": "Europa",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Irland.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "UK": {
+    "kontinent": "Europa",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Grossbritannien.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Rumänien": {
+    "kontinent": "Europa",
+    "land": {
+      "domain": ".ro",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Rumaenien.jpg"
+    },
+    "verkehr": "Rechts",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/romania/ro_licenseplate.png",
+        "beschreibung": ""
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/romania/ro_language.png",
+        "beschreibung": "Romanian is a Romance language similar to Italian, containing the following special letters:  Ă ă  Ș ș  Ț ț  These letters are also found in some other European languages:  Â â, used in French, Portuguese and Turkish  Î î, used in French, Turkish and Italian"
+      }
+    ],
+    "googlecar": [],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/romania/ro_bollard.png",
+        "beschreibung": " Romanian bollards are thin and white, with a red vertical strip near the top. It is worth noting that bollards in Romania are somewhat rare.  NOTE: Turkey has a very similar bollard."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/romania/ro_adstones.png",
+        "beschreibung": ""
+      }
+    ],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/romania/ro_adlines.png",
+        "beschreibung": "While there are many types of roadlines in Romania, these outer lines, consisting of short dashes with narrow spaces, can be a good clue for the country."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/romania/ro_road_lines.png",
+        "beschreibung": "Middle lines are often noticeably thicker than average. This is especially useful to tell Romania apart from Bulgaria, which generally has thinner road lines."
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/romania/ro_holeypole.png",
+        "beschreibung": " The most common types of utility poles in Romania are holey poles with the holes going all the way to the bottom. The holes are typically either quite wide or quite tall.  NOTE: Poland and Hungary also both use holey poles. Polish holey poles do not have holes near the bottom and Hungarian holey poles generally have smaller holes than in Romania."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/romania/ro_undpoles.png",
+        "beschreibung": "Round concrete poles are also quite common.  NOTE: These are very similar to poles found in Bulgaria."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/romania/ro_whitepaint.png",
+        "beschreibung": ""
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/romania/ro_polesticker.png",
+        "beschreibung": "This type of extremely large yellow pole sticker is specific to Romania.  Beware that smaller stickers are also common and that both Bulgaria and Hungary can have similar ones.  NOTE: The town or city name will typically be written close to the middle of these stickers. In this case Podu Iloaiei is written."
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/romania/ro_directionalsigns.png",
+        "beschreibung": "Romanian directional signs are blue, arrow shaped, and have a white border. They will very often display the road number, which can be either red or blue."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/romania/ro_prioritysign.png",
+        "beschreibung": " This yield sign, with an extremely thick red border, with a thin white outline, is unique to Romania. Beware that different yield signs also exist in Romania."
+      }
+    ],
+    "taxi": [],
+    "architcture": []
+  },
+  "Serbien": {
+    "kontinent": "Europa",
+    "land": {
+      "domain": ".rs",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Serbien.jpg"
+    },
+    "verkehr": "Rechts",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/serbia/Serbia_Plate.png",
+        "beschreibung": ""
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/serbia/rs_language.png",
+        "beschreibung": " Serbian is a Slavic language which uses both the cyrillic and latin script. These letters are unique to Serbian:  Ђ ђ  Ћ ћ  These letters are found in Serbian and Macedonian:  Љ љ  Њ њ  Џ џ"
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/serbia/rs_languagelatin.png",
+        "beschreibung": "When written in the latin script, Serbian uses the special letters Č, Ć, Đ, Š and Ž. Note that all of these letters may also be found in Croatian and Montenegrin"
+      }
+    ],
+    "googlecar": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/serbia/image.png",
+        "beschreibung": "Most of the coverage in Serbia was taken by a Google car with no antenna.  NOTE: Other than North Macedonia, almost all of central and eastern Europe has antenna coverage in Generation 3."
+      }
+    ],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/serbia/bollard.png",
+        "beschreibung": "Serbia has a few bollard designs, however most of them will have an off-centred reflector. The bollards are usually flat, with no depth to them."
+      }
+    ],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/serbia/Screenshot_2023-07-01_160306.png",
+        "beschreibung": ""
+      }
+    ],
+    "poles": [],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/serbia/Screenshot_2023-07-01_160357.png",
+        "beschreibung": ""
+      }
+    ],
+    "taxi": [],
+    "architcture": []
+  },
+  "Kroatien": {
+    "kontinent": "Europa",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Kroatien.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Bosnien & Herzegowina": {
+    "kontinent": "Europa",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Bosnien-und-Herzegowina.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Nordmazedonien": {
+    "kontinent": "Europa",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Mazedonien.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Albanien": {
+    "kontinent": "Europa",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Albanien.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Griechenland": {
+    "kontinent": "Europa",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Griechenland.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Zypern": {
+    "kontinent": "Europa",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Zypern.jpg"
     },
     "verkehr": "",
     "plates": [],

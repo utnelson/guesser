@@ -3,7 +3,7 @@
     "kontinent": "Südamerika",
     "land": {
       "domain": ".uy",
-      "flagge": "https://de.plonkit.net/images/resize/900/80/uruguay/0_you_are_a_guy.png"
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Uruguay.jpg"
     },
     "verkehr": "Rechts",
     "plates": [
@@ -59,7 +59,7 @@
     "kontinent": "Südamerika",
     "land": {
       "domain": ".ar",
-      "flagge": "https://de.plonkit.net/images/resize/900/80/argentina/transparent-ar_summary_2026.png"
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Argentinien.jpg"
     },
     "verkehr": "Rechts",
     "plates": [
@@ -115,7 +115,7 @@
     "kontinent": "Südamerika",
     "land": {
       "domain": ".cl",
-      "flagge": "https://de.plonkit.net/images/resize/900/80/chile/0_summary_cl_2025.png"
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Chile.jpg"
     },
     "verkehr": "Rechts",
     "plates": [
@@ -171,7 +171,7 @@
     "kontinent": "Südamerika",
     "land": {
       "domain": ".pe",
-      "flagge": "https://de.plonkit.net/images/resize/900/80/peru/transparent-pe_summary_2026.png"
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Peru.jpg"
     },
     "verkehr": "Rechts",
     "plates": [
@@ -217,7 +217,7 @@
     "kontinent": "Südamerika",
     "land": {
       "domain": ".bo",
-      "flagge": "https://de.plonkit.net/images/resize/900/80/bolivia/0_Copy_of_Copy_of_Copy_of_Copy_of_Copy_of_Infographic__284_29.png"
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Bolivien.jpg"
     },
     "verkehr": "Rechts",
     "plates": [
@@ -267,7 +267,7 @@
     "kontinent": "Südamerika",
     "land": {
       "domain": ".br",
-      "flagge": "https://de.plonkit.net/images/resize/900/80/brazil/0_Brazil_Summary_Graphic.png"
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Brasilien.jpg"
     },
     "verkehr": "Rechts",
     "plates": [
@@ -313,7 +313,7 @@
     "kontinent": "Südamerika",
     "land": {
       "domain": ".ec",
-      "flagge": "https://de.plonkit.net/images/resize/900/80/ecuador/transparent-ecuador_summary_new.png"
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Ecuador.jpg"
     },
     "verkehr": "Rechts",
     "plates": [
@@ -364,7 +364,7 @@
     "kontinent": "Südamerika",
     "land": {
       "domain": ".co",
-      "flagge": "https://de.plonkit.net/images/resize/900/80/colombia/transparent-co_summary_2026.png"
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Kolumbien.jpg"
     },
     "verkehr": "Rechts",
     "plates": [
@@ -411,7 +411,7 @@
     "kontinent": "Afrika",
     "land": {
       "domain": ".ls",
-      "flagge": "https://de.plonkit.net/images/resize/900/80/lesotho/0_summary_lesotho.png"
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Lesotho.jpg"
     },
     "verkehr": "Rechts",
     "plates": [
@@ -458,7 +458,7 @@
     "kontinent": "Afrika",
     "land": {
       "domain": ".sz",
-      "flagge": "https://de.plonkit.net/images/resize/900/80/eswatini/0_Copy_of_Copy_of_Infographic__284_29.png"
+      "flagge": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Flag_of_Eswatini.svg/1280px-Flag_of_Eswatini.svg.png"
     },
     "verkehr": "Links",
     "plates": [
@@ -505,7 +505,7 @@
     "kontinent": "Afrika",
     "land": {
       "domain": ".za",
-      "flagge": "https://de.plonkit.net/images/resize/900/80/south-africa/0_summary_281_29.png"
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Suedafrika.jpg"
     },
     "verkehr": "Links",
     "plates": [
@@ -552,7 +552,7 @@
     "kontinent": "Afrika",
     "land": {
       "domain": ".bw",
-      "flagge": "https://de.plonkit.net/images/resize/900/80/botswana/0_Copy_of_Infographic__284_29.png"
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Botsuana.jpg"
     },
     "verkehr": "Links",
     "plates": [
@@ -599,7 +599,7 @@
     "kontinent": "Afrika",
     "land": {
       "domain": ".rw",
-      "flagge": "https://de.plonkit.net/images/resize/900/80/rwanda/0_summary_rwanda.png"
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Ruanda.jpg"
     },
     "verkehr": "Rechts",
     "plates": [
@@ -649,7 +649,7 @@
     "kontinent": "Afrika",
     "land": {
       "domain": ".ug",
-      "flagge": "https://de.plonkit.net/images/resize/900/80/uganda/0_Summary_Graphic.png"
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Uganda.jpg"
     },
     "verkehr": "Links",
     "plates": [
@@ -700,7 +700,7 @@
     "kontinent": "",
     "land": {
       "domain": ".ng",
-      "flagge": "https://de.plonkit.net/images/resize/900/80/nigeria/0_summary_ng.png"
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Nigeria.jpg"
     },
     "verkehr": "Rechts",
     "plates": [
@@ -749,7 +749,7 @@
     "kontinent": "Afrika",
     "land": {
       "domain": ".gh",
-      "flagge": "https://de.plonkit.net/images/resize/900/80/ghana/0_Ghana_summary.png"
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Ghana.jpg"
     },
     "verkehr": "Rechts",
     "plates": [
@@ -795,7 +795,7 @@
     "kontinent": "Afrika",
     "land": {
       "domain": ".sn",
-      "flagge": "https://de.plonkit.net/images/resize/900/80/senegal/0_summary_senegal.png"
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Senegal.jpg"
     },
     "verkehr": "Rechts",
     "plates": [
@@ -846,7 +846,7 @@
     "kontinent": "Kyrillisch",
     "land": {
       "domain": ".ua",
-      "flagge": "https://de.plonkit.net/images/resize/900/80/ukraine/0_summary_ukraine.png"
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Ukraine.jpg"
     },
     "verkehr": "Rechts",
     "plates": [
@@ -901,7 +901,7 @@
     "kontinent": "Kyrillisch",
     "land": {
       "domain": ".mn",
-      "flagge": "https://de.plonkit.net/images/resize/900/80/mongolia/0_mn.png"
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Mongolei.jpg"
     },
     "verkehr": "Rechts",
     "plates": [
@@ -947,7 +947,7 @@
     "kontinent": "Kyrillisch",
     "land": {
       "domain": ".kg",
-      "flagge": "https://de.plonkit.net/images/resize/900/80/kyrgyzstan/0_summary_kyrgyzstan.png"
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Kirgisistan.jpg"
     },
     "verkehr": "Rechts",
     "plates": [
@@ -994,7 +994,7 @@
     "kontinent": "Kyrillisch",
     "land": {
       "domain": ".kz",
-      "flagge": "https://de.plonkit.net/images/resize/900/80/kazakhstan/0_1.png"
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Kasachstan.jpg"
     },
     "verkehr": "Rechts",
     "plates": [
@@ -1040,7 +1040,7 @@
     "kontinent": "Kyrillisch",
     "land": {
       "domain": ".ru",
-      "flagge": "https://de.plonkit.net/images/resize/900/80/russia/0_summary.png"
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Russland.jpg"
     },
     "verkehr": "Rechts",
     "plates": [
@@ -1086,7 +1086,7 @@
     "kontinent": "Kyrillisch",
     "land": {
       "domain": ".bg",
-      "flagge": "https://de.plonkit.net/images/resize/900/80/bulgaria/transparent-bg_summary_2026.png"
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Bulgarien.jpg"
     },
     "verkehr": "Rechts",
     "plates": [
@@ -1128,7 +1128,7 @@
     "kontinent": "Südamerika",
     "land": {
       "domain": ".mx",
-      "flagge": "https://de.plonkit.net/images/resize/900/80/mexico/transparent-mx_summary_2026.png"
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Mexiko.jpg"
     },
     "verkehr": "Rechts",
     "plates": [
@@ -1561,6 +1561,346 @@
         "beschreibung": " Road signs have a yellow-orange background. Within southeast Asia, this is unique."
       }
     ],
+    "taxi": [],
+    "architcture": []
+  },
+  "Indonesia": {
+    "kontinent": "Asien",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Indonesien.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Island": {
+    "kontinent": "Nordisch",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Island.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Norwegen": {
+    "kontinent": "Nordisch",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Norwegen.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Schweden": {
+    "kontinent": "Nordisch",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Schweden.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Finnland": {
+    "kontinent": "Nordisch",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Finnland.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Japan": {
+    "kontinent": "Asien",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Japan.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Dänemark": {
+    "kontinent": "Nordisch",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Daenemark.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Belgien": {
+    "kontinent": "Europa",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Belgien.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Polen": {
+    "kontinent": "Europa",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Polen.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Slowakei": {
+    "kontinent": "Europa",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Slowakei.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Slowenien": {
+    "kontinent": "Europa",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Slowenien.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Malta": {
+    "kontinent": "Europa",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Malta.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Taiwan": {
+    "kontinent": "Asien",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Taiwan.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Türkei": {
+    "kontinent": "Europa",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Tuerkei.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Montenegro": {
+    "kontinent": "Europa",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Montenegro.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Ungarn": {
+    "kontinent": "Europa",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Ungarn.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Litauen": {
+    "kontinent": "Europa",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Litauen.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Estland": {
+    "kontinent": "Europa",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Estland.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Lettland": {
+    "kontinent": "Europa",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Lettland.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
+    "taxi": [],
+    "architcture": []
+  },
+  "Czech": {
+    "kontinent": "Europa",
+    "land": {
+      "domain": "",
+      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Tschechien.jpg"
+    },
+    "verkehr": "",
+    "plates": [],
+    "sprache": [],
+    "googlecar": [],
+    "bollards": [],
+    "streets": [],
+    "poles": [],
+    "schilder": [],
     "taxi": [],
     "architcture": []
   }

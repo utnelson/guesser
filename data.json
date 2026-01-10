@@ -1517,68 +1517,215 @@
   "Japan": {
     "kontinent": "Asien",
     "land": {
-      "domain": "",
+      "domain": ".jp",
       "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Japan.jpg"
     },
-    "verkehr": "",
-    "plates": [],
-    "sprache": [],
-    "googlecar": [],
-    "bollards": [],
-    "streets": [],
+    "verkehr": "Links",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/japan/11.png",
+        "beschreibung": "Japan uses a standard short white licence plate with green text. You will often see a different short yellow version with black text issued to “light automobiles”, otherwise known as Kei Cars."
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/japan/5.png",
+        "beschreibung": ""
+      }
+    ],
+    "googlecar": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/japan/3.png",
+        "beschreibung": " The appearance of the standard Japanese Google car is often black and white. You may find it in black or rarely with an antenna.  In addition, due to privacy reasons, the camera is intentionally set lower to the ground. This is known as low-cam. You can identify it by:  Looking downwards. The blur will be noticeably larger.  The road will look wider, and objects will be viewed from a lower perspective.  NOTE: The only other country that always has low-cam is Switzerland. It can also be seen in Generation 4 coverage in Sri Lanka. Also, the car will be blurred in Switzerland."
+      }
+    ],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/japan/13.png",
+        "beschreibung": "Japan usually uses simple white bollards with circular reflector(s) on the top. However, sometimes these bollards are black, or have other extensions. They can also have the city or prefecture written on it in kanji.  You can learn more about the bollards and kanji in the region guessing section."
+      }
+    ],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/japan/12.png",
+        "beschreibung": "Japan has three common variations of road lines. They are as follows:  The most common being white, solid outer lines with a dashed white middle line.  White solid sidelines with a yellow solid middle line.  White solid sidelines with yellow and white middle lines.  While you may find other, more rare combinations, Japan will never have yellow outside road lines."
+      }
+    ],
     "poles": [],
-    "schilder": [],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/japan/15.png",
+        "beschreibung": "Prefecture roads are identified by their hexagonal-shaped shields. The prefecture is often written under the road number in kanji. While the shield design remains, other variations can be found:  On prefectural highway shields (with kanji).  On directional intersection signs.  Or on small, directional arrow signs.  As multiple prefectures can have the same road number, it is recommended to first find the prefecture you are in."
+      }
+    ],
     "taxi": [],
     "architcture": []
   },
   "Dänemark": {
     "kontinent": "Nordisch",
     "land": {
-      "domain": "",
+      "domain": ".dk",
       "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Daenemark.jpg"
     },
-    "verkehr": "",
-    "plates": [],
-    "sprache": [],
+    "verkehr": "Rechts",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/denmark/Denmark_License_Plate.png",
+        "beschreibung": "Standard plates are long and white, with a blue strip on the left. Commercial plates are yellow. And so-called “Parrot” plates have a yellow section on the left hand side. These are unique to Denmark.  NOTE: The Netherlands, Luxembourg and the UK use yellow plates for private vehicles."
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/denmark/dk_language.png",
+        "beschreibung": " Danish is a North Germanic language that is closely related to Swedish and Norwegian. The Danish alphabet contains these special letters: Æ, Ø, and Å.  NOTE: The special letters found in Danish can also be found in some of the other Northern Germanic languages:  Norwegian uses Æ, Ø, and Å.  Faroese uses Æ and Ø but not Å.  Icelandic only uses Æ.  Swedish only uses Å. In addition, Swedish uses Ä and Ö, which are not found in Danish."
+      }
+    ],
     "googlecar": [],
-    "bollards": [],
-    "streets": [],
-    "poles": [],
-    "schilder": [],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/denmark/Bollard.png",
+        "beschreibung": "Denmark has a very recognizable white bollard with a yellow reflector and a dark orange stripe. This bollard is unique to the country. You may also find this green variant.  NOTE: Belgium has bollards that may look somewhat similar. However, it will never feature the orange stripe."
+      }
+    ],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/denmark/Road_Lines.png",
+        "beschreibung": "Denmark has all-white road lines. Double middle lines are very common.  NOTE: Some other European countries, most notably Poland and Greece, can have double middle lines."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/denmark/Blocky_Gapped_Outside_Road_Lines.png",
+        "beschreibung": "Outer road lines often consist of small white squares. These unique-looking lines are a good way to identify Denmark."
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/denmark/Large_Poles.png",
+        "beschreibung": "Standard street level utility poles are rare in Denmark. Most of the electricity infrastructure you will find in the countryside are large, towering overhead power lines, often near highways."
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/denmark/Directional_Signs.png",
+        "beschreibung": " Denmark has very unique-looking direction signs that are very useful to recognize the country. They are low to the ground and framed by pipes. They are either coloured red and white or blue and white, with a directional arrow incorporated into the background. Signs often feature road numbers.  Some larger road signs have a more standard layout without the pipe frame. Highway signs have blue or green backgrounds."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/denmark/Street_Vej.png",
+        "beschreibung": "Most Danish street names end in “vej.” This is the Danish word for “street.” Street signs most commonly have a blue background with white text."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/denmark/Signpost.png",
+        "beschreibung": ""
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/denmark/Pedestrian_sign.png",
+        "beschreibung": "This Danish pedestrian sign has 5 stripes. Uniquely, the first and fifth stripe touch the edge of the white triangle.  NOTE: Sweden’s pedestrian sign has 4 stripes. Norway almost always has 4 stripes too, but very rarely you can find signs with 5 stripes."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/denmark/Town_entry_and_exit_sign.png",
+        "beschreibung": ""
+      }
+    ],
     "taxi": [],
     "architcture": []
   },
   "Belgien": {
     "kontinent": "Europa",
     "land": {
-      "domain": "",
+      "domain": ".be",
       "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Belgien.jpg"
     },
-    "verkehr": "",
-    "plates": [],
+    "verkehr": "Rechts",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/belgium/Belgium_License_Plate.png",
+        "beschreibung": "Licence plates in Belgium use red text. You can recognise this distinct colour even through the blur."
+      }
+    ],
     "sprache": [],
     "googlecar": [],
-    "bollards": [],
-    "streets": [],
-    "poles": [],
-    "schilder": [],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/belgium/Belgium_Bollards.png",
+        "beschreibung": " Belgium uses white bollards with a yellow rectangular reflector on the front and white on the back. A second type of bollard is dark brown with two red stripes at the top. Occasionally, other bollards can be seen.  NOTE: Denmark uses similar white bollards, but they have a red stripe at the top and the reflector is not rectangular. The dark brown bollard with two red stripes can also be seen in the Netherlands."
+      }
+    ],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/belgium/be_white_lines.webp",
+        "beschreibung": " Belgium uses all white road lines. These can be continuous or broken. Roads are often accompanied by bike lanes on both sides.  NOTE: Bikes and cycling lanes are most common in the Netherlands, but they can be often seen in Belgium as well."
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/belgium/Belgium_Poles.png",
+        "beschreibung": " Most poles in Belgium are concrete, square shaped, and have tiny holes running up them. They often have small metal wrappings around them. The second most common type of pole has oval-shaped holes. You can find many different types of concrete poles in Belgium.  NOTE: The small metal wrappings can be found in France as well."
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/belgium/Ontwerp_zonder_titel_10.png",
+        "beschreibung": "Belgium uses pedestrian crossing signs without any stripes, but with two horizontal dotted lines. The man on the sign has a square head.  NOTE: France and the Netherlands use a pedestrian sign with a regular zebra crossing with five vertical stripes."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/belgium/Ontwerp_zonder_titel_6.png",
+        "beschreibung": ""
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/belgium/Ontwerp_zonder_titel_7.png",
+        "beschreibung": "Town entry signs in Belgium are white with a black border. They also mention the name of the city or municipality in bold, black text."
+      }
+    ],
     "taxi": [],
     "architcture": []
   },
   "Polen": {
     "kontinent": "Europa",
     "land": {
-      "domain": "",
+      "domain": ".pl",
       "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Polen.jpg"
     },
-    "verkehr": "",
-    "plates": [],
-    "sprache": [],
+    "verkehr": "Rechts",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/poland/Poland_License_Plate.png",
+        "beschreibung": "Poland has long white plates with the standard European blue strip on the left.  NOTE: Newer electric vehicles have green plates."
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/poland/pl_language.png",
+        "beschreibung": "Polish is a Slavic language. In contrast to other slavic languages, the Polish alphabet includes:  Ł with a stroke through it (unique to Polish)  Ą and Ę with a small hook (also found in Lithuanian)  Ć, Ń, Ó, Ś, Ź with an acute accent. Of these, Ń is unique to Polish. In addition, the only other language with Ś and Ź is Montenegrin.  Ż with a small dot (unique to Polish)  Polish is very consonant-heavy, with lots of consonant clusters. Polish does not use V. Instead, it uses W a lot, the only Slavic language to do so. Other unusually common consonants are the Z, K, and C."
+      }
+    ],
     "googlecar": [],
-    "bollards": [],
-    "streets": [],
-    "poles": [],
-    "schilder": [],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/poland/Poland-bollard.png",
+        "beschreibung": "Polish bollards have a red strip that wraps all the way around the bollard. This strip has a red reflector on the front (sometimes hard to see), and a white reflector on the back. Bollards sometimes have numbers on them.  NOTE: The same design can be found in Zakarpattia Oblast in Ukraine."
+      }
+    ],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/poland/Poland-road-lines.png",
+        "beschreibung": "Poland has all-white road lines. Double middle lines are very common and usually a good clue for Poland.  NOTE: Some other European countries, most notably Denmark and Greece, can have double middle lines."
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/poland/Poland-poles-comp2.png",
+        "beschreibung": "Poland usually has thin concrete utility poles with see-through holes. They are commonly known as “holey poles”. The holes often do not extend all the way to the bottom of the pole.  Sometimes, two poles are joined together, or put in an A-frame shape. You can also find round concrete poles.  NOTE: Hungary and Romania also have holey poles, but these are wider and more bulky. In addition, the holes extend all the way to the bottom."
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/poland/Poland-yellow-sign2.png",
+        "beschreibung": " Warning signs are triangular and have a yellow background and a distinct thin red border.  NOTE: In Europe, this combination of a yellow background with a thin red border is unique to Poland."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/poland/Poland-pedestrian-sign.png",
+        "beschreibung": "Poland has a unique pedestrian sign. Instead of the usual zebra stripes, it just has a single horizontal line.  NOTE: Austria and Belgium also have horizontal lines, but they use two lines instead of Poland’s single line."
+      }
+    ],
     "taxi": [],
     "architcture": []
   },

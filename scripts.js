@@ -166,71 +166,101 @@ async function filterLänder() {
     row.classList.add("hover:bg-gray-100");
 
     row.innerHTML = `
-      <td class="border px-4 py-2">
-        ${land}
-        <img src="${
-          details.land.flagge
-        }" class="w-36 h-24 object-contain rounded cursor-pointer" data-caption="${land}">
-      </td>
-      <td class="border px-4 py-2">${details.kontinent}</td>
-      <td class="border px-4 py-2">${details.verkehr}</td>
-      <td class="border px-4 py-2">
+    <td class="border px-2 py-2 text-center align-middle">
+      <div class="flex flex-col items-center">
+      <span>${details.kontinent}</span>
+        <span class="font-bold">${land}</span>
+        <img src="${details.land.flagge}"
+             class="w-24 h-24 object-contain rounded cursor-pointer"
+             data-caption="${land}">
+             <span>${details.verkehr}</span>
+      </div>
+    </td>
+
+    <td class="border px-4 py-2 text-center align-middle">
+      <div class="flex justify-center items-center gap-2 flex-wrap">
         ${(details.plates || [])
           .map(
             (p) =>
-              `<img src="${p.bild}" class="w-36 h-24 object-contain rounded cursor-pointer" data-caption="${p.beschreibung}">`
+              `<img src="${p.bild}" class="w-36 h-24 object-contain rounded cursor-pointer"
+                data-caption="${p.beschreibung}">`
           )
           .join("")}
-      </td>
-      <td class="border px-4 py-2">
+      </div>
+    </td>
+
+    <td class="border px-4 py-2 text-center align-middle">
+      <div class="flex justify-center items-center gap-2 flex-wrap">
         ${(details.sprache || [])
           .map(
             (s) =>
-              `<img src="${s.bild}" class="w-36 h-24 object-contain rounded cursor-pointer" data-caption="${s.beschreibung}">`
+              `<img src="${s.bild}" class="w-36 h-24 object-contain rounded cursor-pointer"
+                data-caption="${s.beschreibung}">`
           )
           .join("")}
-      </td>
-      <td class="border px-4 py-2">
+      </div>
+    </td>
+
+    <td class="border px-4 py-2 text-center align-middle">
+      <div class="flex justify-center items-center gap-2 flex-wrap">
         ${(details.googlecar || [])
           .map(
             (g) =>
-              `<img src="${g.bild}" class="w-36 h-24 object-contain rounded cursor-pointer" data-caption="${g.beschreibung}">`
+              `<img src="${g.bild}" class="w-36 h-24 object-contain rounded cursor-pointer"
+                data-caption="${g.beschreibung}">`
           )
           .join("")}
-      </td>
-      <td class="border px-4 py-2">
+      </div>
+    </td>
+
+    <td class="border px-4 py-2 text-center align-middle">
+      <div class="flex justify-center items-center gap-2 flex-wrap">
         ${(details.bollards || [])
           .map(
             (b) =>
-              `<img src="${b.bild}" class="w-36 h-24 object-contain rounded cursor-pointer" data-caption="${b.beschreibung}">`
+              `<img src="${b.bild}" class="w-36 h-24 object-contain rounded cursor-pointer"
+                data-caption="${b.beschreibung}">`
           )
           .join("")}
-      </td>
-      <td class="border px-4 py-2">
+      </div>
+    </td>
+
+    <td class="border px-4 py-2 text-center align-middle">
+      <div class="flex justify-center items-center gap-2 flex-wrap">
         ${(details.poles || [])
           .map(
             (p) =>
-              `<img src="${p.bild}" class="w-36 h-24 object-contain rounded cursor-pointer" data-caption="${p.beschreibung}">`
+              `<img src="${p.bild}" class="w-36 h-24 object-contain rounded cursor-pointer"
+                data-caption="${p.beschreibung}">`
           )
           .join("")}
-      </td>
-      <td class="border px-4 py-2">
+      </div>
+    </td>
+
+    <td class="border px-4 py-2 text-center align-middle">
+      <div class="flex justify-center items-center gap-2 flex-wrap">
         ${(details.schilder || [])
           .map(
             (s) =>
-              `<img src="${s.bild}" class="w-36 h-24 object-contain rounded cursor-pointer" data-caption="${s.beschreibung}">`
+              `<img src="${s.bild}" class="w-36 h-24 object-contain rounded cursor-pointer"
+                data-caption="${s.beschreibung}">`
           )
           .join("")}
-      </td>
-      <td class="border px-4 py-2">
+      </div>
+    </td>
+
+    <td class="border px-4 py-2 text-center align-middle">
+      <div class="flex justify-center items-center gap-2 flex-wrap">
         ${(details.taxi || [])
           .map(
             (t) =>
-              `<img src="${t.bild}" class="w-36 h-24 object-contain rounded cursor-pointer" data-caption="${t.beschreibung}">`
+              `<img src="${t.bild}" class="w-36 h-24 object-contain rounded cursor-pointer"
+                data-caption="${t.beschreibung}">`
           )
           .join("")}
-      </td>
-    `;
+      </div>
+    </td>
+  `;
 
     tbody.appendChild(row);
   });

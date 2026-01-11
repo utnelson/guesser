@@ -40,7 +40,12 @@
         "beschreibung": ""
       }
     ],
-    "schilder": [],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/uruguay/Signposts.png",
+        "beschreibung": "Uruguay uses thick wooden signposts, which are typically painted white. They often have up to four rectangular notches at the back of the post.  NOTE: Thick wooden signposts can also be seen in Bolivia."
+      }
+    ],
     "taxi": [],
     "architcture": []
   },
@@ -154,8 +159,22 @@
         "beschreibung": "NOTE: Horizontal concrete bars are also found in Argentina."
       }
     ],
-    "schilder": [],
-    "taxi": [],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/peru/1.signpost.png",
+        "beschreibung": " Peru is the only South American country to use black-and-white striped signposts. In some areas, black-and-yellow signposts can be seen.  NOTE: Uruguay sometimes uses black-and-white posts for its traffic lights, but not for road signs."
+      }
+    ],
+    "taxi": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/peru/1.tuktuk.png",
+        "beschreibung": " Tuk tuks, called mototaxis in Peru, are frequently seen in the country, especially in major cities such as Lima, Trujillo, Chiclayo, Piura, and Iquitos."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/peru/pe_taxisticker.png",
+        "beschreibung": "Wide red and white stickers will typically be attached to the side of taxis and commercial vehicles.  NOTE: While less common, these can be found in some neighbouring countries."
+      }
+    ],
     "architcture": []
   },
   "Bolivia": {
@@ -333,7 +352,12 @@
     "bollards": [],
     "streets": [],
     "poles": [],
-    "schilder": [],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/eswatini/MRroad.png",
+        "beschreibung": "Roads starting with the letters “MR” are exclusive to Eswatini."
+      }
+    ],
     "taxi": [],
     "architcture": []
   },
@@ -469,7 +493,12 @@
     "streets": [],
     "poles": [],
     "schilder": [],
-    "taxi": [],
+    "taxi": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/uganda/van.png",
+        "beschreibung": " Throughout Kampala, you will often see these taxi buses, with a blue blocky pattern on the sides. These are a good clue for the city if you are not able to see the Google car."
+      }
+    ],
     "architcture": []
   },
   "Nigeria": {
@@ -3501,10 +3530,10 @@
   "Griechenland": {
     "kontinent": "Europa",
     "land": {
-      "domain": "",
+      "domain": ".gr",
       "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Griechenland.jpg"
     },
-    "verkehr": "",
+    "verkehr": "Rechts",
     "plates": [],
     "sprache": [],
     "googlecar": [],

@@ -260,6 +260,18 @@ async function filterLänder() {
           .join("")}
       </div>
     </td>
+
+    <td class="border px-4 py-2 text-center align-middle">
+      <div class="flex justify-center items-center gap-2 flex-wrap">
+        ${(details.streets || [])
+          .map(
+            (s) =>
+              `<img src="${s.bild}" class="w-36 h-24 object-contain rounded cursor-pointer"
+                data-caption="${s.beschreibung}">`
+          )
+          .join("")}
+      </div>
+    </td>
   `;
 
     tbody.appendChild(row);

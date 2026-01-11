@@ -2694,102 +2694,202 @@
   "Australien": {
     "kontinent": "Ozeanien",
     "land": {
-      "domain": "",
+      "domain": ".au",
       "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Australien.jpg"
     },
-    "verkehr": "",
+    "verkehr": "Links",
     "plates": [],
     "sprache": [],
     "googlecar": [],
-    "bollards": [],
-    "streets": [],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/australia/Australian_bollard.png",
+        "beschreibung": "Australian bollards are white, with a red reflector on the front, and a grey reflector on the back.  NOTE: New Zealand uses a bollard where the red reflector wraps around the back, meaning the reflector goes from end to end while the Australian one stops in the middle."
+      }
+    ],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/australia/round.png",
+        "beschreibung": " Australia uses almost exclusively white road lines, with a few rare exceptions in alpine regions such as Mount Kosciuszko and Mount Hotham.  NOTE: If you are considering guessing in Australia, but see yellow outside lines or a yellow middle line, you will probably be in South Africa or New Zealand respectively. Note that New Zealand can have all white road lines as well."
+      }
+    ],
     "poles": [],
-    "schilder": [],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/australia/jfjjjfjfj.png",
+        "beschreibung": " Each state has a unique bus stop design. These are quite common in urban rounds, so are worth learning. Darwin bus stops are usually concrete shelters.  NOTE: The designs may vary slightly, but should still be recognisable. There are multiple versions of Tasmanian bus stops, but most of them should have the word ‘metro’ on it.  You can click on the image to enlarge it."
+      }
+    ],
     "taxi": [],
     "architcture": []
   },
   "Neuseeland": {
     "kontinent": "Ozeanien",
     "land": {
-      "domain": "",
+      "domain": ".nz",
       "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Neuseeland.jpg"
     },
-    "verkehr": "",
-    "plates": [],
+    "verkehr": "Links",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/new-zealand/Ohne_Titel_2824_29.png",
+        "beschreibung": " New Zealand uses white licence plates with black text, which appears mostly white through the blur.  NOTE: Some vehicles have custom licence plates which make the sides of the licence plate appear blue or black."
+      }
+    ],
     "sprache": [],
     "googlecar": [],
-    "bollards": [],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/new-zealand/NZ_Bollard.png",
+        "beschreibung": "Bollards in New Zealand have a red strip which wraps around the top of the bollard. This strip wraps the whole way around the back and part of the front. The front or back of the bollard often contains a thin yellow or white reflector.  NOTE: These bollards are unique to New Zealand."
+      }
+    ],
     "streets": [],
-    "poles": [],
-    "schilder": [],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/new-zealand/NZ_poles.png",
+        "beschreibung": "The most common pole type found in New Zealand is made of concrete and has one long indent which runs most of the way up the pole. Most concrete poles have small silver possum guards. Circular wooden poles can also be found, but are less common. You can also see concrete holey poles in New Zealand."
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/new-zealand/10jOgSh.png",
+        "beschreibung": " Give-way signs in New Zealand have a white border and red text.  NOTE: Australia’s give-way signs use black text."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/new-zealand/bus_stops_darkmode.png",
+        "beschreibung": "The cities of Auckland, Wellington and Christchurch all have unique bus stop signs.  You can click on the image to enlarge it."
+      }
+    ],
     "taxi": [],
     "architcture": []
   },
   "USA": {
     "kontinent": "Amerika",
     "land": {
-      "domain": "",
+      "domain": ".us",
       "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_USA.jpg"
     },
-    "verkehr": "",
+    "verkehr": "Rechts",
     "plates": [],
     "sprache": [],
     "googlecar": [],
     "bollards": [],
-    "streets": [],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/united-states/road_lines.png",
+        "beschreibung": " The US uses yellow middle lines and white outer lines. Double middle lines are the most common.  On divided roads, the outer line closest to the median will be yellow, and the other lines will usually be white.  NOTE: Double middle lines are less common in Canada, but not rare – use this meta with caution. Furthermore, yellow road lines are very rare in Europe."
+      }
+    ],
     "poles": [],
-    "schilder": [],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/united-states/americanspelling.png",
+        "beschreibung": " The US uses American English spelling (e.g. center, color).  In addition, the US primarily uses the imperial system for measurements. For example, speed and distance are measured in miles. You will also often see feet and inches on signs, indicating the height of bridges.  NOTE: This is useful to distinguish between the English-speaking parts of Canada, where British English spelling and (usually) the metric system are used. For example, Canada measures speed in kilometres."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/united-states/yield_sign.png",
+        "beschreibung": "American yield signs are shaped like an upside down triangle with a red border, with a white field with the word ‘YIELD’.  NOTE: Canadian yield signs look similar, but lack the ‘YIELD’ text."
+      }
+    ],
     "taxi": [],
-    "architcture": []
+    "architcture": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/united-states/baptist_church.png",
+        "beschreibung": "Baptist churches are very common in the United States. Similar to mobile homes, these are more common in the Southern Plains and Southeast United States, but can be found in all 50 states.  NOTE: Baptist churches are rare in Canada."
+      }
+    ]
   },
   "Kanada": {
     "kontinent": "Amerika",
     "land": {
-      "domain": "",
+      "domain": ".ca",
       "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Kanada.jpg"
     },
-    "verkehr": "",
+    "verkehr": "Rechts",
     "plates": [],
     "sprache": [],
     "googlecar": [],
     "bollards": [],
     "streets": [],
     "poles": [],
-    "schilder": [],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/canada/Canada_British_English_and_metric_v2.png",
+        "beschreibung": "The English-speaking parts of Canada use British English spelling (e.g. centre; colour). In addition, Canada mostly uses the metric system. For example, speed is measured in kilometres per hour.  NOTE: This is useful to distinguish between the US, where American English spelling and (usually) the imperial system are used. For example, the US measures speed in miles."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/canada/Checkerboard.png",
+        "beschreibung": "Canada uses unique diamond-shaped T-Intersection signs.  Some provinces use different designs. You can learn more about those in the region guessing section.  NOTE: Canada is the only country in the world where you can find these signs. The US, for example, uses rectangular T-Intersection signs."
+      }
+    ],
     "taxi": [],
     "architcture": []
   },
   "Dominikanische Republik": {
     "kontinent": "Südamerika",
     "land": {
-      "domain": "",
+      "domain": ".do",
       "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Dominikanische-Republik.jpg"
     },
-    "verkehr": "",
-    "plates": [],
+    "verkehr": "Rechts",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/dominican-republic/Dominican_Republic_License_Plate.png",
+        "beschreibung": "DR licence plates are somewhat reminiscent of New Jersey plates, being pale yellow at the top and white at the bottom.  NOTE: The Dominican Republic is the only part of Latin America, apart from Puerto Rico and Panama, where front plates are not required."
+      }
+    ],
     "sprache": [],
-    "googlecar": [],
+    "googlecar": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/dominican-republic/googlecar.png",
+        "beschreibung": " This unique car was used for all street view coverage in the Dominican Republic. It can be recognized by the two metal bars, the thick black stripes on them, as well as the white hood visible at the front.  NOTE: These stripes can also be found on one of the Mongolian cars, but the landscape should allow you to tell them apart.  Within the Americas, you will also see metal bars in Guatemala and Curaçao. However, they will not have thick black stripes. pickup, rack"
+      }
+    ],
     "bollards": [],
     "streets": [],
     "poles": [],
-    "schilder": [],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/dominican-republic/pare.png",
+        "beschreibung": "Despite being located in Central America, stop signs in DR contain the South American “PARE”. Moreover, many signs are attached to yellow signposts.  NOTE: ‘PARE’ is also used in all of South America as well as Puerto Rico."
+      }
+    ],
     "taxi": [],
     "architcture": []
   },
   "Puerto Rico": {
     "kontinent": "Südamerika",
     "land": {
-      "domain": "",
+      "domain": ".pr",
       "flagge": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag_of_Puerto_Rico.svg/1280px-Flag_of_Puerto_Rico.svg.png"
     },
-    "verkehr": "",
+    "verkehr": "Rechts",
     "plates": [],
     "sprache": [],
-    "googlecar": [],
+    "googlecar": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/puerto-rico/Puerto_Rico_Smallcam.png",
+        "beschreibung": "Nearly all of the coverage was captured with smallcam, a variant of Generation 4, which in this case can be recognised by the wide blur and antenna that is often visible. The camera is lower and the front blur more round than pickup truck blurs."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/puerto-rico/pr_googlecar.png",
+        "beschreibung": "The Generation 3 Street View car found in Puerto Rico has an antenna at the front right. The antenna has a small white dot on the tip.  NOTE: The Google car on Guam and NMI also have an antenna at the front right. Make sure to look out for other clues before guessing."
+      }
+    ],
     "bollards": [],
     "streets": [],
     "poles": [],
-    "schilder": [],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/puerto-rico/pr_areacode.png",
+        "beschreibung": "The entirety of Puerto Rico uses (787) as their regional phone code. This number can be seen in front of phone numbers using this format:  (787) XXX-XXXX  NOTE: While far less common, you may also encounter the phone code 939."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/puerto-rico/pr_pare.png",
+        "beschreibung": "Stop signs in Puerto Rico say ‘PARE’ instead of stop.  NOTE: ‘PARE’ is also used in all of South America as well as the Dominican Republic."
+      }
+    ],
     "taxi": [],
     "architcture": []
   },
@@ -2830,18 +2930,47 @@
   "Oman": {
     "kontinent": "Asien",
     "land": {
-      "domain": "",
+      "domain": ".om",
       "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Oman.jpg"
     },
-    "verkehr": "",
-    "plates": [],
-    "sprache": [],
-    "googlecar": [],
+    "verkehr": "Rechts",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/oman/3.png",
+        "beschreibung": "Licence plates on private vehicles are generally yellow, while commercial vehicles have red plates."
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/oman/5.png",
+        "beschreibung": " The official language in Oman is Arabic.  NOTE: Due to high tourism, signs in Oman often have English writing alongside Arabic. The same also applies to the UAE."
+      }
+    ],
+    "googlecar": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/oman/4.png",
+        "beschreibung": "All the coverage in Oman was taken with a white pickup truck, meaning you will either see most of the car or a large front blur."
+      }
+    ],
     "bollards": [],
-    "streets": [],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/oman/6.png",
+        "beschreibung": "Roads in Oman use yellow outer and white middle lines.  NOTE: This is also common in the UAE, Israel, Jordan, as well as occasionally found in Qatar."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/oman/7.png",
+        "beschreibung": " Black-and-yellow curbs are common in Oman.  NOTE: The UAE also commonly uses similar curbs."
+      }
+    ],
     "poles": [],
     "schilder": [],
-    "taxi": [],
+    "taxi": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/oman/Snimek_obrazovky_670.png",
+        "beschreibung": "Oman uses white taxis, which have orange-coloured panels on each side."
+      }
+    ],
     "architcture": []
   },
   "Arabische Emirate": {
@@ -2953,12 +3082,37 @@
       "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Niederlande.jpg"
     },
     "verkehr": "",
-    "plates": [],
-    "sprache": [],
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/netherlands/Netherlands_plate.png",
+        "beschreibung": "The Netherlands has long, yellow licence plates with the standard European blue strip on the left. Dutch taxis have blue plates.  NOTE: The only other countries in Europe with yellow licence plates are Luxembourg and the UK. For the UK, only the back plates are yellow, and they often lack the blue strip. In addition, some older coverage in France features the French yellow back plates. In Denmark, you can find yellow plates on commercial vehicles."
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/netherlands/nl_language.png",
+        "beschreibung": "Dutch is a Germanic language. It features a lot of double vowels. Typical letter clusters are ij, ieuw and oe. “IJ“ written as one capitalised letter is also unique to the language.  NOTE: Dutch is also used in the region of Flanders, which comprises the northern half of Belgium."
+      }
+    ],
     "googlecar": [],
-    "bollards": [],
-    "streets": [],
-    "poles": [],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/netherlands/Dutch_bollard.png",
+        "beschreibung": " The Netherlands has a simple, white bollard with a red reflector.  NOTE: On rare occasions, you can find round French-style bollards with a red band and a pointed top. A difference with French bollards is that the red wrap usually does not go all the way around the bollard."
+      }
+    ],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/netherlands/Road_lines.png",
+        "beschreibung": "Like most of Europe, the Netherlands has all-white road lines. Many roads have dashed outside lines. Sometimes, you can find unique green middle lines."
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/netherlands/Lack_of_utility_poles.png",
+        "beschreibung": "The Netherlands usually does not have any utility poles. You might see larger power lines like the ones shown in the image, but essentially never any street-level smaller utility poles.  NOTE: Belgium does use utility poles somewhat commonly."
+      }
+    ],
     "schilder": [],
     "taxi": [],
     "architcture": []
@@ -2970,47 +3124,120 @@
       "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Luxemburg.jpg"
     },
     "verkehr": "",
-    "plates": [],
-    "sprache": [],
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/luxembourg/Luxembourg_License_Plate.png",
+        "beschreibung": "uxembourg uses long yellow plates with a blue strip on the left.  Since Luxembourg is a small country, foreign cars with white plates are somewhat common.  NOTE: There are only a few other European countries that use yellow plates for private vehicles:  The Netherlands has yellow plates front and rear.  The UK has yellow rear plates.  Some pre-2009 French cars have yellow rear plates."
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/luxembourg/lu_language.png",
+        "beschreibung": "Luxembourgish is closely related to German and can look very similar. Like German, it uses umlauts (dots over vowels). In addition, it uses a fair amount of double vowels, and sometimes an é with an accent.  Most town names have their origin in Luxembourgish, German, or both."
+      }
+    ],
     "googlecar": [],
-    "bollards": [],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/luxembourg/Bollards.png",
+        "beschreibung": "Bollards are black and white. They are wedge-shaped and have grey reflectors. Some have a distinctive indent in the lower half.  NOTE: They look more or less identical to German bollards. The most notable difference is that the reflectors on German bollards have two bolts, while in Luxembourg they have three.  The bollards of Belgium, the Netherlands and France look very different."
+      }
+    ],
     "streets": [],
-    "poles": [],
-    "schilder": [],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/luxembourg/Poletops.png",
+        "beschreibung": "Poles with poletops shaped like upside-down tridents are the most common type of pole in Luxembourg.  In addition, you can find a variety of other poletops.  NOTE: These poles can also be commonly seen in France, Spain and Portugal."
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/luxembourg/Street_signs.png",
+        "beschreibung": "Street signs are almost always short and usually have a white background. The exact designs vary from town to town.  A very common design is the one pictured on the left in the example image, with slanted blue corners.  NOTE: Belgian street signs often appear short as well, but can have other background colours – not just white.  In addition, Dutch street signs almost always have a blue background and tend to be much longer than they are tall."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/luxembourg/Pedestrian_sign.png",
+        "beschreibung": "Bus stop signs are blue and always have this exact design. The bus has six windows.  NOTE: Bus stop signs in Belgium and the Netherlands have significantly different designs. For example, the Belgian bus stop sign always has a yellow signpost."
+      }
+    ],
     "taxi": [],
     "architcture": []
   },
   "Irland": {
     "kontinent": "Europa",
     "land": {
-      "domain": "",
+      "domain": ".ie",
       "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Irland.jpg"
     },
-    "verkehr": "",
-    "plates": [],
+    "verkehr": "Links",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/ireland/ireland_plate.png",
+        "beschreibung": "Ireland has long, white licence plates with the standard European blue strip on the left.  The white backplate is especially useful to distinguish it from the UK, which uses yellow backplates (but white fronts). In addition, most UK vehicles lack the blue strip on the left."
+      }
+    ],
     "sprache": [],
     "googlecar": [],
     "bollards": [],
-    "streets": [],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/ireland/Yellow_dashes.png",
+        "beschreibung": "It is very common to see yellow outside dashes on Irish roads.  NOTE: This is essentially never found in the UK. These dashes can also be seen in New Zealand."
+      }
+    ],
     "poles": [],
-    "schilder": [],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/ireland/Diamond_road_sign.png",
+        "beschreibung": "Ireland is the only European country that uses yellow diamond-shaped warning signs.  Note that this only applies to warning signs. Regulatory signs (circles and upside down triangles) have the normal red border and white background, like most other European countries."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/ireland/Yield_sign.png",
+        "beschreibung": " Irish yield signs feature the word “YIELD”.  NOTE: UK yield signs have the phrase “GIVE WAY”."
+      }
+    ],
     "taxi": [],
     "architcture": []
   },
   "UK": {
     "kontinent": "Europa",
     "land": {
-      "domain": "",
+      "domain": ".uk",
       "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Grossbritannien.jpg"
     },
-    "verkehr": "",
-    "plates": [],
+    "verkehr": "Links",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/united-kingdom/United_Kingdom_License_Plate.png",
+        "beschreibung": " UK front plates are white, while back plates are yellow. Some plates have a blue strip on the left, but most do not.  Additionally, you might see a plate with a green ‘Zero Emissions’ strip.  NOTE: Ireland uses white front and back plates, always with a blue strip on the left."
+      }
+    ],
     "sprache": [],
     "googlecar": [],
-    "bollards": [],
-    "streets": [],
-    "poles": [],
-    "schilder": [],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/united-kingdom/Bollard.png",
+        "beschreibung": "The most common bollard in the UK looks like this. It has a rounded shape, with a red reflector on the front and a white one on the back. The base and top are black, with a white stripe in the middle."
+      }
+    ],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/united-kingdom/Kopie_van_Magnifying_Effect_10.png",
+        "beschreibung": "Double yellow road lines are often found on the sides of marked roads, especially in urban areas. These lines indicate a no stopping zone.  NOTE: These lines can also be found in Ireland."
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/united-kingdom/Pole_steps.png",
+        "beschreibung": " The UK uses wooden poles. Pole steps bolted on the side of the pole are very common. These pole steps are shaped like a series of thin horizontal metal rods.  NOTE: Ireland also commonly uses wooden poles with pole steps."
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/united-kingdom/Yield_signs2.png",
+        "beschreibung": "UK yield signs feature the phrase “GIVE WAY”.  NOTE: Irish yields signs just have the word “YIELD”."
+      }
+    ],
     "taxi": [],
     "architcture": []
   },
@@ -3139,17 +3366,46 @@
   "Kroatien": {
     "kontinent": "Europa",
     "land": {
-      "domain": "",
+      "domain": ".hr",
       "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Kroatien.jpg"
     },
-    "verkehr": "",
-    "plates": [],
-    "sprache": [],
+    "verkehr": "Rechts",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/croatia/Croatia_License_Plate.png",
+        "beschreibung": "Croatia has long, white licence plates. Some plates have a blue strip on the left, some are fully white. Most cars seen in Generation 3 will not feature a blue strip on their licence plates. In addition, there is a mix of cars with or without blue strips in Generation 4, with blue strips more common on newer cars.  NOTE: Blue strips are more common along the coast due to travelling tourists from other EU countries such as Italy."
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/croatia/hr_language.png",
+        "beschreibung": " Croatian is a Slavic language. It is always written in the Latin alphabet. ‘IJE’ is common in Croatian whereas Serbian uses only ‘E’ instead.  NOTE: The Slovene language also features a lot of ‘J’s. Serbian and Montenegrin are also very similar, but Serbia and Montenegro use both Latin and Cyrillic script."
+      }
+    ],
     "googlecar": [],
-    "bollards": [],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/croatia/Croatia_bollard.png",
+        "beschreibung": "Croatian bollards are white with a black rectangle and red or white reflector. From the top, it is shaped like a triangle.  NOTE: Hungarian and Lithuanian bollards look similar, but have more rounded edges compared to Croatia’s sharper edges. Lithuanian bollards will also have an orange reflector."
+      }
+    ],
     "streets": [],
-    "poles": [],
-    "schilder": [],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/croatia/Croatia_poles.png",
+        "beschreibung": "Croatian utility poles are cylindrical and made of concrete or wood, often with alternating hooks on the wooden poles (somewhat similar to Latvian poles)."
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/croatia/Pedestrian_sign_2.png",
+        "beschreibung": " Croatia’s pedestrian sign features a pedestrian with a belt and a zebra path with 5 stripes.  NOTE: The pedestrian on Slovenia’s sign does not have a belt."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/croatia/beers.webp",
+        "beschreibung": "Karlovačko and Ožujsko are common Croatian beer companies, with advertisements seen around the country.  Konzum and Plodine are supermarket chains exclusive to Croatia, mostly found in big cities."
+      }
+    ],
     "taxi": [],
     "architcture": []
   },
@@ -3190,17 +3446,55 @@
   "Albanien": {
     "kontinent": "Europa",
     "land": {
-      "domain": "",
+      "domain": ".al",
       "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Albanien.jpg"
     },
-    "verkehr": "",
-    "plates": [],
-    "sprache": [],
-    "googlecar": [],
-    "bollards": [],
+    "verkehr": "Rechts",
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/albania/albania_plate.png",
+        "beschreibung": "Albanian licence plates either have blue strips on both sides or a single red strip on the left side.  NOTE: Albania is the only European country with red on the left side of the licence plate. Furthermore, Italian licence plates also have blue strips on both sides, however Italian front plates are distinctly shorter."
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/albania/Albanian.png",
+        "beschreibung": "Albanian is not very closely related to any other European languages, and therefore has a fairly distinct look.  Words often contain the letter Ë, ë, and sometimes Ç ç."
+      }
+    ],
+    "googlecar": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/albania/Rifts.png",
+        "beschreibung": "‘Rifts’ can commonly be seen in Albanian coverage, due to poor stitching.  NOTE: Rifts are also equally common in Montenegro, and can rarely be seen in various other countries."
+      }
+    ],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/albania/Bollards.png",
+        "beschreibung": " Albanian bollards have a black top with a red and grey reflector. The bottom is painted white.  NOTE: Italy uses the same kind of bollards."
+      }
+    ],
     "streets": [],
-    "poles": [],
-    "schilder": [],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/albania/Upside_triangle_pole_top.png",
+        "beschreibung": "These pole tops, with an upside down triangle shape, are a good clue for Albania.  NOTE: Serbia, Czechia, Slovakia and Romania use similar pole tops."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/albania/Horizontal_bars.png",
+        "beschreibung": " Other, more simple Albanian pole tops will often have horizontal bars.  NOTE: If you are not sure between Montenegro or Albania and see these poles, guess Albania."
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/albania/al_stopsignss.png",
+        "beschreibung": "The “S” on Albanian stop signs feature a distinct shape; the ends of the S are quite short and have the same angle as the middle, rather than being vertical. This is also sometimes seen on directional signs.  NOTE: Italian stops signs and directional signs have the same feature."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/albania/Rruga.png",
+        "beschreibung": "The Albanian word for street is rruga."
+      }
+    ],
     "taxi": [],
     "architcture": []
   },

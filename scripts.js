@@ -234,24 +234,54 @@ window.addEventListener("click", (e) => {
 // Media-Key Badges + aktive Badges unter Überschrift
 // ===============================
 async function setupMediaKeyBadges() {
+  const MEDIA_KEYS = [
+    "plates",
+    "sprache",
+    "googlecar",
+    "bollards",
+    "streets",
+    "poles",
+    "schilder",
+    "taxi",
+    "architcture",
+  ];
+
+  // Tailwind-Klassen Mapping für Tags
+  const TAG_COLOR_MAP = {
+    red: "bg-red-200",
+    green: "bg-green-200",
+    blue: "bg-blue-200",
+    black: "bg-gray-900",
+    yellow: "bg-yellow-200",
+    orange: "bg-orange-200",
+    purple: "bg-purple-200",
+  };
+
   const headerCells = document.querySelectorAll("#countryTable thead th");
   const data = await loadData();
   if (!data) return;
 
+  // Hilfsfunktion: Media-Key schön formatieren (z.B. "googlecar" -> "Google Car")
+  function formatKey(key) {
+    return key
+      .replace(/([A-Z])/g, " $1")
+      .replace(/^./, (str) => str.toUpperCase());
+  }
+
   for (let i = 1; i < headerCells.length; i++) {
-    const key = MEDIA_KEYS_ORDER[i - 1];
+    const key = MEDIA_KEYS[i - 1];
     if (!key) continue;
 
     const th = headerCells[i];
     th.classList.add("th-tooltip");
     th.innerHTML = "";
 
-    // Überschrift
+    // Überschrift aus Media-Key
     const title = document.createElement("div");
     title.textContent = formatKey(key);
     title.className = "font-semibold";
 
-    // Container für aktive Badges
+    // Container für aktive Badges unter der Überschrift
     const activeContainer = document.createElement("div");
     activeContainer.className = "active-badges";
 
@@ -262,54 +292,86 @@ async function setupMediaKeyBadges() {
     const badgeContainer = document.createElement("div");
     badgeContainer.className = "flex flex-wrap gap-1 justify-center";
 
-    // Alle Tags sammeln
+    // Alle Tags aus den Daten sammeln
     const tags = new Set();
     Object.values(data).forEach((country) => {
       (country[key] || []).forEach((item) => {
-        (item.tags || []).forEach((tag) => tags.add(tag));
+        (item.tags || []).forEach((tag) => tags.add(tag.toLowerCase()));
       });
     });
 
+    // Badges erstellen
     [...tags].sort().forEach((tag) => {
       const badge = document.createElement("span");
       badge.textContent = tag;
-      badge.className =
-        "cursor-pointer px-2 py-1 rounded text-sm bg-gray-200 hover:bg-blue-300 transition";
 
+      // Hintergrundfarbe aus Mapping
+      if (TAG_COLOR_MAP[tag]) {
+        badge.className = `${TAG_COLOR_MAP[tag]} text-black px-2 py-1 rounded text-sm cursor-pointer`;
+      } else {
+        badge.className = "bg-gray-200 text-black px-2 py-1 rounded text-sm cursor-pointer hover:bg-blue-300 transition";
+      }
+
+      // Funktion zum Synchronisieren der aktiven Badges unter der Überschrift
       const syncActiveBadges = () => {
         activeContainer.innerHTML = "";
         activeMediaFilters[key].forEach((activeTag) => {
           const activeBadge = document.createElement("span");
           activeBadge.textContent = activeTag;
+
+          if (TAG_COLOR_MAP[activeTag]) {
+            activeBadge.className = `${TAG_COLOR_MAP[activeTag]} px-2 py-1 rounded text-sm cursor-pointer`;
+          } else {
+            activeBadge.className = "bg-blue-500 text-white px-2 py-1 rounded text-sm cursor-pointer";
+          }
+
+          // Klick auf aktive Badge entfernt Filter
           activeBadge.addEventListener("click", () => {
             activeMediaFilters[key].delete(activeTag);
             syncActiveBadges();
-            badgeContainer.querySelectorAll("span").forEach((b) => {
-              if (b.textContent === activeTag)
-                b.classList.remove("bg-blue-500", "text-white");
+            // Tooltip-Badges zurücksetzen
+            const allBadges = badgeContainer.querySelectorAll("span");
+            allBadges.forEach((b) => {
+              if (b.textContent === activeTag) {
+                if (TAG_COLOR_MAP[activeTag]) {
+                  b.className = `${TAG_COLOR_MAP[activeTag]} text-black px-2 py-1 rounded text-sm cursor-pointer`;
+                } else {
+                  b.className = "bg-gray-200 text-black px-2 py-1 rounded text-sm cursor-pointer hover:bg-blue-300 transition";
+                }
+              }
             });
             filterLänder();
           });
+
           activeContainer.appendChild(activeBadge);
         });
 
-        // Tooltip-Badges farblich markieren
+        // Tooltip-Badges farblich hervorheben, wenn aktiv
         badgeContainer.querySelectorAll("span").forEach((b) => {
           if (activeMediaFilters[key].has(b.textContent)) {
-            b.classList.add("bg-blue-500", "text-white");
-            b.classList.remove("bg-gray-200", "text-black");
+            if (!TAG_COLOR_MAP[b.textContent]) {
+              b.classList.add("bg-blue-500", "text-white");
+              b.classList.remove("bg-gray-200", "text-black");
+            }
           } else {
-            b.classList.remove("bg-blue-500", "text-white");
-            b.classList.add("bg-gray-200", "text-black");
+            if (!TAG_COLOR_MAP[b.textContent]) {
+              b.classList.remove("bg-blue-500", "text-white");
+              b.classList.add("bg-gray-200", "text-black");
+            }
           }
         });
       };
 
+      // Klick auf Badge im Tooltip
       badge.addEventListener("click", (e) => {
         e.stopPropagation();
-        if (activeMediaFilters[key].has(tag))
+
+        if (activeMediaFilters[key].has(tag)) {
           activeMediaFilters[key].delete(tag);
-        else activeMediaFilters[key].add(tag);
+        } else {
+          activeMediaFilters[key].add(tag);
+        }
+
         syncActiveBadges();
         filterLänder();
       });
@@ -318,11 +380,15 @@ async function setupMediaKeyBadges() {
     });
 
     tooltip.appendChild(badgeContainer);
+
+    // TH: Überschrift + aktive Badges + Tooltip
     th.appendChild(title);
     th.appendChild(activeContainer);
     th.appendChild(tooltip);
   }
 }
+
+
 
 // ===============================
 // Initial

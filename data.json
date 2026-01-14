@@ -3117,7 +3117,7 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/estonia/Estonian_language.png",
         "beschreibung": "Estonian belongs to the Finnic languages, a branch of the Uralic language family. It is closely related to Finnish.  Within the Baltic languages, the following letters are unique to Estonian:  Vowels with umlauts (two dots): Ä Ö Ü.  Õ with a tilde.  NOTE: Latvian and Lithuanian are both Indo-European languages that are not related to Estonian, and therefore look very different.",
-        "tags": []
+        "tags": ["Baltisch"]
       }
     ],
     "googlecar": [],

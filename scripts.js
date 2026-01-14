@@ -104,21 +104,29 @@ function resetAllFilters() {
   activeKontinent = null;
   activeVerkehr = null;
 
-  MEDIA_KEYS_ORDER.forEach((key) => activeMediaFilters[key].clear());
+  MEDIA_KEYS_ORDER.forEach(key => activeMediaFilters[key].clear());
 
   document.getElementById("land").value = "";
 
+  // Toggle Buttons zurücksetzen
   document.querySelectorAll(".kontinent-btn, .verkehr-btn").forEach((btn) => {
     btn.classList.remove("border-2", "border-red-600");
     btn.classList.add("border", "border-gray-300");
   });
 
-  document
-    .querySelectorAll(".active-badges")
-    .forEach((c) => (c.innerHTML = ""));
+  // Aktive Badges unter Überschrift zurücksetzen
+  document.querySelectorAll(".active-badges").forEach(c => c.innerHTML = "");
 
+  // Tooltip-Badges in allen Spalten zurücksetzen
+  document.querySelectorAll(".th-tooltip .tooltip-content span").forEach(b => {
+    b.classList.remove("bg-blue-500", "text-white");
+    b.classList.add("bg-gray-200", "text-black");
+  });
+
+  // Tabelle neu rendern
   filterLänder();
 }
+
 
 // ===============================
 // Länder filtern & Tabelle füllen

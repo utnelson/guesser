@@ -251,7 +251,7 @@ async function setupMediaKeyBadges() {
     red: "bg-red-200",
     green: "bg-green-200",
     blue: "bg-blue-200",
-    black: "bg-gray-900",
+    black: "bg-gray-900 text-gray-50",
     yellow: "bg-yellow-200",
     orange: "bg-orange-200",
     purple: "bg-purple-200",

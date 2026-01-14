@@ -3282,8 +3282,8 @@
   },
   "Kenia": {
     "kontinent": "Afrika",
-    "verkehr": ".ke",
-    "domain": "Links",
+    "verkehr": "Links",
+    "domain": ".ke",
     "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Kenia.jpg",
     "plates": [
       {

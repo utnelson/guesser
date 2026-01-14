@@ -206,7 +206,11 @@
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/peru/Peru_License_Plate.png",
         "beschreibung": "NOTE: Within South America, yellow licence plates are only found in Peru, Colombia and rarely, Chile.",
-        "tags": []
+        "tags": [
+          "red",
+          "white",
+          "yellow"
+        ]
       }
     ],
     "sprache": [],
@@ -235,6 +239,11 @@
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/peru/Peru_poles.png",
         "beschreibung": "NOTE: Horizontal concrete bars are also found in Argentina.",
+        "tags": []
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/peru/Peru_pole_paint.png",
+        "beschreibung": "Some poles in Peru have painted bottom sections. Most commonly they will be black or black-and-yellow.\n\nNOTE: This pattern of pole paint is unique to Peru within South America, however, similar ones can be seen in other South American countries, such as Colombia.",
         "tags": []
       }
     ],
@@ -408,8 +417,11 @@
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/ecuador/Ecuador_License_Plate.png",
-        "beschreibung": "",
-        "tags": []
+        "beschreibung": "The standard licence plates are white and can be short or long. In street view, you will often see a mix of both sizes.\n\nCommercial vehicles, such as taxis or buses, can have older solid orange plates, or newer ones with an orange bar at the top.\n\nNOTE: Ecuador is the only country in Latin America to use a mix of short and long licence plates.",
+        "tags": [
+          "orange",
+          "white"
+        ]
       }
     ],
     "sprache": [],
@@ -417,12 +429,16 @@
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/ecuador/ec_antenna.png",
         "beschreibung": "Gen 3 NOTE: Mexico, Brazil and Colombia can also have this same short antenna.",
-        "tags": []
+        "tags": [
+          "antenna"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/ecuador/Screenshot__281151_29.png",
         "beschreibung": "Gen 4 NOTE: The pickup truck in Panama has an antenna on the front.",
-        "tags": []
+        "tags": [
+          "pickup"
+        ]
       }
     ],
     "bollards": [
@@ -432,15 +448,39 @@
         "tags": []
       }
     ],
-    "streets": [],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/ecuador/Concrete_roads.png",
+        "beschreibung": "Concrete roads are relatively common in Ecuador.",
+        "tags": []
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/ecuador/Double_guardrails.png",
+        "beschreibung": "Double guardrails are very commonly used. This is much less common in other South American countries.",
+        "tags": []
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/ecuador/Chevron_spam2.png",
+        "beschreibung": "Ecuador often uses a lot of chevrons in road curves (“chevron spam”), usually considerably more than most other Latin American countries.\n\nNOTE: Colombia also occasionally uses a lot of chevrons in curves.",
+        "tags": []
+      }
+    ],
     "poles": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/ecuador/Ecua_poles.png",
         "beschreibung": "Most poles in Ecuador are round and made of concrete. These poles are fairly generic and not all that useful to identify the country.",
+        "tags": [
+          "ladder"
+        ]
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/ecuador/ecuador_one_way.jpeg",
+        "beschreibung": "Ecuador uses these signs to indicate one or two-way streets. \n\nNOTE: The Dominican Republic and Puerto Rico are the only two other Latin American countries to use similar signs with text inside the arrow.",
         "tags": []
       }
     ],
-    "schilder": [],
     "taxi": [],
     "architcture": []
   },
@@ -513,18 +553,44 @@
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/lesotho/Lesotho_License_Plate.png",
-        "beschreibung": "",
-        "tags": []
+        "beschreibung": "Lesotho uses long white licence plates with blue text. If partially unblurred, you may see the Mokorotlo hat symbol on the left.",
+        "tags": [
+          "blue",
+          "white"
+        ]
       }
     ],
     "sprache": [],
-    "googlecar": [],
+    "googlecar": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/lesotho/Car_meta.png",
+        "beschreibung": "All coverage in Lesotho is Generation 3. In almost all locations, the back of a white Google car without an antenna is visible.\n\nNOTE: The other three southern African countries of Eswatini, Botswana and South Africa also have the same white car in Generation 3 coverage.\n\nWhile Botswana and Eswatini only have Generation 3 coverage, South Africa also has Generation 2 and Generation 4 coverage. In addition, Generation 3 coverage is somewhat rare in South Africa.",
+        "tags": []
+      }
+    ],
     "bollards": [],
-    "streets": [],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/lesotho/Road_lines.png",
+        "beschreibung": "Lesotho uses yellow outer lines and white inner lines.\n\nNOTE: These are also found in the other three southern African countries.",
+        "tags": []
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/lesotho/Triple_road_lines.png",
+        "beschreibung": "\nSome roads have unique triple middle lines, consisting of two solid lines with a dashed line in between.\n\nNOTE: These are also found in the other three southern African countries, but nowhere else in the world.",
+        "tags": []
+      }
+    ],
     "poles": [],
     "schilder": [],
     "taxi": [],
-    "architcture": []
+    "architcture": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/lesotho/Lesotho_mountains.png",
+        "beschreibung": "One of the best ways to identify the country are the characteristic ‘Lesotho mountains’. They are bare and treeless, often have tabletop-like shapes, and recognizable horizontal rocky ridgelines.\n\nDepending on where you are in the country, the mountains can vary a bit in appearance. Especially inland areas towards the southeast, where they appear more like rolling green hills rather than isolated tabletop mountains. However, you will still often be able to see the horizontal rocky ridges",
+        "tags": []
+      }
+    ]
   },
   "Eswatini": {
     "kontinent": "Afrika",
@@ -535,23 +601,52 @@
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/eswatini/Eswatini_License_Plate.png",
         "beschreibung": "These may look similar to certain South African plates. Make sure to refer to other clues before guessing.",
-        "tags": []
+        "tags": [
+          "yellow",
+          "white"
+        ]
       }
     ],
     "sprache": [],
-    "googlecar": [],
+    "googlecar": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/eswatini/white_car.webp",
+        "beschreibung": "All of Eswatini was covered by a white Google car without an antenna.\n\nNOTE: Within Africa, this car can also be found in South Africa, Lesotho and Botswana.",
+        "tags": []
+      }
+    ],
     "bollards": [],
-    "streets": [],
-    "poles": [],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/eswatini/Eswa_lines.png",
+        "beschreibung": "Eswatini typically uses yellow outside lines and occasionally, triple white middle lines.\n\nNOTE: Similar road lines can also be found in South Africa, Lesotho and Botswana.",
+        "tags": []
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/eswatini/Copy_of_Untitled_Design__2830_29.png",
+        "beschreibung": "Poles in Eswatini are made of dark brown wood and follow a simple design. The insulators are mostly mounted on the side.\n\nNOTE: In Southern Africa, three insulators on the pole are more commonly found in Eswatini.",
+        "tags": []
+      }
+    ],
     "schilder": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/eswatini/MRroad.png",
         "beschreibung": "Roads starting with the letters “MR” are exclusive to Eswatini.",
-        "tags": []
+        "tags": [
+          "MR"
+        ]
       }
     ],
     "taxi": [],
-    "architcture": []
+    "architcture": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/eswatini/busshelter.png",
+        "beschreibung": "Concrete bus shelters are a common sight on roads in Eswatini.",
+        "tags": []
+      }
+    ]
   },
   "Südafrika": {
     "kontinent": "Afrika",
@@ -654,7 +749,15 @@
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/rwanda/Rwanda_License_Plate.png",
-        "beschreibung": "",
+        "beschreibung": "Rwanda uses long white front and yellow back licence plates.",
+        "tags": [
+          "white",
+          "yellow"
+        ]
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/rwanda/Red_motorcycle_vests.png",
+        "beschreibung": "All motorcyclists in Rwanda are required to wear red vests and helmets.",
         "tags": []
       }
     ],
@@ -662,8 +765,10 @@
     "googlecar": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/rwanda/RwandanTrio.png",
-        "beschreibung": "pickup",
-        "tags": []
+        "beschreibung": "All the coverage in Rwanda is made with a Generation 4 camera. In most of the coverage, the Google car is entirely visible: it is a big white, black, or brown pickup truck. The camera mount is visible.",
+        "tags": [
+          "pickup"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/rwanda/Big_blur.png",
@@ -678,7 +783,15 @@
         "tags": []
       }
     ],
-    "streets": [],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/rwanda/Kerbs.png",
+        "beschreibung": "Kerbs are often painted with black and white stripes.",
+        "tags": [
+          "curbs"
+        ]
+      }
+    ],
     "poles": [],
     "schilder": [],
     "taxi": [],
@@ -731,20 +844,33 @@
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/nigeria/0HpTmNo.png",
         "beschreibung": "Nigeria uses short licence plates that appear somewhat green through the blur.",
-        "tags": []
+        "tags": [
+          "green",
+          "blue"
+        ]
       }
     ],
     "sprache": [],
     "googlecar": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/nigeria/qjpxa6d.png",
+        "beschreibung": "A visible Street View car is present in most of the coverage, being a pickup truck with the cab and bed visible. The colour of the cab and other features of it varies. In Generation 3, a roof rack is present. You may also find a large blur covering the entire pickup truck.",
+        "tags": [
+          "pickup",
+          "rack"
+        ]
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/nigeria/JtDpCOs.png",
         "beschreibung": "followcar",
         "tags": []
       },
       {
-        "bild": "https://de.plonkit.net/images/resize/600/80/nigeria/JtDpCOs.png",
-        "beschreibung": "",
-        "tags": []
+        "bild": "https://de.plonkit.net/images/resize/450/80/nigeria/uhfdEzy.png",
+        "beschreibung": "Within mainland Africa, Nigeria is currently the only country to have this low-quality coverage, known as official ari, or “shitcam”.",
+        "tags": [
+          "shitcam"
+        ]
       }
     ],
     "bollards": [],
@@ -768,8 +894,11 @@
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/ghana/Ghana_License_Plate.png",
-        "beschreibung": "",
-        "tags": []
+        "beschreibung": "Ghana uses white plates on normal vehicles, and yellow plates for commercial vehicles. They can be long or short. Because commercial vehicles are really common, you will often see a mix of both plate colours.\n\nNOTE: Nigeria has similar white plates, but a green tint should be visible, which helps differentiate them.",
+        "tags": [
+          "white",
+          "yellow"
+        ]
       }
     ],
     "sprache": [],
@@ -777,11 +906,20 @@
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/ghana/Ghana_car.png",
         "beschreibung": "pickup, rack",
-        "tags": []
+        "tags": [
+          "pickup",
+          "rack"
+        ]
       }
     ],
     "bollards": [],
-    "streets": [],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/ghana/Road_lines.png",
+        "beschreibung": "Road lines in Ghana are always white. However, many paved roads do not have road lines at all.",
+        "tags": []
+      }
+    ],
     "poles": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/ghana/Ghana_Poles.png",
@@ -789,8 +927,20 @@
         "tags": []
       }
     ],
-    "schilder": [],
-    "taxi": [],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/ghana/Striped_signposts.png",
+        "beschreibung": "Black and white striped signposts in Ghana are typically seen in cities. On rural roads, you will mostly see classic, non-painted, metal signposts.\n\nNOTE: Black and white signposts can be seen in other countries as well. Make sure to look at other clues before guessing.",
+        "tags": []
+      }
+    ],
+    "taxi": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/ghana/Taxis.png",
+        "beschreibung": "\nTaxis in Ghana typically have multicoloured body panels. The fenders and quarter panels are always coloured orange-yellow.",
+        "tags": []
+      }
+    ],
     "architcture": []
   },
   "Senegal": {
@@ -802,7 +952,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/senegal/senegal_plates.png",
         "beschreibung": "Senegal is the only African country to use fully blue licence plates. A newer version exists in Generation 4 which looks like the standard European licence plate which is white with a blue strip on the left.",
-        "tags": []
+        "tags": [
+          "blue",
+          "white"
+        ]
       }
     ],
     "sprache": [
@@ -816,12 +969,17 @@
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/senegal/image.png",
         "beschreibung": "The car may sometimes be fully blurred. Make sure to look at the landscape or other clues in the absence of car meta. pickup",
-        "tags": []
+        "tags": [
+          "pickup"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/senegal/gen_3.png",
         "beschreibung": "This specific Google Car with the right side mirror visible is unique to Senegal. Roof racks and rifts however can be seen in various other countries.",
-        "tags": []
+        "tags": [
+          "rack",
+          "rifts"
+        ]
       }
     ],
     "bollards": [
@@ -834,7 +992,13 @@
     "streets": [],
     "poles": [],
     "schilder": [],
-    "taxi": [],
+    "taxi": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/senegal/image__285_29.png",
+        "beschreibung": "Yellow-orange taxis with black fenders can commonly be seen in Senegal.",
+        "tags": []
+      }
+    ],
     "architcture": []
   },
   "Ukraine": {
@@ -900,34 +1064,55 @@
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/mongolia/1._licenceplate.jpeg",
-        "beschreibung": "",
-        "tags": []
+        "beschreibung": "\nMongolian licence plates are mostly white with a hint of red on the left side from the Soyombo symbol.",
+        "tags": [
+          "red",
+          "white"
+        ]
       }
     ],
     "sprache": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/mongolia/1._language.png",
-        "beschreibung": "",
+        "beschreibung": "\nMongolia primarily uses Cyrillic script, though Latin and traditional Mongolian script can also occasionally be seen. Mongolian Cyrillic contains the letters Ɵ and Ү, which do not exist in the Russian alphabet. Additionally, the use of double vowels, such as aa, ƟƟ or ЭЭ, is common in Mongolian.\n\nNOTE: The letters Ɵ and Ү also exist in the Kyrgyz and Kazakh languages.",
         "tags": []
       }
     ],
     "googlecar": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/mongolia/1._cars.png",
-        "beschreibung": "",
-        "tags": []
+        "beschreibung": "Mongolia very often has a visible Street View car as all of Mongolian coverage was driven with a large pickup truck. The truck can have several features such as a tent on top, red side-view mirrors, a snorkel, and roof-racks. All of these can be of help in identifying Mongolia.",
+        "tags": [
+          "tent",
+          "mirror",
+          "snorkel",
+          "rack",
+          "pickup"
+        ]
       }
     ],
     "bollards": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/mongolia/1._bollard.png",
-        "beschreibung": "",
+        "beschreibung": "\nMongolia uniquely features white bowling-pin shaped bollards with two red stripes around the top.",
         "tags": []
       }
     ],
-    "streets": [],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/mongolia/1._landscapes.png",
+        "beschreibung": "\nMongolia can typically be identified by the steppe biomes found across the country. While some forested areas are found in Mongolia, most of the country features empty grasslands or deserts with a characteristic lack of trees. It is not uncommon to find rugged, rocky or rolling hills as well as rivers and lakes across Mongolia.",
+        "tags": []
+      }
+    ],
     "poles": [],
-    "schilder": [],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/mongolia/1._infrastructure.png",
+        "beschreibung": "\nMongolian infrastructure has clear Russian influence. Wooden poles with supporting stone blocks, white lamp posts, and three-striped pedestrian crossing signs are common to see.\n\nUnique to Mongolia is the “ЗОГС” stop sign.\n\nNOTE: Each town has unique lamp post designs, so learning them can be quite useful.",
+        "tags": []
+      }
+    ],
     "taxi": [],
     "architcture": []
   },
@@ -940,20 +1125,51 @@
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/kyrgyzstan/Kyrgyzstan_License_Plate.png",
         "beschreibung": "Licence plates with red strips can sometimes be seen in Albania and very rarely in the UAE.",
+        "tags": [
+          "red",
+          "white"
+        ]
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/kyrgyzstan/kg_language.png",
+        "beschreibung": "The Kyrgyz script is similar to Russian. However, the Cyrillic script used for Kyrgyz includes additional characters not found in Russian Cyrillic, such as:\n\nӨ\n\nҮ\n\nҢ",
         "tags": []
       }
     ],
-    "sprache": [],
     "googlecar": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/kyrgyzstan/Please_dont_guess_Guatemala.png",
         "beschreibung": "Kyrgyzstan can be recognised from the silver car and four bars that are visible. All coverage is Generation 3.",
+        "tags": [
+          "pickup",
+          "rack",
+          "mirror"
+        ]
+      }
+    ],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/kyrgyzstan/Kyrgyzstan_Bollards.png",
+        "beschreibung": "Kyrgyzstan uses these simple white bollards with a diagonal black stripe near the top.",
         "tags": []
       }
     ],
-    "bollards": [],
-    "streets": [],
-    "poles": [],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/kyrgyzstan/ui_remover.png",
+        "beschreibung": "All of Kyrgyzstan was covered during the winter months, so many of the trees will lack leaves, the landscape will be quite drab, and you can see snow in many parts of Kyrgyzstan.",
+        "tags": []
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/kyrgyzstan/Kyrgyzstan_White_Paint_hint.png",
+        "beschreibung": "\nIn Kyrgyzstan, you will often see trees and concrete poles that are painted white on the bottom.",
+        "tags": []
+      }
+    ],
     "schilder": [],
     "taxi": [],
     "architcture": []
@@ -966,22 +1182,27 @@
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/kazakhstan/2.png",
-        "beschreibung": "",
-        "tags": []
+        "beschreibung": "When blurred, the standard Kazakh licence plates are mostly white, with a small hint of blue on the left side.",
+        "tags": [
+          "blue",
+          "white"
+        ]
       }
     ],
     "sprache": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/kazakhstan/kz_language.png",
-        "beschreibung": "Kazakhstan uses both Cyrillic and Latin alphabets.",
+        "beschreibung": "Kazakhstan uses both Cyrillic and Latin alphabets.\n\nThough sometimes, Russian is used monolingually.\n\nThe following letters are found in the Kazakh but not Russian alphabet: Ә (Ä), Ғ (Ǵ), Қ (Q), Ң (Ń), Ө (Ö), Ұ (W), Ү (Ü), Һ (H), І (I).\n\nKazakh is related to Turkish, so the Latin text can appear similar.",
         "tags": []
       }
     ],
     "googlecar": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/kazakhstan/3.png",
-        "beschreibung": "",
-        "tags": []
+        "beschreibung": "All of the coverage in Kazakhstan was taken with a white pickup truck, which can either be fully visible or mostly blurred.",
+        "tags": [
+          "pickup"
+        ]
       }
     ],
     "bollards": [
@@ -991,11 +1212,29 @@
         "tags": []
       }
     ],
-    "streets": [],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/kazakhstan/4.png",
+        "beschreibung": "\nKazakhstan is a big and diverse country, which features a plethora of distinct landscapes like deserts, grassy steppes, mountain passes, and birch forests.\n\nMost strikingly, most of the rural coverage in Kazakhstan is in a very empty, open and mostly flat landscape.",
+        "tags": []
+      }
+    ],
     "poles": [],
-    "schilder": [],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/kazakhstan/Russian_Infra_Hint.png",
+        "beschreibung": "A lot of Kazakh infrastructure, from pedestrian signs, poles, houses, to bollards, is very similar to what you see in Russia.",
+        "tags": []
+      }
+    ],
     "taxi": [],
-    "architcture": []
+    "architcture": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/kazakhstan/5.png",
+        "beschreibung": "This ornamental pattern known as the koshkar-muiz can be found as part of decorations in all kinds of settings in Kazakhstan.",
+        "tags": []
+      }
+    ]
   },
   "Russland": {
     "kontinent": "Kyrillisch",
@@ -1005,8 +1244,11 @@
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/russia/licenceplate.png",
-        "beschreibung": "",
-        "tags": []
+        "beschreibung": "Russian licence plates are fully white with black text.\n\nNOTE: Most European counterparts will feature a blue strip on the left hand side.",
+        "tags": [
+          "white",
+          "black"
+        ]
       }
     ],
     "sprache": [
@@ -1020,21 +1262,43 @@
     "bollards": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/russia/bollards.png",
-        "beschreibung": "",
+        "beschreibung": "Russia has three main types of bollards: a very thin type being attached to a stick, one with a black top section and a red vertical reflector below and a German-style bollard.",
         "tags": []
       }
     ],
-    "streets": [],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/russia/bollardspam.png",
+        "beschreibung": "Near intersections in Russia you will commonly see a very large number of bollards.",
+        "tags": []
+      }
+    ],
     "poles": [],
     "schilder": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/russia/ulitsa.png",
-        "beschreibung": "The Russian word for street is улица (ulitsa), sometimes abbreviated ул. (ul.).",
-        "tags": []
+        "beschreibung": "The Russian word for street is улица (ulitsa), sometimes abbreviated ул. (ul.).\n\nNOTE: Bulgarian and most other Slavic languages also use улица / ulica. The Ukrainian word however is вулиця (vulytsya), abbreviated вул. (vul.).",
+        "tags": [
+          "ulitsa"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/russia/gorod.png",
         "beschreibung": "The Russian word for city is город (gorod), abbreviated г. (g.)",
+        "tags": [
+          "gorod"
+        ]
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/russia/pedestriansign.png",
+        "beschreibung": "Russian pedestrian signs have a simply drawn person and three stripes. Signs will commonly have a bright yellow border.\n\nNOTE: Ukraine, Lithuania, Mongolia, Kazakhstan and Kyrgyzstan use the same design.",
+        "tags": [
+          "3s"
+        ]
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/russia/leningradstpetersburgpedestriansign.png",
+        "beschreibung": "Clips on edges of signposts are found in Leningrad and St. Petersburg, and very rarely in Pskov, Novgorod or elsewhere.",
         "tags": []
       }
     ],
@@ -1124,7 +1388,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/mexico/mx_licenceplate.png",
         "beschreibung": "Mexico uses short licence plates with a large variety of designs. Front plates are required.",
-        "tags": []
+        "tags": [
+          "white"
+        ]
       }
     ],
     "sprache": [],
@@ -1136,7 +1402,20 @@
         "tags": []
       }
     ],
-    "streets": [],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/mexico/mx_roadlines.png",
+        "beschreibung": "The most typical Mexican road lines are white solid outer lines with a single unbroken yellow middle line.\n\nNOTE: Single broken yellow middle lines and double yellow middle lines are also common.",
+        "tags": []
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/mexico/mx_yellowkerbs.png",
+        "beschreibung": "\nYellow accents on kerbs and bridge barriers are quite common.",
+        "tags": [
+          "curbs"
+        ]
+      }
+    ],
     "poles": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/mexico/mx_octopole.png",
@@ -1148,11 +1427,30 @@
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/mexico/mx_alto.png",
         "beschreibung": "Mexico uses the word “ALTO” on stop signs.",
+        "tags": [
+          "alto"
+        ]
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/mexico/mx_directionalsign.png",
+        "beschreibung": "Mexican directional signs have a distinctly large, all-caps white font.",
         "tags": []
       }
     ],
-    "taxi": [],
-    "architcture": []
+    "taxi": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/mexico/mx_cdmxtaxi.png",
+        "beschreibung": "Taxis in and around Mexico City have a white lower half with a pink upper half.",
+        "tags": []
+      }
+    ],
+    "architcture": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/mexico/mx_electricitycounter.png",
+        "beschreibung": "Mexico uses circular electricity counters.\n\nNOTE: Circular electricity counters are not unique to Mexico and can also be found in the US, Guatemala, Dominican Republic and the Philippines.",
+        "tags": []
+      }
+    ]
   },
   "Guatemala": {
     "kontinent": "Südamerika",
@@ -1163,7 +1461,11 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/guatemala/gt_licenceplate.png",
         "beschreibung": "Guatemala has short licence plates, which when blurred will typically have either a blue tinge, or a hint of green on the left side.",
-        "tags": []
+        "tags": [
+          "blue",
+          "white",
+          "green"
+        ]
       }
     ],
     "sprache": [],
@@ -1171,7 +1473,11 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/guatemala/gt_googlecar.png",
         "beschreibung": "NOTE: The only other tropical country with a similar car is Laos. Pickup, mirror",
-        "tags": []
+        "tags": [
+          "rack",
+          "mirror",
+          "pickup"
+        ]
       }
     ],
     "bollards": [],
@@ -1189,7 +1495,15 @@
         "tags": []
       }
     ],
-    "schilder": [],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/guatemala/gt_alto.png",
+        "beschreibung": "",
+        "tags": [
+          "alto"
+        ]
+      }
+    ],
     "taxi": [],
     "architcture": [
       {
@@ -1208,7 +1522,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/costa-rica/cr_licenceplate.png",
         "beschreibung": " Costa Rican licence plates are typically short and white, with blue text, giving it a light blue tint through the blur.",
-        "tags": []
+        "tags": [
+          "blue",
+          "white"
+        ]
       }
     ],
     "sprache": [
@@ -1232,7 +1549,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/costa-rica/cr_alto.png",
         "beschreibung": "Like Mexico and Guatemala, Costa Rican stop signs feature the word “ALTO”.",
-        "tags": []
+        "tags": [
+          "alto"
+        ]
       }
     ],
     "taxi": [],
@@ -1246,8 +1565,11 @@
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/panama/2.png",
-        "beschreibung": "Front plates are not required in Panama.",
-        "tags": []
+        "beschreibung": "Panama features short licence plates, most commonly white with a horizontal turquoise strip on the top. Rarely, the strip can have other colours.\n\nFront plates are not required in Panama.",
+        "tags": [
+          "green",
+          "white"
+        ]
       }
     ],
     "sprache": [],
@@ -1255,7 +1577,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/panama/3.png",
         "beschreibung": "Panama features a large white pickup truck which can either be fully visible or mostly blurred. There is always a short black antenna attached to the front of the car. Beware that the antenna can sometimes be blurred.",
-        "tags": []
+        "tags": [
+          "pickup"
+        ]
       }
     ],
     "bollards": [],
@@ -1304,7 +1628,11 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/india/in_licenceplates.png",
         "beschreibung": "Indian licence plates are typically fairly long, with the most common design being white. Commercial vehicles typically use yellow plates, while electric vehicles use green.",
-        "tags": []
+        "tags": [
+          "white",
+          "yellow",
+          "green"
+        ]
       }
     ],
     "sprache": [
@@ -1319,7 +1647,13 @@
         "tags": []
       }
     ],
-    "googlecar": [],
+    "googlecar": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/india/in_shitcam.png",
+        "beschreibung": "The vast majority of the coverage in India was taken with what’s commonly referred to as “shitcam”, which is a low-quality camera that can typically be recognised by the brownish colours and often, but not always, by a large circular blur covering the Street View car.\n\nNOTE: Within Asia, Nepal is also entirely “shitcam”, while it’s also common in Cambodia and can rarely be seen in Sri Lanka and Bangladesh.",
+        "tags": []
+      }
+    ],
     "bollards": [],
     "streets": [],
     "poles": [
@@ -1637,7 +1971,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/indonesia/Indonesia_License_Plate.png",
         "beschreibung": "Indonesian licence plates are black with white letters. The letters usually appear as three white sections through the blur.  Commercial vehicles use yellow licence plates.  Plates in newer coverage can be white too.  NOTE: Malaysian licence plates are also black, but generally have two white sections.",
-        "tags": []
+        "tags": [
+          "black",
+          "white"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/indonesia/Front_License_Plate_on_Motorcycle.png",
@@ -1664,7 +2001,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/indonesia/image.png",
         "beschreibung": "Indonesia uses white or yellow centre lines. Outer lines will always be white. The centre lines will be solid or dashed.  In Generation 3 coverage, yellow centre lines are more rare, as Indonesia only recently started using this colour for its road lines.  NOTE: Malaysian road lines are always all white.",
-        "tags": []
+        "tags": [
+          "white",
+          "yellow"
+        ]
       }
     ],
     "poles": [
@@ -1698,7 +2038,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/iceland/k7XBOxn.png",
         "beschreibung": " Icelandic licence plates are fully white with blue characters. Unlike most of Europe, the plates do not feature a blue strip on the left.  It can be hard to see the blue of the characters through the blur of the plates.",
-        "tags": []
+        "tags": [
+          "white",
+          "blue"
+        ]
       }
     ],
     "sprache": [
@@ -1733,7 +2076,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/iceland/Screenshot__281164_29.png",
         "beschreibung": " Icelandic pedestrian signs feature four stripes and often have a slight yellow tint.  NOTE: Iceland is the only European country that uses pedestrian signs with a yellow background.",
-        "tags": []
+        "tags": [
+          "4s"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/iceland/Screenshot__281168_29.png",
@@ -1747,13 +2092,17 @@
   "Norwegen": {
     "kontinent": "Nordisch",
     "verkehr": "Rechts",
-    "domain": "",
+    "domain": ".no",
     "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Norwegen.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/norway/no_licenceplate.png",
         "beschreibung": " Norway has long white licence plates with the standard European strip on the left.  Commercial plates are green. These are often seen on vans.  NOTE: Within Europe, green licence plates are most commonly seen in Norway, but can also be found on electric vehicles in several other countries.",
-        "tags": []
+        "tags": [
+          "blue",
+          "white",
+          "green"
+        ]
       }
     ],
     "sprache": [
@@ -1768,6 +2117,16 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/norway/no_bollard.png",
         "beschreibung": "Norway uses thin, curved rectangular bollards with the reflector inside of a black parallelogram.",
+        "tags": []
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/norway/no_snowpole.png",
+        "beschreibung": "Norwegian snow poles are typically orange, with a fairly thin white reflector. The reflector is normally toward the middle of the pole.\n\nNOTE: Swedish snow poles typically have a wider reflector slightly higher up, and Finnish snow poles have their reflector at the very top.",
+        "tags": []
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/norway/no_snowpolewood.png",
+        "beschreibung": "It is also fairly common to find thin wooden snow poles with painted reflectors.\n\nNOTE: While wooden snow poles can be found in other Nordic countries, they will typically not have reflectors.",
         "tags": []
       }
     ],
@@ -1799,12 +2158,22 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/norway/no_pedestriansign.png",
         "beschreibung": "Norwegian pedestrian signs typically have four stripes and a very simply drawn person. Note however, that there is a version with five stripes and a version where the person is more detailed and wearing a hat.  NOTE: While Finnish pedestrian signs have five stripes, Swedish pedestrian signs have four stripes. However, the person on Swedish signs is detailed, but without a hat.",
-        "tags": []
+        "tags": [
+          "4s"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/norway/no_directionalsigns.png",
         "beschreibung": " Norwegian directional signs are yellow with a black border. You will commonly see the road number displayed, either in a green box for European highways and major roads, or in a white box, for smaller roads.",
         "tags": []
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/norway/no_streetnames.png",
+        "beschreibung": "The most common street name suffixes in Norway are vei and gate. While attached to the name, they take the forms -veien and -gata or -gate.\n\nNOTE: Swedish street names use the suffixes väg or vägen and gata or gatan, where gata is always detached from the name. Danish uses vej and gade.",
+        "tags": [
+          "vei",
+          "gate"
+        ]
       }
     ],
     "taxi": [],
@@ -1819,7 +2188,11 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/sweden/Sweden_License_Plate.png",
         "beschreibung": "Swedish licence plates are long, white, and have the standard blue EU strip on the left side. Licence plates on taxis have a yellow background instead of white.",
-        "tags": []
+        "tags": [
+          "blue",
+          "white",
+          "yellow"
+        ]
       }
     ],
     "sprache": [
@@ -1833,7 +2206,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/sweden/vitbil.png",
         "beschreibung": "A white street view car with a long antenna is featured on a lot of Generation 3 coverage.  NOTE: A similar car is found on all road coverage in Iceland and is also somewhat common in Finland. While it exists in both Norway and Denmark, it is extremely rare in both.",
-        "tags": []
+        "tags": [
+          "antenna"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/sweden/gen4bil.png",
@@ -1871,7 +2246,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/sweden/herrg_C3_A5rman.png",
         "beschreibung": "Swedish pedestrian signs have four stripes. There is notably a version featuring a female silhouette.  NOTE: Finnish and Danish pedestrian signs have five stripes. Norwegian pedestrian signs usually have four stripes, but can also have five.",
-        "tags": []
+        "tags": [
+          "4s"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/sweden/vagskyltar.png",
@@ -1881,7 +2258,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/sweden/vagnamn.png",
         "beschreibung": "Swedish street names most commonly use the suffixes “vägen” and “gatan”. They are often shortened into “v” and “g” respectively on street signs. Street names can also use “väg” or “gata” as a separate word in a street name. Additionally, the suffix “gränd” can be found near city centres.  NOTE: Norway uses veien or vei, gate or gaten, and gata attached to the rest of the street name, rather than as a separate word. Denmark uses vej and gade.",
-        "tags": []
+        "tags": [
+          "vägen",
+          "gatan"
+        ]
       }
     ],
     "taxi": [],
@@ -1889,14 +2269,17 @@
   },
   "Finnland": {
     "kontinent": "Nordisch",
-    "verkehr": "",
-    "domain": "",
+    "verkehr": "Rechts",
+    "domain": ".fi",
     "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Finnland.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/finland/Finland_License_Plate.png",
-        "beschreibung": "eu",
-        "tags": []
+        "beschreibung": "Finland has shorter than normal white plates with the standard European blue strip on the left.\n\nNOTE: Åland has small, fully white plates with blue lettering.",
+        "tags": [
+          "blue",
+          "white"
+        ]
       }
     ],
     "sprache": [
@@ -1911,6 +2294,11 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/finland/Untitled_design6.png",
         "beschreibung": "Finland has long black-and-white bollards with a rectangular, white reflector on the front and two dots on the back. They can be either round or thin and curved. The black strip is typically diagonal.  NOTE: They can look somewhat similar to bollards found in other Northern European countries. This infographic shows the differences.",
+        "tags": []
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/finland/Blue_and_white_signposts.png",
+        "beschreibung": "\nTraffic signposts often have blue and white striped markings.\n\nNOTE: This pattern can also be found in Sweden. While the same colour scheme is also common in Estonia, the markings typically have a wider shape and attach to the signpost in a looser way.",
         "tags": []
       }
     ],
@@ -1931,13 +2319,21 @@
         "bild": "https://de.plonkit.net/images/resize/450/80/finland/Finland_poles.png",
         "beschreibung": "Lamps attached to wooden poles in Finland are normally mounted to the top of the pole with a double bolting.  NOTE: Within Scandinavia, Sweden also uses double bolting. However, in Sweden the lamps are mounted further down and the lamp arms are usually not straight.",
         "tags": []
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/finland/Finland_snowpole.png",
+        "beschreibung": "In Finland, it is common to find orange snow poles with a thin white band near the top.\n\nNOTE: These are also found commonly in Norway and Sweden, but with a much wider white band, lower down on the pole. They can also have multiple white bands, while Finnish snow poles usually have just one band.",
+        "tags": []
       }
     ],
     "schilder": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/finland/Finland_street_sign.png",
         "beschreibung": "Most Finnish street names end in “tie” or “katu.” These are the Finnish words for road and street. Street signs most commonly have a white background with black text.  NOTE: You may find roads ending in “polku” and “kuja”.",
-        "tags": []
+        "tags": [
+          "tie",
+          "katu"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/finland/Finland_yellow_sign_background.png",
@@ -1947,7 +2343,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/finland/FInland_Pedestrian_Signs.png",
         "beschreibung": "Finnish pedestrian signs have 5 stripes.  NOTE: Pedestrian signs in Sweden and Norway usually have 4 stripes. In rare cases, you can find 5 stripes in Norway.",
-        "tags": []
+        "tags": [
+          "5s"
+        ]
       }
     ],
     "taxi": [],
@@ -1968,7 +2366,11 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/japan/11.png",
         "beschreibung": "Japan uses a standard short white licence plate with green text. You will often see a different short yellow version with black text issued to “light automobiles”, otherwise known as Kei Cars.",
-        "tags": []
+        "tags": [
+          "green",
+          "white",
+          "yellow"
+        ]
       }
     ],
     "sprache": [
@@ -1999,7 +2401,18 @@
         "tags": []
       }
     ],
-    "poles": [],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/japan/9.png",
+        "beschreibung": "Japan mostly uses these round concrete poles, which have these screw-like extensions. Other information can often be found on or attached to the pole including:\n\nElectrical plates.\n\nGuy-wires.\n\nPole reflectors.\n\nTherefore, they are a key asset in region guessing Japan.\n\nYou can learn more about plates, reflectors, and guy-wires in the region guessing section.",
+        "tags": []
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/japan/10.png",
+        "beschreibung": "You can find a variety of pole reflectors in Japan. They are typically short and do not touch the ground. Common patterns found all across Japan include:\n\nYellow vertical stripes.\n\nYellow diagonal stripes.\n\nVertical or diagonal white stripes.\n\nNOTE: The Taiwanese variant has diagonal stripes that reach the ground. The South Korean ones have diagonal, thicker stripes.\n\nYou can learn more about the different regional reflectors in the region guessing section.",
+        "tags": []
+      }
+    ],
     "schilder": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/japan/15.png",
@@ -2019,7 +2432,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/denmark/Denmark_License_Plate.png",
         "beschreibung": "Standard plates are long and white, with a blue strip on the left. Commercial plates are yellow. And so-called “Parrot” plates have a yellow section on the left hand side. These are unique to Denmark.  NOTE: The Netherlands, Luxembourg and the UK use yellow plates for private vehicles.",
-        "tags": []
+        "tags": [
+          "white",
+          "yellow"
+        ]
       }
     ],
     "sprache": [
@@ -2065,7 +2481,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/denmark/Street_Vej.png",
         "beschreibung": "Most Danish street names end in “vej.” This is the Danish word for “street.” Street signs most commonly have a blue background with white text.",
-        "tags": []
+        "tags": [
+          "vej"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/denmark/Signpost.png",
@@ -2075,7 +2493,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/denmark/Pedestrian_sign.png",
         "beschreibung": "This Danish pedestrian sign has 5 stripes. Uniquely, the first and fifth stripe touch the edge of the white triangle.  NOTE: Sweden’s pedestrian sign has 4 stripes. Norway almost always has 4 stripes too, but very rarely you can find signs with 5 stripes.",
-        "tags": []
+        "tags": [
+          "5s"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/denmark/Town_entry_and_exit_sign.png",
@@ -2154,7 +2574,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/poland/Poland_License_Plate.png",
         "beschreibung": "Poland has long white plates with the standard European blue strip on the left.  NOTE: Newer electric vehicles have green plates.",
-        "tags": []
+        "tags": [
+          "blue",
+          "white"
+        ]
       }
     ],
     "sprache": [
@@ -2222,7 +2645,13 @@
         "tags": []
       }
     ],
-    "streets": [],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/slovakia/sk_guardrail.png",
+        "beschreibung": "Slovakia and Czechia both use a special kind of type B guardrail, which is wider than the normal type. No other European countries use the same kind.\n\nNOTE: While Czechia uses this type fairly consistently, Slovakia also uses other types occasionally. For a good overview of European guardrails, see this infographic.",
+        "tags": []
+      }
+    ],
     "poles": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/slovakia/sk_doublepole.png",
@@ -2234,12 +2663,16 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/slovakia/sk_streetsigns.png",
         "beschreibung": "White street signs with blue text and a thin red border are by far the most common in Slovakia.  NOTE: The same design can also be found in Czechia, near the Slovak border. However, Czech street names never feature the word “ulica”.",
-        "tags": []
+        "tags": [
+          "ulica"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/slovakia/sk_pedestriansign.png",
         "beschreibung": "Slovakia uses two major pedestrian signs, both having five stripes. The first has a simply drawn person with a belt, and the second has the stripes very close together.  NOTE: The same belted design is found in Germany. A similar design, with a distinctly lower belt, is found in Hungary. While very rare, pedestrian signs with similarly condensed stripes can also be found in Czechia.",
-        "tags": []
+        "tags": [
+          "5s"
+        ]
       }
     ],
     "taxi": [],
@@ -2266,7 +2699,18 @@
         "tags": []
       }
     ],
-    "streets": [],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/slovenia/slovenia_roadlines.png",
+        "beschreibung": "Slovenian roads commonly feature long outer dashes.\n\nNOTE: Neighbouring countries do not frequently use dashed outside lines.",
+        "tags": []
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/slovenia/si_guardrail.png",
+        "beschreibung": "Slovenia uses a regular A-type guardrail, like most European countries. This guardrail type has rounded edges.\n\nThis is mostly useful for 50-50s with Croatia, which uses B-type guardrails. This type has square edges.\n\nNOTE: For a good overview of European guardrails, see this infographic.",
+        "tags": []
+      }
+    ],
     "poles": [],
     "schilder": [
       {
@@ -2277,12 +2721,16 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/slovenia/si_pedestriansign.png",
         "beschreibung": "Slovenian pedestrian signs have five stripes and a simply drawn person without a belt.  NOTE: Austrian pedestrian signs have two dotted lines, while the person on Croatian signs has a belt.",
-        "tags": []
+        "tags": [
+          "5s"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/slovenia/si_streetsigns.png",
         "beschreibung": "Slovenian street signs are most commonly white with a metal border attached to signposts, or red and attached to house walls.  NOTE: Czech street signs are also typically red and attached to walls. However, Czech street names will not contain the word “ulica”, which most Slovenian street names have.",
-        "tags": []
+        "tags": [
+          "ulica"
+        ]
       }
     ],
     "taxi": [],
@@ -2297,7 +2745,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/malta/mt_licenceplate.png",
         "beschreibung": " Like most of Europe, Maltese licence plates have a blue strip on the left. However, unlike most of Europe, short plates are very common.",
-        "tags": []
+        "tags": [
+          "blue",
+          "white"
+        ]
       }
     ],
     "sprache": [
@@ -2326,7 +2777,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/malta/mt_triq.png",
         "beschreibung": "The Maltese word for street is “triq”, which can be seen on almost every street sign.",
-        "tags": []
+        "tags": [
+          "triq"
+        ]
       }
     ],
     "taxi": [],
@@ -2446,11 +2899,22 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/montenegro/Montenegro_Licence_Plate.png",
         "beschreibung": " Montenegro uses the standard European plate with a blue strip, and the Montenegro coat of arms on a red circle. The red circle is visible through the blur.  NOTE: The white section of Albanian licence plates do not have a red circle.",
-        "tags": []
+        "tags": [
+          "blue",
+          "red"
+        ]
       }
     ],
     "sprache": [],
-    "googlecar": [],
+    "googlecar": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/montenegro/Rifts.png",
+        "beschreibung": "‘Rifts’ can commonly be seen in Montenegrin coverage, due to poor stitching.\n\nNOTE: Rifts are also common in Albania, and can rarely be seen in various other countries.",
+        "tags": [
+          "rift"
+        ]
+      }
+    ],
     "bollards": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/montenegro/Bollard.png",
@@ -2534,7 +2998,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/lithuania/Lithuania_License_Plate.png",
         "beschreibung": "Lithuanian licence plates are long and white, with the standard blue European strip on the left.",
-        "tags": []
+        "tags": [
+          "blue",
+          "white"
+        ]
       }
     ],
     "sprache": [
@@ -2569,7 +3036,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/lithuania/Pedestrian_sign_Lithuania.png",
         "beschreibung": " Lithuanian pedestrian signs have 3 stripes. The shape of the pedestrian has a relatively low level of detail.  NOTE: Both Russia and Ukraine share the same design. Estonian signs also have 3 stripes, but the pedestrian looks more detailed.  Latvian pedestrian signs have 5 stripes.",
-        "tags": []
+        "tags": [
+          "3s"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/lithuania/Bus_stop_sign_Lithuania.png",
@@ -2579,7 +3048,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/lithuania/Gatve.png",
         "beschreibung": "The Lithuanian word for street is gatve, often abbreviated as g. on signs and Google Maps.  This word is almost entirely unique to Lithuanian. However, very rarely, you might see ‘gatve’ (abbreviated as gat.) in the Latvian capital of Riga.",
-        "tags": []
+        "tags": [
+          "gatve"
+        ]
       }
     ],
     "taxi": [],
@@ -2593,8 +3064,11 @@
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/estonia/Estonia_License_Plate.png",
-        "beschreibung": "",
-        "tags": []
+        "beschreibung": "Estonian licence plates are long and white, with the standard blue European strip on the left.",
+        "tags": [
+          "blue",
+          "white"
+        ]
       }
     ],
     "sprache": [
@@ -2645,12 +3119,18 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/estonia/Pedestrian_sign_Estonia.png",
         "beschreibung": "Estonian pedestrian signs have 3 stripes. The shape of the pedestrian has a relatively high level of detail, detailing shoes and an attached head.  NOTE: Lithuanian signs also have 3 stripes, but the pedestrian looks less detailed.  Latvian pedestrian signs have 5 stripes.",
-        "tags": []
+        "tags": [
+          "3s"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/estonia/Tee_street_sign.png",
         "beschreibung": "The Estonian words for street and road are tänav and tee, respectively. These words are unique to Estonian. Tänav is often abbreviated as ‘tn’.  Many streets, especially in urban areas, have a simple name that completely lacks the tänav and or tee suffix.  NOTE: The Finnish suffix -tie, meaning street, can look similar.",
-        "tags": []
+        "tags": [
+          "tänav",
+          "tee",
+          "tie"
+        ]
       }
     ],
     "taxi": [],
@@ -2665,7 +3145,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/latvia/Latvia_License_Plate.png",
         "beschreibung": "Latvian licence plates are long and white, with the standard blue European strip on the left.",
-        "tags": []
+        "tags": [
+          "blue",
+          "white"
+        ]
       }
     ],
     "sprache": [
@@ -2700,7 +3183,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/latvia/Pedestrian_sign.png",
         "beschreibung": " Latvian pedestrian signs have five stripes, which is unique within the Baltics. Uniquely, the pedestrian has noticeably long legs compared to pedestrian signs in other European countries.  The other two Baltic countries have three stripes on their pedestrian signs.",
-        "tags": []
+        "tags": [
+          "5s"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/latvia/Bus_stop_sign.png",
@@ -2710,7 +3195,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/latvia/Iela.png",
         "beschreibung": " The Latvian word for street is iela. This word is unique to Latvian.  Very rarely, you might see ‘gatve’ in Riga (abbreviated as gat.). This word is also the standard word for street in Lithuania (usually abbreviated as g.).",
-        "tags": []
+        "tags": [
+          "iela"
+        ]
       }
     ],
     "taxi": [],
@@ -2758,7 +3245,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/kenya/Kenya_License_Plate.png",
         "beschreibung": "Kenya uses long white front licence plates. The rear counterpart is square and yellow.",
-        "tags": []
+        "tags": [
+          "white",
+          "yellow"
+        ]
       }
     ],
     "sprache": [],
@@ -2766,12 +3256,18 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/kenya/Kenya_2Bcars.png",
         "beschreibung": " Kenya has many unique Google cars, almost all of which will have visible car meta. In Generation 3 you will typically see a car with a roof rack and a snorkel. In Generation 4 you will always have a large pickup truck, which will either be white or grey. The grey car comes in two slightly different variations, of which one can either be with or without a snorkel.  It is the only country other than Mongolia with a snorkel.  NOTE: You can see National Park Cars in other countries with a snorkel on the front of the vehicle. Each vehicle will have its own distinct look.",
-        "tags": []
+        "tags": [
+          "pickup",
+          "rack",
+          "snorkel"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/kenya/Kenya_2Bfollow_2Bcar.png",
         "beschreibung": "On a lot of the coverage you will see a grey Toyota SUV following the Street View car. followcar",
-        "tags": []
+        "tags": [
+          "followcar"
+        ]
       }
     ],
     "bollards": [],
@@ -2863,7 +3359,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/sri-lanka/Sri_Lanka_License_Plate.png",
         "beschreibung": " Vehicles in Sri Lanka have long white front plates and short yellow rear plates.",
-        "tags": []
+        "tags": [
+          "white",
+          "yellow"
+        ]
       }
     ],
     "sprache": [
@@ -2941,7 +3440,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/malaysia/Malaysia_License_Plate.png",
         "beschreibung": " Malaysian licence plates are black and generally have two white sections. These are visible even when blurred.  NOTE: Indonesian licence plates are also black, but they will have three white sections.",
-        "tags": []
+        "tags": [
+          "black",
+          "white"
+        ]
       }
     ],
     "sprache": [
@@ -2973,6 +3475,11 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/malaysia/yellow_road_markings.png",
         "beschreibung": " These thick yellow bars are also almost exclusive to Malaysia.  NOTE: You can very rarely see similar patterns in Hong Kong and the United Kingdom.",
+        "tags": []
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/malaysia/kerb.png",
+        "beschreibung": "\nBlack-and-white curbs are commonly found in Malaysia.\n\nNOTE: Many other countries in Asia can also have black-and-white curbs.",
         "tags": []
       }
     ],
@@ -3012,7 +3519,11 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/philippines/1_licenceplate.png",
         "beschreibung": "Standard white licence plates with black text are used for passenger vehicles. You can also find many that are privately issued, which are recognizable due to their green tint.",
-        "tags": []
+        "tags": [
+          "white",
+          "black",
+          "green"
+        ]
       }
     ],
     "sprache": [],
@@ -3052,7 +3563,7 @@
     "taxi": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/philippines/1_tuktuk.png",
-        "beschreibung": "",
+        "beschreibung": "Tuk-tuks, also referred to as tricycles, are extremely common in the Philippines, in many areas they are more common than typical cars.",
         "tags": []
       }
     ],
@@ -3060,18 +3571,81 @@
   },
   "Laos": {
     "kontinent": "Asien",
-    "verkehr": "",
-    "domain": "",
+    "verkehr": "Rechts",
+    "domain": ".la",
     "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Laos.jpg",
-    "plates": [],
-    "sprache": [],
-    "googlecar": [],
-    "bollards": [],
-    "streets": [],
-    "poles": [],
-    "schilder": [],
-    "taxi": [],
-    "architcture": []
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/laos/Laos_License_Plate.png",
+        "beschreibung": "Laotian licence plates are short and yellow. This distinguishes them from nearby Thailand and Cambodia, who both use white plates on non-commercial vehicles.\n\nLaotian commercial plates are white, and government plates are blue.\n\nNOTE: Thailand uses yellow plates for commercial vehicles, such as taxis.",
+        "tags": [
+          "yellow",
+          "white",
+          "blue"
+        ]
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/laos/la_language.png",
+        "beschreibung": "Lao script is compact and curvy, with some diacritics on top and below characters.\n\nNOTE: It is very similar to Thai script, but (in most fonts) Lao script has fewer straight lines.",
+        "tags": []
+      }
+    ],
+    "googlecar": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/laos/Laos_car.png",
+        "beschreibung": "In all cities except for the capital, Vientiane, this Google car will be visible. It is silver-coloured, with a roof rack with two metal bars and black side mirrors.\n\nNOTE: A similar car can be found in Guatemala, so be sure to look at the other clues before guessing.",
+        "tags": [
+          "rack",
+          "mirrors"
+        ]
+      }
+    ],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/laos/Laos_bollards.png",
+        "beschreibung": "Laos uses square concrete black and white bollards with one or more black bands.\n\nNOTE: Thailand, Indonesia, and rarely Cambodia use similar bollards.",
+        "tags": []
+      }
+    ],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/laos/Laos_striped_curbs.png",
+        "beschreibung": "\nStriped curbs of various colours, such as red, yellow, or black with white, can be seen throughout Laos.",
+        "tags": [
+          "curbs"
+        ]
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/laos/laos_Pole_Graphic.png",
+        "beschreibung": "Laos uses square concrete poles, with small pinholes on the sides in a row from top to bottom.\n\nNOTE: Similar poles are found in Thailand, Sri Lanka, and less commonly, Cambodia.",
+        "tags": []
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/laos/Stop_Sign_Comparison.png",
+        "beschreibung": "\nStop signs feature the Lao script. Sometimes, the sign features the word ‘stop’ in Latin script below the Lao script.\n\nNOTE: In Laos, stop signs only have 2 characters, compared to 3 in Thailand.",
+        "tags": []
+      }
+    ],
+    "taxi": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/laos/Laos_coverage.png",
+        "beschreibung": "Street View coverage in Laos is very limited. Only five cities are covered: Vientiane, Vang Vieng, Luang Prabang, Savannakhet, and Pakse.\n\nIn addition, all coverage in Laos was taken by a Generation 3 camera.\n\nAll five cities have a distinct look and with some practise they are easily distinguishable from each other. The differences are discussed in more detail in the region-guessing section, but the summarized version is as follows:\n\nLuang Prabang: historical architecture, hills, palms\n\nVang Vieng: distinct mountains\n\nVientiane: no roof rack, large city\n\nSavannakhet: very flat\n\nPakse: red soil, arid, hills",
+        "tags": []
+      }
+    ],
+    "architcture": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/laos/Laos_buddhism.png",
+        "beschreibung": "\nLaos is a majority Buddhist country. Buddhist temples are a common sight. They can be recognized by their ornate decorations, often with gold leaf detailing.\n\nNOTE: Thailand and Cambodia are also majority Buddhist.",
+        "tags": []
+      }
+    ]
   },
   "Buthan": {
     "kontinent": "Asien",
@@ -3133,31 +3707,112 @@
   },
   "Jordanien": {
     "kontinent": "Asien",
-    "verkehr": "",
-    "domain": "",
+    "verkehr": "Rechts",
+    "domain": ".jo",
     "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Jordanien.jpg",
-    "plates": [],
-    "sprache": [],
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/jordan/Jordan_License_Plate.png",
+        "beschreibung": "Jordanian licence plates are white and can be long or short. Commercial transport vehicles, such as taxis, have a distinctive green strip on the left.\n\nNOTE: In the Middle East, the green strip is only found in Jordan.\n\nThe UAE also uses long white plates. Israel however only uses yellow licence plates. In Palestine, both white domestic and yellow Israeli plates are common.",
+        "tags": [
+          "white",
+          "green"
+        ]
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/jordan/arabic_language.png",
+        "beschreibung": "The official language used in Jordan is Arabic and can be identified by its lines and dots.\n\nNOTE: Unlike the UAE, Jordan does not have English writing on most commercial signs. This can be helpful to distinguish the two countries.",
+        "tags": []
+      }
+    ],
     "googlecar": [],
     "bollards": [],
-    "streets": [],
-    "poles": [],
-    "schilder": [],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/jordan/roadlines.png",
+        "beschreibung": "Roads in Jordan typically feature yellow outside and white middle lines.\n\nNOTE: Other Middle Eastern countries such as the UAE and Israel can also have these road lines. Make sure to check other clues before guessing.",
+        "tags": []
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/jordan/Untitled_design92.png",
+        "beschreibung": "\nThese are three common electricity poles that you will find in Jordan. Rounded concrete poles have either a diagonal support or consist of three horizontal Y pole tops. You may additionally see thin, two support metal poles with three vertical coils.",
+        "tags": []
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/jordan/chevron.png",
+        "beschreibung": "Jordanian chevrons are white with red arrows.\n\nNOTE: You can use chevrons to distinguish between Jordan and Israel: the Israeli chevrons are black with white arrows.",
+        "tags": []
+      }
+    ],
     "taxi": [],
     "architcture": []
   },
   "Israel": {
     "kontinent": "Asien",
-    "verkehr": "",
-    "domain": "",
+    "verkehr": "Rechts",
+    "domain": ".il .ps",
     "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Israel.jpg",
-    "plates": [],
-    "sprache": [],
-    "googlecar": [],
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/israel-west-bank/il_Licence_Plate.png",
+        "beschreibung": "\nIsraeli licence plates are yellow with a blue strip on the left.\n\nNOTE: While this design is specific for Israel, it is also very common on the West Bank. Jordan and the UAE use white licence plates. Tunisia uses black plates.",
+        "tags": [
+          "yellow",
+          "blue"
+        ]
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/israel-west-bank/il_language.png",
+        "beschreibung": "You will typically find two languages; Hebrew, which is practically only found in Israel and the West Bank, and Arabic, which is particularly common in the West Bank.",
+        "tags": []
+      }
+    ],
+    "googlecar": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/israel-west-bank/il_car.png",
+        "beschreibung": "Most Generation 3 coverage was taken by a black Street View car with a long antenna.\n\nYou may also see the black car without an antenna and a silver car with a short antenna.",
+        "tags": [
+          "antenna"
+        ]
+      }
+    ],
     "bollards": [],
-    "streets": [],
-    "poles": [],
-    "schilder": [],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/israel-west-bank/IL_Roadlines.png",
+        "beschreibung": "\nMost roads feature yellow outer lines with white centre lines.",
+        "tags": []
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/israel-west-bank/il_kerb.png",
+        "beschreibung": "You will very often see striped kerbs: red and white and fairly commonly black and white.\n\nRed and yellow and blue and white are also rarely found.",
+        "tags": [
+          "curbs"
+        ]
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/israel-west-bank/IL_Stripy_Pole.png",
+        "beschreibung": "Utility poles commonly feature these painted black and white striped bottoms.",
+        "tags": []
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/israel-west-bank/il_stopsign.png",
+        "beschreibung": "Rather than having a word meaning ‘stop’ written on them, stop signs have a hand painted on them.",
+        "tags": []
+      }
+    ],
     "taxi": [],
     "architcture": []
   },
@@ -3170,7 +3825,12 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/singapore/Singapore_License_Plate.png",
         "beschreibung": "Most Singaporean licence plates are black, with white text. Occasionally, you will be able to see the British style white-and-yellow plates and very rarely red plates.  NOTE: Neighbouring Malaysia and Indonesia also use black plates with white text. However, the letters will usually be divided into two or three sections - this is not the case for Singaporean plates.",
-        "tags": []
+        "tags": [
+          "red",
+          "yellow",
+          "white",
+          "black"
+        ]
       }
     ],
     "sprache": [],
@@ -3179,7 +3839,7 @@
     "streets": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/singapore/roadwarnings.png",
-        "beschreibung": "",
+        "beschreibung": "Warnings are often written on the road in large letters, such as the famous “HUMP AHEAD”.",
         "tags": []
       }
     ],
@@ -3308,7 +3968,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/new-zealand/Ohne_Titel_2824_29.png",
         "beschreibung": " New Zealand uses white licence plates with black text, which appears mostly white through the blur.  NOTE: Some vehicles have custom licence plates which make the sides of the licence plate appear blue or black.",
-        "tags": []
+        "tags": [
+          "white",
+          "black"
+        ]
       }
     ],
     "sprache": [],
@@ -3320,7 +3983,13 @@
         "tags": []
       }
     ],
-    "streets": [],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/new-zealand/9qcVCOM.png",
+        "beschreibung": "\nNew Zealand normally uses white outer road lines. Yellow dashed outer road lines can be seen in populated areas. Roads with no outer lines can be seen on smaller roads. Inner lines are either a single dashed white line or unbroken double yellow lines.\n\nNOTE: Australia does not have yellow inside lines, apart from regions with snow.",
+        "tags": []
+      }
+    ],
     "poles": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/new-zealand/NZ_poles.png",
@@ -3337,6 +4006,11 @@
       {
         "bild": "https://de.plonkit.net/images/new-zealand/bus_stops_darkmode.png",
         "beschreibung": "The cities of Auckland, Wellington and Christchurch all have unique bus stop signs.  You can click on the image to enlarge it.",
+        "tags": []
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/new-zealand/round.png",
+        "beschreibung": "\nNew Zealand often uses blue street signs with white text, particularly in rural areas. While street signs of other colours can be often seen, blue is by far the most common.\n\nNOTE: Australia almost never has blue street signs.",
         "tags": []
       }
     ],
@@ -3416,7 +4090,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/dominican-republic/Dominican_Republic_License_Plate.png",
         "beschreibung": "DR licence plates are somewhat reminiscent of New Jersey plates, being pale yellow at the top and white at the bottom.  NOTE: The Dominican Republic is the only part of Latin America, apart from Puerto Rico and Panama, where front plates are not required.",
-        "tags": []
+        "tags": [
+          "yellow",
+          "white"
+        ]
       }
     ],
     "sprache": [],
@@ -3424,7 +4101,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/dominican-republic/googlecar.png",
         "beschreibung": " This unique car was used for all street view coverage in the Dominican Republic. It can be recognized by the two metal bars, the thick black stripes on them, as well as the white hood visible at the front.  NOTE: These stripes can also be found on one of the Mongolian cars, but the landscape should allow you to tell them apart.  Within the Americas, you will also see metal bars in Guatemala and Curaçao. However, they will not have thick black stripes. pickup, rack",
-        "tags": []
+        "tags": [
+          "rack",
+          "pickup"
+        ]
       }
     ],
     "bollards": [],
@@ -3445,7 +4125,13 @@
     "verkehr": "Rechts",
     "domain": ".pr",
     "flagge": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag_of_Puerto_Rico.svg/1280px-Flag_of_Puerto_Rico.svg.png",
-    "plates": [],
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/puerto-rico/pr_nofrontplates.png",
+        "beschreibung": "Front plates are not mandatory in Puerto Rico. Therefore, seeing cars with front plates is rare. This helps differentiate from Guam and Northern Mariana Islands.",
+        "tags": []
+      }
+    ],
     "sprache": [],
     "googlecar": [
       {
@@ -3460,7 +4146,13 @@
       }
     ],
     "bollards": [],
-    "streets": [],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/puerto-rico/pr_highways_gen4",
+        "beschreibung": "\nA significant part of the coverage in rural Puerto Rico is taken on large divided highways.",
+        "tags": []
+      }
+    ],
     "poles": [],
     "schilder": [
       {
@@ -3479,31 +4171,80 @@
   },
   "Deutschland": {
     "kontinent": "Europa",
-    "verkehr": "",
-    "domain": "",
+    "verkehr": "Rechts",
+    "domain": ".de",
     "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Deutschland.jpg",
     "plates": [],
     "sprache": [],
     "googlecar": [],
     "bollards": [],
     "streets": [],
-    "poles": [],
-    "schilder": [],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/germany/postleitzahlen_deutschland_cropped.png",
+        "beschreibung": "",
+        "tags": []
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/germany/800px-Karte_Telefonvorwahlen_Deutschland.png",
+        "beschreibung": "",
+        "tags": []
+      },
+      {
+        "bild": "",
+        "beschreibung": "",
+        "tags": []
+      }
+    ],
     "taxi": [],
     "architcture": []
   },
   "Österreich": {
     "kontinent": "Europa",
-    "verkehr": "",
-    "domain": "",
+    "verkehr": "Rechts",
+    "domain": ".at",
     "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Oesterreich.jpg",
-    "plates": [],
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/austria/Plates.png",
+        "beschreibung": "\nAustria has long, white licence plates with the standard blue EU strip on the left.\n\nNOTE: Italian plates have two blue strips, on both sides of the plate. Italian plates also tend to be noticeably shorter.\n\nSwiss plates are long and white, but lack the blue strip.",
+        "tags": [
+          "blue",
+          "white"
+        ]
+      }
+    ],
     "sprache": [],
     "googlecar": [],
-    "bollards": [],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/austria/Austria_or_Slovenia.png",
+        "beschreibung": "Austria uses white bollards, with a black top. The colour of the reflector is (dark) red or dark grey.\n\nMany bollards also feature a small nipple-shaped black cap on the top. Bollards sometimes have a snow pole on top.\n\nNOTE: Slovenia and Montenegro use the same bollards, but with bright red reflectors instead of grey or dark red. Germany uses simple white bollards with grey reflectors.",
+        "tags": []
+      }
+    ],
     "streets": [],
-    "poles": [],
-    "schilder": [],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/austria/Wooden_poles.png",
+        "beschreibung": "Round wooden poles are the most common type of pole found in Austria.",
+        "tags": []
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/austria/Direction_signs.png",
+        "beschreibung": "Direction signs have a white background, a blue outline, and a unique font.",
+        "tags": []
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/austria/Pedestrian_sign.png",
+        "beschreibung": "Pedestrian signs have a unique design: instead of zebra stripes, they have two horizontal dashed lines.\n\nNOTE: All neighbouring countries have pedestrian signs with zebra stripes.",
+        "tags": []
+      }
+    ],
     "taxi": [],
     "architcture": []
   },
@@ -3516,7 +4257,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/oman/3.png",
         "beschreibung": "Licence plates on private vehicles are generally yellow, while commercial vehicles have red plates.",
-        "tags": []
+        "tags": [
+          "yellow",
+          "red"
+        ]
       }
     ],
     "sprache": [
@@ -3530,7 +4274,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/oman/4.png",
         "beschreibung": "All the coverage in Oman was taken with a white pickup truck, meaning you will either see most of the car or a large front blur.",
-        "tags": []
+        "tags": [
+          "pickup"
+        ]
       }
     ],
     "bollards": [],
@@ -3543,11 +4289,30 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/oman/7.png",
         "beschreibung": " Black-and-yellow curbs are common in Oman.  NOTE: The UAE also commonly uses similar curbs.",
+        "tags": [
+          "curbs"
+        ]
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/oman/11.png",
+        "beschreibung": "Oman typically uses wooden poles, which have pole tops consisting of three varying designs. The first two have 3 insulators, symmetrically attached to a horizontal metal bar. The design with the metal triangle above the wooden pole is unique to Oman. The third design has the insulators attached to the side. Poles in general are more common in Oman than in the UAE or Qatar.",
         "tags": []
       }
     ],
-    "poles": [],
-    "schilder": [],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/oman/10.png",
+        "beschreibung": "Many signposts in Oman have black-and-white stripes.\n\nNOTE: Within the Middle East, striped signposts are only found in Oman and the UAE.",
+        "tags": []
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/oman/13.png",
+        "beschreibung": "Oman uses black-and-yellow chevrons that have an unusually large number of arrows.",
+        "tags": []
+      }
+    ],
     "taxi": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/oman/Snimek_obrazovky_670.png",
@@ -3634,46 +4399,188 @@
   },
   "Schweiz": {
     "kontinent": "Europa",
-    "verkehr": "",
-    "domain": "",
+    "verkehr": "Rechts",
+    "domain": ".ch",
     "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Schweiz.jpg",
-    "plates": [],
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/switzerland/Switzerland_License_Plate.png",
+        "beschreibung": "Swiss licence plates differ substantially from other European plates. They are fully white and lack the blue strip found in most other European countries.\n\nFront plates are extremely short compared to most in Europe.\n\nRear plates can be either long or tall. In both cases the red country emblem can be seen on the left, while the canton emblem can be seen on the right.",
+        "tags": [
+          "white",
+          "blue",
+          "red"
+        ]
+      }
+    ],
     "sprache": [],
-    "googlecar": [],
-    "bollards": [],
-    "streets": [],
+    "googlecar": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/switzerland/Lowcam.png",
+        "beschreibung": "By far the most important way to recognize Switzerland, is that all car coverage is low-cam. This means that the camera on the Google car is intentionally set up lower than in most other countries. This can be recognized in two ways:\n\nThe car blur is significantly bigger.\n\nRoads look wider and objects around you are seen from a lower angle.\n\nGenerally, the bigger car blur is the most consistent way to recognize low-cam.\n\nNOTE: The only other countries that always have low-cam are Japan and Liechtenstein.",
+        "tags": []
+      }
+    ],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/switzerland/ch_bollard.png",
+        "beschreibung": "Swiss bollards are black-and-white with white or grey reflectors. They can be either wedge-shaped or cylindrical with a rounded top.\n\nNOTE: Liechtenstein uses almost identical round bollards.",
+        "tags": []
+      }
+    ],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/switzerland/Screenshot__28505_29.png",
+        "beschreibung": "Long dashed yellow road lines are a good clue for Switzerland.\n\nNOTE: These road lines are also common in Liechtenstein.",
+        "tags": []
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/switzerland/ch_pedestrian_crossing.png",
+        "beschreibung": "Pedestrian crossings are typically painted yellow and exclusive to Switzerland and Liechtenstein within Europe.",
+        "tags": []
+      }
+    ],
     "poles": [],
-    "schilder": [],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/switzerland/ch_pedestrian_sign.png",
+        "beschreibung": "Swiss pedestrian signs have seven stripes, making it almost unique for Europe. Furthermore, rather than the typical European square shape, the signs appear as tall blue rectangles.\n\nNOTE: Liechtenstein uses identical signs.",
+        "tags": [
+          "7s"
+        ]
+      }
+    ],
     "taxi": [],
     "architcture": []
   },
   "Frankreich": {
     "kontinent": "Europa",
-    "verkehr": "",
-    "domain": "",
+    "verkehr": "Rechts",
+    "domain": ".fr",
     "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Frankreich.jpg",
-    "plates": [],
-    "sprache": [],
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/france/1_licenceplate2.png",
+        "beschreibung": "Modern French plates are long and white, with blue strips on both sides of the plate. The left strip will be more visible than the right strip.\n\nSome older French plates lack the right blue strip, with the rear plate being yellow. These are very rare in newer coverage.\n\nNOTE: Italian plates also have two blue strips, which are equally visible. In addition, Italian front plates are considerably shorter.",
+        "tags": [
+          "yellow",
+          "blue",
+          "white"
+        ]
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/france/1_language.png",
+        "beschreibung": "\nFrench is a Romance language that is closely related to languages like Catalan, Spanish and Italian. It uses these diacritics and special letters:\n\nAccent aigu: é\n\nAccent grave: à, è, ù\n\nAccent circonflexe: â, ê, î, ô, û\n\nTrema: ë, ï, ü, ÿ\n\nLigature: œ\n\nCédille: ç with a small hook\n\nIn addition, the -ux suffix is only found in French.\n\nNOTE: Other European countries with sizable francophone populations include Belgium, Luxembourg, Monaco and Switzerland.",
+        "tags": []
+      }
+    ],
     "googlecar": [],
-    "bollards": [],
-    "streets": [],
-    "poles": [],
-    "schilder": [],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/france/Bollard.png",
+        "beschreibung": "The French bollard is extremely recognizable and appears very often. It is a round white post with a pointed top and a reflector band going all the way around. The band can be grey or red. Some rare variations have a fully red top.\n\nNOTE: A bollard that is commonly found in Scotland looks similar, but has a blunt top instead of a pointed one.",
+        "tags": []
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/france/Rare_bollard.png",
+        "beschreibung": "",
+        "tags": []
+      }
+    ],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/france/Lines_dashes.png",
+        "beschreibung": "Typical French roads have long spaced out dashes on the outside.",
+        "tags": []
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/france/Long_dashes.png",
+        "beschreibung": "\nMiddle lines with dashes that are longer than usual can be a good clue for France.\n\nNOTE: Unusually long dashes are also common in the UK.",
+        "tags": []
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/france/Ladder_poles.png",
+        "beschreibung": "Concrete poles with step-like indents are common in France. They are referred to as ladder or waffle poles by the community.\n\nNOTE: They are also common in Spain.",
+        "tags": [
+          "ladder"
+        ]
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/france/1_rue.png",
+        "beschreibung": "\nThe French word for street is “rue”.",
+        "tags": [
+          "rue"
+        ]
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/france/Chevrons.png",
+        "beschreibung": "\nFrance uses chevrons with white arrows on a blue background. They can have a wide amount of arrows, ranging from one to five.\n\nNOTE: The only other European country with this colour scheme is Spain, where you will only find chevrons with two or four arrows",
+        "tags": []
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/france/Pedestrian.png",
+        "beschreibung": "",
+        "tags": [
+          "5s"
+        ]
+      }
+    ],
     "taxi": [],
     "architcture": []
   },
   "Spanien": {
     "kontinent": "Europa",
-    "verkehr": "",
-    "domain": "",
+    "verkehr": "Rechts",
+    "domain": ".es",
     "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Spanien.jpg",
-    "plates": [],
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/spain/Spain_License_Plate.png",
+        "beschreibung": "Spain uses standard long, white European plates with a single blue strip on the left.\n\nNOTE: Most Portuguese plates have a yellow strip on the right. Italian plates have two blue strips on either side of the plate.",
+        "tags": [
+          "white",
+          "blue"
+        ]
+      }
+    ],
     "sprache": [],
     "googlecar": [],
-    "bollards": [],
-    "streets": [],
-    "poles": [],
-    "schilder": [],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/spain/Spain_bollards.png",
+        "beschreibung": "The standard Spanish bollards have a yellow-orange reflector on the front and two white dots on the back (though the back can also be blank). They are typically hollow.\n\nNOTE: Very close to Andorra, you can find a slightly different bollard, which is also used in Andorra itself.",
+        "tags": []
+      }
+    ],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/spain/2022-12-11_5.png",
+        "beschreibung": "\nSpain has yellow reflectors on rounded A-type guardrails.\n\nNOTE: Belgium, Andorra, Gibraltar and most Latin American countries also have yellow reflectors. For a good overview of European guardrails, see this infographic.",
+        "tags": []
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/spain/Ladder_and_wooden_poles.png",
+        "beschreibung": "In Spain, you can find a variety of electricity poles and pole tops. In small towns and sparsely populated rural areas concrete ladder poles and wooden poles are the most common.\n\n“Ladder” poles have indents that resemble a ladder, hence the name.",
+        "tags": []
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/spain/2022-12-11_11.png",
+        "beschreibung": "Spanish pedestrian crossing signs have 8 stripes. This is the highest number of stripes in Europe, and almost unique to Spain.\n\nNOTE: The only other European country with 8 stripes is Andorra.",
+        "tags": [
+          "8s"
+        ]
+      }
+    ],
     "taxi": [],
     "architcture": []
   },
@@ -3682,41 +4589,133 @@
     "verkehr": "",
     "domain": "",
     "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Portugal.jpg",
-    "plates": [],
-    "sprache": [],
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/portugal/licenceplate.png",
+        "beschreibung": "\nPortuguese plates are long and white, with a blue strip on the left. Most plates have a yellow strip on the right, which is unique to Portugal. \n\nThe yellow strip was discontinued in 2020, so in Generation 4 coverage you may sometimes see plates with just the blue strip.",
+        "tags": [
+          "blue",
+          "white",
+          "yellow"
+        ]
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/portugal/language.png",
+        "beschreibung": "Portuguese is a Romance language that is closely related to Spanish. Unlike Spanish, Portuguese includes the letters Ç, Ã, Õ, Â, and Ê, while it does not include the letter Ñ, which is very common in Spanish.\n\nNOTE: You can also find Ç in Catalan.",
+        "tags": []
+      }
+    ],
     "googlecar": [],
-    "bollards": [],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/portugal/bollard.png",
+        "beschreibung": "\nPortuguese bollards are either wedge-shaped with a noticeably thin white top, or flat with a wide reflector. While most reflectors will be white, you may also find orange reflectors. These are noticeably darker than the yellow reflectors in Spain.",
+        "tags": []
+      }
+    ],
     "streets": [],
-    "poles": [],
-    "schilder": [],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/portugal/ladderpole.png",
+        "beschreibung": "Concrete ladder poles, with very tall ladder steps, are common in Portugal. Each step often has a small see-through hole.\n\nNOTE: In Spain and France you will commonly see ladder poles with short steps.",
+        "tags": []
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/portugal/rua.png",
+        "beschreibung": "The Portuguese word for road is ‘Rua’.\n\nNOTE: In Galician, the word for road is ‘Rúa’, with an accent on the ‘u’.",
+        "tags": [
+          "rua"
+        ]
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/portugal/pedestriansign.png",
+        "beschreibung": "Pedestrian signs have five stripes, and the person is wearing a belt, which is noticeably high.\n\nNOTE: Spanish pedestrian signs have eight stripes, Italian signs don't have a belt and Greek signs have two dotted lines instead of stripes.",
+        "tags": [
+          "5s"
+        ]
+      }
+    ],
     "taxi": [],
     "architcture": []
   },
   "Italien": {
     "kontinent": "Europa",
-    "verkehr": "",
-    "domain": "",
+    "verkehr": "Rechts",
+    "domain": ".it",
     "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Italien.jpg",
-    "plates": [],
-    "sprache": [],
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/italy/it_licenceplate.png",
+        "beschreibung": "\nContrary to most European licence plates, Italian plates have blue strips on either side of the plate. Furthermore, the front plate is distinctly shorter than most European plates, which in combination with the two strips, makes it unique.\n\nNOTE: Albanian licence plates also have two blue strips, and French licence plates have a smaller strip on the right. However, neither Albanian nor French front plates are short.",
+        "tags": [
+          "blue",
+          "white"
+        ]
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/italy/it_language.png",
+        "beschreibung": "Italian is the most spoken language in Italy. It uses many double consonants, and typically has a very large number of i’s. You can also find ì, é and à. Most words will end with a vowel.\n\nNOTE: The Italian word for street is ‘via’, and can be found on most street signs.",
+        "tags": []
+      }
+    ],
     "googlecar": [],
-    "bollards": [],
-    "streets": [],
-    "poles": [],
-    "schilder": [],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/italy/it_bollard.png",
+        "beschreibung": "\nItalian bollards are triangular in shape, and white with a black top. They have a red front and a white rear reflector.\n\nNOTE: Albania uses the same bollards.",
+        "tags": []
+      }
+    ],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/italy/it_roadlines.png",
+        "beschreibung": "One of the most common types of Italian road lines are white solid outer lines with no middle line. This is generally less common in other Mediterranean countries.",
+        "tags": []
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/italy/it_concretepole.png",
+        "beschreibung": "\nUnlike most Mediterranean countries, Italy features a lot of round concrete poles.",
+        "tags": []
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/italy/it_whitepolesticker.png",
+        "beschreibung": "\nWooden poles in Italy will commonly feature a small white pole sticker.",
+        "tags": []
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/italy/it_pedestriansign.png",
+        "beschreibung": "",
+        "tags": [
+          "5s"
+        ]
+      }
+    ],
     "taxi": [],
     "architcture": []
   },
   "Niederlande": {
     "kontinent": "Europa",
-    "verkehr": "",
-    "domain": "",
+    "verkehr": "Rechts",
+    "domain": ".nl",
     "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Niederlande.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/netherlands/Netherlands_plate.png",
         "beschreibung": "The Netherlands has long, yellow licence plates with the standard European blue strip on the left. Dutch taxis have blue plates.  NOTE: The only other countries in Europe with yellow licence plates are Luxembourg and the UK. For the UK, only the back plates are yellow, and they often lack the blue strip. In addition, some older coverage in France features the French yellow back plates. In Denmark, you can find yellow plates on commercial vehicles.",
-        "tags": []
+        "tags": [
+          "yellow",
+          "blue"
+        ]
       }
     ],
     "sprache": [
@@ -3748,20 +4747,31 @@
         "tags": []
       }
     ],
-    "schilder": [],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/netherlands/Street_sign.png",
+        "beschreibung": "Street signs are almost always blue with white lettering. Very rarely, you can find yellow, white or green street signs.\n\nThe Dutch word for street is straat. Other common road name endings are -weg, -laan, -pad, and -plein. However, if you see a blue sign with the word ‘fietspad’, do not search for it; it simply means ‘bicycle path’.\n\nNOTE: Street signs in Belgium come in a variety of colours and usually mention the municipality, which is rare in the Netherlands.",
+        "tags": [
+          "straat"
+        ]
+      }
+    ],
     "taxi": [],
     "architcture": []
   },
   "Luxemburg": {
     "kontinent": "Europa",
-    "verkehr": "",
-    "domain": "",
+    "verkehr": "Rechts",
+    "domain": ".lu",
     "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Luxemburg.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/luxembourg/Luxembourg_License_Plate.png",
-        "beschreibung": "uxembourg uses long yellow plates with a blue strip on the left.  Since Luxembourg is a small country, foreign cars with white plates are somewhat common.  NOTE: There are only a few other European countries that use yellow plates for private vehicles:  The Netherlands has yellow plates front and rear.  The UK has yellow rear plates.  Some pre-2009 French cars have yellow rear plates.",
-        "tags": []
+        "beschreibung": "Luxembourg uses long yellow plates with a blue strip on the left.\n\nSince Luxembourg is a small country, foreign cars with white plates are somewhat common.\n\nNOTE: There are only a few other European countries that use yellow plates for private vehicles:\n\nThe Netherlands has yellow plates front and rear.\n\nThe UK has yellow rear plates.\n\nSome pre-2009 French cars have yellow rear plates.",
+        "tags": [
+          "blue",
+          "yellow"
+        ]
       }
     ],
     "sprache": [
@@ -3791,11 +4801,20 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/luxembourg/Street_signs.png",
         "beschreibung": "Street signs are almost always short and usually have a white background. The exact designs vary from town to town.  A very common design is the one pictured on the left in the example image, with slanted blue corners.  NOTE: Belgian street signs often appear short as well, but can have other background colours – not just white.  In addition, Dutch street signs almost always have a blue background and tend to be much longer than they are tall.",
-        "tags": []
+        "tags": [
+          "rue"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/luxembourg/Pedestrian_sign.png",
         "beschreibung": "Bus stop signs are blue and always have this exact design. The bus has six windows.  NOTE: Bus stop signs in Belgium and the Netherlands have significantly different designs. For example, the Belgian bus stop sign always has a yellow signpost.",
+        "tags": [
+          "5s"
+        ]
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/luxembourg/Signpost_markings.png",
+        "beschreibung": "\nSome signposts have this bulky, round reflector with blue and white markings.\n\nNOTE: Similar markings are found in Sweden and Finland. Landscape should be sufficient to tell these apart from Luxembourg, however.",
         "tags": []
       }
     ],
@@ -3811,17 +4830,29 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/ireland/ireland_plate.png",
         "beschreibung": "Ireland has long, white licence plates with the standard European blue strip on the left.  The white backplate is especially useful to distinguish it from the UK, which uses yellow backplates (but white fronts). In addition, most UK vehicles lack the blue strip on the left.",
-        "tags": []
+        "tags": [
+          "blue",
+          "white"
+        ]
       }
     ],
     "sprache": [],
     "googlecar": [],
-    "bollards": [],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/ireland/Bollards.png",
+        "beschreibung": "These green and white bollards can be a good clue for Ireland. They are not entirely unique to the country, but they are especially helpful in 50-50s with the UK.",
+        "tags": []
+      }
+    ],
     "streets": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/ireland/Yellow_dashes.png",
         "beschreibung": "It is very common to see yellow outside dashes on Irish roads.  NOTE: This is essentially never found in the UK. These dashes can also be seen in New Zealand.",
-        "tags": []
+        "tags": [
+          "yellow",
+          "dash"
+        ]
       }
     ],
     "poles": [],
@@ -3894,7 +4925,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/romania/ro_licenseplate.png",
         "beschreibung": "",
-        "tags": []
+        "tags": [
+          "blue",
+          "white"
+        ]
       }
     ],
     "sprache": [
@@ -3974,8 +5008,12 @@
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/serbia/Serbia_Plate.png",
-        "beschreibung": "",
-        "tags": []
+        "beschreibung": "Serbian licence plates are white with a blue strip on the left. Agricultural plates, on vehicles such as tractors, are green.\n\nNOTE: Croatian and North Macedonian plates typically do not have a blue strip.",
+        "tags": [
+          "blue",
+          "white",
+          "green"
+        ]
       }
     ],
     "sprache": [
@@ -4007,7 +5045,7 @@
     "streets": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/serbia/Screenshot_2023-07-01_160306.png",
-        "beschreibung": "",
+        "beschreibung": "B-Rails",
         "tags": []
       }
     ],
@@ -4015,7 +5053,7 @@
     "schilder": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/serbia/Screenshot_2023-07-01_160357.png",
-        "beschreibung": "",
+        "beschreibung": "Serbia uses chevrons with a black arrow on a white background.\n\nNOTE: Within Europe, these chevrons can also be found in Slovenia, Montenegro and North Macedonia.",
         "tags": []
       }
     ],
@@ -4031,7 +5069,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/croatia/Croatia_License_Plate.png",
         "beschreibung": "Croatia has long, white licence plates. Some plates have a blue strip on the left, some are fully white. Most cars seen in Generation 3 will not feature a blue strip on their licence plates. In addition, there is a mix of cars with or without blue strips in Generation 4, with blue strips more common on newer cars.  NOTE: Blue strips are more common along the coast due to travelling tourists from other EU countries such as Italy.",
-        "tags": []
+        "tags": [
+          "blue",
+          "white"
+        ]
       }
     ],
     "sprache": [
@@ -4061,7 +5102,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/croatia/Pedestrian_sign_2.png",
         "beschreibung": " Croatia’s pedestrian sign features a pedestrian with a belt and a zebra path with 5 stripes.  NOTE: The pedestrian on Slovenia’s sign does not have a belt.",
-        "tags": []
+        "tags": [
+          "5s"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/croatia/beers.webp",
@@ -4089,16 +5132,56 @@
   },
   "Nordmazedonien": {
     "kontinent": "Europa",
-    "verkehr": "",
-    "domain": "",
+    "verkehr": "Rechts",
+    "domain": ".mk",
     "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Mazedonien.jpg",
-    "plates": [],
-    "sprache": [],
-    "googlecar": [],
-    "bollards": [],
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/north-macedonia/North_Macedonia_License_Plate.png",
+        "beschreibung": "North Macedonian licence plates are white and sometimes have the standard European blue strip on the left. They also have a noticeable red block near the left side of the licence plate.\n\nNOTE: Serbia will almost always have a blue strip on their licence plates.",
+        "tags": [
+          "white",
+          "red",
+          "blue"
+        ]
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/north-macedonia/mk_language.png",
+        "beschreibung": "Macedonian is a Slavic language which uses the Cyrillic script. Road signs have Latin on them too, although most other signs are fully in Cyrillic.\n\nThe letters ‘Ѓ’ and ‘Ќ’ are unique to Macedonian. ‘Љ’, ‘Њ’, and ‘Џ’ are only in Serbian and Macedonian.",
+        "tags": []
+      }
+    ],
+    "googlecar": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/north-macedonia/Antenna-FYROM.png",
+        "beschreibung": "\nAll coverage in North Macedonia is Generation 3. There will never be an antenna on the Google car.\n\nEvery other country in Europe will sometimes or always have an antenna in Generation 3 coverage. For clarity’s sake: this means that cars with no antenna can be found outside North Macedonia.\n\nNOTE: The only other country to have no antenna the majority of the time is Serbia, although there will be an antenna sometimes.",
+        "tags": []
+      }
+    ],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/north-macedonia/Bollards.png",
+        "beschreibung": "North Macedonia uses two types of bollards. One is rounded and very thin, while the other one is wedge-shaped. They both are white and have red or white reflectors, typically on a black surface.\n\nNOTE: Croatia uses the same wedge-shaped bollard. Hungary has a similar wedge-shaped bollard but with more white space above the black rectangle.",
+        "tags": []
+      }
+    ],
     "streets": [],
-    "poles": [],
-    "schilder": [],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/north-macedonia/Greek-Lamp-FYROM.png",
+        "beschreibung": "These ‘Greek Lamps’ on utility poles can be found in North Macedonia. They can also be found in various other countries, such as (unsurprisingly) Greece or Serbia.",
+        "tags": []
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/north-macedonia/Warning-Signs-FYROM.png",
+        "beschreibung": "\nNorth Macedonia normally uses yellow-filled in warning signs. Most of Europe uses white ones.\n\nNOTE: In southeastern Europe, Greece also commonly uses yellow-filled in signs. Slovenia sometimes has yellow-filled signs.",
+        "tags": []
+      }
+    ],
     "taxi": [],
     "architcture": []
   },
@@ -4177,13 +5260,73 @@
     "verkehr": "Rechts",
     "domain": ".gr",
     "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Griechenland.jpg",
-    "plates": [],
-    "sprache": [],
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/greece/gr_licenceplate.png",
+        "beschreibung": "Greek licence plates are either all white or have the standard European design, with a blue strip on the left side. Taxis have yellow licence plates.",
+        "tags": [
+          "yellow",
+          "white",
+          "blue"
+        ]
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/greece/gr_language.png",
+        "beschreibung": "The Greek language features a unique alphabet not used in any other language. It shares similarities with both the Latin and Cyrillic alphabet, however the lower case letters generally have softer shapes than the Cyrillic letters.\n\nNOTE: Cyprus also uses the Greek Alphabet.",
+        "tags": []
+      }
+    ],
     "googlecar": [],
-    "bollards": [],
-    "streets": [],
-    "poles": [],
-    "schilder": [],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/greece/gr_bollard.png",
+        "beschreibung": "Greek bollards are wedge-shaped with almost square reflectors, being red on the front and white on the back.",
+        "tags": []
+      }
+    ],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/greece/gr_roadlines.png",
+        "beschreibung": "In Greece you will commonly see slightly faded, solid white double middle lines. This can be used to distinguish it from most other Mediterranean countries.",
+        "tags": []
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/greece/gr_yellowroadlines.png",
+        "beschreibung": "Yellow road lines are more common in Greece than any other southern European country.",
+        "tags": []
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/greece/gr_woodenpole.png",
+        "beschreibung": "Greek utility poles are primarily wooden, and often have a distinctly dark brown colour. They will often be noticeably taller than in other countries.",
+        "tags": []
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/greece/gr_poletop.png",
+        "beschreibung": "These distinctive poletops, which have a metal frame shaped vaguely like a harp.\n\nNOTE: They are unique to Greece and Cyprus.",
+        "tags": []
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/greece/gr_chevron.png",
+        "beschreibung": "Greek chevrons have white arrows on a black background.\n\nNOTE: Similar chevrons are found in Albania, Italy and the UK. Spain has the same colours, but will almost always have either two or four arrows.",
+        "tags": []
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/greece/gr_warningsign.png",
+        "beschreibung": "\nGreek warning signs have a red border and a yellow background.",
+        "tags": []
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/greece/gr_pedestriansign.png",
+        "beschreibung": "",
+        "tags": []
+      }
+    ],
     "taxi": [],
     "architcture": []
   },

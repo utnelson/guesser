@@ -1,19 +1,14 @@
 {
   "Uruguay": {
     "kontinent": "Südamerika",
-    "land": {
-      "domain": ".uy",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Uruguay.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".uy",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Uruguay.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/uruguay/Uruguay_License_Plate.png",
         "beschreibung": "Uruguayan licence plates are plain white with black characters.  NOTE: Neighbouring Argentina also uses white licence plates, but they will have either a black dot in the middle or a blue bar at the top.",
-        "tags": [
-          "blue",
-          "white"
-        ]
+        "tags": []
       }
     ],
     "sprache": [],
@@ -22,27 +17,19 @@
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/uruguay/Bollards_and_barriers.png",
         "beschreibung": "",
-        "tags": [
-          "white"
-        ]
+        "tags": []
       }
     ],
     "streets": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/uruguay/Triple_road_lines.png",
         "beschreibung": "Uruguay often has these triple road lines, that consist of double yellow roadlines with white dashes in between. This is a design not seen anywhere else in the Americas.",
-        "tags": [
-          "white",
-          "yellow"
-        ]
+        "tags": []
       },
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/uruguay/Other_road_lines.png",
         "beschreibung": "You can also find two other, non-unique road line patterns:  Yellow-white lines (also found in Argentina)  Simple white lines (found in many other places).",
-        "tags": [
-          "white",
-          "yellow"
-        ]
+        "tags": []
       }
     ],
     "poles": [
@@ -61,17 +48,12 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/uruguay/Signposts.png",
         "beschreibung": "Uruguay uses thick wooden signposts, which are typically painted white. They often have up to four rectangular notches at the back of the post.  NOTE: Thick wooden signposts can also be seen in Bolivia.",
-        "tags": [
-          "white"
-        ]
+        "tags": []
       },
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/uruguay/Chevron.png",
         "beschreibung": "Like most of Latin America, chevrons are yellow with black arrows.  NOTE: This is mostly useful to distinguish between Argentina, which uniquely uses chevrons that are white with red arrows.",
-        "tags": [
-          "white",
-          "yellow"
-        ]
+        "tags": []
       }
     ],
     "taxi": [],
@@ -79,11 +61,9 @@
   },
   "Argentinia": {
     "kontinent": "Südamerika",
-    "land": {
-      "domain": ".ar",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Argentinien.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".ar",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Argentinien.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/argentina/Argentina_License_Plate.png",
@@ -142,11 +122,9 @@
   },
   "Chile": {
     "kontinent": "Südamerika",
-    "land": {
-      "domain": ".cl",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Chile.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".cl",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Chile.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/chile/Chile_License_Plate.png",
@@ -200,11 +178,9 @@
   },
   "Peru": {
     "kontinent": "Südamerika",
-    "land": {
-      "domain": ".pe",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Peru.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".pe",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Peru.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/peru/Peru_License_Plate.png",
@@ -269,11 +245,9 @@
   },
   "Bolivia": {
     "kontinent": "Südamerika",
-    "land": {
-      "domain": ".bo",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Bolivien.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".bo",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Bolivien.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/bolivia/1_licenceplate.png",
@@ -337,11 +311,9 @@
   },
   "Brazil": {
     "kontinent": "Südamerika",
-    "land": {
-      "domain": ".br",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Brasilien.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".br",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Brasilien.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/brazil/Brazil_License_Plate.png",
@@ -372,11 +344,9 @@
   },
   "Ecuador": {
     "kontinent": "Südamerika",
-    "land": {
-      "domain": ".ec",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Ecuador.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".ec",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Ecuador.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/ecuador/Ecuador_License_Plate.png",
@@ -418,11 +388,9 @@
   },
   "Colombia": {
     "kontinent": "Südamerika",
-    "land": {
-      "domain": ".co",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Kolumbien.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".co",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Kolumbien.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/colombia/Colombia_License_Plate.png",
@@ -447,11 +415,9 @@
   },
   "Lesotho": {
     "kontinent": "Afrika",
-    "land": {
-      "domain": ".ls",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Lesotho.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".ls",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Lesotho.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/lesotho/Lesotho_License_Plate.png",
@@ -470,11 +436,9 @@
   },
   "Eswatini": {
     "kontinent": "Afrika",
-    "land": {
-      "domain": ".sz",
-      "flagge": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Flag_of_Eswatini.svg/1280px-Flag_of_Eswatini.svg.png"
-    },
     "verkehr": "Links",
+    "domain": ".sz",
+    "flagge": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Flag_of_Eswatini.svg/1280px-Flag_of_Eswatini.svg.png",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/eswatini/Eswatini_License_Plate.png",
@@ -499,11 +463,9 @@
   },
   "Südafrika": {
     "kontinent": "Afrika",
-    "land": {
-      "domain": ".za",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Suedafrika.jpg"
-    },
     "verkehr": "Links",
+    "domain": ".za",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Suedafrika.jpg",
     "plates": [],
     "sprache": [],
     "googlecar": [],
@@ -539,11 +501,9 @@
   },
   "Botswana": {
     "kontinent": "Afrika",
-    "land": {
-      "domain": ".bw",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Botsuana.jpg"
-    },
     "verkehr": "Links",
+    "domain": ".bw",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Botsuana.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/botswana/Botswana_License_Plate.png",
@@ -574,11 +534,9 @@
   },
   "Rwanda": {
     "kontinent": "Afrika",
-    "land": {
-      "domain": ".rw",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Ruanda.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".rw",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Ruanda.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/rwanda/Rwanda_License_Plate.png",
@@ -614,11 +572,9 @@
   },
   "Uganda": {
     "kontinent": "Afrika",
-    "land": {
-      "domain": ".ug",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Uganda.jpg"
-    },
     "verkehr": "Links",
+    "domain": ".ug",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Uganda.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/uganda/Uganda_License_Plate.png",
@@ -654,11 +610,9 @@
   },
   "Nigeria": {
     "kontinent": "Afrika",
-    "land": {
-      "domain": ".ng",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Nigeria.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".ng",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Nigeria.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/nigeria/0HpTmNo.png",
@@ -694,11 +648,9 @@
   },
   "Ghana": {
     "kontinent": "Afrika",
-    "land": {
-      "domain": ".gh",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Ghana.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".gh",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Ghana.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/ghana/Ghana_License_Plate.png",
@@ -729,11 +681,9 @@
   },
   "Senegal": {
     "kontinent": "Afrika",
-    "land": {
-      "domain": ".sn",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Senegal.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".sn",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Senegal.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/senegal/senegal_plates.png",
@@ -775,11 +725,9 @@
   },
   "Ukraine": {
     "kontinent": "Kyrillisch",
-    "land": {
-      "domain": ".ua",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Ukraine.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".ua",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Ukraine.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/ukraine/Ukraine_License_Plate.png",
@@ -832,11 +780,9 @@
   },
   "Mongolei": {
     "kontinent": "Kyrillisch",
-    "land": {
-      "domain": ".mn",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Mongolei.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".mn",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Mongolei.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/mongolia/1._licenceplate.jpeg",
@@ -873,11 +819,9 @@
   },
   "Kyrgyzstan": {
     "kontinent": "Kyrillisch",
-    "land": {
-      "domain": ".kg",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Kirgisistan.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".kg",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Kirgisistan.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/kyrgyzstan/Kyrgyzstan_License_Plate.png",
@@ -902,11 +846,9 @@
   },
   "Kaszachstan": {
     "kontinent": "Kyrillisch",
-    "land": {
-      "domain": ".kz",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Kasachstan.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".kz",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Kasachstan.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/kazakhstan/2.png",
@@ -943,11 +885,9 @@
   },
   "Russland": {
     "kontinent": "Kyrillisch",
-    "land": {
-      "domain": ".ru",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Russland.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".ru",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Russland.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/russia/licenceplate.png",
@@ -989,11 +929,9 @@
   },
   "Bulgarien": {
     "kontinent": "Kyrillisch",
-    "land": {
-      "domain": ".bg",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Bulgarien.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".bg",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Bulgarien.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/bulgaria/Registation_plates.png",
@@ -1036,11 +974,9 @@
   },
   "Mexiko": {
     "kontinent": "Südamerika",
-    "land": {
-      "domain": ".mx",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Mexiko.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".mx",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Mexiko.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/mexico/mx_licenceplate.png",
@@ -1077,11 +1013,9 @@
   },
   "Guatemala": {
     "kontinent": "Südamerika",
-    "land": {
-      "domain": ".gt",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Guatemala.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".gt",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Guatemala.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/guatemala/gt_licenceplate.png",
@@ -1124,11 +1058,9 @@
   },
   "Costa Rica": {
     "kontinent": "Südamerika",
-    "land": {
-      "domain": ".cr",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Costa-Rica.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".cr",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Costa-Rica.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/costa-rica/cr_licenceplate.png",
@@ -1165,11 +1097,9 @@
   },
   "Panama": {
     "kontinent": "Südamerika",
-    "land": {
-      "domain": ".pa",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Panama.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".pa",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Panama.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/panama/2.png",
@@ -1224,11 +1154,9 @@
   },
   "India": {
     "kontinent": "Asien",
-    "land": {
-      "domain": ".in",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Indien.jpg"
-    },
     "verkehr": "Links",
+    "domain": ".in",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Indien.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/india/in_licenceplates.png",
@@ -1270,11 +1198,9 @@
   },
   "Bangladesch": {
     "kontinent": "Asien",
-    "land": {
-      "domain": ".bd",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Bangladesch.jpg"
-    },
     "verkehr": "Links",
+    "domain": ".bd",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Bangladesch.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/bangladesh/Bangladesh_License_Plate.png",
@@ -1329,11 +1255,9 @@
   },
   "Thailand": {
     "kontinent": "Asien",
-    "land": {
-      "domain": ".th",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Thailand.jpg"
-    },
     "verkehr": "Links",
+    "domain": ".th",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Thailand.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/thailand/Thailand_License_Plate.png",
@@ -1392,11 +1316,9 @@
   },
   "Cambodia": {
     "kontinent": "Asien",
-    "land": {
-      "domain": ".kh",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Kambodscha.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".kh",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Kambodscha.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/cambodia/Cambodia_License_Plate.png",
@@ -1461,11 +1383,9 @@
   },
   "Vietnam": {
     "kontinent": "Asien",
-    "land": {
-      "domain": ".vn",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Vietnam.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".vn",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Vietnam.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/vietnam/vietnam_plate2.png",
@@ -1529,11 +1449,9 @@
   },
   "Indonesia": {
     "kontinent": "Asien",
-    "land": {
-      "domain": ".id",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Indonesien.jpg"
-    },
     "verkehr": "Links",
+    "domain": ".id",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Indonesien.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/indonesia/Indonesia_License_Plate.png",
@@ -1592,11 +1510,9 @@
   },
   "Island": {
     "kontinent": "Nordisch",
-    "land": {
-      "domain": ".is",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Island.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".is",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Island.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/iceland/k7XBOxn.png",
@@ -1649,11 +1565,9 @@
   },
   "Norwegen": {
     "kontinent": "Nordisch",
-    "land": {
-      "domain": "",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Norwegen.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": "",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Norwegen.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/norway/no_licenceplate.png",
@@ -1717,11 +1631,9 @@
   },
   "Schweden": {
     "kontinent": "Nordisch",
-    "land": {
-      "domain": "",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Schweden.jpg"
-    },
     "verkehr": "",
+    "domain": "",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Schweden.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/sweden/Sweden_License_Plate.png",
@@ -1796,11 +1708,9 @@
   },
   "Finnland": {
     "kontinent": "Nordisch",
-    "land": {
-      "domain": "",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Finnland.jpg"
-    },
     "verkehr": "",
+    "domain": "",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Finnland.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/finland/Finland_License_Plate.png",
@@ -1870,11 +1780,9 @@
   },
   "Japan": {
     "kontinent": "Asien",
-    "land": {
-      "domain": ".jp",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Japan.jpg"
-    },
     "verkehr": "Links",
+    "domain": ".jp",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Japan.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/japan/11.png",
@@ -1923,11 +1831,9 @@
   },
   "Dänemark": {
     "kontinent": "Nordisch",
-    "land": {
-      "domain": ".dk",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Daenemark.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".dk",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Daenemark.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/denmark/Denmark_License_Plate.png",
@@ -2001,11 +1907,9 @@
   },
   "Belgien": {
     "kontinent": "Europa",
-    "land": {
-      "domain": ".be",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Belgien.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".be",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Belgien.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/belgium/Belgium_License_Plate.png",
@@ -2058,11 +1962,9 @@
   },
   "Polen": {
     "kontinent": "Europa",
-    "land": {
-      "domain": ".pl",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Polen.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".pl",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Polen.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/poland/Poland_License_Plate.png",
@@ -2116,11 +2018,9 @@
   },
   "Slowakei": {
     "kontinent": "Europa",
-    "land": {
-      "domain": ".sk",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Slowakei.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".sk",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Slowakei.jpg",
     "plates": [],
     "sprache": [
       {
@@ -2162,11 +2062,9 @@
   },
   "Slowenien": {
     "kontinent": "Europa",
-    "land": {
-      "domain": ".si",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Slowenien.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".si",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Slowenien.jpg",
     "plates": [],
     "sprache": [
       {
@@ -2207,11 +2105,9 @@
   },
   "Malta": {
     "kontinent": "Europa",
-    "land": {
-      "domain": ".mt",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Malta.jpg"
-    },
     "verkehr": "Left",
+    "domain": ".mt",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Malta.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/malta/mt_licenceplate.png",
@@ -2253,11 +2149,9 @@
   },
   "Taiwan": {
     "kontinent": "Asien",
-    "land": {
-      "domain": ".tw",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Taiwan.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".tw",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Taiwan.jpg",
     "plates": [],
     "sprache": [
       {
@@ -2298,11 +2192,9 @@
   },
   "Türkei": {
     "kontinent": "Europa",
-    "land": {
-      "domain": "",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Tuerkei.jpg"
-    },
     "verkehr": "",
+    "domain": "",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Tuerkei.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/turkey/tr_licenceplate.png",
@@ -2362,11 +2254,9 @@
   },
   "Montenegro": {
     "kontinent": "Europa",
-    "land": {
-      "domain": ".me",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Montenegro.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".me",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Montenegro.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/montenegro/Montenegro_Licence_Plate.png",
@@ -2397,11 +2287,9 @@
   },
   "Ungarn": {
     "kontinent": "Europa",
-    "land": {
-      "domain": ".hu",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Ungarn.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".hu",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Ungarn.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/hungary/Hungary_License_Plate.png",
@@ -2454,11 +2342,9 @@
   },
   "Litauen": {
     "kontinent": "Baltisch",
-    "land": {
-      "domain": ".lt",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Litauen.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".lt",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Litauen.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/lithuania/Lithuania_License_Plate.png",
@@ -2516,11 +2402,9 @@
   },
   "Estland": {
     "kontinent": "Europa",
-    "land": {
-      "domain": ".ee",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Estland.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".ee",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Estland.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/estonia/Estonia_License_Plate.png",
@@ -2589,11 +2473,9 @@
   },
   "Lettland": {
     "kontinent": "Baltisch",
-    "land": {
-      "domain": ".lv",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Lettland.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".lv",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Lettland.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/latvia/Latvia_License_Plate.png",
@@ -2651,11 +2533,9 @@
   },
   "Czech": {
     "kontinent": "Europa",
-    "land": {
-      "domain": ".cz",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Tschechien.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".cz",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Tschechien.jpg",
     "plates": [],
     "sprache": [
       {
@@ -2686,11 +2566,9 @@
   },
   "Kenia": {
     "kontinent": "Afrika",
-    "land": {
-      "domain": "Links",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Kenia.jpg"
-    },
     "verkehr": ".ke",
+    "domain": "Links",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Kenia.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/kenya/Kenya_License_Plate.png",
@@ -2748,11 +2626,9 @@
   },
   "Tunesien": {
     "kontinent": "Afrika",
-    "land": {
-      "domain": ".tn",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Tunesien.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".tn",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Tunesien.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/tunisia/Tunisia_License_Plate.png",
@@ -2795,11 +2671,9 @@
   },
   "Sri Lanka": {
     "kontinent": "Asien",
-    "land": {
-      "domain": ".lk",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Sri-Lanka.jpg"
-    },
     "verkehr": "Links",
+    "domain": ".lk",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Sri-Lanka.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/sri-lanka/Sri_Lanka_License_Plate.png",
@@ -2875,11 +2749,9 @@
   },
   "Malaysia": {
     "kontinent": "Asien",
-    "land": {
-      "domain": ".my",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Malaysia.jpg"
-    },
     "verkehr": "Links",
+    "domain": ".my",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Malaysia.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/malaysia/Malaysia_License_Plate.png",
@@ -2948,11 +2820,9 @@
   },
   "Philippinen": {
     "kontinent": "Asien",
-    "land": {
-      "domain": ".ph",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Philippinen.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".ph",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Philippinen.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/philippines/1_licenceplate.png",
@@ -3005,11 +2875,9 @@
   },
   "Laos": {
     "kontinent": "Asien",
-    "land": {
-      "domain": "",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Laos.jpg"
-    },
     "verkehr": "",
+    "domain": "",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Laos.jpg",
     "plates": [],
     "sprache": [],
     "googlecar": [],
@@ -3022,11 +2890,9 @@
   },
   "Buthan": {
     "kontinent": "Asien",
-    "land": {
-      "domain": "",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Bhutan.jpg"
-    },
     "verkehr": "",
+    "domain": "",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Bhutan.jpg",
     "plates": [],
     "sprache": [],
     "googlecar": [],
@@ -3039,11 +2905,9 @@
   },
   "Jordanien": {
     "kontinent": "Asien",
-    "land": {
-      "domain": "",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Jordanien.jpg"
-    },
     "verkehr": "",
+    "domain": "",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Jordanien.jpg",
     "plates": [],
     "sprache": [],
     "googlecar": [],
@@ -3056,11 +2920,9 @@
   },
   "Israel": {
     "kontinent": "Asien",
-    "land": {
-      "domain": "",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Israel.jpg"
-    },
     "verkehr": "",
+    "domain": "",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Israel.jpg",
     "plates": [],
     "sprache": [],
     "googlecar": [],
@@ -3073,11 +2935,9 @@
   },
   "Singapur": {
     "kontinent": "Asien",
-    "land": {
-      "domain": ".sg",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Singapur.jpg"
-    },
     "verkehr": "Links",
+    "domain": ".sg",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Singapur.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/singapore/Singapore_License_Plate.png",
@@ -3114,11 +2974,9 @@
   },
   "Südkorea": {
     "kontinent": "Asien",
-    "land": {
-      "domain": ".kr",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Suedkorea.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".kr",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Suedkorea.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/south-korea/licen_plae.png",
@@ -3167,11 +3025,9 @@
   },
   "Australien": {
     "kontinent": "Ozeanien",
-    "land": {
-      "domain": ".au",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Australien.jpg"
-    },
     "verkehr": "Links",
+    "domain": ".au",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Australien.jpg",
     "plates": [],
     "sprache": [],
     "googlecar": [],
@@ -3202,11 +3058,9 @@
   },
   "Neuseeland": {
     "kontinent": "Ozeanien",
-    "land": {
-      "domain": ".nz",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Neuseeland.jpg"
-    },
     "verkehr": "Links",
+    "domain": ".nz",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Neuseeland.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/new-zealand/Ohne_Titel_2824_29.png",
@@ -3248,11 +3102,9 @@
   },
   "USA": {
     "kontinent": "Amerika",
-    "land": {
-      "domain": ".us",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_USA.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".us",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_USA.jpg",
     "plates": [],
     "sprache": [],
     "googlecar": [],
@@ -3288,11 +3140,9 @@
   },
   "Kanada": {
     "kontinent": "Amerika",
-    "land": {
-      "domain": ".ca",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Kanada.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".ca",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Kanada.jpg",
     "plates": [],
     "sprache": [],
     "googlecar": [],
@@ -3316,11 +3166,9 @@
   },
   "Dominikanische Republik": {
     "kontinent": "Südamerika",
-    "land": {
-      "domain": ".do",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Dominikanische-Republik.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".do",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Dominikanische-Republik.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/dominican-republic/Dominican_Republic_License_Plate.png",
@@ -3351,11 +3199,9 @@
   },
   "Puerto Rico": {
     "kontinent": "Südamerika",
-    "land": {
-      "domain": ".pr",
-      "flagge": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag_of_Puerto_Rico.svg/1280px-Flag_of_Puerto_Rico.svg.png"
-    },
     "verkehr": "Rechts",
+    "domain": ".pr",
+    "flagge": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag_of_Puerto_Rico.svg/1280px-Flag_of_Puerto_Rico.svg.png",
     "plates": [],
     "sprache": [],
     "googlecar": [
@@ -3390,11 +3236,9 @@
   },
   "Deutschland": {
     "kontinent": "Europa",
-    "land": {
-      "domain": "",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Deutschland.jpg"
-    },
     "verkehr": "",
+    "domain": "",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Deutschland.jpg",
     "plates": [],
     "sprache": [],
     "googlecar": [],
@@ -3407,11 +3251,9 @@
   },
   "Österreich": {
     "kontinent": "Europa",
-    "land": {
-      "domain": "",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Oesterreich.jpg"
-    },
     "verkehr": "",
+    "domain": "",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Oesterreich.jpg",
     "plates": [],
     "sprache": [],
     "googlecar": [],
@@ -3424,11 +3266,9 @@
   },
   "Oman": {
     "kontinent": "Asien",
-    "land": {
-      "domain": ".om",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Oman.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".om",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Oman.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/oman/3.png",
@@ -3476,11 +3316,9 @@
   },
   "Arabische Emirate": {
     "kontinent": "Asien",
-    "land": {
-      "domain": "",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Ver-Arab-Emirate.jpg"
-    },
     "verkehr": "",
+    "domain": "",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Ver-Arab-Emirate.jpg",
     "plates": [],
     "sprache": [],
     "googlecar": [],
@@ -3493,11 +3331,9 @@
   },
   "Schweiz": {
     "kontinent": "Europa",
-    "land": {
-      "domain": "",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Schweiz.jpg"
-    },
     "verkehr": "",
+    "domain": "",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Schweiz.jpg",
     "plates": [],
     "sprache": [],
     "googlecar": [],
@@ -3510,11 +3346,9 @@
   },
   "Frankreich": {
     "kontinent": "Europa",
-    "land": {
-      "domain": "",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Frankreich.jpg"
-    },
     "verkehr": "",
+    "domain": "",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Frankreich.jpg",
     "plates": [],
     "sprache": [],
     "googlecar": [],
@@ -3527,11 +3361,9 @@
   },
   "Spanien": {
     "kontinent": "Europa",
-    "land": {
-      "domain": "",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Spanien.jpg"
-    },
     "verkehr": "",
+    "domain": "",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Spanien.jpg",
     "plates": [],
     "sprache": [],
     "googlecar": [],
@@ -3544,11 +3376,9 @@
   },
   "Portugal": {
     "kontinent": "Europa",
-    "land": {
-      "domain": "",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Portugal.jpg"
-    },
     "verkehr": "",
+    "domain": "",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Portugal.jpg",
     "plates": [],
     "sprache": [],
     "googlecar": [],
@@ -3561,11 +3391,9 @@
   },
   "Italien": {
     "kontinent": "Europa",
-    "land": {
-      "domain": "",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Italien.jpg"
-    },
     "verkehr": "",
+    "domain": "",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Italien.jpg",
     "plates": [],
     "sprache": [],
     "googlecar": [],
@@ -3578,11 +3406,9 @@
   },
   "Niederlande": {
     "kontinent": "Europa",
-    "land": {
-      "domain": "",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Niederlande.jpg"
-    },
     "verkehr": "",
+    "domain": "",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Niederlande.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/netherlands/Netherlands_plate.png",
@@ -3625,11 +3451,9 @@
   },
   "Luxemburg": {
     "kontinent": "Europa",
-    "land": {
-      "domain": "",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Luxemburg.jpg"
-    },
     "verkehr": "",
+    "domain": "",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Luxemburg.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/luxembourg/Luxembourg_License_Plate.png",
@@ -3677,11 +3501,9 @@
   },
   "Irland": {
     "kontinent": "Europa",
-    "land": {
-      "domain": ".ie",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Irland.jpg"
-    },
     "verkehr": "Links",
+    "domain": ".ie",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Irland.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/ireland/ireland_plate.png",
@@ -3717,11 +3539,9 @@
   },
   "UK": {
     "kontinent": "Europa",
-    "land": {
-      "domain": ".uk",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Grossbritannien.jpg"
-    },
     "verkehr": "Links",
+    "domain": ".uk",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Grossbritannien.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/united-kingdom/United_Kingdom_License_Plate.png",
@@ -3764,11 +3584,9 @@
   },
   "Rumänien": {
     "kontinent": "Europa",
-    "land": {
-      "domain": ".ro",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Rumaenien.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".ro",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Rumaenien.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/romania/ro_licenseplate.png",
@@ -3847,11 +3665,9 @@
   },
   "Serbien": {
     "kontinent": "Europa",
-    "land": {
-      "domain": ".rs",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Serbien.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".rs",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Serbien.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/serbia/Serbia_Plate.png",
@@ -3905,11 +3721,9 @@
   },
   "Kroatien": {
     "kontinent": "Europa",
-    "land": {
-      "domain": ".hr",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Kroatien.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".hr",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Kroatien.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/croatia/Croatia_License_Plate.png",
@@ -3957,11 +3771,9 @@
   },
   "Bosnien & Herzegowina": {
     "kontinent": "Europa",
-    "land": {
-      "domain": "",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Bosnien-und-Herzegowina.jpg"
-    },
     "verkehr": "",
+    "domain": "",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Bosnien-und-Herzegowina.jpg",
     "plates": [],
     "sprache": [],
     "googlecar": [],
@@ -3974,11 +3786,9 @@
   },
   "Nordmazedonien": {
     "kontinent": "Europa",
-    "land": {
-      "domain": "",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Mazedonien.jpg"
-    },
     "verkehr": "",
+    "domain": "",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Mazedonien.jpg",
     "plates": [],
     "sprache": [],
     "googlecar": [],
@@ -3991,11 +3801,9 @@
   },
   "Albanien": {
     "kontinent": "Europa",
-    "land": {
-      "domain": ".al",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Albanien.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".al",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Albanien.jpg",
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/albania/albania_plate.png",
@@ -4054,11 +3862,9 @@
   },
   "Griechenland": {
     "kontinent": "Europa",
-    "land": {
-      "domain": ".gr",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Griechenland.jpg"
-    },
     "verkehr": "Rechts",
+    "domain": ".gr",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Griechenland.jpg",
     "plates": [],
     "sprache": [],
     "googlecar": [],
@@ -4071,11 +3877,9 @@
   },
   "Zypern": {
     "kontinent": "Europa",
-    "land": {
-      "domain": "",
-      "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Zypern.jpg"
-    },
     "verkehr": "",
+    "domain": "",
+    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Zypern.jpg",
     "plates": [],
     "sprache": [],
     "googlecar": [],

@@ -44,6 +44,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/uruguay/Signposts.png",
         "beschreibung": "Uruguay uses thick wooden signposts, which are typically painted white. They often have up to four rectangular notches at the back of the post.  NOTE: Thick wooden signposts can also be seen in Bolivia."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/uruguay/Chevron.png",
+        "beschreibung": "Like most of Latin America, chevrons are yellow with black arrows.  NOTE: This is mostly useful to distinguish between Argentina, which uniquely uses chevrons that are white with red arrows."
       }
     ],
     "taxi": [],
@@ -63,7 +67,12 @@
       }
     ],
     "sprache": [],
-    "googlecar": [],
+    "googlecar": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/argentina/gen3car.png",
+        "beschreibung": "Argentina has a black Google car in Generation 3 coverage.  NOTE: Within South America, only Argentina, Peru and Uruguay have a black Google car."
+      }
+    ],
     "bollards": [],
     "streets": [
       {
@@ -85,6 +94,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/argentina/kmmarker.png",
         "beschreibung": "Argentinian kilometre markers are typically white with a black strip displaying the road number at the top.  NOTE: The markers on national highways are indicated with RN, while RP indicates a provincial highway. National highways will be labelled white on the map, while provincial highways will be labelled green."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/argentina/ar_chevron.png",
+        "beschreibung": "Argentina typically uses white-and-red chevrons.  NOTE: Argentina is the only American country with these chevrons."
       }
     ],
     "taxi": [
@@ -109,7 +122,12 @@
       }
     ],
     "sprache": [],
-    "googlecar": [],
+    "googlecar": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/chile/google_car.png",
+        "beschreibung": "Chile has a solid white Google Car with no antenna in Generation 3. There are two variants:  A plain white car (left).  A white car with a visible black section (right). This car is unique to Chile.  A blue Google Car can be seen in Generation 4.  NOTE: In Generation 3, a plain white Google Car with no antenna can also be seen in Peru and Bolivia."
+      }
+    ],
     "bollards": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/chile/bollard.png",
@@ -120,14 +138,24 @@
         "beschreibung": "you may sometimes find this orange, temporary bollard, with two white stripes at the top."
       }
     ],
-    "streets": [],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/chile/road_lines.png",
+        "beschreibung": "Chilean road lines are either all white, or all yellow:  All white road lines are most common. Within the Americas, they are a good clue for Chile, though not completely unique.  All yellow road lines are seen in National Parks or areas of high snowfall. Within the Americas, these all yellow road lines are essentially unique to Chile.  You will almost never see a combination of the two colours, apart from a few rare exceptions.  NOTE: It is important to note that Argentina has a decent amount of roads with all white road lines."
+      }
+    ],
     "poles": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/chile/pole.png",
         "beschreibung": "Chile uses square concrete poles with an indent on both sides."
       }
     ],
-    "schilder": [],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/chile/Slotted_Signs.png",
+        "beschreibung": " Slots can often be seen at the top of signposts."
+      }
+    ],
     "taxi": [],
     "architcture": []
   },
@@ -145,14 +173,24 @@
       }
     ],
     "sprache": [],
-    "googlecar": [],
+    "googlecar": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/peru/1.gen3cars.png",
+        "beschreibung": " In Gen 3 coverage, Peru uses a solid black or white Google car.  NOTE: In South America, these two cars are limited to the following countries:  The black Google car is only found in Peru, Argentina and Uruguay.  The white Google car is only found in Peru, Bolivia and Chile."
+      }
+    ],
     "bollards": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/peru/1.bollard.png",
         "beschreibung": "Bollards in Peru are painted red or yellow, and the country mainly uses a variety of triangular-shaped concrete bollards. Occasionally you will also spot other designs, such as these circular concrete variants."
       }
     ],
-    "streets": [],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/peru/1.roadlines.png",
+        "beschreibung": "Peruvian roads always have white outer lines. On highways, you will find either single yellow dashed or double yellow middle lines. On rural mountain roads, you will most likely see white outer lines without any centre line. On divided highways, the road lines may be completely white in colour.  NOTE: In the continent of South America, rural mountain roads, with the features mentioned above, are predominantly found in Peru."
+      }
+    ],
     "poles": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/peru/Peru_poles.png",
@@ -163,6 +201,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/peru/1.signpost.png",
         "beschreibung": " Peru is the only South American country to use black-and-white striped signposts. In some areas, black-and-yellow signposts can be seen.  NOTE: Uruguay sometimes uses black-and-white posts for its traffic lights, but not for road signs."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/peru/1.concreteblocks.png",
+        "beschreibung": "Peruvian metal signposts feature concrete blocks at the bottom.  NOTE: Within South America, Peru is the only country to do so."
       }
     ],
     "taxi": [
@@ -198,7 +240,20 @@
       }
     ],
     "bollards": [],
-    "streets": [],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/bolivia/1_roadlines.png",
+        "beschreibung": "Middle road lines can be all-yellow, yellow and white, or all-white, while outer road lines are always white.  NOTE: Road lines in Chile are always all-white or all-yellow, never a combination of the two. In Peru, you can find roads having outer lines with no middle line. Such outer line-only roads are very rare in Bolivia."
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/bolivia/1_concreteroads.png",
+        "beschreibung": ""
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/bolivia/1_cobblestoneroad.png",
+        "beschreibung": ""
+      }
+    ],
     "poles": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/bolivia/1_poles.png",
@@ -208,9 +263,19 @@
         "bild": "https://de.plonkit.net/images/resize/600/80/bolivia/1_scuffedpole.png"
       }
     ],
-    "schilder": [],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/bolivia/1_signpost.png",
+        "beschreibung": " Bolivia typically uses bulky, white square signposts.  NOTE: Peru typically uses black and white striped “zebra” signposts."
+      }
+    ],
     "taxi": [],
-    "architcture": []
+    "architcture": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/bolivia/1_redbrick.png",
+        "beschreibung": "Many buildings in Bolivia consist of large red bricks. Buildings often have an ‘unfinished' look.  NOTE: This style of architecture is also common in parts of Peru."
+      }
+    ]
   },
   "Brazil": {
     "kontinent": "Südamerika",

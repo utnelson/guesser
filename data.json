@@ -655,7 +655,15 @@
     "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Suedafrika.jpg",
     "plates": [],
     "sprache": [],
-    "googlecar": [],
+    "googlecar": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/south-africa/za_gen4car.png",
+        "beschreibung": "All Generation 4 coverage in South Africa was taken by a blue Street View car with a short antenna.\n\nNOTE: The antenna is sometimes hidden by the blur.",
+        "tags": [
+          "antenna"
+        ]
+      }
+    ],
     "bollards": [],
     "streets": [
       {
@@ -805,8 +813,11 @@
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/uganda/Uganda_License_Plate.png",
-        "beschreibung": "",
-        "tags": []
+        "beschreibung": "Uganda uses white front plates with yellow rear plates. These plates can be long or tall.",
+        "tags": [
+          "white",
+          "yellow"
+        ]
       }
     ],
     "sprache": [],
@@ -814,7 +825,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/800/80/uganda/Kampala_Car_3.png",
         "beschreibung": "Kampala, mirror, pickup",
-        "tags": []
+        "tags": [
+          "mirror",
+          "pickup"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/uganda/ug_npcar.png",
@@ -1010,7 +1024,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/ukraine/Ukraine_License_Plate.png",
         "beschreibung": "blue and yellow strip on the left",
-        "tags": []
+        "tags": [
+          "blue",
+          "yellow"
+        ]
       }
     ],
     "sprache": [
@@ -1023,13 +1040,15 @@
     "googlecar": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/ukraine/Red_car.png",
-        "beschreibung": "",
+        "beschreibung": "All coverage in Ukraine is Generation 3. Most of it was made using a red Google car. This car is almost unique to Ukraine. It sometimes has an antenna, and sometimes no antenna. Note that the car is not always visible, though at times you will still be able to tell its colour due to the car blur glitch.\n\nNOTE: The car meta can be very useful to tell Ukraine and Russia apart:\n\nMost importantly, you will not find the red Generation 3 car in Russia.\n\nRussia can have Generation 4 (and sometimes Generation 2). Ukraine never has either Generation.\n\nRussian Generation 3 cars always have either a short or long antenna. If you see no antenna at all, consider Ukraine.\n\nAlso note that some parts of Belgium can have a red google car with a long antenna.",
         "tags": []
       },
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/ukraine/Other_Ukraine_cars.png",
-        "beschreibung": "",
-        "tags": []
+        "beschreibung": "More rarely, you can also find several other Google cars in Ukraine:\n\nBlack car with a long antenna\n\nWhite car with a long antenna\n\nGrey car with a short antenna\n\nThese cars can be found in multiple countries, including Russia. See the region guessing section to see where you can find these cars within Ukraine.",
+        "tags": [
+          "antenna"
+        ]
       }
     ],
     "bollards": [
@@ -1045,12 +1064,16 @@
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/ukraine/Vulitsa.png",
         "beschreibung": "The Ukrainian word for street is вулиця (vulytsya), abbreviated вул. (vul.).",
-        "tags": []
+        "tags": [
+          "vulytsya"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/ukraine/ua_misto.png",
         "beschreibung": "The Ukrainian word for city is місто (misto), abbreviated м. (m.).",
-        "tags": []
+        "tags": [
+          "misto"
+        ]
       }
     ],
     "taxi": [],
@@ -1759,7 +1782,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/thailand/Thailand_License_Plate.png",
         "beschreibung": "NOTE: Within Southeast Asia, yellow commercial plates are only found in Thailand. Be careful, however, as Laos uses yellow licence plates for regular vehicles.",
-        "tags": []
+        "tags": [
+          "white",
+          "yellow"
+        ]
       }
     ],
     "sprache": [
@@ -1905,7 +1931,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/vietnam/vietnam_plate2.png",
         "beschreibung": " Vietnamese licence plates are white with black lettering. Both long and short versions are in use.",
-        "tags": []
+        "tags": [
+          "white"
+        ]
       }
     ],
     "sprache": [
@@ -2837,7 +2865,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/turkey/tr_licenceplate.png",
         "beschreibung": "Turkey uses the same licence plates as most of Europe: they are long and white, with a blue strip on the left.",
-        "tags": []
+        "tags": [
+          "blue",
+          "white"
+        ]
       }
     ],
     "sprache": [
@@ -2851,7 +2882,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/turkey/tr_pickuptruck.png",
         "beschreibung": "A grey pickup truck can be found in some Generation 4 coverage.  NOTE: Similar pickup trucks can also be found in Senegal and Kenya.",
-        "tags": []
+        "tags": [
+          "pickup"
+        ]
       }
     ],
     "bollards": [
@@ -2884,7 +2917,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/turkey/tr_dur.png",
         "beschreibung": "Stop signs have the word “DUR” written on them. This is unique to Turkey.",
-        "tags": []
+        "tags": [
+          "dur"
+        ]
       }
     ],
     "taxi": [],
@@ -2943,7 +2978,11 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/hungary/Hungary_License_Plate.png",
         "beschreibung": "",
-        "tags": []
+        "tags": [
+          "blue",
+          "yellow",
+          "white"
+        ]
       }
     ],
     "sprache": [
@@ -2978,12 +3017,17 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/hungary/hu_streetnames.png",
         "beschreibung": "Hungarian street names typically end with the word “utca”. The word “út” is also used for bigger roads. These two words are unique to Hungarian, and translate to “street.”",
-        "tags": []
+        "tags": [
+          "utca"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/hungary/hu_pedestriansign.png",
         "beschreibung": "Hungarian pedestrian crossing signs have five stripes. The person is wearing a belt. There is also a second, less common, type with four stripes and the person holding a bag.  The belt is located noticeably low on the person’s body, almost as if the person is sagging his pants. This is unique to Hungary.  NOTE: Among neighbouring countries, Croatia and Slovakia also have five stripes and a belt.",
-        "tags": []
+        "tags": [
+          "5s",
+          "4s"
+        ]
       }
     ],
     "taxi": [],
@@ -3314,7 +3358,11 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/tunisia/Tunisia_License_Plate.png",
         "beschreibung": " Tunisian licence plates are black with white text.  NOTE: Military plates feature a small Tunisian flag on the left side of the plate, which is visible on the dark green follow car.",
-        "tags": []
+        "tags": [
+          "black",
+          "red",
+          "white"
+        ]
       }
     ],
     "sprache": [
@@ -3328,10 +3376,25 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/tunisia/followcars.png",
         "beschreibung": "One of the best ways to recognize Tunisia is that, in most coverage, the Google car is escorted by a follow car.  There are several different follow cars and these are four of the most commonly found ones.  NOTE: Follow cars can be in front of the street view car, or very far behind. Make sure to pan and zoom if you do not find them immediately. followcar",
+        "tags": [
+          "followcar"
+        ]
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/tunisia/googlecar.jpg",
+        "beschreibung": "The Google car in Tunisia is black with a medium-length, thin antenna.\n\nNOTE: The colour of the car is not always perceptible. Make sure to look around for other more helpful clues.",
+        "tags": [
+          "antenna"
+        ]
+      }
+    ],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/tunisia/tn_coverage.png",
+        "beschreibung": "coverage",
         "tags": []
       }
     ],
-    "bollards": [],
     "streets": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/tunisia/round.jpg",
@@ -3869,7 +3932,11 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/south-korea/licen_plae.png",
         "beschreibung": " South Korea uses a variety of different licence plates.  Pre-2006 plates are short and green. These will still show up in the street view coverage.  Post-2006 plates are white for private vehicles, and yellow for commercial vehicles. These can be long and short.",
-        "tags": []
+        "tags": [
+          "green",
+          "white",
+          "yellow"
+        ]
       }
     ],
     "sprache": [
@@ -4880,7 +4947,11 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/united-kingdom/United_Kingdom_License_Plate.png",
         "beschreibung": " UK front plates are white, while back plates are yellow. Some plates have a blue strip on the left, but most do not.  Additionally, you might see a plate with a green ‘Zero Emissions’ strip.  NOTE: Ireland uses white front and back plates, always with a blue strip on the left.",
-        "tags": []
+        "tags": [
+          "yellow",
+          "white",
+          "blue"
+        ]
       }
     ],
     "sprache": [],
@@ -5332,16 +5403,55 @@
   },
   "Zypern": {
     "kontinent": "Europa",
-    "verkehr": "",
-    "domain": "",
+    "verkehr": "Links",
+    "domain": ".cy",
     "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Zypern.jpg",
-    "plates": [],
-    "sprache": [],
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/cyprus/Cyprus%20License%20Plates.jpg",
+        "beschreibung": "Cyprus uses both standard white European license plates, and UK-style plates that have a yellow rear plate. Most license plates have the EU strip on the left. Rental cars, which have a distinct red plate, are not uncommon either.",
+        "tags": [
+          "yellow white",
+          "red",
+          "blue"
+        ]
+      }
+    ],
+    "sprache": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/cyprus/gr_language.webp",
+        "beschreibung": "\nCyprus uses the Greek and English languages. Greek has a unique alphabet not used in any other language. It shares similarities with both the Latin and Cyrillic alphabet, however the lower case letters generally have softer shapes than the Cyrillic letters.\n\nNOTE: It goes without saying, but Greece also uses the Greek alphabet.",
+        "tags": []
+      }
+    ],
     "googlecar": [],
-    "bollards": [],
+    "bollards": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/cyprus/cy_bollard.png",
+        "beschreibung": "Bollards are superficially similar to Turkish bollards, with a red reflector at the front and a white one at the back. However, unlike Turkish bollards, they are not flat but rather triangular, with a slanted top.",
+        "tags": []
+      }
+    ],
     "streets": [],
-    "poles": [],
-    "schilder": [],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/cyprus/cy_utilitypole.png",
+        "beschreibung": "Utility poles are primarily wooden, typically quite tall and have a distinctly dark brown colour.\n\nNOTE: All of these features are shared with Greek utility poles.",
+        "tags": []
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/cyprus/Cyprus%20Poles.png",
+        "beschreibung": "Poles commonly have one of three poletops. The first consists of a crossbar with zero or three insulators on top. The second consists of five insulators attached directly to the side of the pole. And the third one consists of a metal frame shaped vaguely like a harp.\n\nNOTE: These are also commonly found in Greece.",
+        "tags": []
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/cyprus/cy_directionalsign.png",
+        "beschreibung": "\nDirectional signs are very similar to Greek directional signs, with the one notable difference being that the Greek text is written in all-caps.",
+        "tags": []
+      }
+    ],
     "taxi": [],
     "architcture": []
   }

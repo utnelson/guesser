@@ -1032,7 +1032,7 @@
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/ukraine/Ukrainian_language.png",
         "beschreibung": "These letters are unique to Ukrainian, compared to Russian: Є є (not to be confused with Э э in Russian and Belarusian.) Ґ ґ І і Ї ї",
-        "tags": ["Kyrillisch"]
+        "tags": ["kyrillisch"]
       }
     ],
     "googlecar": [
@@ -1096,7 +1096,7 @@
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/mongolia/1._language.png",
         "beschreibung": "\nMongolia primarily uses Cyrillic script, though Latin and traditional Mongolian script can also occasionally be seen. Mongolian Cyrillic contains the letters Ɵ and Ү, which do not exist in the Russian alphabet. Additionally, the use of double vowels, such as aa, ƟƟ or ЭЭ, is common in Mongolian.\n\nNOTE: The letters Ɵ and Ү also exist in the Kyrgyz and Kazakh languages.",
-        "tags": ["Kyrillisch"]
+        "tags": ["kyrillisch"]
       }
     ],
     "googlecar": [
@@ -1156,7 +1156,7 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/kyrgyzstan/kg_language.png",
         "beschreibung": "The Kyrgyz script is similar to Russian. However, the Cyrillic script used for Kyrgyz includes additional characters not found in Russian Cyrillic, such as:\n\nӨ\n\nҮ\n\nҢ",
-        "tags": ["Kyrillisch"]
+        "tags": ["kyrillisch"]
       }
     ],
     "googlecar": [
@@ -1214,7 +1214,7 @@
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/kazakhstan/kz_language.png",
         "beschreibung": "Kazakhstan uses both Cyrillic and Latin alphabets.\n\nThough sometimes, Russian is used monolingually.\n\nThe following letters are found in the Kazakh but not Russian alphabet: Ә (Ä), Ғ (Ǵ), Қ (Q), Ң (Ń), Ө (Ö), Ұ (W), Ү (Ü), Һ (H), І (I).\n\nKazakh is related to Turkish, so the Latin text can appear similar.",
-        "tags": ["Kyrillisch"]
+        "tags": ["kyrillisch"]
       }
     ],
     "googlecar": [
@@ -1276,7 +1276,7 @@
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/russia/cyrillic.png",
         "beschreibung": "The Russian language uses the Cyrillic script, and contains the special letters Ы, Э, Ё and Ъ.",
-        "tags": ["Kyrillisch"]
+        "tags": ["kyrillisch"]
       }
     ],
     "googlecar": [],
@@ -1345,7 +1345,7 @@
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/bulgaria/bg_language.png",
         "beschreibung": "Bulgaria mainly uses the Cyrillic alphabet. However, a lot of signs will also have the Latin alphabet.\n\nThe letter “Ъ” is only found in Bulgarian and Russian, although it is fairly uncommon in Russian.",
-        "tags": ["Kyrillisch"]
+        "tags": ["kyrillisch"]
       }
     ],
     "googlecar": [
@@ -2074,7 +2074,7 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/iceland/is_language.png",
         "beschreibung": "The Icelandic language contains a couple of unique letters. These are some of the most recognizable ones: ð þ and æ. Vowels can have the following accents: á é í ó ö ú ý. The uppercase version of ð is Ð.  NOTE: ð is also found in the Faroese language. æ is found in Danish, Norwegian and Faroese.",
-        "tags": ["Nordisch"]
+        "tags": ["nordisch"]
       }
     ],
     "googlecar": [
@@ -2135,7 +2135,7 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/norway/no_language.png",
         "beschreibung": "The Norwegian language contains the special letters Æ, Ø and Å.  NOTE: The special letters found in Norwegian can also be found in some of the other Northern Germanic languages:  Danish uses Æ, Ø and Å.  Swedish uses Å, but not Æ or Ø. Norwegian also uses more E’s than Swedish, while Swedish uses more A’s instead. Norwegian uses “kk” where Swedish uses “ck”.  Icelandic uses Æ, but not Ø or Å.  Finnish uses Å, although it is viewed as a Swedish letter.",
-        "tags": ["Nordisch"]
+        "tags": ["nordisch"]
       }
     ],
     "googlecar": [],
@@ -2225,7 +2225,7 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/sweden/spr_C3_A5k.png",
         "beschreibung": "Swedish is a North Germanic language that is closely related to Danish and Norwegian. The Swedish alphabet contains the special letters Å, Ä and Ö.  NOTE: The special letters found in Swedish can also be found in some of the other Northern Germanic languages:  Danish uses Å, but not Ä or Ö.  Norwegian uses Å, but not Ä or Ö.  Icelandic uses Ö, but not Å or Ä.  Finnish uses Ä and Ö. Å is also used, but is treated as Swedish. Finnish words are typically longer and often use double vowels, which are very rare in Swedish.",
-        "tags": ["Nordisch"]
+        "tags": ["nordisch"]
       }
     ],
     "googlecar": [
@@ -2312,7 +2312,7 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/finland/fi_language.png",
         "beschreibung": "The Finnish language is not related to most other European languages, so it has a very unique look. It has a lot of long words and double vowels. The Finnish alphabet includes the letters ä and ö.  NOTE: Estonian is closely related to Finnish, so it can look similar. Estonian uses the letters õ and ü, which are not used in Finnish.",
-        "tags": ["Nordisch"]
+        "tags": ["nordisch"]
       }
     ],
     "googlecar": [],
@@ -2468,7 +2468,7 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/denmark/dk_language.png",
         "beschreibung": " Danish is a North Germanic language that is closely related to Swedish and Norwegian. The Danish alphabet contains these special letters: Æ, Ø, and Å.  NOTE: The special letters found in Danish can also be found in some of the other Northern Germanic languages:  Norwegian uses Æ, Ø, and Å.  Faroese uses Æ and Ø but not Å.  Icelandic only uses Æ.  Swedish only uses Å. In addition, Swedish uses Ä and Ö, which are not found in Danish.",
-        "tags": ["Nordisch"]
+        "tags": ["nordisch"]
       }
     ],
     "googlecar": [],
@@ -3050,7 +3050,7 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/lithuania/Lithuanian_language.png",
         "beschreibung": "Lithuanian belongs to the Baltic languages. The other major member of this branch is Latvian, to which it is closely related.  Within the Baltic languages, the following letters are unique to Lithuanian:  Vowels with small hooks: Ą Ę Į Ų.  Ė with a single dot.  Y (also in Estonian, but only in loan words).  NOTE: Estonian is not a member of the Baltic languages (despite its name), and therefore looks significantly different.",
-        "tags": ["Baltisch"]
+        "tags": ["baltisch"]
       }
     ],
     "googlecar": [],
@@ -3117,7 +3117,7 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/estonia/Estonian_language.png",
         "beschreibung": "Estonian belongs to the Finnic languages, a branch of the Uralic language family. It is closely related to Finnish.  Within the Baltic languages, the following letters are unique to Estonian:  Vowels with umlauts (two dots): Ä Ö Ü.  Õ with a tilde.  NOTE: Latvian and Lithuanian are both Indo-European languages that are not related to Estonian, and therefore look very different.",
-        "tags": ["Baltisch"]
+        "tags": ["baltisch"]
       }
     ],
     "googlecar": [],
@@ -3197,7 +3197,7 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/latvia/Latvian_language.png",
         "beschreibung": "Latvian belongs to the Baltic languages. The other major member of this branch is Lithuanian, to which it is closely related.  Within the Baltic languages, the following letters are unique to Latvian:  Vowels with a macron (horizontal stripe): Ā Ē Ī.  Consonants with a small hook: Ģ Ķ Ļ Ņ.  NOTE: Estonian is not a member of the Baltic languages(despite the name), and therefore looks significantly different.",
-        "tags": ["Baltisch"]
+        "tags": ["baltisch"]
       }
     ],
     "googlecar": [],

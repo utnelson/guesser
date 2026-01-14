@@ -5,6 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GeoGuessr Helfer</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .tooltip-content::before {
+        content: "";
+        position: absolute;
+        top: -10px;
+        left: 0;
+        width: 100%;
+        height: 10px;
+      }
+
+      .th-tooltip {
+        position: relative;
+      }
+
+      .tooltip-content {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 6px;
+        z-index: 50;
+
+        background: white;
+        border: 1px solid #d1d5db;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+
+        display: none;
+        min-width: 220px;
+      }
+
+      .th-tooltip:hover .tooltip-content,
+      .tooltip-content:hover {
+        display: block;
+      }
+      .active-badges {
+        margin-top: 4px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px;
+        justify-content: center;
+      }
+
+      .active-badges span {
+        background: #3b82f6; /* blue-500 */
+        color: white;
+        font-size: 0.75rem;
+        padding: 2px 6px;
+        border-radius: 0.375rem;
+        cursor: pointer;
+      }
+    </style>
   </head>
 
   <body class="bg-gray-100 font-sans">
@@ -13,15 +66,15 @@
         class="mb-6 flex flex-col md:flex-row justify-center gap-6 items-center flex-wrap"
       >
         <!-- Filterbereich -->
-         <div class="flex flex-col gap-2">
+        <div class="flex flex-col gap-2">
           <p class="font-semibold text-gray-700">Reset:</p>
-        <button
-          id="resetFilters"
-          type="button"
-          class="px-3 py-1 border rounded bg-red-100 hover:bg-red-200 transition"
-        >
-          Reset
-        </button>
+          <button
+            id="resetFilters"
+            type="button"
+            class="px-3 py-1 border rounded bg-red-100 hover:bg-red-200 transition"
+          >
+            Reset
+          </button>
         </div>
         <!-- Land/Domain -->
         <div class="flex flex-col">
@@ -50,20 +103,6 @@
             <button
               type="button"
               class="kontinent-btn px-3 py-1 border rounded bg-gray-200 hover:bg-blue-200 transition"
-              data-kontinent="Nordisch"
-            >
-              Nordisch
-            </button>
-            <button
-              type="button"
-              class="kontinent-btn px-3 py-1 border rounded bg-gray-200 hover:bg-blue-200 transition"
-              data-kontinent="Kyrillisch"
-            >
-              Kyrillisch
-            </button>
-            <button
-              type="button"
-              class="kontinent-btn px-3 py-1 border rounded bg-gray-200 hover:bg-blue-200 transition"
               data-kontinent="Asien"
             >
               Asien
@@ -81,13 +120,6 @@
               data-kontinent="Amerika"
             >
               Amerika
-            </button>
-            <button
-              type="button"
-              class="kontinent-btn px-3 py-1 border rounded bg-gray-200 hover:bg-blue-200 transition"
-              data-kontinent="Batlisch"
-            >
-              Batlisch
             </button>
             <button
               type="button"
@@ -125,81 +157,6 @@
             </button>
           </div>
         </div>
-        <!-- Plates -->
-        <div id="googlecar-buttons" class="flex flex-col gap-2">
-          <p class="font-semibold text-gray-700">Plates:</p>
-          <div class="flex gap-2 justify-center">
-            <button
-              type="button"
-              class="plates-btn px-4 py-1 border rounded bg-gray-100 hover:bg-gray-200 transition"
-              data-plates="Blue"
-            >
-              White
-            </button>
-            <button
-              type="button"
-              class="plates-btn px-4 py-1 border rounded bg-blue-100 hover:bg-blue-200 transition"
-              data-plates="Blue"
-            >
-              Blue
-            </button>
-            <button
-              type="button"
-              class="plates-btn px-4 py-1 border rounded bg-green-100 hover:bg-green-200 transition"
-              data-plates="Green"
-            >
-              Green
-            </button>
-            <button
-              type="button"
-              class="plates-btn px-4 py-1 border rounded bg-yellow-100 hover:bg-yellow-200 transition"
-              data-plates="Yellow"
-            >
-              Yellow
-            </button>
-            <button
-              type="button"
-              class="plates-btn px-4 py-1 border rounded bg-gray-600 hover:bg-gray-900 text-gray-100 transition"
-              data-plates="Black"
-            >
-              Black
-            </button>
-          </div>
-        </div>
-        <!-- Googlecar -->
-        <div id="googlecar-buttons" class="flex flex-col gap-2">
-          <p class="font-semibold text-gray-700">Googlecar:</p>
-          <div class="flex gap-2 justify-center">
-            <button
-              type="button"
-              class="googlecar-btn px-4 py-1 border rounded bg-gray-200 hover:bg-blue-200 transition"
-              data-googlecar="Pickup"
-            >
-              Pickup
-            </button>
-            <button
-              type="button"
-              class="googlecar-btn px-4 py-1 border rounded bg-gray-200 hover:bg-blue-200 transition"
-              data-googlecar="Followcar"
-            >
-              Followcar
-            </button>
-            <button
-              type="button"
-              class="googlecar-btn px-4 py-1 border rounded bg-gray-200 hover:bg-blue-200 transition"
-              data-googlecar="Antenna"
-            >
-              Antenna
-            </button>
-            <button
-              type="button"
-              class="googlecar-btn px-4 py-1 border rounded bg-gray-200 hover:bg-blue-200 transition"
-              data-googlecar="Mirror"
-            >
-              Mirror
-            </button>
-          </div>
-        </div>
       </div>
     </div>
 
@@ -212,14 +169,15 @@
         <thead class="bg-gray-200">
           <tr>
             <th class="border px-4 py-2 w-16">Land</th>
-            <th class="border px-4 py-2 w-36">Plates</th>
-            <th class="border px-4 py-2 w-36">Sprache</th>
-            <th class="border px-4 py-2 w-36">Google Car</th>
-            <th class="border px-4 py-2 w-36">Bollards</th>
-            <th class="border px-4 py-2 w-36">Poles</th>
-            <th class="border px-4 py-2 w-36">Schilder</th>
-            <th class="border px-4 py-2 w-36">Taxi</th>
-            <th class="border px-4 py-2 w-36">Street</th>
+            <th class="border px-4 py-2 w-36"></th>
+            <th class="border px-4 py-2 w-36"></th>
+            <th class="border px-4 py-2 w-36"></th>
+            <th class="border px-4 py-2 w-36"></th>
+            <th class="border px-4 py-2 w-36"></th>
+            <th class="border px-4 py-2 w-36"></th>
+            <th class="border px-4 py-2 w-36"></th>
+            <th class="border px-4 py-2 w-36"></th>
+            <th class="border px-4 py-2 w-36"></th>
           </tr>
         </thead>
         <tbody></tbody>
@@ -248,11 +206,14 @@
           class="absolute top-4 right-6 text-white text-3xl cursor-pointer"
           >&times;</span
         >
-<img
-  id="modalImage"
-  class="max-w-full max-h-[90vh] object-contain transform transition-transform duration-200"
-/>
-        <div id="caption" class="text-white mt-4 text-center bg-gray-800 text-lg"></div>
+        <img
+          id="modalImage"
+          class="max-w-full max-h-[90vh] object-contain transform transition-transform duration-200"
+        />
+        <div
+          id="caption"
+          class="text-white mt-4 text-center bg-gray-800 text-lg"
+        ></div>
       </div>
     </div>
 

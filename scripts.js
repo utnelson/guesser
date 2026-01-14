@@ -1,4 +1,27 @@
 // ===============================
+// Globale Konfiguration
+// ===============================
+const MEDIA_KEYS_ORDER = [
+  "plates",
+  "sprache",
+  "googlecar",
+  "bollards",
+  "streets",
+  "poles",
+  "schilder",
+  "taxi",
+  "architcture",
+];
+
+// Hilfsfunktion: Media-Key schön formatieren (z.B. "googlecar" -> "Google Car")
+function formatKey(key) {
+  if (key === "architcture") return "Architecture"; // Tippfehler korrigieren
+  return key
+    .replace(/([A-Z])/g, " $1")
+    .replace(/^./, (str) => str.toUpperCase());
+}
+
+// ===============================
 // Modal-Elemente
 // ===============================
 const modal = document.getElementById("imageModal");
@@ -11,8 +34,10 @@ const closeModal = document.getElementById("closeModal");
 // ===============================
 let activeKontinent = null;
 let activeVerkehr = null;
-let activePlates = null;
-let activeGooglecar = null;
+
+// Media-Key Filter (mehrfach auswählbar)
+const activeMediaFilters = {};
+MEDIA_KEYS_ORDER.forEach((key) => (activeMediaFilters[key] = new Set()));
 
 // ===============================
 // Helper: Toggle Button Gruppe
@@ -56,16 +81,6 @@ setupToggleButtons(".verkehr-btn", (btn) => btn.dataset.verkehr, {
   set: (v) => (activeVerkehr = v),
 });
 
-setupToggleButtons(".plates-btn", (btn) => btn.dataset.plates, {
-  get: () => activePlates,
-  set: (v) => (activePlates = v),
-});
-
-setupToggleButtons(".googlecar-btn", (btn) => btn.dataset.googlecar, {
-  get: () => activeGooglecar,
-  set: (v) => (activeGooglecar = v),
-});
-
 // ===============================
 // Daten laden
 // ===============================
@@ -75,7 +90,8 @@ async function loadData() {
       "https://raw.githubusercontent.com/utnelson/guesser/refs/heads/main/data.json"
     );
     if (!response.ok) throw new Error("Netzwerkfehler");
-    return await response.json();
+    const data = await response.json();
+    return data;
   } catch (error) {
     console.error("Fehler beim Laden der Daten:", error);
   }
@@ -85,31 +101,27 @@ async function loadData() {
 // Filter reset
 // ===============================
 function resetAllFilters() {
-  // Filter-States zurücksetzen
   activeKontinent = null;
   activeVerkehr = null;
-  activePlates = null;
-  activeGooglecar = null;
 
-  // Textfeld leeren
+  MEDIA_KEYS_ORDER.forEach((key) => activeMediaFilters[key].clear());
+
   document.getElementById("land").value = "";
 
-  // Alle Toggle-Buttons zurücksetzen
-  document
-    .querySelectorAll(
-      ".kontinent-btn, .verkehr-btn, .plates-btn, .googlecar-btn"
-    )
-    .forEach((btn) => {
-      btn.classList.remove("border-2", "border-red-600");
-      btn.classList.add("border", "border-gray-300");
-    });
+  document.querySelectorAll(".kontinent-btn, .verkehr-btn").forEach((btn) => {
+    btn.classList.remove("border-2", "border-red-600");
+    btn.classList.add("border", "border-gray-300");
+  });
 
-  // Tabelle neu rendern
+  document
+    .querySelectorAll(".active-badges")
+    .forEach((c) => (c.innerHTML = ""));
+
   filterLänder();
 }
 
 // ===============================
-// Länder filtern & anzeigen
+// Länder filtern & Tabelle füllen
 // ===============================
 async function filterLänder() {
   const data = await loadData();
@@ -123,7 +135,7 @@ async function filterLänder() {
     // Land / Domain
     if (inputLand) {
       const landMatch = land.toLowerCase().startsWith(inputLand);
-      const domainMatch = (details.land.domain || "")
+      const domainMatch = (details.domain || "")
         .toLowerCase()
         .includes(inputLand);
       if (!landMatch && !domainMatch) matches = false;
@@ -136,28 +148,19 @@ async function filterLänder() {
     // Verkehr
     if (activeVerkehr && details.verkehr !== activeVerkehr) matches = false;
 
-    // Plates
-    if (activePlates) {
-      const hasPlate = (details.plates || []).some((p) =>
-        p.beschreibung?.toLowerCase().includes(activePlates.toLowerCase())
-      );
-      if (!hasPlate) matches = false;
-    }
-
-    // Googlecar
-    if (activeGooglecar) {
-      const hasCar = (details.googlecar || []).some((g) =>
-        g.beschreibung?.toLowerCase().includes(activeGooglecar.toLowerCase())
-      );
-      if (!hasCar) matches = false;
-    }
+    // Media-Key Filter
+    MEDIA_KEYS_ORDER.forEach((key) => {
+      if (activeMediaFilters[key].size) {
+        const hasTag = (details[key] || []).some((item) =>
+          (item.tags || []).some((t) => activeMediaFilters[key].has(t))
+        );
+        if (!hasTag) matches = false;
+      }
+    });
 
     return matches;
   });
 
-  // ===============================
-  // Tabelle füllen
-  // ===============================
   const tbody = document.querySelector("#countryTable tbody");
   tbody.innerHTML = "";
 
@@ -168,119 +171,40 @@ async function filterLänder() {
     row.innerHTML = `
     <td class="border px-2 py-2 text-center align-middle">
       <div class="flex flex-col items-center">
-      <span>${details.kontinent}</span>
+        <span>${details.kontinent || ""}</span>
         <span class="font-bold">${land}</span>
-        <img src="${details.land.flagge}"
-             class="w-24 h-24 object-contain rounded cursor-pointer"
-             data-caption="${land}">
-             <span>${details.verkehr}</span>
+        <img src="${
+          details.flagge || ""
+        }" class="w-24 h-24 object-contain rounded cursor-pointer" data-caption="${land}">
+        <span>${details.verkehr || ""}</span>
       </div>
     </td>
 
-    <td class="border px-4 py-2 text-center align-middle">
-      <div class="flex justify-center items-center gap-2 flex-wrap">
-        ${(details.plates || [])
-          .map(
-            (p) =>
-              `<img src="${p.bild}" class="w-36 h-24 object-contain rounded cursor-pointer"
-                data-caption="${p.beschreibung}">`
-          )
-          .join("")}
-      </div>
-    </td>
-
-    <td class="border px-4 py-2 text-center align-middle">
-      <div class="flex justify-center items-center gap-2 flex-wrap">
-        ${(details.sprache || [])
-          .map(
-            (s) =>
-              `<img src="${s.bild}" class="w-36 h-24 object-contain rounded cursor-pointer"
-                data-caption="${s.beschreibung}">`
-          )
-          .join("")}
-      </div>
-    </td>
-
-    <td class="border px-4 py-2 text-center align-middle">
-      <div class="flex justify-center items-center gap-2 flex-wrap">
-        ${(details.googlecar || [])
-          .map(
-            (g) =>
-              `<img src="${g.bild}" class="w-36 h-24 object-contain rounded cursor-pointer"
-                data-caption="${g.beschreibung}">`
-          )
-          .join("")}
-      </div>
-    </td>
-
-    <td class="border px-4 py-2 text-center align-middle">
-      <div class="flex justify-center items-center gap-2 flex-wrap">
-        ${(details.bollards || [])
-          .map(
-            (b) =>
-              `<img src="${b.bild}" class="w-36 h-24 object-contain rounded cursor-pointer"
-                data-caption="${b.beschreibung}">`
-          )
-          .join("")}
-      </div>
-    </td>
-
-    <td class="border px-4 py-2 text-center align-middle">
-      <div class="flex justify-center items-center gap-2 flex-wrap">
-        ${(details.poles || [])
-          .map(
-            (p) =>
-              `<img src="${p.bild}" class="w-36 h-24 object-contain rounded cursor-pointer"
-                data-caption="${p.beschreibung}">`
-          )
-          .join("")}
-      </div>
-    </td>
-
-    <td class="border px-4 py-2 text-center align-middle">
-      <div class="flex justify-center items-center gap-2 flex-wrap">
-        ${(details.schilder || [])
-          .map(
-            (s) =>
-              `<img src="${s.bild}" class="w-36 h-24 object-contain rounded cursor-pointer"
-                data-caption="${s.beschreibung}">`
-          )
-          .join("")}
-      </div>
-    </td>
-
-    <td class="border px-4 py-2 text-center align-middle">
-      <div class="flex justify-center items-center gap-2 flex-wrap">
-        ${(details.taxi || [])
-          .map(
-            (t) =>
-              `<img src="${t.bild}" class="w-36 h-24 object-contain rounded cursor-pointer"
-                data-caption="${t.beschreibung}">`
-          )
-          .join("")}
-      </div>
-    </td>
-
-    <td class="border px-4 py-2 text-center align-middle">
-      <div class="flex justify-center items-center gap-2 flex-wrap">
-        ${(details.streets || [])
-          .map(
-            (s) =>
-              `<img src="${s.bild}" class="w-36 h-24 object-contain rounded cursor-pointer"
-                data-caption="${s.beschreibung}">`
-          )
-          .join("")}
-      </div>
-    </td>
-  `;
+    ${MEDIA_KEYS_ORDER.map(
+      (key) => `
+      <td class="border px-4 py-2 text-center align-middle">
+        <div class="flex justify-center items-center gap-2 flex-wrap">
+          ${(details[key] || [])
+            .map(
+              (item) => `
+            <img src="${item.bild}" class="w-36 h-24 object-contain rounded cursor-pointer" data-caption="${item.beschreibung}">
+          `
+            )
+            .join("")}
+        </div>
+      </td>
+    `
+    ).join("")}
+    `;
 
     tbody.appendChild(row);
   });
 
+  // Modal Event für alle Bilder
   document.querySelectorAll("img[data-caption]").forEach((img) => {
-    img.addEventListener("click", () => {
-      openModal(img.src, img.dataset.caption);
-    });
+    img.addEventListener("click", () =>
+      openModal(img.src, img.dataset.caption)
+    );
   });
 }
 
@@ -293,18 +217,110 @@ function openModal(src, text) {
   caption.textContent = text || "";
 }
 
-closeModal.addEventListener("click", () => {
-  modal.classList.add("hidden");
-});
-
+closeModal.addEventListener("click", () => modal.classList.add("hidden"));
 window.addEventListener("click", (e) => {
   if (e.target === modal) modal.classList.add("hidden");
 });
 
 // ===============================
+// Media-Key Badges + aktive Badges unter Überschrift
+// ===============================
+async function setupMediaKeyBadges() {
+  const headerCells = document.querySelectorAll("#countryTable thead th");
+  const data = await loadData();
+  if (!data) return;
+
+  for (let i = 1; i < headerCells.length; i++) {
+    const key = MEDIA_KEYS_ORDER[i - 1];
+    if (!key) continue;
+
+    const th = headerCells[i];
+    th.classList.add("th-tooltip");
+    th.innerHTML = "";
+
+    // Überschrift
+    const title = document.createElement("div");
+    title.textContent = formatKey(key);
+    title.className = "font-semibold";
+
+    // Container für aktive Badges
+    const activeContainer = document.createElement("div");
+    activeContainer.className = "active-badges";
+
+    // Tooltip Container für alle möglichen Tags
+    const tooltip = document.createElement("div");
+    tooltip.className = "tooltip-content";
+
+    const badgeContainer = document.createElement("div");
+    badgeContainer.className = "flex flex-wrap gap-1 justify-center";
+
+    // Alle Tags sammeln
+    const tags = new Set();
+    Object.values(data).forEach((country) => {
+      (country[key] || []).forEach((item) => {
+        (item.tags || []).forEach((tag) => tags.add(tag));
+      });
+    });
+
+    [...tags].sort().forEach((tag) => {
+      const badge = document.createElement("span");
+      badge.textContent = tag;
+      badge.className =
+        "cursor-pointer px-2 py-1 rounded text-sm bg-gray-200 hover:bg-blue-300 transition";
+
+      const syncActiveBadges = () => {
+        activeContainer.innerHTML = "";
+        activeMediaFilters[key].forEach((activeTag) => {
+          const activeBadge = document.createElement("span");
+          activeBadge.textContent = activeTag;
+          activeBadge.addEventListener("click", () => {
+            activeMediaFilters[key].delete(activeTag);
+            syncActiveBadges();
+            badgeContainer.querySelectorAll("span").forEach((b) => {
+              if (b.textContent === activeTag)
+                b.classList.remove("bg-blue-500", "text-white");
+            });
+            filterLänder();
+          });
+          activeContainer.appendChild(activeBadge);
+        });
+
+        // Tooltip-Badges farblich markieren
+        badgeContainer.querySelectorAll("span").forEach((b) => {
+          if (activeMediaFilters[key].has(b.textContent)) {
+            b.classList.add("bg-blue-500", "text-white");
+            b.classList.remove("bg-gray-200", "text-black");
+          } else {
+            b.classList.remove("bg-blue-500", "text-white");
+            b.classList.add("bg-gray-200", "text-black");
+          }
+        });
+      };
+
+      badge.addEventListener("click", (e) => {
+        e.stopPropagation();
+        if (activeMediaFilters[key].has(tag))
+          activeMediaFilters[key].delete(tag);
+        else activeMediaFilters[key].add(tag);
+        syncActiveBadges();
+        filterLänder();
+      });
+
+      badgeContainer.appendChild(badge);
+    });
+
+    tooltip.appendChild(badgeContainer);
+    th.appendChild(title);
+    th.appendChild(activeContainer);
+    th.appendChild(tooltip);
+  }
+}
+
+// ===============================
 // Initial
 // ===============================
 filterLänder();
+setupMediaKeyBadges();
 document
   .getElementById("resetFilters")
   .addEventListener("click", resetAllFilters);

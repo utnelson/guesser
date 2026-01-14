@@ -5409,7 +5409,8 @@
         "bild": "https://de.plonkit.net/images/resize/450/80/cyprus/Cyprus%20License%20Plates.jpg",
         "beschreibung": "Cyprus uses both standard white European license plates, and UK-style plates that have a yellow rear plate. Most license plates have the EU strip on the left. Rental cars, which have a distinct red plate, are not uncommon either.",
         "tags": [
-          "yellow white",
+          "yellow",
+          "white",
           "red",
           "blue"
         ]

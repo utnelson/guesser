@@ -3,7 +3,7 @@
     "kontinent": "Südamerika",
     "verkehr": "Rechts",
     "domain": ".uy",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Uruguay.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/uruguay/Uruguay_License_Plate.png",
@@ -74,7 +74,7 @@
     "kontinent": "Südamerika",
     "verkehr": "Rechts",
     "domain": ".ar",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Argentinien.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/argentina/Argentina_License_Plate.png",
@@ -141,7 +141,7 @@
     "kontinent": "Südamerika",
     "verkehr": "Rechts",
     "domain": ".cl",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Chile.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/chile/Chile_License_Plate.png",
@@ -201,7 +201,7 @@
     "kontinent": "Südamerika",
     "verkehr": "Rechts",
     "domain": ".pe",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Peru.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/peru/Peru_License_Plate.png",
@@ -277,7 +277,7 @@
     "kontinent": "Südamerika",
     "verkehr": "Rechts",
     "domain": ".bo",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Bolivien.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/bolivia/1_licenceplate.png",
@@ -348,7 +348,7 @@
     "kontinent": "Südamerika",
     "verkehr": "Rechts",
     "domain": ".br",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Brasilien.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/brazil/Brazil_License_Plate.png",
@@ -413,7 +413,7 @@
     "kontinent": "Südamerika",
     "verkehr": "Rechts",
     "domain": ".ec",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Ecuador.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/ecuador/Ecuador_License_Plate.png",
@@ -488,7 +488,7 @@
     "kontinent": "Südamerika",
     "verkehr": "Rechts",
     "domain": ".co",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Kolumbien.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/colombia/Colombia_License_Plate.png",
@@ -547,7 +547,7 @@
     "kontinent": "Afrika",
     "verkehr": "Rechts",
     "domain": ".ls",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Lesotho.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/lesotho/Lesotho_License_Plate.png",
@@ -594,7 +594,7 @@
     "kontinent": "Afrika",
     "verkehr": "Links",
     "domain": ".sz",
-    "flagge": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Flag_of_Eswatini.svg/1280px-Flag_of_Eswatini.svg.png",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/eswatini/Eswatini_License_Plate.png",
@@ -650,7 +650,7 @@
     "kontinent": "Afrika",
     "verkehr": "Links",
     "domain": ".za",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Suedafrika.jpg",
+    "flagge": [],
     "plates": [],
     "sprache": [],
     "googlecar": [
@@ -696,7 +696,7 @@
     "kontinent": "Afrika",
     "verkehr": "Links",
     "domain": ".bw",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Botsuana.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/botswana/Botswana_License_Plate.png",
@@ -751,7 +751,7 @@
     "kontinent": "Afrika",
     "verkehr": "Rechts",
     "domain": ".rw",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Ruanda.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/rwanda/Rwanda_License_Plate.png",
@@ -807,7 +807,7 @@
     "kontinent": "Afrika",
     "verkehr": "Links",
     "domain": ".ug",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Uganda.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/uganda/Uganda_License_Plate.png",
@@ -851,7 +851,7 @@
     "kontinent": "Afrika",
     "verkehr": "Rechts",
     "domain": ".ng",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Nigeria.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/nigeria/0HpTmNo.png",
@@ -902,7 +902,7 @@
     "kontinent": "Afrika",
     "verkehr": "Rechts",
     "domain": ".gh",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Ghana.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/ghana/Ghana_License_Plate.png",
@@ -959,7 +959,7 @@
     "kontinent": "Afrika",
     "verkehr": "Rechts",
     "domain": ".sn",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Senegal.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/senegal/senegal_plates.png",
@@ -1017,7 +1017,7 @@
     "kontinent": "Asien",
     "verkehr": "Rechts",
     "domain": ".ua",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Ukraine.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/ukraine/Ukraine_License_Plate.png",
@@ -1032,7 +1032,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/ukraine/Ukrainian_language.png",
         "beschreibung": "These letters are unique to Ukrainian, compared to Russian: Є є (not to be confused with Э э in Russian and Belarusian.) Ґ ґ І і Ї ї",
-        "tags": ["kyrillisch"]
+        "tags": [
+          "kyrillisch"
+        ]
       }
     ],
     "googlecar": [
@@ -1081,7 +1083,7 @@
     "kontinent": "Asien",
     "verkehr": "Rechts",
     "domain": ".mn",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Mongolei.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/mongolia/1._licenceplate.jpeg",
@@ -1096,7 +1098,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/mongolia/1._language.png",
         "beschreibung": "\nMongolia primarily uses Cyrillic script, though Latin and traditional Mongolian script can also occasionally be seen. Mongolian Cyrillic contains the letters Ɵ and Ү, which do not exist in the Russian alphabet. Additionally, the use of double vowels, such as aa, ƟƟ or ЭЭ, is common in Mongolian.\n\nNOTE: The letters Ɵ and Ү also exist in the Kyrgyz and Kazakh languages.",
-        "tags": ["kyrillisch"]
+        "tags": [
+          "kyrillisch"
+        ]
       }
     ],
     "googlecar": [
@@ -1141,7 +1145,7 @@
     "kontinent": "Asien",
     "verkehr": "Rechts",
     "domain": ".kg",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Kirgisistan.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/kyrgyzstan/Kyrgyzstan_License_Plate.png",
@@ -1156,7 +1160,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/kyrgyzstan/kg_language.png",
         "beschreibung": "The Kyrgyz script is similar to Russian. However, the Cyrillic script used for Kyrgyz includes additional characters not found in Russian Cyrillic, such as:\n\nӨ\n\nҮ\n\nҢ",
-        "tags": ["kyrillisch"]
+        "tags": [
+          "kyrillisch"
+        ]
       }
     ],
     "googlecar": [
@@ -1199,7 +1205,7 @@
     "kontinent": "Asien",
     "verkehr": "Rechts",
     "domain": ".kz",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Kasachstan.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/kazakhstan/2.png",
@@ -1214,7 +1220,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/kazakhstan/kz_language.png",
         "beschreibung": "Kazakhstan uses both Cyrillic and Latin alphabets.\n\nThough sometimes, Russian is used monolingually.\n\nThe following letters are found in the Kazakh but not Russian alphabet: Ә (Ä), Ғ (Ǵ), Қ (Q), Ң (Ń), Ө (Ö), Ұ (W), Ү (Ü), Һ (H), І (I).\n\nKazakh is related to Turkish, so the Latin text can appear similar.",
-        "tags": ["kyrillisch"]
+        "tags": [
+          "kyrillisch"
+        ]
       }
     ],
     "googlecar": [
@@ -1261,7 +1269,7 @@
     "kontinent": "Asien",
     "verkehr": "Rechts",
     "domain": ".ru",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Russland.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/russia/licenceplate.png",
@@ -1276,7 +1284,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/russia/cyrillic.png",
         "beschreibung": "The Russian language uses the Cyrillic script, and contains the special letters Ы, Э, Ё and Ъ.",
-        "tags": ["kyrillisch"]
+        "tags": [
+          "kyrillisch"
+        ]
       }
     ],
     "googlecar": [],
@@ -1330,7 +1340,7 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".bg",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Bulgarien.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/bulgaria/Registation_plates.png",
@@ -1345,7 +1355,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/bulgaria/bg_language.png",
         "beschreibung": "Bulgaria mainly uses the Cyrillic alphabet. However, a lot of signs will also have the Latin alphabet.\n\nThe letter “Ъ” is only found in Bulgarian and Russian, although it is fairly uncommon in Russian.",
-        "tags": ["kyrillisch"]
+        "tags": [
+          "kyrillisch"
+        ]
       }
     ],
     "googlecar": [
@@ -1404,7 +1416,7 @@
     "kontinent": "Südamerika",
     "verkehr": "Rechts",
     "domain": ".mx",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Mexiko.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/mexico/mx_licenceplate.png",
@@ -1477,7 +1489,7 @@
     "kontinent": "Südamerika",
     "verkehr": "Rechts",
     "domain": ".gt",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Guatemala.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/guatemala/gt_licenceplate.png",
@@ -1538,7 +1550,7 @@
     "kontinent": "Südamerika",
     "verkehr": "Rechts",
     "domain": ".cr",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Costa-Rica.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/costa-rica/cr_licenceplate.png",
@@ -1582,7 +1594,7 @@
     "kontinent": "Südamerika",
     "verkehr": "Rechts",
     "domain": ".pa",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Panama.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/panama/2.png",
@@ -1644,7 +1656,7 @@
     "kontinent": "Asien",
     "verkehr": "Links",
     "domain": ".in",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Indien.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/india/in_licenceplates.png",
@@ -1698,7 +1710,7 @@
     "kontinent": "Asien",
     "verkehr": "Links",
     "domain": ".bd",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Bangladesch.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/bangladesh/Bangladesh_License_Plate.png",
@@ -1775,7 +1787,7 @@
     "kontinent": "Asien",
     "verkehr": "Links",
     "domain": ".th",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Thailand.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/thailand/Thailand_License_Plate.png",
@@ -1839,7 +1851,7 @@
     "kontinent": "Asien",
     "verkehr": "Rechts",
     "domain": ".kh",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Kambodscha.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/cambodia/Cambodia_License_Plate.png",
@@ -1924,7 +1936,7 @@
     "kontinent": "Asien",
     "verkehr": "Rechts",
     "domain": ".vn",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Vietnam.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/vietnam/vietnam_plate2.png",
@@ -1992,7 +2004,7 @@
     "kontinent": "Asien",
     "verkehr": "Links",
     "domain": ".id",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Indonesien.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/indonesia/Indonesia_License_Plate.png",
@@ -2059,7 +2071,7 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".is",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Island.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/iceland/k7XBOxn.png",
@@ -2074,7 +2086,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/iceland/is_language.png",
         "beschreibung": "The Icelandic language contains a couple of unique letters. These are some of the most recognizable ones: ð þ and æ. Vowels can have the following accents: á é í ó ö ú ý. The uppercase version of ð is Ð.  NOTE: ð is also found in the Faroese language. æ is found in Danish, Norwegian and Faroese.",
-        "tags": ["nordisch"]
+        "tags": [
+          "nordisch"
+        ]
       }
     ],
     "googlecar": [
@@ -2119,7 +2133,7 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".no",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Norwegen.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/norway/no_licenceplate.png",
@@ -2135,7 +2149,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/norway/no_language.png",
         "beschreibung": "The Norwegian language contains the special letters Æ, Ø and Å.  NOTE: The special letters found in Norwegian can also be found in some of the other Northern Germanic languages:  Danish uses Æ, Ø and Å.  Swedish uses Å, but not Æ or Ø. Norwegian also uses more E’s than Swedish, while Swedish uses more A’s instead. Norwegian uses “kk” where Swedish uses “ck”.  Icelandic uses Æ, but not Ø or Å.  Finnish uses Å, although it is viewed as a Swedish letter.",
-        "tags": ["nordisch"]
+        "tags": [
+          "nordisch"
+        ]
       }
     ],
     "googlecar": [],
@@ -2209,7 +2225,7 @@
     "kontinent": "Europa",
     "verkehr": "",
     "domain": "",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Schweden.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/sweden/Sweden_License_Plate.png",
@@ -2225,7 +2241,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/sweden/spr_C3_A5k.png",
         "beschreibung": "Swedish is a North Germanic language that is closely related to Danish and Norwegian. The Swedish alphabet contains the special letters Å, Ä and Ö.  NOTE: The special letters found in Swedish can also be found in some of the other Northern Germanic languages:  Danish uses Å, but not Ä or Ö.  Norwegian uses Å, but not Ä or Ö.  Icelandic uses Ö, but not Å or Ä.  Finnish uses Ä and Ö. Å is also used, but is treated as Swedish. Finnish words are typically longer and often use double vowels, which are very rare in Swedish.",
-        "tags": ["nordisch"]
+        "tags": [
+          "nordisch"
+        ]
       }
     ],
     "googlecar": [
@@ -2297,7 +2315,7 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".fi",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Finnland.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/finland/Finland_License_Plate.png",
@@ -2312,7 +2330,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/finland/fi_language.png",
         "beschreibung": "The Finnish language is not related to most other European languages, so it has a very unique look. It has a lot of long words and double vowels. The Finnish alphabet includes the letters ä and ö.  NOTE: Estonian is closely related to Finnish, so it can look similar. Estonian uses the letters õ and ü, which are not used in Finnish.",
-        "tags": ["nordisch"]
+        "tags": [
+          "nordisch"
+        ]
       }
     ],
     "googlecar": [],
@@ -2387,7 +2407,7 @@
     "kontinent": "Asien",
     "verkehr": "Links",
     "domain": ".jp",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Japan.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/japan/11.png",
@@ -2453,7 +2473,7 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".dk",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Daenemark.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/denmark/Denmark_License_Plate.png",
@@ -2468,7 +2488,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/denmark/dk_language.png",
         "beschreibung": " Danish is a North Germanic language that is closely related to Swedish and Norwegian. The Danish alphabet contains these special letters: Æ, Ø, and Å.  NOTE: The special letters found in Danish can also be found in some of the other Northern Germanic languages:  Norwegian uses Æ, Ø, and Å.  Faroese uses Æ and Ø but not Å.  Icelandic only uses Æ.  Swedish only uses Å. In addition, Swedish uses Ä and Ö, which are not found in Danish.",
-        "tags": ["nordisch"]
+        "tags": [
+          "nordisch"
+        ]
       }
     ],
     "googlecar": [],
@@ -2536,7 +2558,7 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".be",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Belgien.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/belgium/Belgium_License_Plate.png",
@@ -2595,7 +2617,7 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".pl",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Polen.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/poland/Poland_License_Plate.png",
@@ -2654,7 +2676,7 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".sk",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Slowakei.jpg",
+    "flagge": [],
     "plates": [],
     "sprache": [
       {
@@ -2708,7 +2730,7 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".si",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Slowenien.jpg",
+    "flagge": [],
     "plates": [],
     "sprache": [
       {
@@ -2766,7 +2788,7 @@
     "kontinent": "Europa",
     "verkehr": "Left",
     "domain": ".mt",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Malta.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/malta/mt_licenceplate.png",
@@ -2815,7 +2837,7 @@
     "kontinent": "Asien",
     "verkehr": "Rechts",
     "domain": ".tw",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Taiwan.jpg",
+    "flagge": [],
     "plates": [],
     "sprache": [
       {
@@ -2858,7 +2880,7 @@
     "kontinent": "Europa",
     "verkehr": "",
     "domain": "",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Tuerkei.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/turkey/tr_licenceplate.png",
@@ -2927,7 +2949,7 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".me",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Montenegro.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/montenegro/Montenegro_Licence_Plate.png",
@@ -2971,7 +2993,7 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".hu",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Ungarn.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/hungary/Hungary_License_Plate.png",
@@ -3035,7 +3057,7 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".lt",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Litauen.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/lithuania/Lithuania_License_Plate.png",
@@ -3050,7 +3072,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/lithuania/Lithuanian_language.png",
         "beschreibung": "Lithuanian belongs to the Baltic languages. The other major member of this branch is Latvian, to which it is closely related.  Within the Baltic languages, the following letters are unique to Lithuanian:  Vowels with small hooks: Ą Ę Į Ų.  Ė with a single dot.  Y (also in Estonian, but only in loan words).  NOTE: Estonian is not a member of the Baltic languages (despite its name), and therefore looks significantly different.",
-        "tags": ["baltisch"]
+        "tags": [
+          "baltisch"
+        ]
       }
     ],
     "googlecar": [],
@@ -3102,7 +3126,7 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".ee",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Estland.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/estonia/Estonia_License_Plate.png",
@@ -3117,7 +3141,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/estonia/Estonian_language.png",
         "beschreibung": "Estonian belongs to the Finnic languages, a branch of the Uralic language family. It is closely related to Finnish.  Within the Baltic languages, the following letters are unique to Estonian:  Vowels with umlauts (two dots): Ä Ö Ü.  Õ with a tilde.  NOTE: Latvian and Lithuanian are both Indo-European languages that are not related to Estonian, and therefore look very different.",
-        "tags": ["baltisch"]
+        "tags": [
+          "baltisch"
+        ]
       }
     ],
     "googlecar": [],
@@ -3182,7 +3208,7 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".lv",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Lettland.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/latvia/Latvia_License_Plate.png",
@@ -3197,7 +3223,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/latvia/Latvian_language.png",
         "beschreibung": "Latvian belongs to the Baltic languages. The other major member of this branch is Lithuanian, to which it is closely related.  Within the Baltic languages, the following letters are unique to Latvian:  Vowels with a macron (horizontal stripe): Ā Ē Ī.  Consonants with a small hook: Ģ Ķ Ļ Ņ.  NOTE: Estonian is not a member of the Baltic languages(despite the name), and therefore looks significantly different.",
-        "tags": ["baltisch"]
+        "tags": [
+          "baltisch"
+        ]
       }
     ],
     "googlecar": [],
@@ -3249,7 +3277,7 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".cz",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Tschechien.jpg",
+    "flagge": [],
     "plates": [],
     "sprache": [
       {
@@ -3282,7 +3310,7 @@
     "kontinent": "Afrika",
     "verkehr": "Links",
     "domain": ".ke",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Kenia.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/kenya/Kenya_License_Plate.png",
@@ -3351,7 +3379,7 @@
     "kontinent": "Afrika",
     "verkehr": "Rechts",
     "domain": ".tn",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Tunesien.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/tunisia/Tunisia_License_Plate.png",
@@ -3415,7 +3443,7 @@
     "kontinent": "Asien",
     "verkehr": "Links",
     "domain": ".lk",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Sri-Lanka.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/sri-lanka/Sri_Lanka_License_Plate.png",
@@ -3496,7 +3524,7 @@
     "kontinent": "Asien",
     "verkehr": "Links",
     "domain": ".my",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Malaysia.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/malaysia/Malaysia_License_Plate.png",
@@ -3575,7 +3603,7 @@
     "kontinent": "Asien",
     "verkehr": "Rechts",
     "domain": ".ph",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Philippinen.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/philippines/1_licenceplate.png",
@@ -3634,7 +3662,7 @@
     "kontinent": "Asien",
     "verkehr": "Rechts",
     "domain": ".la",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Laos.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/laos/Laos_License_Plate.png",
@@ -3712,7 +3740,7 @@
     "kontinent": "Asien",
     "verkehr": "Links",
     "domain": ".bt",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Bhutan.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/bhutan/Bhutan_License_Plate.png",
@@ -3770,7 +3798,7 @@
     "kontinent": "Asien",
     "verkehr": "Rechts",
     "domain": ".jo",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Jordanien.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/jordan/Jordan_License_Plate.png",
@@ -3818,7 +3846,7 @@
     "kontinent": "Asien",
     "verkehr": "Rechts",
     "domain": ".il .ps",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Israel.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/israel-west-bank/il_Licence_Plate.png",
@@ -3881,7 +3909,7 @@
     "kontinent": "Asien",
     "verkehr": "Links",
     "domain": ".sg",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Singapur.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/singapore/Singapore_License_Plate.png",
@@ -3925,7 +3953,7 @@
     "kontinent": "Asien",
     "verkehr": "Rechts",
     "domain": ".kr",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Suedkorea.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/south-korea/licen_plae.png",
@@ -3980,7 +4008,7 @@
     "kontinent": "Ozeanien",
     "verkehr": "Links",
     "domain": ".au",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Australien.jpg",
+    "flagge": [],
     "plates": [],
     "sprache": [],
     "googlecar": [],
@@ -4028,7 +4056,7 @@
     "kontinent": "Ozeanien",
     "verkehr": "Links",
     "domain": ".nz",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Neuseeland.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/new-zealand/Ohne_Titel_2824_29.png",
@@ -4086,7 +4114,7 @@
     "kontinent": "Amerika",
     "verkehr": "Rechts",
     "domain": ".us",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_USA.jpg",
+    "flagge": [],
     "plates": [],
     "sprache": [],
     "googlecar": [],
@@ -4124,7 +4152,7 @@
     "kontinent": "Amerika",
     "verkehr": "Rechts",
     "domain": ".ca",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Kanada.jpg",
+    "flagge": [],
     "plates": [],
     "sprache": [],
     "googlecar": [],
@@ -4150,7 +4178,7 @@
     "kontinent": "Südamerika",
     "verkehr": "Rechts",
     "domain": ".do",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Dominikanische-Republik.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/dominican-republic/Dominican_Republic_License_Plate.png",
@@ -4189,7 +4217,7 @@
     "kontinent": "Südamerika",
     "verkehr": "Rechts",
     "domain": ".pr",
-    "flagge": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag_of_Puerto_Rico.svg/1280px-Flag_of_Puerto_Rico.svg.png",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/puerto-rico/pr_nofrontplates.png",
@@ -4238,7 +4266,7 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".de",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Deutschland.jpg",
+    "flagge": [],
     "plates": [],
     "sprache": [],
     "googlecar": [],
@@ -4270,7 +4298,7 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".at",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Oesterreich.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/austria/Plates.png",
@@ -4317,7 +4345,7 @@
     "kontinent": "Asien",
     "verkehr": "Rechts",
     "domain": ".om",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Oman.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/oman/3.png",
@@ -4391,7 +4419,7 @@
     "kontinent": "Asien",
     "verkehr": "Rechts",
     "domain": ".ae",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Ver-Arab-Emirate.jpg",
+    "flagge": [],
     "plates": [],
     "sprache": [
       {
@@ -4466,7 +4494,7 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".ch",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Schweiz.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/switzerland/Switzerland_License_Plate.png",
@@ -4522,7 +4550,7 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".fr",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Frankreich.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/france/1_licenceplate2.png",
@@ -4603,7 +4631,7 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".es",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Spanien.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/spain/Spain_License_Plate.png",
@@ -4653,7 +4681,7 @@
     "kontinent": "Europa",
     "verkehr": "",
     "domain": "",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Portugal.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/portugal/licenceplate.png",
@@ -4711,7 +4739,7 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".it",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Italien.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/italy/it_licenceplate.png",
@@ -4772,7 +4800,7 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".nl",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Niederlande.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/netherlands/Netherlands_plate.png",
@@ -4828,7 +4856,7 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".lu",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Luxemburg.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/luxembourg/Luxembourg_License_Plate.png",
@@ -4890,7 +4918,7 @@
     "kontinent": "Europa",
     "verkehr": "Links",
     "domain": ".ie",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Irland.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/ireland/ireland_plate.png",
@@ -4940,7 +4968,7 @@
     "kontinent": "Europa",
     "verkehr": "Links",
     "domain": ".uk",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Grossbritannien.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/united-kingdom/United_Kingdom_License_Plate.png",
@@ -4989,7 +5017,7 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".ro",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Rumaenien.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/romania/ro_licenseplate.png",
@@ -5073,7 +5101,7 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".rs",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Serbien.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/serbia/Serbia_Plate.png",
@@ -5133,7 +5161,7 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".hr",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Kroatien.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/croatia/Croatia_License_Plate.png",
@@ -5188,7 +5216,7 @@
     "kontinent": "Europa",
     "verkehr": "",
     "domain": "",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Bosnien-und-Herzegowina.jpg",
+    "flagge": [],
     "plates": [],
     "sprache": [],
     "googlecar": [],
@@ -5203,7 +5231,7 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".mk",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Mazedonien.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/north-macedonia/North_Macedonia_License_Plate.png",
@@ -5258,7 +5286,7 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".al",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Albanien.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/albania/albania_plate.png",
@@ -5328,7 +5356,7 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".gr",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Griechenland.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/greece/gr_licenceplate.png",
@@ -5403,7 +5431,7 @@
     "kontinent": "Europa",
     "verkehr": "Links",
     "domain": ".cy",
-    "flagge": "https://www.flags.de/images_homepage/Flaggen_Uebersicht/Flagge_Zypern.jpg",
+    "flagge": [],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/cyprus/Cyprus%20License%20Plates.jpg",

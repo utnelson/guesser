@@ -1848,7 +1848,8 @@
         "tags": [
           "rack",
           "mirror",
-          "pickup"
+          "pickup",
+          "grey"
         ]
       }
     ],
@@ -2230,7 +2231,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/thailand/th_square_poles.webp",
         "beschreibung": " Thai poles are square and have small holes running vertically up the pole.  NOTE: You will see similar poles in Sri Lanka, Cambodia and Laos. Make sure to look for other clues before guessing.",
-        "tags": []
+        "tags": [
+          "square",
+          "holes"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/thailand/Street_Light_Markings.png",
@@ -6555,6 +6559,80 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/cyprus/cy_directionalsign.png",
         "beschreibung": "\nDirectional signs are very similar to Greek directional signs, with the one notable difference being that the Greek text is written in all-caps.",
+        "tags": []
+      }
+    ],
+    "taxi": [],
+    "architcture": []
+  },
+  "Quatar": {
+    "kontinent": "",
+    "verkehr": "",
+    "domain": "",
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/qa.webp",
+        "beschreibung": "",
+        "tags": [
+          "rot",
+          "weiß"
+        ]
+      }
+    ],
+    "plates": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/qatar/Qatar_License_Plate.png",
+        "beschreibung": "\nRegular cars in Qatar have long, white licence plates with a maroon strip on the left. Trucks have square, black licence plates and police plates are blue.",
+        "tags": [
+          "white",
+          "red",
+          "black",
+          "blue"
+        ]
+      }
+    ],
+    "sprache": [],
+    "googlecar": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/qatar/Qatar_cars.png",
+        "beschreibung": "The Google car will usually be blurred, with only the antenna on the left and a sliver of the car visible. Sometimes the entire white pickup truck can be visible. Rusty clips can be seen on the crossbar.\n\nSee the region guessing section for more information.",
+        "tags": [
+          "antenna",
+          "pickup"
+        ]
+      }
+    ],
+    "bollards": [],
+    "streets": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/qatar/Qatar_Roadlines.png",
+        "beschreibung": "\nQatar typically uses solid outer white lines with either white or yellow in the middle. More rarely, you can also find outer yellow lines too.",
+        "tags": []
+      }
+    ],
+    "poles": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/qatar/Qatarpoles.png",
+        "beschreibung": "Qatar uses round poles with 3 insulators on the pole top, with the middle one being slightly higher. The crossbar also has 2 diagonal bars connecting it to the pole.",
+        "tags": [
+          "round"
+        ]
+      }
+    ],
+    "schilder": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/qatar/Qatar_chevron.png",
+        "beschreibung": "Qatar uses white on red and white on blue chevrons.",
+        "tags": [
+          "chevron",
+          "red",
+          "white",
+          "blue"
+        ]
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/qatar/Crossing_Sign.png",
+        "beschreibung": "Qatari crossing signs feature a man in a thobe.",
         "tags": []
       }
     ],

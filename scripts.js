@@ -202,15 +202,20 @@ async function filterLänder() {
     // Verkehr
     if (activeVerkehr && details.verkehr !== activeVerkehr) matches = false;
 
-    // Media-Key Filter
-    MEDIA_KEYS_ORDER.forEach((key) => {
-      if (activeMediaFilters[key].size) {
-        const hasTag = (details[key] || []).some((item) =>
-          (item.tags || []).some((t) => activeMediaFilters[key].has(t))
-        );
-        if (!hasTag) matches = false;
-      }
-    });
+    // Media-Key Filter (UND innerhalb einer Spalte)
+MEDIA_KEYS_ORDER.forEach((key) => {
+  const activeTags = [...activeMediaFilters[key]];
+
+  if (activeTags.length) {
+    const allTagsPresent = activeTags.every((tag) =>
+      (details[key] || []).some((item) =>
+        (item.tags || []).includes(tag)
+      )
+    );
+
+    if (!allTagsPresent) matches = false;
+  }
+});
 
     return matches;
   });

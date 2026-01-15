@@ -1,5 +1,5 @@
 {
-  "Uruguaya": {
+  "Uruguay": {
     "kontinent": "Südamerika",
     "verkehr": "Rechts",
     "domain": ".uy",
@@ -74,7 +74,16 @@
     "kontinent": "Südamerika",
     "verkehr": "Rechts",
     "domain": ".ar",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/ar.webp",
+        "beschreibung": "",
+        "tags": [
+          "blue",
+          "white"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/argentina/Argentina_License_Plate.png",
@@ -100,20 +109,26 @@
         "beschreibung": "Road lines in Argentina are mainly dashed white, double yellow or a mix in between.",
         "tags": [
           "yellow",
-          "white"
+          "white",
+          "double",
+          "dash"
         ]
       }
     ],
     "poles": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/argentina/Argentina_concrete_poles.png",
-        "beschreibung": "Similar doubled concrete poles can occasionally be found throughout Bolivia.",
-        "tags": []
+        "beschreibung": "\nRound concrete poles sustaining three electricity lines in an alternating pattern are very common in Argentina.\n\nDoubled up poles like in the second image is also a good clue for Argentina.\n\nNOTE: Similar doubled concrete poles can occasionally be found throughout Bolivia.",
+        "tags": [
+          "double"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/argentina/Argentina_wooden_poles.png",
         "beschreibung": "Wooden A-frame poles in South America are only found in Argentina.",
-        "tags": []
+        "tags": [
+          "a-frame"
+        ]
       }
     ],
     "schilder": [
@@ -141,15 +156,24 @@
     "kontinent": "Südamerika",
     "verkehr": "Rechts",
     "domain": ".cl",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/cl.webp",
+        "beschreibung": "",
+        "tags": [
+          "blue",
+          "white",
+          "red"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/chile/Chile_License_Plate.png",
         "beschreibung": "Orange plates can also be seen in Ecuador. Brazilian commercial plates are red, but can look similar in some lighting.",
         "tags": [
           "white",
-          "orange",
-          "yellow"
+          "orange"
         ]
       }
     ],
@@ -158,7 +182,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/chile/google_car.png",
         "beschreibung": "Chile has a solid white Google Car with no antenna in Generation 3. There are two variants:  A plain white car (left).  A white car with a visible black section (right). This car is unique to Chile.  A blue Google Car can be seen in Generation 4.  NOTE: In Generation 3, a plain white Google Car with no antenna can also be seen in Peru and Bolivia.",
-        "tags": []
+        "tags": [
+          "white"
+        ]
       }
     ],
     "bollards": [
@@ -177,14 +203,19 @@
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/chile/road_lines.png",
         "beschreibung": "Chilean road lines are either all white, or all yellow:  All white road lines are most common. Within the Americas, they are a good clue for Chile, though not completely unique.  All yellow road lines are seen in National Parks or areas of high snowfall. Within the Americas, these all yellow road lines are essentially unique to Chile.  You will almost never see a combination of the two colours, apart from a few rare exceptions.  NOTE: It is important to note that Argentina has a decent amount of roads with all white road lines.",
-        "tags": []
+        "tags": [
+          "white",
+          "yellow"
+        ]
       }
     ],
     "poles": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/chile/pole.png",
         "beschreibung": "Chile uses square concrete poles with an indent on both sides.",
-        "tags": []
+        "tags": [
+          "square"
+        ]
       }
     ],
     "schilder": [
@@ -277,7 +308,17 @@
     "kontinent": "Südamerika",
     "verkehr": "Rechts",
     "domain": ".bo",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/bo.webp",
+        "beschreibung": "",
+        "tags": [
+          "red",
+          "yellow",
+          "green"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/bolivia/1_licenceplate.png",
@@ -307,20 +348,27 @@
       },
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/bolivia/1_concreteroads.png",
-        "beschreibung": "",
-        "tags": []
+        "beschreibung": "\nBolivia has a lot of standard asphalt roads, but concrete slab roads are also fairly common.",
+        "tags": [
+          "concrete"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/bolivia/1_cobblestoneroad.png",
-        "beschreibung": "",
-        "tags": []
+        "beschreibung": "\nThere are also a lot of cobblestone roads. These roads often have a specific pattern, with several neat lines of stones separating the more disorganised cobblestones in between.",
+        "tags": [
+          "tiles"
+        ]
       }
     ],
     "poles": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/bolivia/1_poles.png",
         "beschreibung": "",
-        "tags": []
+        "tags": [
+          "round",
+          "wooden"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/bolivia/1_scuffedpole.png",
@@ -332,7 +380,16 @@
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/bolivia/1_signpost.png",
         "beschreibung": " Bolivia typically uses bulky, white square signposts.  NOTE: Peru typically uses black and white striped “zebra” signposts.",
-        "tags": []
+        "tags": [
+          "signposts"
+        ]
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/bolivia/1_tigo.png",
+        "beschreibung": "In urban areas, you will often see ads for the telecom company Tigo, with its distinct blue logo. Crucially, this company does not operate in Peru, meaning it can help you solve urban 50-50s.\n\nNOTE: This company does operate in several other Latin American countries, so only use this tip to differentiate between Peru and Bolivia.",
+        "tags": [
+          "tigo"
+        ]
       }
     ],
     "taxi": [],
@@ -340,7 +397,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/bolivia/1_redbrick.png",
         "beschreibung": "Many buildings in Bolivia consist of large red bricks. Buildings often have an ‘unfinished' look.  NOTE: This style of architecture is also common in parts of Peru.",
-        "tags": []
+        "tags": [
+          "red-brick"
+        ]
       }
     ]
   },
@@ -348,7 +407,17 @@
     "kontinent": "Südamerika",
     "verkehr": "Rechts",
     "domain": ".br",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/br.webp",
+        "beschreibung": "",
+        "tags": [
+          "green",
+          "yellow",
+          "blue"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/brazil/Brazil_License_Plate.png",
@@ -374,7 +443,8 @@
         "bild": "https://de.plonkit.net/images/resize/450/80/brazil/doubleyellow.png",
         "beschreibung": "Roads in Brazil will usually feature double yellow middle lines, with white outer lines. Roads can occasionally have a single dashed yellow line.",
         "tags": [
-          "yellow"
+          "yellow",
+          "double"
         ]
       }
     ],
@@ -392,7 +462,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/brazil/Untitled_design32.png",
         "beschreibung": "Brazil uses yellow on black chevrons, as opposed to most of South America, which use black on yellow chevrons.",
-        "tags": []
+        "tags": [
+          "black",
+          "yellow"
+        ]
       }
     ],
     "taxi": [],
@@ -400,12 +473,16 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/brazil/transparentdish.png",
         "beschreibung": "It is fairly common to see transparent satellite dishes, which within Latin America is generally unique to Brazil.",
-        "tags": []
+        "tags": [
+          "satellite"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/brazil/watertanks.png",
         "beschreibung": "Blue Fortlev water tanks are often seen on Brazilian roofs.",
-        "tags": []
+        "tags": [
+          "water-tanks"
+        ]
       }
     ]
   },
@@ -413,7 +490,17 @@
     "kontinent": "Südamerika",
     "verkehr": "Rechts",
     "domain": ".ec",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/ec.webp",
+        "beschreibung": "",
+        "tags": [
+          "yellow",
+          "blue",
+          "red"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/ecuador/Ecuador_License_Plate.png",
@@ -437,7 +524,8 @@
         "bild": "https://de.plonkit.net/images/resize/600/80/ecuador/Screenshot__281151_29.png",
         "beschreibung": "Gen 4 NOTE: The pickup truck in Panama has an antenna on the front.",
         "tags": [
-          "pickup"
+          "pickup",
+          "white"
         ]
       }
     ],
@@ -470,6 +558,9 @@
         "bild": "https://de.plonkit.net/images/resize/600/80/ecuador/Ecua_poles.png",
         "beschreibung": "Most poles in Ecuador are round and made of concrete. These poles are fairly generic and not all that useful to identify the country.",
         "tags": [
+          "ladder",
+          "round",
+          "concrete",
           "ladder"
         ]
       }
@@ -478,7 +569,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/ecuador/ecuador_one_way.jpeg",
         "beschreibung": "Ecuador uses these signs to indicate one or two-way streets. \n\nNOTE: The Dominican Republic and Puerto Rico are the only two other Latin American countries to use similar signs with text inside the arrow.",
-        "tags": []
+        "tags": [
+          "black"
+        ]
       }
     ],
     "taxi": [],
@@ -488,7 +581,17 @@
     "kontinent": "Südamerika",
     "verkehr": "Rechts",
     "domain": ".co",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/co.webp",
+        "beschreibung": "",
+        "tags": [
+          "yellow",
+          "blue",
+          "red"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/colombia/Colombia_License_Plate.png",
@@ -514,12 +617,17 @@
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/colombia/Copy_of_Copy_of_Copy_of_Copy_of_Copy_of_Untitled.png",
         "beschreibung": "It is the only country in the Americas, apart from Mexico and Ecuador, where octagonal poles can be found.",
-        "tags": []
+        "tags": [
+          "octagonal"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/colombia/Copy_of_Copy_of_Copy_of_Copy_of_Untitled__282_29.png",
         "beschreibung": "",
-        "tags": []
+        "tags": [
+          "yellow",
+          "black"
+        ]
       }
     ],
     "schilder": [
@@ -538,7 +646,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/colombia/Copy_of_Copy_of_Copy_of_Copy_of_Untitled__284_29.png",
         "beschreibung": "Colombian taxis are always this pastel yellow colour. As opposed to private vehicles, they have white licence plates, which are often printed on the side and roof. If unblurred, you will often see the city name.\nNOTE: Ecuadorian taxis may look similar. However, they use a slightly more saturated yellow and typically have orange plates.",
-        "tags": []
+        "tags": [
+          "plate"
+        ]
       }
     ],
     "architcture": []
@@ -594,7 +704,17 @@
     "kontinent": "Afrika",
     "verkehr": "Links",
     "domain": ".sz",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Flag_of_Eswatini.svg/960px-Flag_of_Eswatini.svg.png",
+        "beschreibung": "",
+        "tags": [
+          "red",
+          "blue",
+          "yellow"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/eswatini/Eswatini_License_Plate.png",
@@ -610,7 +730,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/eswatini/white_car.webp",
         "beschreibung": "All of Eswatini was covered by a white Google car without an antenna.\n\nNOTE: Within Africa, this car can also be found in South Africa, Lesotho and Botswana.",
-        "tags": []
+        "tags": [
+          "white",
+          "antenna"
+        ]
       }
     ],
     "bollards": [],
@@ -618,7 +741,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/eswatini/Eswa_lines.png",
         "beschreibung": "Eswatini typically uses yellow outside lines and occasionally, triple white middle lines.\n\nNOTE: Similar road lines can also be found in South Africa, Lesotho and Botswana.",
-        "tags": []
+        "tags": [
+          "yellow",
+          "white"
+        ]
       }
     ],
     "poles": [
@@ -696,7 +822,17 @@
     "kontinent": "Afrika",
     "verkehr": "Links",
     "domain": ".bw",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/bw.webp",
+        "beschreibung": "",
+        "tags": [
+          "blue",
+          "black",
+          "white"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/botswana/Botswana_License_Plate.png",
@@ -734,6 +870,7 @@
         "bild": "https://de.plonkit.net/images/resize/600/80/botswana/signpost.png",
         "beschreibung": "Botswana has a unique black-and-yellow striped signpost. More rarely, you can see red-and-white signposts.\n\nNOTE: In Southern Africa, these signposts are only found in Botswana.",
         "tags": [
+          "signpost",
           "black",
           "yellow"
         ]
@@ -741,7 +878,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/botswana/Botswana_-_language_v2.png",
         "beschreibung": "Signs in Botswana are usually in English. Most town names, however, are derived from any of the indigenous languages spoken in the country.\n\nNOTE: The Afrikaans language, which is closely related to Dutch and common in South Africa, is very rare in Botswana. You will almost never find Afrikaans place names.",
-        "tags": []
+        "tags": [
+          "A-highway"
+        ]
       }
     ],
     "taxi": [],
@@ -1340,7 +1479,17 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".bg",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/bg.webp",
+        "beschreibung": "",
+        "tags": [
+          "white",
+          "green",
+          "red"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/bulgaria/Registation_plates.png",
@@ -1390,7 +1539,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/bulgaria/Pole_material_and_shape.png",
         "beschreibung": "Most utility poles in Bulgaria are cylindrical and made of concrete.",
-        "tags": []
+        "tags": [
+          "round",
+          "concrete"
+        ]
       }
     ],
     "schilder": [
@@ -1398,7 +1550,7 @@
         "bild": "https://de.plonkit.net/images/resize/600/80/bulgaria/Street_sign.png",
         "beschreibung": "The Bulgarian word for street is улица (ulitsa), sometimes abbreviated ул. (ul.).",
         "tags": [
-          "ulitsa"
+          "ulitsa(ul)"
         ]
       },
       {
@@ -1550,7 +1702,17 @@
     "kontinent": "Südamerika",
     "verkehr": "Rechts",
     "domain": ".cr",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/cr.webp",
+        "beschreibung": "",
+        "tags": [
+          "blue",
+          "white",
+          "red"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/costa-rica/cr_licenceplate.png",
@@ -1575,7 +1737,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/costa-rica/cr_pole.png",
         "beschreibung": "Utility poles are typically round and made of concrete.",
-        "tags": []
+        "tags": [
+          "round",
+          "concrete"
+        ]
       }
     ],
     "schilder": [
@@ -1710,7 +1875,16 @@
     "kontinent": "Asien",
     "verkehr": "Links",
     "domain": ".bd",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/bd.webp",
+        "beschreibung": "",
+        "tags": [
+          "green",
+          "red"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/bangladesh/Bangladesh_License_Plate.png",
@@ -1757,7 +1931,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/bangladesh/treealleys.png",
         "beschreibung": " Streets in Bangladesh are often lined by trees, which sometimes have white paint on the bottom of their trunks.",
-        "tags": []
+        "tags": [
+          "white"
+        ]
       }
     ],
     "poles": [],
@@ -1851,7 +2027,16 @@
     "kontinent": "Asien",
     "verkehr": "Rechts",
     "domain": ".kh",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/kh.webp",
+        "beschreibung": "",
+        "tags": [
+          "blue",
+          "red"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/cambodia/Cambodia_License_Plate.png",
@@ -1893,7 +2078,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/cambodia/Road_lines.png",
         "beschreibung": "Roads have dashed or solid yellow middle road lines. Outer road lines are somewhat rare, but when present, they are solid white.  NOTE: Thailand uses similar road lines.",
-        "tags": []
+        "tags": [
+          "dash",
+          "yellow"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/cambodia/Unpaved_roads.png",
@@ -1907,7 +2095,8 @@
         "beschreibung": "Two types of poles are common:  Concrete ladder poles (so named because the indents and ridges resemble a ladder).  Round concrete poles with small holes.  Rarely, you might see simple wooden poles.  NOTE: The same type of round concrete pole is also common in Vietnam.",
         "tags": [
           "ladder",
-          "holes"
+          "holes",
+          "round"
         ]
       }
     ],
@@ -2473,7 +2662,16 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".dk",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/dk.webp",
+        "beschreibung": "",
+        "tags": [
+          "red",
+          "white"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/denmark/Denmark_License_Plate.png",
@@ -2505,7 +2703,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/denmark/Road_Lines.png",
         "beschreibung": "Denmark has all-white road lines. Double middle lines are very common.  NOTE: Some other European countries, most notably Poland and Greece, can have double middle lines.",
-        "tags": []
+        "tags": [
+          "white"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/denmark/Blocky_Gapped_Outside_Road_Lines.png",
@@ -2558,13 +2758,24 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".be",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/be.webp",
+        "beschreibung": "",
+        "tags": [
+          "black",
+          "yellow",
+          "red"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/belgium/Belgium_License_Plate.png",
         "beschreibung": "Licence plates in Belgium use red text. You can recognise this distinct colour even through the blur.",
         "tags": [
-          "red"
+          "red",
+          "blue"
         ]
       }
     ],
@@ -3126,7 +3337,13 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".ee",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/ee.webp",
+        "beschreibung": "blue, black, white",
+        "tags": []
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/estonia/Estonia_License_Plate.png",
@@ -3158,19 +3375,28 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/estonia/Road_lines.png",
         "beschreibung": "Outer road lines sometimes consist of short dashes.  NOTE: Lithuania also sometimes has short dashes.  In addition, Sweden primarily uses short dashes as outer road lines.",
-        "tags": []
+        "tags": [
+          "dash",
+          "white"
+        ]
       }
     ],
     "poles": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/estonia/Wooden_pole.png",
         "beschreibung": "Estonia uses a variety of different poles and poletops. Of the three Baltic countries, it has the least consistent utility poles.  Round wooden poles are the most common, sometimes with diagonal supports.",
-        "tags": []
+        "tags": [
+          "wooden",
+          "round"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/estonia/Concrete_pole.png",
-        "beschreibung": "",
-        "tags": []
+        "beschreibung": "You can additionally find a fair amount of square concrete poles, often also with diagonal supports. These are similar to those found in Lithuania.",
+        "tags": [
+          "square",
+          "concrete"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/estonia/Trident.png",
@@ -3277,7 +3503,17 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".cz",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/cz.webp",
+        "beschreibung": "",
+        "tags": [
+          "blue",
+          "red",
+          "white"
+        ]
+      }
+    ],
     "plates": [],
     "sprache": [
       {
@@ -3299,7 +3535,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/czechia/cz_doublepole.png",
         "beschreibung": " Czechia and Slovakia most commonly use wide, round concrete poles, which are quite often attached in pairs.",
-        "tags": []
+        "tags": [
+          "round",
+          "concrete"
+        ]
       }
     ],
     "schilder": [],
@@ -3740,7 +3979,16 @@
     "kontinent": "Asien",
     "verkehr": "Links",
     "domain": ".bt",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/bt.webp",
+        "beschreibung": "",
+        "tags": [
+          "yellow",
+          "orange"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/bhutan/Bhutan_License_Plate.png",
@@ -3762,7 +4010,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/bhutan/stonebarriers.png",
         "beschreibung": "Bhutan commonly uses these stone blocks as safety barriers on winding rural roads. These blocks are very common and often one of the best ways to recognize rural Bhutan rounds.\n\nGuardrails, on the other hand, are rare.",
-        "tags": []
+        "tags": [
+          "stone"
+        ]
       }
     ],
     "streets": [],
@@ -3770,7 +4020,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/bhutan/poles.png",
         "beschreibung": "Thin metal poles are occasionally found in Bhutan. They are often painted black at the bottom.",
-        "tags": []
+        "tags": [
+          "black"
+        ]
       }
     ],
     "schilder": [
@@ -3782,7 +4034,11 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/bhutan/signpost.png",
         "beschreibung": "\nSignposts in Bhutan frequently have black-and-white stripes.\n\nNOTE: Within Asia, these posts are also found in Sri Lanka, India, Malaysia and Bangladesh. Make sure to check other clues before guessing.",
-        "tags": []
+        "tags": [
+          "signpost",
+          "white",
+          "black"
+        ]
       }
     ],
     "taxi": [
@@ -4008,7 +4264,16 @@
     "kontinent": "Ozeanien",
     "verkehr": "Links",
     "domain": ".au",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/au.webp",
+        "beschreibung": "",
+        "tags": [
+          "blue",
+          "red"
+        ]
+      }
+    ],
     "plates": [],
     "sprache": [],
     "googlecar": [],
@@ -4178,7 +4443,17 @@
     "kontinent": "Südamerika",
     "verkehr": "Rechts",
     "domain": ".do",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/do.webp",
+        "beschreibung": "",
+        "tags": [
+          "blue",
+          "white",
+          "red"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/dominican-republic/Dominican_Republic_License_Plate.png",
@@ -4207,7 +4482,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/dominican-republic/pare.png",
         "beschreibung": "Despite being located in Central America, stop signs in DR contain the South American “PARE”. Moreover, many signs are attached to yellow signposts.  NOTE: ‘PARE’ is also used in all of South America as well as Puerto Rico.",
-        "tags": []
+        "tags": [
+          "pare"
+        ]
       }
     ],
     "taxi": [],
@@ -4419,13 +4696,26 @@
     "kontinent": "Asien",
     "verkehr": "Rechts",
     "domain": ".ae",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/ae.webp",
+        "beschreibung": "",
+        "tags": [
+          "red",
+          "green",
+          "white",
+          "black"
+        ]
+      }
+    ],
     "plates": [],
     "sprache": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/united-arab-emirates/arabic_language.png",
         "beschreibung": "The official language in the UAE is Arabic. Its script can be identified by its lines and dots.\n\nNOTE: Due to high tourism, signs in the UAE often have English writing alongside Arabic. While this is also common in Qatar and Oman, it is not common in Jordan.",
-        "tags": []
+        "tags": [
+          "arabisch"
+        ]
       }
     ],
     "googlecar": [
@@ -4433,8 +4723,7 @@
         "bild": "https://de.plonkit.net/images/resize/450/80/united-arab-emirates/gen3car.png",
         "beschreibung": "\nIn almost all Generation 3 coverage, a white car with visible black roof racks was used.\n\nNOTE: The UAE is the only Middle Eastern country where a white Google car can be found.",
         "tags": [
-          "white",
-          "blurr"
+          "white"
         ]
       },
       {
@@ -4483,7 +4772,8 @@
         "bild": "https://de.plonkit.net/images/resize/450/80/united-arab-emirates/ae_signpost.png",
         "beschreibung": "Many signposts in the UAE have black-and-white stripes.\n\nNOTE: Within the Middle East, striped signposts are also found in Oman.",
         "tags": [
-          "signpost"
+          "white",
+          "black"
         ]
       }
     ],
@@ -5286,7 +5576,16 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".al",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/al.webp",
+        "beschreibung": "",
+        "tags": [
+          "red",
+          "black"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/albania/albania_plate.png",
@@ -5308,7 +5607,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/albania/Rifts.png",
         "beschreibung": "‘Rifts’ can commonly be seen in Albanian coverage, due to poor stitching.  NOTE: Rifts are also equally common in Montenegro, and can rarely be seen in various other countries.",
-        "tags": []
+        "tags": [
+          "rift"
+        ]
       }
     ],
     "bollards": [

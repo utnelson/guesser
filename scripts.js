@@ -5,7 +5,7 @@ let areaCodes = [];
 
 async function loadAreaCodes() {
   try {
-    const res = await fetch("area_codes.json");
+    const res = await fetch("https://raw.githubusercontent.com/utnelson/guesser/refs/heads/main/area_codes.json");
     if (!res.ok) throw new Error("Area Codes nicht gefunden");
     areaCodes = await res.json();
   } catch (err) {

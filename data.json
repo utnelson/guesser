@@ -2572,7 +2572,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/iceland/Iceland_Bollard.jpg",
         "beschreibung": " Iceland has unique yellow bollards with a white reflector. These bollards are extremely common and can be found throughout the country on almost every section of rural road.",
-        "tags": []
+        "tags": [
+          "yellow"
+        ]
       }
     ],
     "streets": [],
@@ -3008,7 +3010,11 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/denmark/Bollard.png",
         "beschreibung": "Denmark has a very recognizable white bollard with a yellow reflector and a dark orange stripe. This bollard is unique to the country. You may also find this green variant.  NOTE: Belgium has bollards that may look somewhat similar. However, it will never feature the orange stripe.",
-        "tags": []
+        "tags": [
+          "yellow",
+          "red",
+          "white"
+        ]
       }
     ],
     "streets": [
@@ -3172,7 +3178,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/poland/Poland-bollard.png",
         "beschreibung": "Polish bollards have a red strip that wraps all the way around the bollard. This strip has a red reflector on the front (sometimes hard to see), and a white reflector on the back. Bollards sometimes have numbers on them.  NOTE: The same design can be found in Zakarpattia Oblast in Ukraine.",
-        "tags": []
+        "tags": [
+          "red",
+          "white"
+        ]
       }
     ],
     "streets": [
@@ -5584,7 +5593,11 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/spain/Spain_bollards.png",
         "beschreibung": "The standard Spanish bollards have a yellow-orange reflector on the front and two white dots on the back (though the back can also be blank). They are typically hollow.\n\nNOTE: Very close to Andorra, you can find a slightly different bollard, which is also used in Andorra itself.",
-        "tags": []
+        "tags": [
+          "orange",
+          "white",
+          "black"
+        ]
       }
     ],
     "streets": [

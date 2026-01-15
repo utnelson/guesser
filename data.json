@@ -798,7 +798,7 @@
         "bild": "https://de.plonkit.net/images/resize/450/80/eswatini/MRroad.png",
         "beschreibung": "Roads starting with the letters “MR” are exclusive to Eswatini.",
         "tags": [
-          "MR"
+          "highway-MR"
         ]
       }
     ],
@@ -865,8 +865,8 @@
         "bild": "https://de.plonkit.net/images/resize/450/80/south-africa/Untitled_design21.png",
         "beschreibung": "South Africa uses green directional signs with the road number in yellow.  NOTE: Green directional signs with yellow road numbers are also used in Lesotho, Eswatini and Botswana. Here, the format of road numbers is useful:  N and R-roads are exclusive to South Africa.  A and B-roads are exclusive to Botswana and Lesotho.  MR-roads are exclusive to Eswatini.",
         "tags": [
-          "R-highway",
-          "N-highway"
+          "highway-R",
+          "highway-N"
         ]
       }
     ],
@@ -934,7 +934,7 @@
         "bild": "https://de.plonkit.net/images/resize/450/80/botswana/Botswana_-_language_v2.png",
         "beschreibung": "Signs in Botswana are usually in English. Most town names, however, are derived from any of the indigenous languages spoken in the country.\n\nNOTE: The Afrikaans language, which is closely related to Dutch and common in South Africa, is very rare in Botswana. You will almost never find Afrikaans place names.",
         "tags": [
-          "A-highway"
+          "highway-A"
         ]
       }
     ],
@@ -1496,7 +1496,7 @@
         "bild": "https://www.welt-flaggen.de/data/flags/w580/kz.webp",
         "beschreibung": "",
         "tags": [
-          "blau",
+          "blue",
           "yellow"
         ]
       }
@@ -3824,9 +3824,7 @@
         "bild": "https://de.plonkit.net/images/resize/450/80/estonia/Tee_street_sign.png",
         "beschreibung": "The Estonian words for street and road are tänav and tee, respectively. These words are unique to Estonian. Tänav is often abbreviated as ‘tn’.  Many streets, especially in urban areas, have a simple name that completely lacks the tänav and or tee suffix.  NOTE: The Finnish suffix -tie, meaning street, can look similar.",
         "tags": [
-          "tänav",
-          "tee",
-          "tie"
+          "tänav/tee/tie"
         ]
       }
     ],
@@ -4583,7 +4581,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/jordan/arabic_language.png",
         "beschreibung": "The official language used in Jordan is Arabic and can be identified by its lines and dots.\n\nNOTE: Unlike the UAE, Jordan does not have English writing on most commercial signs. This can be helpful to distinguish the two countries.",
-        "tags": ["arabisch"]
+        "tags": [
+          "arabisch"
+        ]
       }
     ],
     "googlecar": [],

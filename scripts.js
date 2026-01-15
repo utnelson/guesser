@@ -1,7 +1,53 @@
 // ===============================
+// Area Codes
+// ===============================
+let areaCodes = [];
+
+async function loadAreaCodes() {
+  try {
+    const res = await fetch("area_codes.json");
+    if (!res.ok) throw new Error("Area Codes nicht gefunden");
+    areaCodes = await res.json();
+  } catch (err) {
+    console.error("Fehler beim Laden der Area Codes:", err);
+  }
+}
+
+function lookupAreaCode() {
+  const input = document
+    .getElementById("areaCodeInput")
+    .value.trim();
+
+  const resultEl = document.getElementById("areaCodeResult");
+
+  if (input.length < 3) {
+    resultEl.textContent = "";
+    return;
+  }
+
+  const match = areaCodes.find(
+    (a) => a.area_code === input
+  );
+
+  if (match) {
+    resultEl.innerHTML = `
+      <span class="font-semibold">${match.state}</span> –
+      ${match.region}
+    `;
+  } else {
+    resultEl.innerHTML = `
+      <span class="text-red-600">Kein Treffer</span>
+    `;
+  }
+}
+
+
+
+// ===============================
 // Globale Konfiguration
 // ===============================
 const MEDIA_KEYS_ORDER = [
+  "flagge",
   "plates",
   "sprache",
   "googlecar",
@@ -181,28 +227,26 @@ async function filterLänder() {
       <div class="flex flex-col items-center">
         <span>${details.kontinent || ""}</span>
         <span class="font-bold">${land}</span>
-        <img src="${
-          details.flagge || ""
-        }" class="w-24 h-24 object-contain rounded cursor-pointer" data-caption="${land}">
+
         <span>${details.verkehr || ""}</span>
       </div>
     </td>
 
     ${MEDIA_KEYS_ORDER.map(
-      (key) => `
+          (key) => `
       <td class="border px-4 py-2 text-center align-middle">
         <div class="flex justify-center items-center gap-2 flex-wrap">
           ${(details[key] || [])
-            .map(
-              (item) => `
+              .map(
+                (item) => `
             <img src="${item.bild}" class="w-36 h-24 object-contain rounded cursor-pointer" data-caption="${item.beschreibung}">
           `
-            )
-            .join("")}
+              )
+              .join("")}
         </div>
       </td>
     `
-    ).join("")}
+        ).join("")}
     `;
 
     tbody.appendChild(row);
@@ -235,6 +279,7 @@ window.addEventListener("click", (e) => {
 // ===============================
 async function setupMediaKeyBadges() {
   const MEDIA_KEYS = [
+    "flagge",
     "plates",
     "sprache",
     "googlecar",
@@ -393,6 +438,7 @@ async function setupMediaKeyBadges() {
 // ===============================
 // Initial
 // ===============================
+loadAreaCodes();
 filterLänder();
 setupMediaKeyBadges();
 document

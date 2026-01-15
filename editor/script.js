@@ -5,7 +5,7 @@ const TEMPLATE = {
   kontinent: "",
   verkehr: "",
   domain: "",
-  flagge: "",
+  flagge: [],
   plates: [],
   sprache: [],
   googlecar: [],
@@ -18,7 +18,7 @@ const TEMPLATE = {
 };
 
 const MEDIA_KEYS = [
-  "plates","sprache","googlecar","bollards",
+  "flagge", "plates","sprache","googlecar","bollards",
   "streets","poles","schilder","taxi","architcture"
 ];
 
@@ -91,7 +91,6 @@ function normalizeCountry(c) {
   r.kontinent = c.kontinent || "";
   r.verkehr = c.verkehr || "";
   r.domain = c.domain || "";
-  r.flagge = c.flagge || "";
 
   MEDIA_KEYS.forEach(k => {
     r[k] = Array.isArray(c[k])
@@ -159,7 +158,7 @@ function renderEditor() {
   const mainDiv = document.createElement("div");
   mainDiv.className = "flex flex-wrap gap-4 mb-6";
 
-  ["kontinent", "verkehr", "domain", "flagge"].forEach(key => {
+  ["kontinent", "verkehr", "domain"].forEach(key => {
     mainDiv.appendChild(input(key, c, key === "flagge"));
   });
 

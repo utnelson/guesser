@@ -473,6 +473,13 @@
           "yellow",
           "double"
         ]
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/brazil/soil.png",
+        "beschreibung": "",
+        "tags": [
+          "red-soil"
+        ]
       }
     ],
     "poles": [

@@ -3,7 +3,16 @@
     "kontinent": "Südamerika",
     "verkehr": "Rechts",
     "domain": ".uy",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/uy.webp",
+        "beschreibung": "",
+        "tags": [
+          "blau",
+          "weiß"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/uruguay/Uruguay_License_Plate.png",
@@ -232,7 +241,16 @@
     "kontinent": "Südamerika",
     "verkehr": "Rechts",
     "domain": ".pe",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/pe.webp",
+        "beschreibung": "",
+        "tags": [
+          "red",
+          "white"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/peru/Peru_License_Plate.png",
@@ -275,19 +293,28 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/peru/Peru_pole_paint.png",
         "beschreibung": "Some poles in Peru have painted bottom sections. Most commonly they will be black or black-and-yellow.\n\nNOTE: This pattern of pole paint is unique to Peru within South America, however, similar ones can be seen in other South American countries, such as Colombia.",
-        "tags": []
+        "tags": [
+          "yellow",
+          "black"
+        ]
       }
     ],
     "schilder": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/peru/1.signpost.png",
         "beschreibung": " Peru is the only South American country to use black-and-white striped signposts. In some areas, black-and-yellow signposts can be seen.  NOTE: Uruguay sometimes uses black-and-white posts for its traffic lights, but not for road signs.",
-        "tags": []
+        "tags": [
+          "signpost",
+          "black",
+          "white"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/peru/1.concreteblocks.png",
         "beschreibung": "Peruvian metal signposts feature concrete blocks at the bottom.  NOTE: Within South America, Peru is the only country to do so.",
-        "tags": []
+        "tags": [
+          "concrete"
+        ]
       }
     ],
     "taxi": [
@@ -657,7 +684,17 @@
     "kontinent": "Afrika",
     "verkehr": "Rechts",
     "domain": ".ls",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/ls.webp",
+        "beschreibung": "",
+        "tags": [
+          "blue",
+          "white",
+          "green"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/lesotho/Lesotho_License_Plate.png",
@@ -673,7 +710,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/lesotho/Car_meta.png",
         "beschreibung": "All coverage in Lesotho is Generation 3. In almost all locations, the back of a white Google car without an antenna is visible.\n\nNOTE: The other three southern African countries of Eswatini, Botswana and South Africa also have the same white car in Generation 3 coverage.\n\nWhile Botswana and Eswatini only have Generation 3 coverage, South Africa also has Generation 2 and Generation 4 coverage. In addition, Generation 3 coverage is somewhat rare in South Africa.",
-        "tags": []
+        "tags": [
+          "white"
+        ]
       }
     ],
     "bollards": [],
@@ -776,7 +815,20 @@
     "kontinent": "Afrika",
     "verkehr": "Links",
     "domain": ".za",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/za.webp",
+        "beschreibung": "",
+        "tags": [
+          "yellow",
+          "black",
+          "green",
+          "red",
+          "blue",
+          "white"
+        ]
+      }
+    ],
     "plates": [],
     "sprache": [],
     "googlecar": [
@@ -812,7 +864,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/south-africa/Untitled_design21.png",
         "beschreibung": "South Africa uses green directional signs with the road number in yellow.  NOTE: Green directional signs with yellow road numbers are also used in Lesotho, Eswatini and Botswana. Here, the format of road numbers is useful:  N and R-roads are exclusive to South Africa.  A and B-roads are exclusive to Botswana and Lesotho.  MR-roads are exclusive to Eswatini.",
-        "tags": []
+        "tags": [
+          "R-roads",
+          "N-Roads"
+        ]
       }
     ],
     "taxi": [],
@@ -890,7 +945,17 @@
     "kontinent": "Afrika",
     "verkehr": "Rechts",
     "domain": ".rw",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/rw.webp",
+        "beschreibung": "",
+        "tags": [
+          "blue",
+          "yellow",
+          "green"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/rwanda/Rwanda_License_Plate.png",
@@ -912,7 +977,10 @@
         "bild": "https://de.plonkit.net/images/resize/600/80/rwanda/RwandanTrio.png",
         "beschreibung": "All the coverage in Rwanda is made with a Generation 4 camera. In most of the coverage, the Google car is entirely visible: it is a big white, black, or brown pickup truck. The camera mount is visible.",
         "tags": [
-          "pickup"
+          "pickup",
+          "white",
+          "black",
+          "brown"
         ]
       },
       {
@@ -933,7 +1001,7 @@
         "bild": "https://de.plonkit.net/images/resize/450/80/rwanda/Kerbs.png",
         "beschreibung": "Kerbs are often painted with black and white stripes.",
         "tags": [
-          "curbs"
+          "curb"
         ]
       }
     ],
@@ -946,7 +1014,17 @@
     "kontinent": "Afrika",
     "verkehr": "Links",
     "domain": ".ug",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/ug.webp",
+        "beschreibung": "",
+        "tags": [
+          "black",
+          "yellow",
+          "red"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/uganda/Uganda_License_Plate.png",
@@ -990,7 +1068,16 @@
     "kontinent": "Afrika",
     "verkehr": "Rechts",
     "domain": ".ng",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/ng.webp",
+        "beschreibung": "",
+        "tags": [
+          "green",
+          "white"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/nigeria/0HpTmNo.png",
@@ -1008,7 +1095,9 @@
         "beschreibung": "A visible Street View car is present in most of the coverage, being a pickup truck with the cab and bed visible. The colour of the cab and other features of it varies. In Generation 3, a roof rack is present. You may also find a large blur covering the entire pickup truck.",
         "tags": [
           "pickup",
-          "rack"
+          "rack",
+          "white",
+          "red"
         ]
       },
       {
@@ -1041,7 +1130,17 @@
     "kontinent": "Afrika",
     "verkehr": "Rechts",
     "domain": ".gh",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/gh.webp",
+        "beschreibung": "",
+        "tags": [
+          "red",
+          "yellow",
+          "green"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/ghana/Ghana_License_Plate.png",
@@ -1082,7 +1181,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/ghana/Striped_signposts.png",
         "beschreibung": "Black and white striped signposts in Ghana are typically seen in cities. On rural roads, you will mostly see classic, non-painted, metal signposts.\n\nNOTE: Black and white signposts can be seen in other countries as well. Make sure to look at other clues before guessing.",
-        "tags": []
+        "tags": [
+          "signpost"
+        ]
       }
     ],
     "taxi": [
@@ -1098,7 +1199,17 @@
     "kontinent": "Afrika",
     "verkehr": "Rechts",
     "domain": ".sn",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/sn.webp",
+        "beschreibung": "",
+        "tags": [
+          "green",
+          "yellow",
+          "red"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/senegal/senegal_plates.png",
@@ -1121,7 +1232,9 @@
         "bild": "https://de.plonkit.net/images/resize/600/80/senegal/image.png",
         "beschreibung": "The car may sometimes be fully blurred. Make sure to look at the landscape or other clues in the absence of car meta. pickup",
         "tags": [
-          "pickup"
+          "pickup",
+          "grey",
+          "white"
         ]
       },
       {
@@ -1129,7 +1242,8 @@
         "beschreibung": "This specific Google Car with the right side mirror visible is unique to Senegal. Roof racks and rifts however can be seen in various other countries.",
         "tags": [
           "rack",
-          "rift"
+          "rift",
+          "mirror"
         ]
       }
     ],
@@ -1147,7 +1261,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/senegal/image__285_29.png",
         "beschreibung": "Yellow-orange taxis with black fenders can commonly be seen in Senegal.",
-        "tags": []
+        "tags": [
+          "black",
+          "yellow"
+        ]
       }
     ],
     "architcture": []
@@ -1156,7 +1273,16 @@
     "kontinent": "Asien",
     "verkehr": "Rechts",
     "domain": ".ua",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/ua.webp",
+        "beschreibung": "",
+        "tags": [
+          "blue",
+          "yellow"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/ukraine/Ukraine_License_Plate.png",
@@ -1204,14 +1330,14 @@
         "bild": "https://de.plonkit.net/images/resize/600/80/ukraine/Vulitsa.png",
         "beschreibung": "The Ukrainian word for street is вулиця (vulytsya), abbreviated вул. (vul.).",
         "tags": [
-          "vulytsya"
+          "вулиця (вул.)"
         ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/ukraine/ua_misto.png",
         "beschreibung": "The Ukrainian word for city is місто (misto), abbreviated м. (m.).",
         "tags": [
-          "misto"
+          "місто (м.)"
         ]
       }
     ],
@@ -1222,7 +1348,17 @@
     "kontinent": "Asien",
     "verkehr": "Rechts",
     "domain": ".mn",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/mn.webp",
+        "beschreibung": "",
+        "tags": [
+          "red",
+          "blue",
+          "yellow"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/mongolia/1._licenceplate.jpeg",
@@ -1284,7 +1420,16 @@
     "kontinent": "Asien",
     "verkehr": "Rechts",
     "domain": ".kg",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/kg.webp",
+        "beschreibung": "",
+        "tags": [
+          "red",
+          "yellow"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/kyrgyzstan/Kyrgyzstan_License_Plate.png",
@@ -1333,7 +1478,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/kyrgyzstan/Kyrgyzstan_White_Paint_hint.png",
         "beschreibung": "\nIn Kyrgyzstan, you will often see trees and concrete poles that are painted white on the bottom.",
-        "tags": []
+        "tags": [
+          "white"
+        ]
       }
     ],
     "schilder": [],
@@ -1344,7 +1491,16 @@
     "kontinent": "Asien",
     "verkehr": "Rechts",
     "domain": ".kz",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/kz.webp",
+        "beschreibung": "",
+        "tags": [
+          "blau",
+          "yellow"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/kazakhstan/2.png",
@@ -1369,7 +1525,8 @@
         "bild": "https://de.plonkit.net/images/resize/600/80/kazakhstan/3.png",
         "beschreibung": "All of the coverage in Kazakhstan was taken with a white pickup truck, which can either be fully visible or mostly blurred.",
         "tags": [
-          "pickup"
+          "pickup",
+          "white"
         ]
       }
     ],
@@ -1408,7 +1565,17 @@
     "kontinent": "Asien",
     "verkehr": "Rechts",
     "domain": ".ru",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/ru.webp",
+        "beschreibung": "",
+        "tags": [
+          "white",
+          "blue",
+          "red"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/russia/licenceplate.png",
@@ -1449,14 +1616,14 @@
         "bild": "https://de.plonkit.net/images/resize/600/80/russia/ulitsa.png",
         "beschreibung": "The Russian word for street is улица (ulitsa), sometimes abbreviated ул. (ul.).\n\nNOTE: Bulgarian and most other Slavic languages also use улица / ulica. The Ukrainian word however is вулиця (vulytsya), abbreviated вул. (vul.).",
         "tags": [
-          "ulitsa"
+          "улица(ул)"
         ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/russia/gorod.png",
         "beschreibung": "The Russian word for city is город (gorod), abbreviated г. (g.)",
         "tags": [
-          "gorod"
+          "город(г.)"
         ]
       },
       {
@@ -1605,7 +1772,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/mexico/mx_octopole.png",
         "beschreibung": "Most utility poles in Mexico are made of concrete and have an octagonal shape. There will often be engravings on the side. NOTE: Octagonal poles are also common in Colombia.",
-        "tags": []
+        "tags": [
+          "octagonal",
+          "concrete"
+        ]
       }
     ],
     "schilder": [
@@ -1641,7 +1811,16 @@
     "kontinent": "Südamerika",
     "verkehr": "Rechts",
     "domain": ".gt",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/gt.webp",
+        "beschreibung": "",
+        "tags": [
+          "blue",
+          "white"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/guatemala/gt_licenceplate.png",
@@ -1759,7 +1938,17 @@
     "kontinent": "Südamerika",
     "verkehr": "Rechts",
     "domain": ".pa",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/pa.webp",
+        "beschreibung": "",
+        "tags": [
+          "red",
+          "blue",
+          "white"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/panama/2.png",
@@ -1776,7 +1965,9 @@
         "bild": "https://de.plonkit.net/images/resize/450/80/panama/3.png",
         "beschreibung": "Panama features a large white pickup truck which can either be fully visible or mostly blurred. There is always a short black antenna attached to the front of the car. Beware that the antenna can sometimes be blurred.",
         "tags": [
-          "pickup"
+          "pickup",
+          "white",
+          "antenna"
         ]
       }
     ],
@@ -1799,7 +1990,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/panama/10.png",
         "beschreibung": "Panama uses the Spanish word “ALTO” on stop signs.",
-        "tags": []
+        "tags": [
+          "alto"
+        ]
       }
     ],
     "taxi": [
@@ -1821,7 +2014,17 @@
     "kontinent": "Asien",
     "verkehr": "Links",
     "domain": ".in",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/in.webp",
+        "beschreibung": "",
+        "tags": [
+          "orange",
+          "white",
+          "green"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/india/in_licenceplates.png",
@@ -1865,7 +2068,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/india/ingen4_blackandwhitesignposts.png",
         "beschreibung": "NOTE: Bangladesh and Sri Lanka also have black and white signposts.",
-        "tags": []
+        "tags": [
+          "signpost"
+        ]
       }
     ],
     "taxi": [],
@@ -1963,7 +2168,17 @@
     "kontinent": "Asien",
     "verkehr": "Links",
     "domain": ".th",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/th.webp",
+        "beschreibung": "",
+        "tags": [
+          "red",
+          "white",
+          "white"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/thailand/Thailand_License_Plate.png",
@@ -1993,7 +2208,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/thailand/th_concrete_roads.webp",
         "beschreibung": "Concrete roads are common in Thailand. They often have a large square shaped pattern.  NOTE: In Southeast Asia, these can also be found commonly in the Philippines, and less commonly in Indonesia.",
-        "tags": []
+        "tags": [
+          "concrete"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/thailand/2022-12-22_42.png",
@@ -2010,14 +2227,20 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/thailand/Street_Light_Markings.png",
         "beschreibung": "Street light poles have red-and-black or black-and-white stripes on the bottom.",
-        "tags": []
+        "tags": [
+          "red",
+          "black",
+          "white"
+        ]
       }
     ],
     "schilder": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/thailand/round.png",
         "beschreibung": "Signposts in Thailand are square and bulky in shape, usually white, and often have the bottom painted black. NOTE: In Southeast Asia, this design is unique to Thailand.",
-        "tags": []
+        "tags": [
+          "Signpost"
+        ]
       }
     ],
     "taxi": [],
@@ -2125,7 +2348,16 @@
     "kontinent": "Asien",
     "verkehr": "Rechts",
     "domain": ".vn",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/vn.webp",
+        "beschreibung": "",
+        "tags": [
+          "red",
+          "yellow"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/vietnam/vietnam_plate2.png",
@@ -2147,7 +2379,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/vietnam/vn_bollard.png",
         "beschreibung": "The most common bollard type is a small square concrete bollard that is painted white with a red top",
-        "tags": []
+        "tags": [
+          "red",
+          "white"
+        ]
       }
     ],
     "streets": [
@@ -2159,26 +2394,36 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/vietnam/vn_concreteroad.png",
         "beschreibung": "Minor roads made of concrete blocks are very common in Vietnam.  NOTE: This is also common in both the Philippines and Thailand, and to a lesser extent in Indonesia.",
-        "tags": []
+        "tags": [
+          "concrete"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/vietnam/vn_concretebarriers.png",
         "beschreibung": "Red and white striped concrete safety barriers are somewhat common on mountain roads.",
-        "tags": []
+        "tags": [
+          "red",
+          "white"
+        ]
       }
     ],
     "poles": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/vietnam/vn_holeypoles.png",
         "beschreibung": "Vietnam often has round concrete poles with indents and small pin holes near the top.  NOTE: The same type of pole is also common in Cambodia.",
-        "tags": []
+        "tags": [
+          "ladder"
+        ]
       }
     ],
     "schilder": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/vietnam/vn_signpost.png",
         "beschreibung": "The posts of road signs are usually painted with a red and white stripe pattern.",
-        "tags": []
+        "tags": [
+          "red",
+          "white"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/vietnam/vn_roadsigncolour.png",
@@ -2193,7 +2438,16 @@
     "kontinent": "Asien",
     "verkehr": "Links",
     "domain": ".id",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/id.webp",
+        "beschreibung": "",
+        "tags": [
+          "red",
+          "white"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/indonesia/Indonesia_License_Plate.png",
@@ -2260,7 +2514,17 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".is",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/is.webp",
+        "beschreibung": "",
+        "tags": [
+          "blue",
+          "white",
+          "red"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/iceland/k7XBOxn.png",
@@ -2322,7 +2586,17 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".no",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/no.webp",
+        "beschreibung": "",
+        "tags": [
+          "red",
+          "blue",
+          "white"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/norway/no_licenceplate.png",
@@ -2402,8 +2676,7 @@
         "bild": "https://de.plonkit.net/images/resize/450/80/norway/no_streetnames.png",
         "beschreibung": "The most common street name suffixes in Norway are vei and gate. While attached to the name, they take the forms -veien and -gata or -gate.\n\nNOTE: Swedish street names use the suffixes väg or vägen and gata or gatan, where gata is always detached from the name. Danish uses vej and gade.",
         "tags": [
-          "vei",
-          "gate"
+          "vei/gate"
         ]
       }
     ],
@@ -2412,9 +2685,18 @@
   },
   "Schweden": {
     "kontinent": "Europa",
-    "verkehr": "",
-    "domain": "",
-    "flagge": [],
+    "verkehr": "Rechts",
+    "domain": ".se",
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/se.webp",
+        "beschreibung": "",
+        "tags": [
+          "yellow",
+          "blue"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/sweden/Sweden_License_Plate.png",
@@ -2492,8 +2774,7 @@
         "bild": "https://de.plonkit.net/images/resize/450/80/sweden/vagnamn.png",
         "beschreibung": "Swedish street names most commonly use the suffixes “vägen” and “gatan”. They are often shortened into “v” and “g” respectively on street signs. Street names can also use “väg” or “gata” as a separate word in a street name. Additionally, the suffix “gränd” can be found near city centres.  NOTE: Norway uses veien or vei, gate or gaten, and gata attached to the rest of the street name, rather than as a separate word. Denmark uses vej and gade.",
         "tags": [
-          "vägen",
-          "gatan"
+          "vägen/gatan"
         ]
       }
     ],
@@ -2504,7 +2785,16 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".fi",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/fi.webp",
+        "beschreibung": "",
+        "tags": [
+          "blau",
+          "weiß"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/finland/Finland_License_Plate.png",
@@ -2534,7 +2824,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/finland/Blue_and_white_signposts.png",
         "beschreibung": "\nTraffic signposts often have blue and white striped markings.\n\nNOTE: This pattern can also be found in Sweden. While the same colour scheme is also common in Estonia, the markings typically have a wider shape and attach to the signpost in a looser way.",
-        "tags": []
+        "tags": [
+          "signpost"
+        ]
       }
     ],
     "streets": [
@@ -2566,8 +2858,7 @@
         "bild": "https://de.plonkit.net/images/resize/450/80/finland/Finland_street_sign.png",
         "beschreibung": "Most Finnish street names end in “tie” or “katu.” These are the Finnish words for road and street. Street signs most commonly have a white background with black text.  NOTE: You may find roads ending in “polku” and “kuja”.",
         "tags": [
-          "tie",
-          "katu"
+          "tie/katu"
         ]
       },
       {
@@ -2596,7 +2887,16 @@
     "kontinent": "Asien",
     "verkehr": "Links",
     "domain": ".jp",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/jp.webp",
+        "beschreibung": "",
+        "tags": [
+          "white",
+          "red"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/japan/11.png",
@@ -2828,7 +3128,16 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".pl",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/pl.webp",
+        "beschreibung": "",
+        "tags": [
+          "red",
+          "white"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/poland/Poland_License_Plate.png",
@@ -2865,7 +3174,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/poland/Poland-poles-comp2.png",
         "beschreibung": "Poland usually has thin concrete utility poles with see-through holes. They are commonly known as “holey poles”. The holes often do not extend all the way to the bottom of the pole.  Sometimes, two poles are joined together, or put in an A-frame shape. You can also find round concrete poles.  NOTE: Hungary and Romania also have holey poles, but these are wider and more bulky. In addition, the holes extend all the way to the bottom.",
-        "tags": []
+        "tags": [
+          "ladder"
+        ]
       }
     ],
     "schilder": [
@@ -2887,7 +3198,17 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".sk",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/sk.webp",
+        "beschreibung": "",
+        "tags": [
+          "white",
+          "blue",
+          "red"
+        ]
+      }
+    ],
     "plates": [],
     "sprache": [
       {
@@ -2908,7 +3229,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/slovakia/sk_guardrail.png",
         "beschreibung": "Slovakia and Czechia both use a special kind of type B guardrail, which is wider than the normal type. No other European countries use the same kind.\n\nNOTE: While Czechia uses this type fairly consistently, Slovakia also uses other types occasionally. For a good overview of European guardrails, see this infographic.",
-        "tags": []
+        "tags": [
+          "B-guardrail"
+        ]
       }
     ],
     "poles": [
@@ -2941,7 +3264,17 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".si",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/si.webp",
+        "beschreibung": "",
+        "tags": [
+          "red",
+          "blue",
+          "white"
+        ]
+      }
+    ],
     "plates": [],
     "sprache": [
       {
@@ -2967,7 +3300,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/slovenia/si_guardrail.png",
         "beschreibung": "Slovenia uses a regular A-type guardrail, like most European countries. This guardrail type has rounded edges.\n\nThis is mostly useful for 50-50s with Croatia, which uses B-type guardrails. This type has square edges.\n\nNOTE: For a good overview of European guardrails, see this infographic.",
-        "tags": []
+        "tags": [
+          "A-guiderail"
+        ]
       }
     ],
     "poles": [],
@@ -2999,7 +3334,16 @@
     "kontinent": "Europa",
     "verkehr": "Left",
     "domain": ".mt",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/mt.webp",
+        "beschreibung": "",
+        "tags": [
+          "red",
+          "white"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/malta/mt_licenceplate.png",
@@ -3048,7 +3392,17 @@
     "kontinent": "Asien",
     "verkehr": "Rechts",
     "domain": ".tw",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/tw.webp",
+        "beschreibung": "",
+        "tags": [
+          "red",
+          "blue",
+          "white"
+        ]
+      }
+    ],
     "plates": [],
     "sprache": [
       {
@@ -3080,7 +3434,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/taiwan/ui_remover.png",
         "beschreibung": "Poles almost always feature these black and yellow diagonal-striped markings that run all the way to the bottom.  NOTE: Similar markings can be seen in South Korea. However, the markings are much shorter and do not run all the way to the bottom.",
-        "tags": []
+        "tags": [
+          "yellow",
+          "black"
+        ]
       }
     ],
     "schilder": [],
@@ -3091,7 +3448,16 @@
     "kontinent": "Europa",
     "verkehr": "",
     "domain": "",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/tr.webp",
+        "beschreibung": "",
+        "tags": [
+          "red",
+          "white"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/turkey/tr_licenceplate.png",
@@ -3114,7 +3480,9 @@
         "bild": "https://de.plonkit.net/images/resize/450/80/turkey/tr_pickuptruck.png",
         "beschreibung": "A grey pickup truck can be found in some Generation 4 coverage.  NOTE: Similar pickup trucks can also be found in Senegal and Kenya.",
         "tags": [
-          "pickup"
+          "pickup",
+          "black",
+          "grey"
         ]
       }
     ],
@@ -3160,7 +3528,16 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".me",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/me.webp",
+        "beschreibung": "",
+        "tags": [
+          "red",
+          "yellow"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/montenegro/Montenegro_Licence_Plate.png",
@@ -3204,7 +3581,17 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".hu",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/hu.webp",
+        "beschreibung": "",
+        "tags": [
+          "red",
+          "white",
+          "green"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/hungary/Hungary_License_Plate.png",
@@ -3236,20 +3623,26 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/hungary/hu_pole.png",
         "beschreibung": "The most common type of utility pole in Hungary is a concrete holey pole, with relatively thin holes going all the way down to the ground. Wooden poles are also somewhat common.  NOTE: In eastern Europe, Poland and Romania also commonly use holey poles. Polish holey poles typically do not have holes down by the ground, and tend to be relatively thin. Romanian holey poles normally either have much wider, or much taller holes.",
-        "tags": []
+        "tags": [
+          "ladder"
+        ]
       }
     ],
     "schilder": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/hungary/hu_chevron.png",
         "beschreibung": "",
-        "tags": []
+        "tags": [
+          "chevron",
+          "red",
+          "white"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/hungary/hu_streetnames.png",
         "beschreibung": "Hungarian street names typically end with the word “utca”. The word “út” is also used for bigger roads. These two words are unique to Hungarian, and translate to “street.”",
         "tags": [
-          "utca"
+          "utca/út"
         ]
       },
       {
@@ -3268,7 +3661,17 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".lt",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/lt.webp",
+        "beschreibung": "",
+        "tags": [
+          "yellow",
+          "green",
+          "red"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/lithuania/Lithuania_License_Plate.png",
@@ -3326,7 +3729,7 @@
         "bild": "https://de.plonkit.net/images/resize/450/80/lithuania/Gatve.png",
         "beschreibung": "The Lithuanian word for street is gatve, often abbreviated as g. on signs and Google Maps.  This word is almost entirely unique to Lithuanian. However, very rarely, you might see ‘gatve’ (abbreviated as gat.) in the Latvian capital of Riga.",
         "tags": [
-          "gatve"
+          "gatve(gat.)"
         ]
       }
     ],
@@ -3434,7 +3837,16 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".lv",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/lv.webp",
+        "beschreibung": "",
+        "tags": [
+          "red",
+          "white"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/latvia/Latvia_License_Plate.png",
@@ -3549,7 +3961,17 @@
     "kontinent": "Afrika",
     "verkehr": "Links",
     "domain": ".ke",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/ke.webp",
+        "beschreibung": "",
+        "tags": [
+          "black",
+          "red",
+          "green"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/kenya/Kenya_License_Plate.png",
@@ -3568,7 +3990,9 @@
         "tags": [
           "pickup",
           "rack",
-          "snorkel"
+          "snorkel",
+          "white",
+          "grey"
         ]
       },
       {
@@ -3618,7 +4042,16 @@
     "kontinent": "Afrika",
     "verkehr": "Rechts",
     "domain": ".tn",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/tn.webp",
+        "beschreibung": "",
+        "tags": [
+          "red",
+          "white"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/tunisia/Tunisia_License_Plate.png",
@@ -3634,7 +4067,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/tunisia/Tunisia_language_tips.png",
         "beschreibung": "In Tunisia, both French and Arabic are common. The Arabic script can be identified by its lines and dots. You can often see bilingual signs.  NOTE: The UAE and (more rarely) Jordan use English and Arabic.",
-        "tags": []
+        "tags": [
+          "arabisch",
+          "französisch"
+        ]
       }
     ],
     "googlecar": [
@@ -3653,18 +4089,14 @@
         ]
       }
     ],
-    "bollards": [
-      {
-        "bild": "https://de.plonkit.net/images/resize/450/80/tunisia/tn_coverage.png",
-        "beschreibung": "coverage",
-        "tags": []
-      }
-    ],
+    "bollards": [],
     "streets": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/tunisia/round.jpg",
         "beschreibung": " Red and white striped curbs are common in Tunisia.  NOTE: Similar curbs are also common in Israel and Palestine. Make sure to look for additional information!",
-        "tags": []
+        "tags": [
+          "curb"
+        ]
       }
     ],
     "poles": [],
@@ -3676,13 +4108,32 @@
       }
     ],
     "taxi": [],
-    "architcture": []
+    "architcture": [
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/tunisia/tn_coverage.png",
+        "beschreibung": "",
+        "tags": [
+          "coverage"
+        ]
+      }
+    ]
   },
   "Sri Lanka": {
     "kontinent": "Asien",
     "verkehr": "Links",
     "domain": ".lk",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/lk.webp",
+        "beschreibung": "",
+        "tags": [
+          "orange",
+          "yellow",
+          "green",
+          "red"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/sri-lanka/Sri_Lanka_License_Plate.png",
@@ -3740,14 +4191,21 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/sri-lanka/Utility_poles.png",
         "beschreibung": "Sri Lanka typically uses concrete utility poles. Two pole types are common and distinctive:  Square poles with small pinholes in the sides. These pinholes are limited to the top part of the pole.  Poles with large see-through holes in the lower half of the pole (“holey poles“). These poles are unique to Sri Lanka.  NOTE: The square poles with small pinholes can look very similar to those found in Thailand. However, in Thailand the pinholes extend all the way to the bottom of the pole.",
-        "tags": []
+        "tags": [
+          "square",
+          "holes"
+        ]
       }
     ],
     "schilder": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/sri-lanka/Signpost.png",
         "beschreibung": "Sri Lanka commonly uses black and white striped signposts.  NOTE: Within South and Southeast Asia, such signposts are also found in Bangladesh, India and Malaysia.",
-        "tags": []
+        "tags": [
+          "signpost",
+          "black",
+          "white"
+        ]
       }
     ],
     "taxi": [
@@ -3763,7 +4221,18 @@
     "kontinent": "Asien",
     "verkehr": "Links",
     "domain": ".my",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/my.webp",
+        "beschreibung": "",
+        "tags": [
+          "red",
+          "white",
+          "blue",
+          "yellow"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/malaysia/Malaysia_License_Plate.png",
@@ -3808,7 +4277,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/malaysia/kerb.png",
         "beschreibung": "\nBlack-and-white curbs are commonly found in Malaysia.\n\nNOTE: Many other countries in Asia can also have black-and-white curbs.",
-        "tags": []
+        "tags": [
+          "curb"
+        ]
       }
     ],
     "poles": [
@@ -3827,7 +4298,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/malaysia/signpost.png",
         "beschreibung": "Signposts in Malaysia almost always have black-and-white stripes.  NOTE: Within Asia, these posts are also found in Sri Lanka, Bhutan and Bangladesh. Make sure to check other clues before guessing.",
-        "tags": []
+        "tags": [
+          "signpost"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/malaysia/directionalsign.png",
@@ -3842,7 +4315,18 @@
     "kontinent": "Asien",
     "verkehr": "Rechts",
     "domain": ".ph",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/ph.webp",
+        "beschreibung": "",
+        "tags": [
+          "red",
+          "blue",
+          "white",
+          "yellow"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/philippines/1_licenceplate.png",
@@ -3867,7 +4351,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/philippines/1_concreteroad.png",
         "beschreibung": "Concrete roads are extremely common in the Philippines.  NOTE: Thailand also has a lot of concrete roads.",
-        "tags": []
+        "tags": [
+          "concrete"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/philippines/1_roadline.png",
@@ -3901,7 +4387,17 @@
     "kontinent": "Asien",
     "verkehr": "Rechts",
     "domain": ".la",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/la.webp",
+        "beschreibung": "",
+        "tags": [
+          "blue",
+          "red",
+          "white"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/laos/Laos_License_Plate.png",
@@ -3934,7 +4430,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/laos/Laos_bollards.png",
         "beschreibung": "Laos uses square concrete black and white bollards with one or more black bands.\n\nNOTE: Thailand, Indonesia, and rarely Cambodia use similar bollards.",
-        "tags": []
+        "tags": [
+          "black",
+          "white"
+        ]
       }
     ],
     "streets": [
@@ -3942,7 +4441,7 @@
         "bild": "https://de.plonkit.net/images/resize/450/80/laos/Laos_striped_curbs.png",
         "beschreibung": "\nStriped curbs of various colours, such as red, yellow, or black with white, can be seen throughout Laos.",
         "tags": [
-          "curbs"
+          "curb"
         ]
       }
     ],
@@ -3950,7 +4449,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/laos/laos_Pole_Graphic.png",
         "beschreibung": "Laos uses square concrete poles, with small pinholes on the sides in a row from top to bottom.\n\nNOTE: Similar poles are found in Thailand, Sri Lanka, and less commonly, Cambodia.",
-        "tags": []
+        "tags": [
+          "square",
+          "holes"
+        ]
       }
     ],
     "schilder": [
@@ -3960,18 +4462,19 @@
         "tags": []
       }
     ],
-    "taxi": [
-      {
-        "bild": "https://de.plonkit.net/images/resize/450/80/laos/Laos_coverage.png",
-        "beschreibung": "Street View coverage in Laos is very limited. Only five cities are covered: Vientiane, Vang Vieng, Luang Prabang, Savannakhet, and Pakse.\n\nIn addition, all coverage in Laos was taken by a Generation 3 camera.\n\nAll five cities have a distinct look and with some practise they are easily distinguishable from each other. The differences are discussed in more detail in the region-guessing section, but the summarized version is as follows:\n\nLuang Prabang: historical architecture, hills, palms\n\nVang Vieng: distinct mountains\n\nVientiane: no roof rack, large city\n\nSavannakhet: very flat\n\nPakse: red soil, arid, hills",
-        "tags": []
-      }
-    ],
+    "taxi": [],
     "architcture": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/laos/Laos_buddhism.png",
         "beschreibung": "\nLaos is a majority Buddhist country. Buddhist temples are a common sight. They can be recognized by their ornate decorations, often with gold leaf detailing.\n\nNOTE: Thailand and Cambodia are also majority Buddhist.",
         "tags": []
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/450/80/laos/Laos_coverage.png",
+        "beschreibung": "Street View coverage in Laos is very limited. Only five cities are covered: Vientiane, Vang Vieng, Luang Prabang, Savannakhet, and Pakse.\n\nIn addition, all coverage in Laos was taken by a Generation 3 camera.\n\nAll five cities have a distinct look and with some practise they are easily distinguishable from each other. The differences are discussed in more detail in the region-guessing section, but the summarized version is as follows:\n\nLuang Prabang: historical architecture, hills, palms\n\nVang Vieng: distinct mountains\n\nVientiane: no roof rack, large city\n\nSavannakhet: very flat\n\nPakse: red soil, arid, hills",
+        "tags": [
+          "coverage"
+        ]
       }
     ]
   },
@@ -4054,7 +4557,18 @@
     "kontinent": "Asien",
     "verkehr": "Rechts",
     "domain": ".jo",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/jo.webp",
+        "beschreibung": "",
+        "tags": [
+          "red",
+          "white",
+          "green",
+          "black"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/jordan/Jordan_License_Plate.png",
@@ -4092,7 +4606,11 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/jordan/chevron.png",
         "beschreibung": "Jordanian chevrons are white with red arrows.\n\nNOTE: You can use chevrons to distinguish between Jordan and Israel: the Israeli chevrons are black with white arrows.",
-        "tags": []
+        "tags": [
+          "red",
+          "white",
+          "chevron"
+        ]
       }
     ],
     "taxi": [],
@@ -4102,7 +4620,16 @@
     "kontinent": "Asien",
     "verkehr": "Rechts",
     "domain": ".il .ps",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/il.webp",
+        "beschreibung": "",
+        "tags": [
+          "blue",
+          "white"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/israel-west-bank/il_Licence_Plate.png",
@@ -4140,7 +4667,7 @@
         "bild": "https://de.plonkit.net/images/resize/450/80/israel-west-bank/il_kerb.png",
         "beschreibung": "You will very often see striped kerbs: red and white and fairly commonly black and white.\n\nRed and yellow and blue and white are also rarely found.",
         "tags": [
-          "curbs"
+          "curb"
         ]
       }
     ],
@@ -4165,7 +4692,16 @@
     "kontinent": "Asien",
     "verkehr": "Links",
     "domain": ".sg",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/sg.webp",
+        "beschreibung": "",
+        "tags": [
+          "red",
+          "white"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/singapore/Singapore_License_Plate.png",
@@ -4185,7 +4721,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/singapore/roadwarnings.png",
         "beschreibung": "Warnings are often written on the road in large letters, such as the famous “HUMP AHEAD”.",
-        "tags": []
+        "tags": [
+          "hump"
+        ]
       }
     ],
     "poles": [],
@@ -4321,7 +4859,16 @@
     "kontinent": "Ozeanien",
     "verkehr": "Links",
     "domain": ".nz",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/nz.webp",
+        "beschreibung": "",
+        "tags": [
+          "blue",
+          "red"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/new-zealand/Ohne_Titel_2824_29.png",
@@ -4379,7 +4926,17 @@
     "kontinent": "Amerika",
     "verkehr": "Rechts",
     "domain": ".us",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/us.webp",
+        "beschreibung": "",
+        "tags": [
+          "red",
+          "white",
+          "blue"
+        ]
+      }
+    ],
     "plates": [],
     "sprache": [],
     "googlecar": [],
@@ -4422,7 +4979,16 @@
     "sprache": [],
     "googlecar": [],
     "bollards": [],
-    "streets": [],
+    "streets": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/ca.webp",
+        "beschreibung": "",
+        "tags": [
+          "white",
+          "red"
+        ]
+      }
+    ],
     "poles": [],
     "schilder": [
       {
@@ -4494,7 +5060,17 @@
     "kontinent": "Südamerika",
     "verkehr": "Rechts",
     "domain": ".pr",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/pr.webp",
+        "beschreibung": "",
+        "tags": [
+          "red",
+          "white",
+          "blue"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/puerto-rico/pr_nofrontplates.png",
@@ -4533,7 +5109,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/puerto-rico/pr_pare.png",
         "beschreibung": "Stop signs in Puerto Rico say ‘PARE’ instead of stop.  NOTE: ‘PARE’ is also used in all of South America as well as the Dominican Republic.",
-        "tags": []
+        "tags": [
+          "pare"
+        ]
       }
     ],
     "taxi": [],
@@ -4575,7 +5153,16 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".at",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/at.webp",
+        "beschreibung": "",
+        "tags": [
+          "red",
+          "white"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/austria/Plates.png",
@@ -4622,7 +5209,17 @@
     "kontinent": "Asien",
     "verkehr": "Rechts",
     "domain": ".om",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/om.webp",
+        "beschreibung": "",
+        "tags": [
+          "red",
+          "green",
+          "white"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/oman/3.png",
@@ -4637,7 +5234,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/oman/5.png",
         "beschreibung": " The official language in Oman is Arabic.  NOTE: Due to high tourism, signs in Oman often have English writing alongside Arabic. The same also applies to the UAE.",
-        "tags": []
+        "tags": [
+          "arabisch"
+        ]
       }
     ],
     "googlecar": [
@@ -4645,7 +5244,8 @@
         "bild": "https://de.plonkit.net/images/resize/450/80/oman/4.png",
         "beschreibung": "All the coverage in Oman was taken with a white pickup truck, meaning you will either see most of the car or a large front blur.",
         "tags": [
-          "pickup"
+          "pickup",
+          "white"
         ]
       }
     ],
@@ -4660,7 +5260,7 @@
         "bild": "https://de.plonkit.net/images/resize/450/80/oman/7.png",
         "beschreibung": " Black-and-yellow curbs are common in Oman.  NOTE: The UAE also commonly uses similar curbs.",
         "tags": [
-          "curbs"
+          "curb"
         ]
       }
     ],
@@ -4675,12 +5275,18 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/oman/10.png",
         "beschreibung": "Many signposts in Oman have black-and-white stripes.\n\nNOTE: Within the Middle East, striped signposts are only found in Oman and the UAE.",
-        "tags": []
+        "tags": [
+          "signpost",
+          "black",
+          "white"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/oman/13.png",
         "beschreibung": "Oman uses black-and-yellow chevrons that have an unusually large number of arrows.",
-        "tags": []
+        "tags": [
+          "chevron"
+        ]
       }
     ],
     "taxi": [
@@ -4784,7 +5390,16 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".ch",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/ch.webp",
+        "beschreibung": "",
+        "tags": [
+          "red",
+          "white"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/switzerland/Switzerland_License_Plate.png",
@@ -4840,7 +5455,17 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".fr",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/fr.webp",
+        "beschreibung": "",
+        "tags": [
+          "blau",
+          "weiß",
+          "rot"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/france/1_licenceplate2.png",
@@ -4921,7 +5546,16 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".es",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/es.webp",
+        "beschreibung": "",
+        "tags": [
+          "red",
+          "yellow"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/spain/Spain_License_Plate.png",
@@ -4945,14 +5579,18 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/spain/2022-12-11_5.png",
         "beschreibung": "\nSpain has yellow reflectors on rounded A-type guardrails.\n\nNOTE: Belgium, Andorra, Gibraltar and most Latin American countries also have yellow reflectors. For a good overview of European guardrails, see this infographic.",
-        "tags": []
+        "tags": [
+          "A-guardrails"
+        ]
       }
     ],
     "poles": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/spain/Ladder_and_wooden_poles.png",
         "beschreibung": "In Spain, you can find a variety of electricity poles and pole tops. In small towns and sparsely populated rural areas concrete ladder poles and wooden poles are the most common.\n\n“Ladder” poles have indents that resemble a ladder, hence the name.",
-        "tags": []
+        "tags": [
+          "ladder"
+        ]
       }
     ],
     "schilder": [
@@ -4969,9 +5607,18 @@
   },
   "Portugal": {
     "kontinent": "Europa",
-    "verkehr": "",
-    "domain": "",
-    "flagge": [],
+    "verkehr": "Rechts",
+    "domain": ".pt",
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/pt.webp",
+        "beschreibung": "",
+        "tags": [
+          "red",
+          "green"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/portugal/licenceplate.png",
@@ -5003,7 +5650,9 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/portugal/ladderpole.png",
         "beschreibung": "Concrete ladder poles, with very tall ladder steps, are common in Portugal. Each step often has a small see-through hole.\n\nNOTE: In Spain and France you will commonly see ladder poles with short steps.",
-        "tags": []
+        "tags": [
+          "ladder"
+        ]
       }
     ],
     "schilder": [
@@ -5029,7 +5678,17 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".it",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/it.webp",
+        "beschreibung": "",
+        "tags": [
+          "green",
+          "white",
+          "red"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/italy/it_licenceplate.png",
@@ -5090,7 +5749,17 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".nl",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/nl.webp",
+        "beschreibung": "",
+        "tags": [
+          "red",
+          "white",
+          "blue"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/netherlands/Netherlands_plate.png",
@@ -5146,7 +5815,17 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".lu",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/lu.webp",
+        "beschreibung": "",
+        "tags": [
+          "red",
+          "white",
+          "blue"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/luxembourg/Luxembourg_License_Plate.png",
@@ -5198,7 +5877,11 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/luxembourg/Signpost_markings.png",
         "beschreibung": "\nSome signposts have this bulky, round reflector with blue and white markings.\n\nNOTE: Similar markings are found in Sweden and Finland. Landscape should be sufficient to tell these apart from Luxembourg, however.",
-        "tags": []
+        "tags": [
+          "signpost",
+          "blue",
+          "white"
+        ]
       }
     ],
     "taxi": [],
@@ -5208,7 +5891,17 @@
     "kontinent": "Europa",
     "verkehr": "Links",
     "domain": ".ie",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/ie.webp",
+        "beschreibung": "",
+        "tags": [
+          "green",
+          "white",
+          "orange"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/ireland/ireland_plate.png",
@@ -5225,7 +5918,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/ireland/Bollards.png",
         "beschreibung": "These green and white bollards can be a good clue for Ireland. They are not entirely unique to the country, but they are especially helpful in 50-50s with the UK.",
-        "tags": []
+        "tags": [
+          "green",
+          "white"
+        ]
       }
     ],
     "streets": [
@@ -5258,7 +5954,17 @@
     "kontinent": "Europa",
     "verkehr": "Links",
     "domain": ".uk",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/gb.webp",
+        "beschreibung": "",
+        "tags": [
+          "red",
+          "white",
+          "blue"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/united-kingdom/United_Kingdom_License_Plate.png",
@@ -5307,7 +6013,17 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".ro",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/ro.webp",
+        "beschreibung": "",
+        "tags": [
+          "blue",
+          "yellow",
+          "red"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/romania/ro_licenseplate.png",
@@ -5354,17 +6070,23 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/romania/ro_holeypole.png",
         "beschreibung": " The most common types of utility poles in Romania are holey poles with the holes going all the way to the bottom. The holes are typically either quite wide or quite tall.  NOTE: Poland and Hungary also both use holey poles. Polish holey poles do not have holes near the bottom and Hungarian holey poles generally have smaller holes than in Romania.",
-        "tags": []
+        "tags": [
+          "ladder"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/romania/ro_undpoles.png",
         "beschreibung": "Round concrete poles are also quite common.  NOTE: These are very similar to poles found in Bulgaria.",
-        "tags": []
+        "tags": [
+          "round"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/romania/ro_whitepaint.png",
         "beschreibung": "",
-        "tags": []
+        "tags": [
+          "white"
+        ]
       },
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/romania/ro_polesticker.png",
@@ -5391,7 +6113,17 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".rs",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/rs.webp",
+        "beschreibung": "",
+        "tags": [
+          "red",
+          "blue",
+          "white"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/serbia/Serbia_Plate.png",
@@ -5441,7 +6173,11 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/serbia/Screenshot_2023-07-01_160357.png",
         "beschreibung": "Serbia uses chevrons with a black arrow on a white background.\n\nNOTE: Within Europe, these chevrons can also be found in Slovenia, Montenegro and North Macedonia.",
-        "tags": []
+        "tags": [
+          "chevron",
+          "white",
+          "black"
+        ]
       }
     ],
     "taxi": [],
@@ -5451,7 +6187,13 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".hr",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/hr.webp",
+        "beschreibung": "red, white, blue",
+        "tags": []
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/croatia/Croatia_License_Plate.png",
@@ -5521,7 +6263,16 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".mk",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/mk.webp",
+        "beschreibung": "",
+        "tags": [
+          "yellow",
+          "red"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/north-macedonia/North_Macedonia_License_Plate.png",
@@ -5657,7 +6408,16 @@
     "kontinent": "Europa",
     "verkehr": "Rechts",
     "domain": ".gr",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/gr.webp",
+        "beschreibung": "",
+        "tags": [
+          "blue",
+          "white"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/greece/gr_licenceplate.png",
@@ -5732,7 +6492,17 @@
     "kontinent": "Europa",
     "verkehr": "Links",
     "domain": ".cy",
-    "flagge": [],
+    "flagge": [
+      {
+        "bild": "https://www.welt-flaggen.de/data/flags/w580/cy.webp",
+        "beschreibung": "",
+        "tags": [
+          "white",
+          "green",
+          "yellow"
+        ]
+      }
+    ],
     "plates": [
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/cyprus/Cyprus%20License%20Plates.jpg",

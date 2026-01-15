@@ -1104,7 +1104,8 @@
           "pickup",
           "rack",
           "white",
-          "red"
+          "red",
+          "mirror"
         ]
       },
       {
@@ -4427,7 +4428,7 @@
         "beschreibung": "In all cities except for the capital, Vientiane, this Google car will be visible. It is silver-coloured, with a roof rack with two metal bars and black side mirrors.\n\nNOTE: A similar car can be found in Guatemala, so be sure to look at the other clues before guessing.",
         "tags": [
           "rack",
-          "mirrors"
+          "mirror"
         ]
       }
     ],

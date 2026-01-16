@@ -21,7 +21,7 @@
   { "area_code": "225", "state": "LA", "region": "Baton Rouge" },
   { "area_code": "228", "state": "MS", "region": "Gulf Coast Mississippi" },
   { "area_code": "229", "state": "GA", "region": "Southwest Georgia" },
-
+  { "area_code": "786", "state": "FL", "region": "Miami, Florida" },
   { "area_code": "231", "state": "MI", "region": "Northwestern Michigan" },
   { "area_code": "234", "state": "OH", "region": "Northeastern Ohio" },
   { "area_code": "239", "state": "FL", "region": "Southwest Florida" },

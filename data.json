@@ -6498,7 +6498,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/greece/gr_bollard.png",
         "beschreibung": "Greek bollards are wedge-shaped with almost square reflectors, being red on the front and white on the back.",
-        "tags": []
+        "tags": [
+          "red",
+          "white"
+        ]
       }
     ],
     "streets": [

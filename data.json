@@ -808,7 +808,7 @@
         "bild": "https://de.plonkit.net/images/resize/450/80/eswatini/MRroad.png",
         "beschreibung": "Roads starting with the letters “MR” are exclusive to Eswatini.",
         "tags": [
-          "highway-MR"
+          "highway-mr"
         ]
       }
     ],
@@ -875,8 +875,8 @@
         "bild": "https://de.plonkit.net/images/resize/450/80/south-africa/Untitled_design21.png",
         "beschreibung": "South Africa uses green directional signs with the road number in yellow.  NOTE: Green directional signs with yellow road numbers are also used in Lesotho, Eswatini and Botswana. Here, the format of road numbers is useful:  N and R-roads are exclusive to South Africa.  A and B-roads are exclusive to Botswana and Lesotho.  MR-roads are exclusive to Eswatini.",
         "tags": [
-          "highway-R",
-          "highway-N"
+          "highway-r",
+          "highway-n"
         ]
       }
     ],
@@ -944,7 +944,7 @@
         "bild": "https://de.plonkit.net/images/resize/450/80/botswana/Botswana_-_language_v2.png",
         "beschreibung": "Signs in Botswana are usually in English. Most town names, however, are derived from any of the indigenous languages spoken in the country.\n\nNOTE: The Afrikaans language, which is closely related to Dutch and common in South Africa, is very rare in Botswana. You will almost never find Afrikaans place names.",
         "tags": [
-          "highway-A"
+          "highway-a"
         ]
       }
     ],
@@ -5717,6 +5717,14 @@
         "beschreibung": "Pedestrian signs have five stripes, and the person is wearing a belt, which is noticeably high.\n\nNOTE: Spanish pedestrian signs have eight stripes, Italian signs don't have a belt and Greek signs have two dotted lines instead of stripes.",
         "tags": [
           "5s"
+        ]
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/portugal/chevron.png",
+        "beschreibung": "Portuguese chevrons are black with yellow arrows.\n\nNOTE: Portugal is the only Mediterranean country with this chevron colour scheme.",
+        "tags": [
+          "black",
+          "yellow"
         ]
       }
     ],

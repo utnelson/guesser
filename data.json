@@ -3524,6 +3524,13 @@
         "bild": "https://de.plonkit.net/images/resize/450/80/turkey/tr_saltandpepper.png",
         "beschreibung": "Many roads have pavement with a grainy “salt and pepper” texture.",
         "tags": []
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/turkey/tr_snowpole.png",
+        "beschreibung": "Snow poles usually feature a colour sequence of black-orange-black-white from top to bottom, with small red reflectors.",
+        "tags": [
+          "snowpole"
+        ]
       }
     ],
     "poles": [

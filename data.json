@@ -3979,7 +3979,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/czechia/cz_bollard.png",
         "beschreibung": "Bollards in Czechia have orange double reflectors on the front and a single white reflector on the back. There are also rarer blue and red variants.  NOTE: The only other country with the same design is Slovakia.",
-        "tags": []
+        "tags": [
+          "orange",
+          "blue"
+        ]
       }
     ],
     "streets": [],

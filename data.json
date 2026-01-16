@@ -3511,7 +3511,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/450/80/turkey/tr_bollard.png",
         "beschreibung": "Turkish bollards have a simple design: rectangular, plain white, and with a red reflector on the front. They are thin when seen from the side.  NOTE: Romania has similar bollards. However, bollards are relatively rare in Romania.",
-        "tags": []
+        "tags": [
+          "red",
+          "white"
+        ]
       }
     ],
     "streets": [

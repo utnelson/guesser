@@ -3718,6 +3718,14 @@
         "bild": "https://de.plonkit.net/images/resize/450/80/lithuania/Bollard.png",
         "beschreibung": " Lithuanian bollards are wedge-shaped.  They have an orange reflector on the front, and a white reflector on the back. Both reflectors are rectangular. You may find this thin version as well.  NOTE: Estonian and Latvian bollards look different.  This infographic shows the main similarities and differences between the bollards of the Baltic and Nordic countries.",
         "tags": []
+      },
+      {
+        "bild": "https://de.plonkit.net/images/resize/600/80/lithuania/Lithuania_guardrail3.png",
+        "beschreibung": "\nLithuania has normal A-type guardrails with orange reflectors.\n\nNOTE: Estonia has no reflectors. Latvia has red or white reflectors. For a good overview of European guardrails, see this infographic.",
+        "tags": [
+          "orange",
+          "A-guardrail"
+        ]
       }
     ],
     "streets": [],

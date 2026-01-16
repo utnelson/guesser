@@ -567,7 +567,10 @@
       {
         "bild": "https://de.plonkit.net/images/resize/600/80/ecuador/Bollards-EC.png",
         "beschreibung": "A round bollard with two red stripes, A flat bollard with two red reflectors on black.",
-        "tags": []
+        "tags": [
+          "red",
+          "white"
+        ]
       }
     ],
     "streets": [
